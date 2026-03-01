@@ -1,5 +1,5 @@
 ---
-title: Lin’s Lab – Biomedical Integrated Circuits
+title: Lin’s Lab – Biomedical Integrated Circuits Updated
 ---
 
 ## From biosignals to silicon
