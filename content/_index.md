@@ -1,80 +1,43 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
-type: landing
-
-sections:
-  - block: hero
-    content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+title: Lin’s Lab – Biomedical Integrated Circuits
 ---
+
+## From biosignals to silicon
+
+Lin’s Lab at **Fudan University** focuses on the design of **analog and mixed-signal integrated circuits for biomedical applications**.  
+Our goal is to develop energy-efficient, high-precision and miniaturized electronic systems that enable the next generation of digital healthcare.
+
+---
+
+### Research Focus
+
+Our research spans the intersection of **microelectronics, circuits and biomedical engineering**, with emphasis on:
+
+- Wearable health monitoring electronics  
+- Implantable neural interface ICs  
+- Electrochemical and biosensing circuits  
+- DNA sequencing and bio-signal readout  
+- High-precision data converters for biomedical systems  
+
+We work across the full stack from **transistor-level circuit design to complete silicon prototypes**.
+
+---
+
+### Mission
+
+We aim to bridge **biology and silicon** by creating integrated circuits that make healthcare more continuous, personalized and accessible.  
+Our long-term vision is to enable intelligent medical devices that seamlessly interact with the human body.
+
+---
+
+### Open Positions
+
+We are actively recruiting **PhD students, MSc students and research interns** in:
+
+- Analog and mixed-signal IC design  
+- Biomedical electronics  
+- Low-power integrated systems  
+
+If you are passionate about circuits and healthcare technology, we would love to hear from you.
+
+📩 Contact: *xxx@fudan.edu.cn*
