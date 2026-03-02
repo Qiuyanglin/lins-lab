@@ -4,7 +4,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: "Medical Integrated Circuits and Systems (MICAS)"
+      title: "Medical Integrated Circuits<br>and Systems (MICAS)"
       text: |
         **Fudan University**  
         From biosignals to silicon — enabling next-generation biomedical electronics.
