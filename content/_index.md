@@ -15,6 +15,14 @@ sections:
       background:
         gradient_start: "#ffffff"
         gradient_end: "#ffffff"
+    typography:
+      title:
+        size: "3.2rem"
+        line_height: 1.15
+        weight: 700
+      text:
+        size: "1.25rem"
+        line_height: 1.6
 
   - block: markdown
     content:
