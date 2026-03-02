@@ -10,14 +10,14 @@ baseURL: 'https://qiuyanglin.github.io/lins-lab/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: zh
 
 languages:
-  en:
-    languageName: English
-    weight: 1
   zh:
     languageName: 中文
+    weight: 1
+  en:
+    languageName: English
     weight: 2
     
 hasCJKLanguage: false
