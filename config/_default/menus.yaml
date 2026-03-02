@@ -8,12 +8,12 @@ main:
     url: /
     weight: 10
 
-  - name: Research
-    url: /#research
+  - name: Tour
+    url: tour
     weight: 20
 
-  - name: Chip Gallery
-    url: /chips/
+  - name: News
+    url: post
     weight: 30
 
   - name: Publications
@@ -31,3 +31,6 @@ main:
   - name: Contact
     url: /contact/
     weight: 70
+
+
+   
