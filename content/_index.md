@@ -11,7 +11,7 @@ sections:
         从生物信号到芯片 —— 推动下一代生物医疗电子系统。
       image:
         filename: hero_app.jpg
-        alt: "生物医疗芯片应用：可穿戴芯片、植入式脑机接口、电化学生物传感、DNA测序芯片、数模转换器与传感器接口芯片"
+        alt: "生物医疗芯片应用"
     design:
       background:
         gradient_start: "#ffffff"
@@ -25,10 +25,10 @@ sections:
         size: "1.25rem"
         line_height: 1.6
 
-  - block: markdown
+  - block: custom
     content:
-      text: |
-        <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:12px;">
+      html: |
+        <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:40px;">
           
           <div style="flex:0 0 260px;">
             <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png"
@@ -38,7 +38,7 @@ sections:
 
           <div style="flex:1;min-width:280px;max-width:760px;line-height:1.75;">
             
-            <div style="font-size:1.65rem;font-weight:650;margin-bottom:6px;">
+            <div style="font-size:1.7rem;font-weight:650;margin-bottom:6px;">
               林秋阳
             </div>
 
@@ -48,7 +48,8 @@ sections:
             </div>
 
             <div style="margin-bottom:12px;">
-              长期从事<b>模拟与混合信号集成电路设计</b>研究，聚焦生物医疗电子系统与高精度数据转换技术。
+              长期从事<b>模拟与混合信号集成电路设计</b>研究，
+              聚焦生物医疗电子系统与高精度数据转换技术。
             </div>
 
             <div style="margin-bottom:12px;">
@@ -57,10 +58,11 @@ sections:
             </div>
 
             <div style="margin-bottom:12px;">
-              在 ISSCC、VLSI 及 IEEE JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。
+              在 ISSCC、VLSI 及 IEEE JSSC、TBCAS 等发表论文 30 余篇，
+              授权美国专利 2 项。
             </div>
 
-            <div style="margin-top:10px;">
+            <div style="margin-top:12px;">
               <b>链接：</b>
               <a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> ·
               <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> ·
