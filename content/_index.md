@@ -34,7 +34,7 @@ sections:
             <b>Qiuyang Lin</b><br/>
             Assistant Professor, School of Microelectronics, Fudan University<br/><br/>
             My research focuses on <b>analog and mixed-signal IC design for biomedical systems</b>, including wearable PPG AFE circuits, implantable neural interfaces, electrochemical readout ICs, DNA sequencing front-ends, and high-precision ADC/DACs.<br/><br/>
-            <b>Links:</b> <a href="YOUR_GOOGLE_SCHOLAR_LINK">Google Scholar</a> · <a href="YOUR_ORCID_LINK">ORCID</a> · <a href="mailto:YOUR_EMAIL">Email</a>
+            <b>Links:</b> <a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> · <a href="YOUR_ORCID_LINK">ORCID</a> · <a href="mailto:YOUR_EMAIL">Email</a>
           </div>
         </div>
 ---
