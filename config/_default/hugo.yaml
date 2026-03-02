@@ -20,7 +20,7 @@ languages:
     languageName: English
     weight: 2
     
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
