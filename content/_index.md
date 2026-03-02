@@ -21,7 +21,7 @@ sections:
       title: "Director"
       text: |
         <div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap;">
-          <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="Qiu Yang Lin" style="width:200px;aspect-ratio:2/3;height:auto;object-fit:contain;border-radius:16px;">
+          <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="Qiu Yang Lin" style="width:200px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.08);box-shadow:0 6px 18px rgba(0,0,0,.08);">
           <div style="max-width:720px;">
             <b>Qiu Yang Lin</b><br/>
             Assistant Professor, School of Microelectronics, Fudan University<br/><br/>
