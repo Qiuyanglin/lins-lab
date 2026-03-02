@@ -1,6 +1,7 @@
 ---
 title: "林实验室 – 生物医疗集成电路"
 type: landing
+
 sections:
   - block: hero
     content:
@@ -27,54 +28,53 @@ sections:
   - block: markdown
     content:
       text: |
-        <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin-top:10px;">
+        <div style="display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap;margin-top:8px;">
 
-          <!-- 头像 -->
           <div style="flex:0 0 220px;">
             <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png"
                  alt="林秋阳"
                  style="width:220px;height:auto;border-radius:16px;
-                 border:1px solid rgba(0,0,0,.08);
-                 box-shadow:0 8px 22px rgba(0,0,0,.08);">
+                        border:1px solid rgba(0,0,0,.10);
+                        box-shadow:0 8px 22px rgba(0,0,0,.10);">
           </div>
 
-          <!-- 文字 -->
-          <div style="flex:1; min-width:260px; line-height:1.8;">
+          <div style="flex:1;min-width:280px;max-width:820px;line-height:1.75;">
 
-            <h2 style="margin-top:0;margin-bottom:8px;">林秋阳</h2>
+            <div style="font-size:1.6rem;font-weight:650;margin:0 0 6px 0;">林秋阳</div>
 
-            <p style="margin-top:0;color:#666;">
-            复旦大学 集成电路与微纳电子创新学院<br>
-            青年英才助理教授 · 博士生导师 · IEEE Senior Member
-            </p>
+            <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
+              复旦大学 集成电路与微纳电子创新学院<br>
+              青年英才助理教授 · 博士生导师 · IEEE Senior Member
+            </div>
 
-            <p>
-            林秋阳，国家级青年人才、上海市青年人才。长期从事
-            <b>模拟与混合信号集成电路设计</b>研究，聚焦生物医疗电子系统与高精度数据转换电路。
-            </p>
+            <div style="margin:0 0 12px 0;">
+              林秋阳，国家级青年人才、上海市青年人才。长期从事
+              <b>模拟与混合信号集成电路设计</b>研究，聚焦生物医疗电子系统与高精度数据转换电路。
+            </div>
 
-            <p>
-            本科毕业于大连理工大学集成电路设计专业，硕士毕业于荷兰代尔夫特理工大学（TU Delft），
-            博士毕业于比利时鲁汶大学（KU Leuven）MICAS 实验室与欧洲微电子中心 IMEC。
-            2021 年起在 IMEC 先后担任研究员、高级研究员，并曾任模拟电路社区主席。
-            </p>
+            <div style="margin:0 0 12px 0;">
+              本科毕业于大连理工大学集成电路设计专业，硕士毕业于荷兰代尔夫特理工大学（TU Delft），
+              博士毕业于比利时鲁汶大学（KU Leuven）MICAS 实验室与欧洲微电子中心 IMEC。
+              2021 年起在 IMEC 先后担任研究员、高级研究员，并曾任模拟电路社区主席。
+            </div>
 
-            <p>
-            在 ISSCC、VLSI 等集成电路领域顶级会议，以及 IEEE JSSC、TBCAS 等权威期刊发表论文 30 余篇，
-            授权美国专利 2 项。
-            </p>
+            <div style="margin:0 0 12px 0;">
+              在 ISSCC、VLSI 等集成电路领域顶级会议，以及 IEEE JSSC、TBCAS 等权威期刊发表论文 30 余篇，
+              授权美国专利 2 项。
+            </div>
 
-            <p>
-            <b>研究方向：</b> 生物医疗芯片、可穿戴电子、植入式脑机接口、
-            电化学生物传感、DNA 测序读出电路及高精度 ADC/DAC。
-            </p>
+            <div style="margin:0 0 14px 0;">
+              <b>研究方向：</b> 生物医疗芯片、可穿戴电子、植入式脑机接口、电化学生物传感、DNA 测序读出电路及高精度 ADC/DAC。
+            </div>
 
-            <p style="margin-top:18px;">
-            <a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> ·
-            <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> ·
-            <a href="mailto:linqiuyang1991@gmail.com">Email</a>
-            </p>
+            <div style="margin-top:10px;">
+              <b>链接：</b>
+              <a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> ·
+              <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> ·
+              <a href="mailto:linqiuyang1991@gmail.com">邮箱</a>
+            </div>
 
           </div>
         </div>
+
 ---
