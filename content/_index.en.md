@@ -7,8 +7,7 @@ sections:
     content:
       title: "Medical Integrated Circuits<br>and Systems (MICAS)"
       text: |
-        **Fudan University**  
-        From biosignals to silicon — enabling next-generation biomedical electronics.
+        <b>HTML TEST</b> 
       image:
         filename: hero_app.jpg
         alt: "Biomedical chip applications: wearable PPG, implantable neural interface, electrochemical sensing, DNA sequencing."
@@ -30,9 +29,7 @@ sections:
       text: |
         <div style="display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap;margin-top:8px;">
           <div style="flex:0 0 220px;">
-            <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png"
-                 alt="Qiuyang Lin"
-                 style="width:220px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
+            <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="林秋阳" style="width:220px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
           </div>
 
           <div style="flex:1;min-width:280px;max-width:820px;line-height:1.75;">
