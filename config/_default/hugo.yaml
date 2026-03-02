@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Lin’s Lab – Biomedical Integrated Circuits # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://qiuyanglin.github.io/lins-lab/' # Website URL
 
 ############################
 ## LANGUAGE
