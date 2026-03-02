@@ -18,7 +18,7 @@ sections:
 
   - block: markdown
     content:
-      title: "Director"
+      #title: "Director"
       text: |
         <div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap;">
           <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="Qiu Yang Lin" style="width:200px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.08);box-shadow:0 6px 18px rgba(0,0,0,.08);">
