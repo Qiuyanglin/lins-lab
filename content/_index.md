@@ -17,7 +17,7 @@ sections:
         gradient_end: "#ffffff"
     typography:
       title:
-        size: "3.2rem"
+        size: "3rem"
         line_height: 1.15
         weight: 700
       text:
