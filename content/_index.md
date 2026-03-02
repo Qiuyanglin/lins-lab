@@ -13,7 +13,7 @@
     title: "Director"
     text: |
       <div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap;">
-        <img src="/lins-lab/media/lin.png" alt="Qiu Yang Lin" style="width:160px; height:160px; object-fit:cover; border-radius:16px;">
+        <img src="/lins-lab/media/icons/lin.png" alt="Qiu Yang Lin" style="width:160px; height:160px; object-fit:cover; border-radius:16px;">
         <div style="max-width:720px;">
           <b>Qiu Yang Lin</b><br/>
           Assistant Professor, School of Microelectronics, Fudan University<br/><br/>
