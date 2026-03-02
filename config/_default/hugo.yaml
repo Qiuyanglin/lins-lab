@@ -11,6 +11,15 @@ baseURL: 'https://example.com/' # Website URL
 ############################
 
 defaultContentLanguage: en
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+  zh:
+    languageName: 中文
+    weight: 2
+    
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
