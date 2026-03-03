@@ -14,19 +14,24 @@ sections:
         image:
           filename: front.png
           filters:
-            brightness: 0.72
+            brightness: 0.78
         size: cover
-        position: top
+        position: center
         color: "rgba(0,0,0,0.55)"
       text_color: light
+    advanced:
+      css_style: |
+        min-height: 820px;
+        display: flex;
+        align-items: center;
     typography:
       title:
-        size: "3.2rem"
-        line_height: 1.1
+        size: "3.0rem"
+        line_height: 1.12
         weight: 650
       text:
-        size: "1.35rem"
-        line_height: 1.6
+        size: "1.30rem"
+        line_height: 1.65
 
   - block: markdown
     content:
