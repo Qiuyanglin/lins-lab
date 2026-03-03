@@ -119,3 +119,5 @@ publications:
 
 plugins_scss:
   - custom
+custom_css:
+  - css/custom.css
