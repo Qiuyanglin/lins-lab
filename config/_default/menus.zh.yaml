@@ -4,7 +4,7 @@ main:
     weight: 10
 
   - name: 实验室介绍
-    url: tour
+    url: Research
     weight: 20
 
   - name: 新闻
