@@ -1,6 +1,9 @@
 :root {
-  --heroH: 900px; // 想更高改这里：1000px；更矮：780px
+  --heroH: 900px;
 }
+
+/* 验证是否生效：看到红框就说明 CSS 已加载 */
+.hero-front { outline: 8px solid red !important; }
 
 .hero-front {
   min-height: var(--heroH) !important;
@@ -16,44 +19,17 @@
   background-color: #000 !important;
 }
 
-/* 同步拉高常见内层（不同版本主题层级不同） */
-.hero-front .hero,
-.hero-front .page-header,
-.hero-front .header,
-.hero-front .container,
-.hero-front .row,
-.hero-front .col {
-  min-height: var(--heroH) !important;
-}
-
-/* 关键：如果背景实际上贴在某个“bg层”，也给它强制同样的背景图 */
-.hero-front .hero-bg,
-.hero-front .bg,
-.hero-front .bg-image,
-.hero-front .bg-cover,
-.hero-front [class*="bg"],
-.hero-front [style*="background-image"] {
-  min-height: var(--heroH) !important;
-  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-}
-
-/* 遮罩：让文字清晰（学术风） */
 .hero-front::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45); // 遮罩淡一点，图更明显；想更黑改 0.55
+  background: rgba(0,0,0,0.45);
   z-index: 1;
 }
 
-/* 文字层在遮罩上方 */
 .hero-front .container,
 .hero-front .row,
 .hero-front .col {
   position: relative !important;
   z-index: 2 !important;
 }
-.hero-front { outline: 8px solid red !important; }
