@@ -10,22 +10,24 @@ sections:
         **复旦大学**  
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
+      spacing:
+        padding: ["3.2rem", "0", "3.2rem", "0"]
       background:
         image:
           filename: front.png
           filters:
-            brightness: 0.85
+            brightness: 0.75
         size: contain
         position: center
-        color: "rgba(0,0,0,0.55)"
+        color: "rgba(0,0,0,0.58)"
       text_color: light
     typography:
       title:
-        size: "3.0rem"
+        size: "2.9rem"
         line_height: 1.12
         weight: 650
       text:
-        size: "1.30rem"
+        size: "1.25rem"
         line_height: 1.65
 
   - block: markdown
