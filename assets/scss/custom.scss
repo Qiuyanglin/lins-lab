@@ -1,17 +1,15 @@
-/* 增高首页 Hero（Hugo Blox / Wowchemy 常见结构，写多选择器保证命中） */
-.home-section.wg-hero,
-.home-section.wg-hero .container,
-.home-section.wg-hero .hero-content,
-.home-section.wg-hero .wg-hero {
-  min-height: 75vh !important;
+/* 直接命中 Hero section 本体 */
+section.home-section.wg-hero {
+  min-height: 75vh !important;   /* 控制整体高度 */
+  padding-top: 6rem !important;  /* 控制上方空间 */
+  padding-bottom: 4rem !important; /* 下方少一点 */
+
+  background-position: 50% 20% !important; /* 关键：把画面往上推 */
+  background-size: cover !important;
 }
 
-/* 多数主题的“高度观感”来自上下 padding，也一起加大 */
-.home-section.wg-hero {
-  padding-top: 12rem !important;
-  padding-bottom: 12rem !important;
-
-  /* 想看到更多图片上方就用 top center */
-  background-position: top center !important;
-  background-size: cover !important;
+/* 确保内部容器不再撑高 */
+section.home-section.wg-hero .container,
+section.home-section.wg-hero .hero-content {
+  min-height: unset !important;
 }
