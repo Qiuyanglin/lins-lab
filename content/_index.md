@@ -6,9 +6,7 @@ sections:
   - block: hero
     content:
       title: "生物医疗集成电路与系统实验室"
-      #text: |
-        **复旦大学**  
-        从生物信号到芯片 —— 下一代生物医疗电子。
+      text: |
     design:
       text_color: light
       background:
