@@ -22,7 +22,7 @@ section.home-section.wg-hero .hero-content {
 
 /* 把 Hero 内容整体往上移动（避免落到背景白色区域） */
 section.home-section.wg-hero .hero-content {
-  transform: translateY(-40px) !important; /* 可调：-30px / -50px / -60px */
+  transform: translateY(-60px) !important; /* 可调：-30px / -50px / -60px */
 }
 
 /* 强制标题和正文为白色 */
