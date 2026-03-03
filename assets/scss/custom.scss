@@ -1,0 +1,9 @@
+.hero {
+  min-height: 780px !important;
+  display: flex;
+  align-items: center;
+}
+
+.hero .container {
+  z-index: 2;
+}
