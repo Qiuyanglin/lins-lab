@@ -28,16 +28,17 @@ sections:
     content:
       text: |
         <style>
-          /* ========= 你只需要改这里两个参数 ========= */
-          :root { --heroH: 900px; } /* Hero 高度：820px / 900px / 1000px */
-          .hero-front { 
+          :root { --heroH: 900px; } /* 想更高/更矮改这里：820px / 900px / 1000px */
+
+          .hero-front {
             min-height: var(--heroH) !important;
             position: relative !important;
             display: flex !important;
             align-items: center !important;
             overflow: hidden !important;
-            /* 直接把背景贴在外层（关键！） */
-            background-image: url("/lins-lab/media/front.png") !important;
+
+            /* ✅ 用完整URL，彻底解决路径问题 */
+            background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
             background-size: cover !important;
             background-position: center center !important;
             background-repeat: no-repeat !important;
@@ -60,17 +61,13 @@ sections:
             z-index: 2 !important;
           }
 
-          /* 关键兜底：把主题在内层加的背景图关掉，避免出现“上面一条有背景、下面空白” */
-          .hero-front [style*="background-image"] {
-            background-image: none !important;
-          }
+          /* 兜底：关掉主题在内层可能设置的背景，避免“上面一条有背景、下面空白” */
+          .hero-front [style*="background-image"] { background-image: none !important; }
           .hero-front .bg,
           .hero-front .bg-image,
           .hero-front .bg-cover,
           .hero-front .hero-bg,
-          .hero-front [class*="bg"] {
-            background-image: none !important;
-          }
+          .hero-front [class*="bg"] { background-image: none !important; }
         </style>
 
   - block: markdown
