@@ -1,4 +1,3 @@
-/* 调高度只改这里 */
 :root { --heroH: 900px; }
 
 .hero-front{
@@ -8,22 +7,25 @@
   align-items: center !important;
   overflow: hidden !important;
 
-  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
+  /* 双保险：先用站点相对路径，再用绝对路径兜底（如果第一个404会尝试第二个） */
+  background-image:
+    url("/lins-lab/media/front.png"),
+    url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
+
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
+  background-color: #000 !important;
 }
 
-/* 学术风遮罩，让文字清晰 */
 .hero-front::before{
   content:"";
   position:absolute;
   inset:0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.50);  /* 遮罩淡一点，图片更容易看见 */
   z-index: 1;
 }
 
-/* 文字层在遮罩上方 */
 .hero-front .container,
 .hero-front .row,
 .hero-front .col{
@@ -31,7 +33,7 @@
   z-index: 2 !important;
 }
 
-/* 兜底：禁用主题可能在内层加的背景，避免“上面一条有图，下面空白” */
+/* 禁用主题可能在内层加的背景，避免只显示上面一条 */
 .hero-front [style*="background-image"],
 .hero-front .bg,
 .hero-front .bg-image,
