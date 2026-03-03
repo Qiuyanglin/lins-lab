@@ -27,52 +27,6 @@ sections:
   - block: markdown
     content:
       text: |
-        <style>
-          :root { --heroH: 900px; } /* 想更高/更矮改这里：820px / 900px / 1000px */
-
-          .hero-front {
-            min-height: var(--heroH) !important;
-            position: relative !important;
-            display: flex !important;
-            align-items: center !important;
-            overflow: hidden !important;
-
-            /* ✅ 用完整URL，彻底解决路径问题 */
-            background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
-            background-size: cover !important;
-            background-position: center center !important;
-            background-repeat: no-repeat !important;
-          }
-
-          /* 遮罩（学术风 + 提高清晰度） */
-          .hero-front::before{
-            content:"";
-            position:absolute;
-            inset:0;
-            background: rgba(0,0,0,0.55);
-            z-index: 1;
-          }
-
-          /* 保证文字在遮罩上方 */
-          .hero-front .container,
-          .hero-front .row,
-          .hero-front .col {
-            position: relative !important;
-            z-index: 2 !important;
-          }
-
-          /* 兜底：关掉主题在内层可能设置的背景，避免“上面一条有背景、下面空白” */
-          .hero-front [style*="background-image"] { background-image: none !important; }
-          .hero-front .bg,
-          .hero-front .bg-image,
-          .hero-front .bg-cover,
-          .hero-front .hero-bg,
-          .hero-front [class*="bg"] { background-image: none !important; }
-        </style>
-
-  - block: markdown
-    content:
-      text: |
         <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:12px;">
           <div style="flex:0 0 260px;">
             <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="林秋阳" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
