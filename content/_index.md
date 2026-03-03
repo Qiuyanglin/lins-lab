@@ -34,20 +34,45 @@ sections:
     content:
       text: |
         <style>
-          /* 强制拉高首页 hero（你想更高就改这里） */
-          .hero-front { min-height: 900px !important; }
+  /* 目标高度：只改这里 */
+  :root { --heroH: 900px; }
 
-          /* 有些主题把高度加在内层，这里兜底 */
-          .hero-front .container,
-          .hero-front .row,
-          .hero-front .hero,
-          .hero-front .page-header {
-            min-height: 900px !important;
-          }
+  /* 拉高 section 自身 */
+  .hero-front { min-height: var(--heroH) !important; }
 
-          /* 让文字层始终在背景上方 */
-          .hero-front .container { position: relative; z-index: 2; }
-        </style>
+  /* 拉高常见的内层结构（不同主题命名不同，所以多写几个兜底） */
+  .hero-front .hero,
+  .hero-front .page-header,
+  .hero-front .header,
+  .hero-front .container,
+  .hero-front .row,
+  .hero-front .col,
+  .hero-front .hero-content,
+  .hero-front .hero-media,
+  .hero-front .hero-bg,
+  .hero-front .bg-image,
+  .hero-front .bg-cover,
+  .hero-front .bg,
+  .hero-front [class*="bg"],
+  .hero-front [style*="background-image"] {
+    min-height: var(--heroH) !important;
+  }
+
+  /* 强制背景铺满（命中真正放背景的那一层即可） */
+  .hero-front .hero-bg,
+  .hero-front .bg-image,
+  .hero-front .bg-cover,
+  .hero-front .bg,
+  .hero-front [class*="bg"],
+  .hero-front [style*="background-image"] {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* 保证文字在上层 */
+  .hero-front .container { position: relative; z-index: 2; }
+</style>
 
   - block: markdown
     content:
