@@ -10,16 +10,9 @@ sections:
         **复旦大学**  
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
-      min_height: 820px
       background:
-        image:
-          filename: front.png
-          filters:
-            brightness: 0.78
-        size: contain
-        position: center
-        color: "rgba(0,0,0,0.55)"
-      text_color: light
+        color: "#ffffff"
+      text_color: dark
     typography:
       title:
         size: "3.0rem"
@@ -28,6 +21,13 @@ sections:
       text:
         size: "1.30rem"
         line_height: 1.65
+
+  - block: markdown
+    content:
+      text: |
+        <div style="margin-top:-18px;margin-bottom:18px;">
+          <img src="/lins-lab/media/front.png" alt="Research areas banner" style="width:100%;height:auto;border-radius:14px;display:block;">
+        </div>
 
   - block: markdown
     content:
