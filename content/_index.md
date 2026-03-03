@@ -20,10 +20,7 @@ sections:
         color: "rgba(0,0,0,0.55)"
       text_color: light
     advanced:
-      css_style: |
-        min-height: 820px;
-        display: flex;
-        align-items: center;
+      css_class: hero-front
     typography:
       title:
         size: "3.0rem"
