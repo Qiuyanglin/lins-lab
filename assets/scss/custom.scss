@@ -1,14 +1,14 @@
-/* 直接命中 Hero section 本体 */
+/* 更紧凑的 Hero：更矮 + 更少留白 + 背景更靠上 */
 section.home-section.wg-hero {
-  min-height: 75vh !important;   /* 控制整体高度 */
-  padding-top: 6rem !important;  /* 控制上方空间 */
-  padding-bottom: 4rem !important; /* 下方少一点 */
+  min-height: 62vh !important;      /* 整体更小：75 -> 62 */
+  padding-top: 4.5rem !important;   /* 上留白更少 */
+  padding-bottom: 3rem !important;  /* 下留白更少 */
 
-  background-position: 50% 20% !important; /* 关键：把画面往上推 */
+  background-position: 50% 8% !important; /* 背景再往上：20% -> 8% */
   background-size: cover !important;
 }
 
-/* 确保内部容器不再撑高 */
+/* 防止内部容器再撑高 */
 section.home-section.wg-hero .container,
 section.home-section.wg-hero .hero-content {
   min-height: unset !important;
