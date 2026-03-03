@@ -117,7 +117,4 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-plugins_scss:
-  - custom
-custom_css:
-  - css/custom.css
+
