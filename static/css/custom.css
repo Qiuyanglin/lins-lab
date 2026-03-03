@@ -1,3 +1,4 @@
+.hero-front { outline: 10px solid red !important; }
 /* 1) 先把整个 hero 区块撑高（最稳：加上下 padding） */
 section.hero-front,
 .hero-front {
