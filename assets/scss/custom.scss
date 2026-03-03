@@ -1,44 +1,58 @@
-:root { --heroH: 900px; }
+:root {
+  --heroH: 900px; // 想更高改这里：1000px；更矮：780px
+}
 
-.hero-front{
+.hero-front {
   min-height: var(--heroH) !important;
   position: relative !important;
   display: flex !important;
   align-items: center !important;
   overflow: hidden !important;
 
-  /* 双保险：先用站点相对路径，再用绝对路径兜底（如果第一个404会尝试第二个） */
-  background-image:
-    url("/lins-lab/media/front.png"),
-    url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
-
+  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-color: #000 !important;
 }
 
-.hero-front::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: rgba(0,0,0,0.50);  /* 遮罩淡一点，图片更容易看见 */
-  z-index: 1;
-}
-
+/* 同步拉高常见内层（不同版本主题层级不同） */
+.hero-front .hero,
+.hero-front .page-header,
+.hero-front .header,
 .hero-front .container,
 .hero-front .row,
-.hero-front .col{
-  position: relative !important;
-  z-index: 2 !important;
+.hero-front .col {
+  min-height: var(--heroH) !important;
 }
 
-/* 禁用主题可能在内层加的背景，避免只显示上面一条 */
-.hero-front [style*="background-image"],
+/* 关键：如果背景实际上贴在某个“bg层”，也给它强制同样的背景图 */
+.hero-front .hero-bg,
 .hero-front .bg,
 .hero-front .bg-image,
 .hero-front .bg-cover,
-.hero-front .hero-bg,
-.hero-front [class*="bg"]{
-  background-image: none !important;
+.hero-front [class*="bg"],
+.hero-front [style*="background-image"] {
+  min-height: var(--heroH) !important;
+  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 遮罩：让文字清晰（学术风） */
+.hero-front::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45); // 遮罩淡一点，图更明显；想更黑改 0.55
+  z-index: 1;
+}
+
+/* 文字层在遮罩上方 */
+.hero-front .container,
+.hero-front .row,
+.hero-front .col {
+  position: relative !important;
+  z-index: 2 !important;
 }
