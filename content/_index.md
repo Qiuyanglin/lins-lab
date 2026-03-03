@@ -14,19 +14,19 @@ sections:
         image:
           filename: front.png
           filters:
-            brightness: 0.5
-        size: cover
+            brightness: 0.85
+        size: contain
         position: center
-        parallax: false
+        color: "rgba(0,0,0,0.55)"
       text_color: light
     typography:
       title:
-        size: "3.2rem"
-        line_height: 1.1
-        weight: 600
+        size: "3.0rem"
+        line_height: 1.12
+        weight: 650
       text:
-        size: "1.35rem"
-        line_height: 1.6
+        size: "1.30rem"
+        line_height: 1.65
 
   - block: markdown
     content:
