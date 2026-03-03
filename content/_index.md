@@ -10,7 +10,7 @@ sections:
         **复旦大学**  
         从生物信号到芯片 —— 下一代生物医疗电子。
       image:
-        filename: hero_app.jpg
+        filename: front.png
         alt: "生物医疗芯片应用：可穿戴芯片、植入式脑机接口、电化学生物传感、DNA测序芯片、数模转换器与传感器接口芯片"
     design:
       background:
