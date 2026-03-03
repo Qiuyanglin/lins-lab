@@ -1,22 +1,42 @@
-/* 只作用于这个 hero：hero-front */
-.hero-front {
-  min-height: 820px !important;   /* 你要更高就改这里：900px/1000px */
-}
+/* 调高度只改这里 */
+:root { --heroH: 900px; }
 
-/* 有些版本把高度/布局加在 section 内层，这里一起兜底 */
-.hero-front .container,
-.hero-front .row {
-  position: relative;
-  z-index: 2;
-}
+.hero-front{
+  min-height: var(--heroH) !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: hidden !important;
 
-/* 兜底：不同主题版本背景可能在不同层级，用一组常见选择器强制 cover/position */
-.hero-front,
-.hero-front .hero,
-.hero-front .page-header,
-.hero-front .hero-bg,
-.hero-front .bg-image,
-.hero-front .hero-media {
+  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
   background-size: cover !important;
   background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 学术风遮罩，让文字清晰 */
+.hero-front::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,0.55);
+  z-index: 1;
+}
+
+/* 文字层在遮罩上方 */
+.hero-front .container,
+.hero-front .row,
+.hero-front .col{
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* 兜底：禁用主题可能在内层加的背景，避免“上面一条有图，下面空白” */
+.hero-front [style*="background-image"],
+.hero-front .bg,
+.hero-front .bg-image,
+.hero-front .bg-cover,
+.hero-front .hero-bg,
+.hero-front [class*="bg"]{
+  background-image: none !important;
 }
