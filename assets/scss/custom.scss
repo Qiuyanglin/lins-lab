@@ -1,31 +1,31 @@
-/* ===============================
-   更紧凑的 Hero
-   更矮 + 更少留白 + 背景更靠上 + 白色字体 + 内容上移
-   =============================== */
+/* ===================================================
+   Hero 最终优化版
+   更紧凑 + 标题靠上 + 背景上移 + 白色文字 + 清晰阴影
+   =================================================== */
 
 section.home-section.wg-hero {
-  min-height: 52vh !important;          /* 控制整体高度 */
-  padding-top: 2.5rem !important;       /* 顶部更小 -> 标题更靠上 */
-  padding-bottom: 3rem !important;      /* 下方空间 */
+  min-height: 50vh !important;        /* 控制整体高度（再低一点） */
+  padding-top: 1.2rem !important;     /* 顶部空间最小化 */
+  padding-bottom: 3rem !important;    /* 底部空间 */
 
-  background-position: 50% 8% !important; /* 背景往上移动，减少底部裁剪 */
+  background-position: 50% 6% !important; /* 背景往上移动 */
   background-size: cover !important;
 
-  color: #ffffff !important;            /* 默认白色字体 */
+  color: #ffffff !important;          /* 默认白色 */
 }
 
-/* 防止内部容器再撑高 */
+/* 防止内部容器撑高 */
 section.home-section.wg-hero .container,
 section.home-section.wg-hero .hero-content {
   min-height: unset !important;
 }
 
-/* 把 Hero 内容整体往上移动（避免落到背景白色区域） */
+/* 让标题整体明显往上移动 */
 section.home-section.wg-hero .hero-content {
-  transform: translateY(-60px) !important; /* 可调：-30px / -50px / -60px */
+  transform: translateY(-85px) !important;  /* 核心控制 */
 }
 
-/* 强制标题和正文为白色 */
+/* 强制所有标题和正文为白色 */
 section.home-section.wg-hero h1,
 section.home-section.wg-hero h2,
 section.home-section.wg-hero h3,
@@ -35,12 +35,12 @@ section.home-section.wg-hero .hero-lead {
   color: #ffffff !important;
 }
 
-/* 提升可读性：轻微阴影（推荐） */
+/* 提升对比度与高级感 */
 section.home-section.wg-hero h1 {
-  text-shadow: 0 3px 10px rgba(0,0,0,0.45);
+  text-shadow: 0 4px 14px rgba(0,0,0,0.45);
 }
 
 section.home-section.wg-hero p,
 section.home-section.wg-hero .hero-lead {
-  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
