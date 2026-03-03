@@ -33,6 +33,25 @@ sections:
   - block: markdown
     content:
       text: |
+        <style>
+          /* 强制拉高首页 hero（你想更高就改这里） */
+          .hero-front { min-height: 900px !important; }
+
+          /* 有些主题把高度加在内层，这里兜底 */
+          .hero-front .container,
+          .hero-front .row,
+          .hero-front .hero,
+          .hero-front .page-header {
+            min-height: 900px !important;
+          }
+
+          /* 让文字层始终在背景上方 */
+          .hero-front .container { position: relative; z-index: 2; }
+        </style>
+
+  - block: markdown
+    content:
+      text: |
         <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:12px;">
           <div style="flex:0 0 260px;">
             <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="林秋阳" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
@@ -42,7 +61,7 @@ sections:
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">复旦大学 集成电路与微纳电子创新学院 助理教授<br>国家级青年人才 · 上海市青年人才 · 博士生导师 · IEEE Senior Member</div>
             <div style="margin:0 0 12px 0;">研究聚焦生物医疗模拟/混合信号集成电路，包括可穿戴芯片、植入式脑机接口、电化学芯片、DNA测序芯片与数模转换器。</div>
             <div style="margin:0 0 12px 0;">博士毕业于鲁汶大学，2021年加入IMEC，曾任研究员、高级研究员及模拟电路社区主席。</div>
-            <div style="margin:0 0 12px 0;">在集成电路顶级会议与期刊 ISSCC、VLSI、JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。</div>
+            <div style="margin:0 0 12px 0;">在集成电路顶级会议与期刊ISSCC、VLSI、JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。</div>
             <div style="margin-top:10px;"><b>链接：</b><a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> · <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> · <a href="mailto:linqiuyang1991@gmail.com">邮箱</a></div>
           </div>
         </div>
