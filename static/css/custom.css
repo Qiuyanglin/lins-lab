@@ -1,3 +1,13 @@
-body {
-  border-top: 12px solid lime !important;
+/* 增加 hero 区域高度：让背景图显示更多 */
+.hero-front{
+  min-height: 90vh !important;      /* 关键：提高可视高度 */
+  padding-top: 12rem !important;     /* 让内容上下更“开阔” */
+  padding-bottom: 12rem !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* 如果你想尽量显示图片上方（常见：人物/建筑在上面） */
+.hero-front{
+  background-position: top center !important;
 }
