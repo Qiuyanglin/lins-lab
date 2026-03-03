@@ -10,8 +10,6 @@ sections:
         **复旦大学**  
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
-      background:
-        color: "#000000"
       text_color: light
     advanced:
       css_class: hero-front
