@@ -11,23 +11,22 @@ sections:
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
       background:
-        color: "#ffffff"
-      text_color: dark
+        image:
+          filename: front.png
+          filters:
+            brightness: 0.72
+        size: cover
+        position: center
+        color: "rgba(0,0,0,0.55)"
+      text_color: light
     typography:
       title:
-        size: "3.0rem"
-        line_height: 1.12
+        size: "3.2rem"
+        line_height: 1.1
         weight: 650
       text:
-        size: "1.30rem"
-        line_height: 1.65
-
-  - block: markdown
-    content:
-      text: |
-        <div style="margin-top:-18px;margin-bottom:18px;">
-          <img src="/lins-lab/media/front.png" alt="Research areas banner" style="width:100%;height:auto;border-radius:14px;display:block;">
-        </div>
+        size: "1.35rem"
+        line_height: 1.6
 
   - block: markdown
     content:
@@ -41,7 +40,7 @@ sections:
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">复旦大学 集成电路与微纳电子创新学院 助理教授<br>国家级青年人才 · 上海市青年人才 · 博士生导师 · IEEE Senior Member</div>
             <div style="margin:0 0 12px 0;">研究聚焦生物医疗模拟/混合信号集成电路，包括可穿戴芯片、植入式脑机接口、电化学芯片、DNA测序芯片与数模转换器。</div>
             <div style="margin:0 0 12px 0;">博士毕业于鲁汶大学，2021年加入IMEC，曾任研究员、高级研究员及模拟电路社区主席。</div>
-            <div style="margin:0 0 12px 0;">在集成电路顶级会议与期刊ISSCC、VLSI、JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。</div>
+            <div style="margin:0 0 12px 0;">在集成电路顶级会议与期刊 ISSCC、VLSI、JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。</div>
             <div style="margin-top:10px;"><b>链接：</b><a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> · <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> · <a href="mailto:linqiuyang1991@gmail.com">邮箱</a></div>
           </div>
         </div>
