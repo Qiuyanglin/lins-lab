@@ -16,7 +16,7 @@ sections:
           filters:
             brightness: 0.72
         size: cover
-        position: center
+        position: top
         color: "rgba(0,0,0,0.55)"
       text_color: light
     typography:
