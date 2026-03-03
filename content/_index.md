@@ -9,20 +9,23 @@ sections:
       text: |
         **复旦大学**  
         从生物信号到芯片 —— 下一代生物医疗电子。
-      image:
-        filename: front.png
-        alt: "生物医疗芯片应用：可穿戴芯片、植入式脑机接口、电化学生物传感、DNA测序芯片、数模转换器与传感器接口芯片"
     design:
       background:
-        gradient_start: "#ffffff"
-        gradient_end: "#ffffff"
+        image:
+          filename: front.png
+          filters:
+            brightness: 0.5
+        size: cover
+        position: center
+        parallax: false
+      text_color: light
     typography:
       title:
-        size: "2.8rem"
+        size: "3.2rem"
         line_height: 1.1
-        weight: 500
+        weight: 600
       text:
-        size: "1.25rem"
+        size: "1.35rem"
         line_height: 1.6
 
   - block: markdown
