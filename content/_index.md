@@ -11,13 +11,7 @@ sections:
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
       background:
-        image:
-          filename: front.png
-          filters:
-            brightness: 0.78
-        size: cover
-        position: center
-        color: "rgba(0,0,0,0.55)"
+        color: "#000000"
       text_color: light
     advanced:
       css_class: hero-front
@@ -34,43 +28,49 @@ sections:
     content:
       text: |
         <style>
-          :root { --heroH: 900px; } /* 想更高/更矮只改这里：1000px / 820px / 720px */
-
-          /* 拉高 section 自身 */
-          .hero-front { min-height: var(--heroH) !important; }
-
-          /* 拉高常见内层结构（兜底命中） */
-          .hero-front .hero,
-          .hero-front .page-header,
-          .hero-front .header,
-          .hero-front .container,
-          .hero-front .row,
-          .hero-front .col,
-          .hero-front .hero-content,
-          .hero-front .hero-media,
-          .hero-front .hero-bg,
-          .hero-front .bg-image,
-          .hero-front .bg-cover,
-          .hero-front .bg,
-          .hero-front [class*="bg"],
-          .hero-front [style*="background-image"] {
+          /* ========= 你只需要改这里两个参数 ========= */
+          :root { --heroH: 900px; } /* Hero 高度：820px / 900px / 1000px */
+          .hero-front { 
             min-height: var(--heroH) !important;
-          }
-
-          /* 强制背景铺满（命中真正放背景的那一层即可） */
-          .hero-front .hero-bg,
-          .hero-front .bg-image,
-          .hero-front .bg-cover,
-          .hero-front .bg,
-          .hero-front [class*="bg"],
-          .hero-front [style*="background-image"] {
+            position: relative !important;
+            display: flex !important;
+            align-items: center !important;
+            overflow: hidden !important;
+            /* 直接把背景贴在外层（关键！） */
+            background-image: url("/lins-lab/media/front.png") !important;
             background-size: cover !important;
             background-position: center center !important;
             background-repeat: no-repeat !important;
           }
 
-          /* 保证文字在背景上方 */
-          .hero-front .container { position: relative; z-index: 2; }
+          /* 遮罩（学术风 + 提高清晰度） */
+          .hero-front::before{
+            content:"";
+            position:absolute;
+            inset:0;
+            background: rgba(0,0,0,0.55);
+            z-index: 1;
+          }
+
+          /* 保证文字在遮罩上方 */
+          .hero-front .container,
+          .hero-front .row,
+          .hero-front .col {
+            position: relative !important;
+            z-index: 2 !important;
+          }
+
+          /* 关键兜底：把主题在内层加的背景图关掉，避免出现“上面一条有背景、下面空白” */
+          .hero-front [style*="background-image"] {
+            background-image: none !important;
+          }
+          .hero-front .bg,
+          .hero-front .bg-image,
+          .hero-front .bg-cover,
+          .hero-front .hero-bg,
+          .hero-front [class*="bg"] {
+            background-image: none !important;
+          }
         </style>
 
   - block: markdown
