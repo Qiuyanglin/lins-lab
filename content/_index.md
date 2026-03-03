@@ -11,6 +11,12 @@ sections:
         从生物信号到芯片 —— 下一代生物医疗电子。
     design:
       text_color: light
+      background:
+        image:
+          filename: front.png
+        size: cover
+        position: center
+        parallax: false
     advanced:
       css_class: hero-front
     typography:
