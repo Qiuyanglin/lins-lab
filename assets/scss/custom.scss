@@ -1,34 +1,5 @@
-:root { --heroH: 900px; } /* 想更高改 1000px，想矮改 780px */
-
-/* 只作用于首页 hero（我们会在 _index.md 里加 hero-front 类） */
-.hero-front{
-  min-height: var(--heroH) !important;
-  position: relative !important;
-  display: flex !important;
-  align-items: center !important;
-  overflow: hidden !important;
-
-  /* 你已确认这个链接能打开： */
-  background-image: url("https://qiuyanglin.github.io/lins-lab/media/front.png") !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-color: #000 !important;
-}
-
-/* 学术风遮罩，让文字清晰 */
-.hero-front::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: rgba(0,0,0,0.45);
-  z-index: 1;
-}
-
-/* 文字层在上面 */
-.hero-front .container,
-.hero-front .row,
-.hero-front .col{
-  position: relative !important;
-  z-index: 2 !important;
+.hero-front {
+  min-height: 75vh;   /* 现在可能只有 40~50vh */
+  display: flex;
+  align-items: center;
 }
