@@ -2,7 +2,7 @@
 title: "林秋阳"
 role: "助理教授"
 user_groups:
-  - 课题组负责人
+  - 负责人
 
 organizations:
   - name: "复旦大学"
