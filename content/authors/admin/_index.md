@@ -1,6 +1,6 @@
 ---
 title: "Admin"
-role: "PhD Student"
+role: "PhD Student (2024–)"
 
 user_groups:
   - PhD
