@@ -110,3 +110,129 @@ details.people-alumni summary::-webkit-details-marker {
 .people-alumni-grid {
   margin-top: -0.6rem !important;
 }
+
+/* ===================================================
+   People cards - Premium upgrade
+   Works with: people-featured / people-grid / people-alumni-grid
+   =================================================== */
+
+/* ---------- 1) Card base polish ---------- */
+.people-featured .card,
+.people-grid .card,
+.people-alumni-grid .card,
+.people-featured .people-person,
+.people-grid .people-person,
+.people-alumni-grid .people-person {
+  border-radius: 18px !important;
+  overflow: hidden;
+}
+
+/* Make the clickable card feel nicer on hover */
+.people-featured .card:hover,
+.people-grid .card:hover,
+.people-alumni-grid .card:hover {
+  transform: translateY(-4px);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 14px 36px rgba(0,0,0,0.12);
+}
+
+/* Prevent layout shift: always have a subtle shadow baseline */
+.people-featured .card,
+.people-grid .card,
+.people-alumni-grid .card {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+}
+
+/* ---------- 2) Avatar unification (perfectly consistent) ---------- */
+/* Many themes render avatar via <img class="avatar"> or inside .avatar */
+.people-grid img.avatar,
+.people-alumni-grid img.avatar,
+.people-grid .avatar img,
+.people-alumni-grid .avatar img {
+  width: 112px !important;
+  height: 112px !important;
+  object-fit: cover !important;
+  border-radius: 16px !important;
+}
+
+/* Featured PI avatar bigger */
+.people-featured img.avatar,
+.people-featured .avatar img {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  border-radius: 18px !important;
+}
+
+/* Optional: add a soft border so avatars look crisp on light backgrounds */
+.people-grid img.avatar,
+.people-alumni-grid img.avatar,
+.people-featured img.avatar {
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ---------- 3) Typography: cleaner hierarchy ---------- */
+.people-grid .people-person .media-body,
+.people-alumni-grid .people-person .media-body,
+.people-featured .people-person .media-body {
+  line-height: 1.45;
+}
+
+/* Name */
+.people-grid .people-person .media-body h2,
+.people-alumni-grid .people-person .media-body h2,
+.people-featured .people-person .media-body h2 {
+  font-weight: 650 !important;
+  letter-spacing: 0.1px;
+  margin-bottom: 6px !important;
+}
+
+/* Role line smaller + softer */
+.people-grid .people-person .media-body .role,
+.people-alumni-grid .people-person .media-body .role,
+.people-featured .people-person .media-body .role {
+  font-size: 0.98rem !important;
+  opacity: 0.78;
+  margin-bottom: 8px !important;
+}
+
+/* Bio snippet spacing */
+.people-grid .people-person .media-body p,
+.people-alumni-grid .people-person .media-body p,
+.people-featured .people-person .media-body p {
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+  opacity: 0.92;
+}
+
+/* ---------- 4) Grid spacing: looks “designed”, not cramped ---------- */
+.people-grid .people-person,
+.people-alumni-grid .people-person {
+  margin-bottom: 20px !important;
+}
+
+/* Featured PI: give it a more “profile” feel */
+.people-featured .people-person {
+  padding: 10px 6px !important;
+}
+
+/* ---------- 5) Social icons: tighter and consistent ---------- */
+.people-grid .network-icon,
+.people-alumni-grid .network-icon,
+.people-featured .network-icon {
+  opacity: 0.85;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.people-grid .network-icon:hover,
+.people-alumni-grid .network-icon:hover,
+.people-featured .network-icon:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+/* ---------- 6) Alumni block: visually nested under the <details> header ---------- */
+.people-alumni-grid {
+  margin-top: -0.6rem !important;
+}
