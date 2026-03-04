@@ -1,26 +1,33 @@
 ---
-title: People
-date: 2022-10-24
-
+title: "Members"
 type: landing
 
 sections:
+
   - block: people
     content:
-      title: Meet the Team
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      title: "Principal Investigator"
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
-      sort_by: Params.last_name
-      sort_ascending: true
+        - PI
     design:
-      show_interests: false
-      show_role: true
-      show_social: true
+      columns: "1"
+
+  - block: people
+    content:
+      title: "Students"
+      user_groups:
+        - PhD
+        - Master
+        - Visiting
+    design:
+      columns: "3"
+
+  - block: people
+    content:
+      title: "Alumni"
+      user_groups:
+        - Alumni
+    design:
+      columns: "4"
+
 ---
