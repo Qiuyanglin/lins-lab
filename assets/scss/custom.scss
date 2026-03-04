@@ -44,3 +44,69 @@ section.home-section.wg-hero p,
 section.home-section.wg-hero .hero-lead {
   text-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
+/* ===================================================
+   People page - Advanced styling
+   PI featured card + tidy grid + alumni collapsible
+   =================================================== */
+
+/* General: slightly softer cards */
+.people-featured .card,
+.people-grid .card,
+.people-alumni-grid .card {
+  border-radius: 18px;
+}
+
+/* Featured PI: bigger avatar + wider layout feel */
+.people-featured .avatar,
+.people-featured img.avatar {
+  width: 176px !important;
+  height: 176px !important;
+  object-fit: cover;
+  border-radius: 18px !important;
+}
+
+/* Featured PI: better spacing */
+.people-featured .people-person,
+.people-featured .card {
+  padding: 10px 6px !important;
+}
+
+/* Grid: consistent spacing */
+.people-grid .people-person,
+.people-alumni-grid .people-person {
+  margin-bottom: 18px !important;
+}
+
+/* Slightly tighter text in cards */
+.people-grid .people-person .media-body,
+.people-alumni-grid .people-person .media-body {
+  line-height: 1.45;
+}
+
+/* Alumni collapsible header */
+details.people-alumni {
+  margin: 1.25rem 0 0.6rem 0;
+  padding: 0.95rem 1.1rem;
+  border: 1px solid rgba(0,0,0,0.10);
+  border-radius: 14px;
+  background: rgba(0,0,0,0.02);
+}
+
+details.people-alumni summary {
+  cursor: pointer;
+  font-size: 1.08rem;
+  list-style: none;
+}
+
+details.people-alumni summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Hide empty Alumni section heading and pull it closer */
+.people-alumni-grid .section-heading {
+  display: none !important;
+}
+
+.people-alumni-grid {
+  margin-top: -0.6rem !important;
+}
