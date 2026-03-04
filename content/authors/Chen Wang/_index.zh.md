@@ -3,7 +3,7 @@ title: "管理员"
 role: "博士生（2024级）"
 
 user_groups:
-  - 校友
+  - 已毕业学生
 
 organizations:
   - name: "复旦大学"
