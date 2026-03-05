@@ -3,7 +3,7 @@ title: "Analog-to-digital converter circuitry, an integrated circuit device, a p
 date: 2023-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "N. Van Helleputte"
   - "R. Van Wegberg"
   - "S. Song"
