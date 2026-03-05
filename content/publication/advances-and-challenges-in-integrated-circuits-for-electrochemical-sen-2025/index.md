@@ -3,7 +3,7 @@ title: "Advances and Challenges in Integrated Circuits for Electrochemical Sensi
 date: 2025-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "S. Crols"
   - "A. Das"
   - "M. Zevenbergen"
