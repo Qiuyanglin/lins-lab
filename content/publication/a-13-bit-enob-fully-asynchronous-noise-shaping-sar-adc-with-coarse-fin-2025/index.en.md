@@ -3,7 +3,7 @@ title: "A 13-bit ENOB fully asynchronous noise-shaping SAR ADC with coarse-fine 
 date: 2025-01-01
 
 authors:
-  - "C. Wang"
+  - "Chen. Wang"
   - "H. Li"
   - "X. Yang"
   - "C. Wang"
