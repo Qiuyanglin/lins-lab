@@ -3,7 +3,7 @@ title: "21.2 A $22µW $ peak power multimodal electrochemical sensor interface I
 date: 2023-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(第一作者)"
   - "W. Sijbers"
   - "C. Avdikou"
   - "D. Gomez"
