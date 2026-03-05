@@ -20,7 +20,7 @@ sections:
       sort_by: date
       sort_ascending: false
       count: 999
-      view: citation
+      view: compact
       search: true
       filter: true
 ---
