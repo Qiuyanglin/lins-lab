@@ -1,11 +1,26 @@
 ---
-title: Publications
+title: "论文与专利"
+type: landing
 
-# Listing view
-view: citation
+sections:
+  - block: hero
+    content:
+      title: "论文与专利"
+      text: "期刊 · 会议 · 专利 · 预印本"
+    design:
+      text_color: light
+      background:
+        color: "#111827"
 
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+  - block: collection
+    content:
+      filters:
+        folders:
+          - publication
+      sort_by: date
+      sort_ascending: false
+      count: 999
+      view: citation
+      search: true
+      filter: true
 ---
