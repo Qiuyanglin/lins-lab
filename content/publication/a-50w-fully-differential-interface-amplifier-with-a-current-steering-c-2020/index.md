@@ -4,7 +4,7 @@ date: 2020-01-01
 
 authors:
   - "S. Song"
-  - "Q. Lin"
+  - "Q. Lin(通信)"
   - "C. Van Hoof"
   - "N. Van Helleputte"
 
