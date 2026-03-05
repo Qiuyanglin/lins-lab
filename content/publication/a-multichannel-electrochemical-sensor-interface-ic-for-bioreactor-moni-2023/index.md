@@ -3,7 +3,7 @@ title: "A multichannel electrochemical sensor interface IC for bioreactor monito
 date: 2023-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "W. Sijbers"
   - "C. Avdikou"
   - "D. Gomez"
