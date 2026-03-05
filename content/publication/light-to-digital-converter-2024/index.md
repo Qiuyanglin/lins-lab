@@ -3,8 +3,11 @@ title: "Light-to-digital converter"
 date: 2024-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "J. Xu"
+  - "S. Song"
+  - "N. Hellputte"
+
 
 publication_types: ["专利"]
 publication: "US Patent"
