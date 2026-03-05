@@ -4,7 +4,7 @@ date: 2025-01-01
 
 authors:
   - "A. Das"
-  - "Q. Lin"
+  - "Q. Lin(通信)"
   - "Y. Hu"
   - "W. Sijbers"
   - "E. Beamish"
