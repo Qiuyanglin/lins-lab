@@ -1,0 +1,23 @@
+---
+title: "Photoplethysmography (PPG) sensor circuit design techniques"
+date: 2022-01-01
+
+authors:
+  - **Q. Lin**
+  - W. Sijbers
+  - C. Avidikou
+  - C. Van Hoof
+  - F. Tavernier
+  - N. Van Helleputte
+
+publication_types: ["1"]
+publication: "2022 IEEE Custom Integrated Circuits Conference (CICC), pp. 01-08"
+
+# Add links if you have local files
+# url_pdf: paper.pdf
+# url_slides: slides.pdf
+
+abstract: ""
+tags: []
+draft: false
+---
