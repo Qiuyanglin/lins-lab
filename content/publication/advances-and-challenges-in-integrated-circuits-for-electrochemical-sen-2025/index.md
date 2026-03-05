@@ -1,23 +1,23 @@
 ---
-title: 'Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications'
+title: "Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications"
 date: 2025-01-01
 
 authors:
-  - **Q. Lin**
-  - S. Crols
-  - A. Das
-  - M. Zevenbergen
-  - W. Sijbers
-  - N. Van Helleputte
-  - C. M. Lopez
+  - "**Q. Lin**"
+  - "S. Crols"
+  - "A. Das"
+  - "M. Zevenbergen"
+  - "W. Sijbers"
+  - "N. Van Helleputte"
+  - "C. M. Lopez"
 
-publication_types: ['2']
-publication: 'IEEE Transactions on Biomedical Circuits and Systems'
+publication_types: ["2"]
+publication: "IEEE Transactions on Biomedical Circuits and Systems"
 
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
-abstract: ''
+abstract: ""
 tags: []
 draft: false
 ---

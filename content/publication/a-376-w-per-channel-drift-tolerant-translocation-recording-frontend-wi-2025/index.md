@@ -1,24 +1,24 @@
 ---
-title: 'A 376-μW per-Channel, Drift-Tolerant Translocation Recording Frontend With Event Detection for Nanopore Sensor Arrays'
+title: "A 376-μW per-Channel, Drift-Tolerant Translocation Recording Frontend With Event Detection for Nanopore Sensor Arrays"
 date: 2025-01-01
 
 authors:
-  - A. Das
-  - **Q. Lin**
-  - Y. Hu
-  - W. Sijbers
-  - E. Beamish
-  - C. Van Hoof
-  - G. Gielen
-  - N. Van Helleputte
+  - "A. Das"
+  - "**Q. Lin**"
+  - "Y. Hu"
+  - "W. Sijbers"
+  - "E. Beamish"
+  - "C. Van Hoof"
+  - "G. Gielen"
+  - "N. Van Helleputte"
 
-publication_types: ['2']
-publication: 'IEEE Journal of Solid-State Circuits'
+publication_types: ["2"]
+publication: "IEEE Journal of Solid-State Circuits"
 
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
-abstract: ''
+abstract: ""
 tags: []
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "A multichannel electrochemical sensor interface IC for bioreactor monitoring"
+title: "21.2 A $22µW $ peak power multimodal electrochemical sensor interface IC for bioreactor monitoring"
 date: 2023-01-01
 
 authors:
@@ -8,11 +8,13 @@ authors:
   - "C. Avdikou"
   - "D. Gomez"
   - "D. Biswas"
+  - "S. Sneha"
+  - "A. Malissovas"
   - "B. Tacca"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
-publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 17, no. 6, pp. 1227-1236"
+publication_types: ["1"]
+publication: "2023 IEEE International Solid-State Circuits Conference (ISSCC), pp. 314-316"
 
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
