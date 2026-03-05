@@ -3,7 +3,7 @@ title: "A 119dB dynamic range charge counting light-to-digital converter for wea
 date: 2020-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "J. Xu"
   - "S. Song"
   - "A. Breeschoten"
