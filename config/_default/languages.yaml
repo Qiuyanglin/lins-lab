@@ -1,11 +1,11 @@
 en:
-  languageCode: en-us
+  languageCode: en
   contentDir: content
   weight: 1
   title: "Lin's Lab"
 
 zh:
-  languageCode: zh-cn
+  languageCode: zh
   contentDir: content
   weight: 2
   title: "林实验室"
