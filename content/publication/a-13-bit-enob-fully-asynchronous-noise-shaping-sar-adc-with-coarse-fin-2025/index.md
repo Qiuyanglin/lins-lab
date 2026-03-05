@@ -10,7 +10,7 @@ authors:
   - "X. Xing"
   - "C. M. Lopez"
   - "N. Van Helleputte"
-  - "Q. Lin"
+  - "Q. Lin(通信)"
 
 publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Circuits and Systems II: Express Briefs"
