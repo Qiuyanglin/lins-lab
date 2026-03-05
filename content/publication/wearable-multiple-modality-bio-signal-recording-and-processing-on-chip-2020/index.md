@@ -3,7 +3,7 @@ title: "Wearable multiple modality bio-signal recording and processing on chip: 
 date: 2020-01-01
 
 authors:
-  - "Q. Lin"
+  - "Q. Lin(一作)"
   - "S. Song"
   - "I. D. Castro"
   - "H. Jiang"
