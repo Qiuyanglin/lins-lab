@@ -1,5 +1,5 @@
 ---
-title: "Photoplethysmography (PPG) sensor circuit design techniques"
+title: 'Photoplethysmography (PPG) sensor circuit design techniques'
 date: 2022-01-01
 
 authors:
@@ -10,14 +10,13 @@ authors:
   - F. Tavernier
   - N. Van Helleputte
 
-publication_types: ["1"]
-publication: "2022 IEEE Custom Integrated Circuits Conference (CICC), pp. 01-08"
+publication_types: ['1']
+publication: '2022 IEEE Custom Integrated Circuits Conference (CICC), pp. 01-08'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

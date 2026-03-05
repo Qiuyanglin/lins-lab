@@ -1,5 +1,5 @@
 ---
-title: "A 400GΩ Input-Impedance, 220MV pp Linear-Input-Range, 2.8 V pp CM-Interference-Tolerant Active Electrode for Non-Contact Capacitively Coupled ECG Acquisition"
+title: 'A 400GΩ Input-Impedance, 220MV pp Linear-Input-Range, 2.8 V pp CM-Interference-Tolerant Active Electrode for Non-Contact Capacitively Coupled ECG Acquisition'
 date: 2018-01-01
 
 authors:
@@ -11,14 +11,13 @@ authors:
   - C. Van Hoof
   - N. Van Helleputte
 
-publication_types: ["1"]
-publication: "2018 IEEE Symposium on VLSI Circuits, pp. 129-130"
+publication_types: ['1']
+publication: '2018 IEEE Symposium on VLSI Circuits, pp. 129-130'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

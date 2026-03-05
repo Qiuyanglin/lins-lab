@@ -1,5 +1,5 @@
 ---
-title: "A 134 DB dynamic range noise shaping slope light-to-digital converter for wearable chest PPG applications"
+title: 'A 134 DB dynamic range noise shaping slope light-to-digital converter for wearable chest PPG applications'
 date: 2021-01-01
 
 authors:
@@ -13,14 +13,13 @@ authors:
   - F. Tavernier
   - N. Van Helleputte
 
-publication_types: ["2"]
-publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 15, no. 6, pp. 1224-1235"
+publication_types: ['2']
+publication: 'IEEE Transactions on Biomedical Circuits and Systems, vol. 15, no. 6, pp. 1224-1235'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

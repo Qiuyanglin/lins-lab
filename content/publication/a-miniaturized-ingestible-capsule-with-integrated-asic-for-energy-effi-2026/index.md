@@ -1,5 +1,5 @@
 ---
-title: "A Miniaturized Ingestible Capsule with Integrated ASIC for Energy-Efficient Sensing in the Gastrointestinal Tract"
+title: 'A Miniaturized Ingestible Capsule with Integrated ASIC for Energy-Efficient Sensing in the Gastrointestinal Tract'
 date: 2026-01-01
 
 authors:
@@ -13,14 +13,13 @@ authors:
   - B. Calmé
   - T. Torfs
 
-publication_types: ["2"]
-publication: "IEEE Open Journal of Circuits and Systems"
+publication_types: ['2']
+publication: 'IEEE Open Journal of Circuits and Systems'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "A 119dB dynamic range charge counting light-to-digital converter for wearable PPG/NIRS monitoring applications"
+title: 'A 119dB dynamic range charge counting light-to-digital converter for wearable PPG/NIRS monitoring applications'
 date: 2020-01-01
 
 authors:
@@ -12,14 +12,13 @@ authors:
   - F. Tavernier
   - N. Van Helleputte
 
-publication_types: ["2"]
-publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 14, no. 4, pp. 800-810"
+publication_types: ['2']
+publication: 'IEEE Transactions on Biomedical Circuits and Systems, vol. 14, no. 4, pp. 800-810'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

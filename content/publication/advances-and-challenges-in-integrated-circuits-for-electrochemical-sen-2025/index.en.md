@@ -1,5 +1,5 @@
 ---
-title: "Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications"
+title: 'Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications'
 date: 2025-01-01
 
 authors:
@@ -11,14 +11,13 @@ authors:
   - N. Van Helleputte
   - C. M. Lopez
 
-publication_types: ["2"]
-publication: "IEEE Transactions on Biomedical Circuits and Systems"
+publication_types: ['2']
+publication: 'IEEE Transactions on Biomedical Circuits and Systems'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

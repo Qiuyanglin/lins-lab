@@ -1,5 +1,5 @@
 ---
-title: "Wearable multiple modality bio-signal recording and processing on chip: A review"
+title: 'Wearable multiple modality bio-signal recording and processing on chip: A review'
 date: 2020-01-01
 
 authors:
@@ -14,14 +14,13 @@ authors:
   - W. Sijbers
   - C. Van Hoof
 
-publication_types: ["2"]
-publication: "IEEE Sensors Journal, vol. 21, no. 2, pp. 1108-1123"
+publication_types: ['2']
+publication: 'IEEE Sensors Journal, vol. 21, no. 2, pp. 1108-1123'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

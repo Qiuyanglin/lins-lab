@@ -1,5 +1,5 @@
 ---
-title: "An Energy Efficient Amplifier With a Closed-Loop G m-Boosting Stage and Current-Mirror-Based SR Enhancement for Driving Large Capacitive Loads"
+title: 'An Energy Efficient Amplifier With a Closed-Loop G m-Boosting Stage and Current-Mirror-Based SR Enhancement for Driving Large Capacitive Loads'
 date: 2025-01-01
 
 authors:
@@ -12,14 +12,13 @@ authors:
   - M. Zhao
   - S. Song
 
-publication_types: ["2"]
-publication: "IEEE Journal of Solid-State Circuits"
+publication_types: ['2']
+publication: 'IEEE Journal of Solid-State Circuits'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

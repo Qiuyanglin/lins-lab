@@ -1,5 +1,5 @@
 ---
-title: "A 13-bit ENOB fully asynchronous noise-shaping SAR ADC with coarse-fine comparison, mismatch error shaping and digital prediction"
+title: 'A 13-bit ENOB fully asynchronous noise-shaping SAR ADC with coarse-fine comparison, mismatch error shaping and digital prediction'
 date: 2025-01-01
 
 authors:
@@ -12,14 +12,13 @@ authors:
   - N. Van Helleputte
   - **Q. Lin**
 
-publication_types: ["2"]
-publication: "IEEE Transactions on Circuits and Systems II: Express Briefs"
+publication_types: ['2']
+publication: 'IEEE Transactions on Circuits and Systems II: Express Briefs'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---

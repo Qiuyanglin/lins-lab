@@ -1,5 +1,5 @@
 ---
-title: "An 80MS/s 70.79 dB-SNDR 60.7 fJ/Conv-Step Radiation-Tolerant Semi-Time-interleaved Pipelined-SAR ADC"
+title: 'An 80MS/s 70.79 dB-SNDR 60.7 fJ/Conv-Step Radiation-Tolerant Semi-Time-interleaved Pipelined-SAR ADC'
 date: 2024-01-01
 
 authors:
@@ -11,14 +11,13 @@ authors:
   - G. Thys
   - P. Leroux
 
-publication_types: ["1"]
-publication: "2024 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-2"
+publication_types: ['1']
+publication: '2024 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-2'
 
-# Add links if you have local files
+# If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
-# url_slides: slides.pdf
 
-abstract: ""
+abstract: ''
 tags: []
 draft: false
 ---
