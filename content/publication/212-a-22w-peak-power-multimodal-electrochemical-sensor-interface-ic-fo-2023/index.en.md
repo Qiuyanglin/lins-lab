@@ -3,7 +3,7 @@ title: "21.2 A $22µW $ peak power multimodal electrochemical sensor interface I
 date: 2023-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "W. Sijbers"
   - "C. Avdikou"
   - "D. Gomez"
@@ -13,7 +13,7 @@ authors:
   - "B. Tacca"
   - "N. Van Helleputte"
 
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 publication: "2023 IEEE International Solid-State Circuits Conference (ISSCC), pp. 314-316"
 
 # If you add a local PDF into this folder, uncomment:

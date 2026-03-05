@@ -5,13 +5,13 @@ date: 2018-01-01
 authors:
   - "M. Chen"
   - "I. D. Castro"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "T. Torfs"
   - "F. Tavernier"
   - "C. Van Hoof"
   - "N. Van Helleputte"
 
-publication_types: ["1"]
+publication_types: ["会议论文"]
 publication: "2018 IEEE Symposium on VLSI Circuits, pp. 129-130"
 
 # If you add a local PDF into this folder, uncomment:

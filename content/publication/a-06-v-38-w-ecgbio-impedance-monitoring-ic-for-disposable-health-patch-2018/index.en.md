@@ -4,14 +4,14 @@ date: 2018-01-01
 
 authors:
   - "J. Xu"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "M. Ding"
   - "Y. Li"
   - "C. Van Hoof"
   - "W. Serdijn"
   - "N. Van Helleputte"
 
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 publication: "2018 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-4"
 
 # If you add a local PDF into this folder, uncomment:

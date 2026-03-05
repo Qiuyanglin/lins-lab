@@ -3,7 +3,7 @@ title: "A 119dB dynamic range charge counting light-to-digital converter for wea
 date: 2020-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "J. Xu"
   - "S. Song"
   - "A. Breeschoten"
@@ -12,7 +12,7 @@ authors:
   - "F. Tavernier"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 14, no. 4, pp. 800-810"
 
 # If you add a local PDF into this folder, uncomment:

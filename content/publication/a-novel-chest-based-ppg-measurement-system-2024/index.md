@@ -3,7 +3,7 @@ title: "A novel chest-based PPG measurement system"
 date: 2024-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "H. Wang"
   - "D. Biswas"
   - "Z. Li"
@@ -12,7 +12,7 @@ authors:
   - "M. Chen"
   - "N. van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Journal of Translational Engineering in Health and Medicine, vol. 12, pp. 675-683"
 
 # If you add a local PDF into this folder, uncomment:

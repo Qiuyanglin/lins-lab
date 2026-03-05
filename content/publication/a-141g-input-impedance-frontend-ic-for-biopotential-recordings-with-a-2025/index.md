@@ -6,13 +6,13 @@ authors:
   - "Y. Chen"
   - "Y. Cao"
   - "M. Li"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "K. Huang"
   - "Z. Tan"
   - "M. Zhao"
   - "S. Song"
 
-publication_types: ["1"]
+publication_types: ["会议论文"]
 publication: "2025 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 309-312"
 
 # If you add a local PDF into this folder, uncomment:

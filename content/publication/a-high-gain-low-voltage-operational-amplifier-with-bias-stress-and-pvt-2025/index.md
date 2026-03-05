@@ -7,14 +7,14 @@ authors:
   - "X. Xing"
   - "S. M. S. Faramarzi"
   - "A. Siskos"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "Y. Baines"
   - "C. Sawigun"
   - "M. V. Lopez"
   - "F. De Roose"
   - "J. Genoe"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Open Journal of Circuits and Systems"
 
 # If you add a local PDF into this folder, uncomment:

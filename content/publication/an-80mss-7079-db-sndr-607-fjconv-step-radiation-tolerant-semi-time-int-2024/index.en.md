@@ -5,13 +5,13 @@ date: 2024-01-01
 authors:
   - "Z. Li"
   - "L. Berti"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "J. Zhao"
   - "M. Gorbunov"
   - "G. Thys"
   - "P. Leroux"
 
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 publication: "2024 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-2"
 
 # If you add a local PDF into this folder, uncomment:

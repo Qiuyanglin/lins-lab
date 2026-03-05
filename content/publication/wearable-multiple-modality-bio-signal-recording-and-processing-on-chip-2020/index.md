@@ -3,7 +3,7 @@ title: "Wearable multiple modality bio-signal recording and processing on chip: 
 date: 2020-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "S. Song"
   - "I. D. Castro"
   - "H. Jiang"
@@ -14,7 +14,7 @@ authors:
   - "W. Sijbers"
   - "C. Van Hoof"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Sensors Journal, vol. 21, no. 2, pp. 1108-1123"
 
 # If you add a local PDF into this folder, uncomment:

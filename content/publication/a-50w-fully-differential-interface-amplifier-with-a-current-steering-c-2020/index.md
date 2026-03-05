@@ -4,11 +4,11 @@ date: 2020-01-01
 
 authors:
   - "S. Song"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "C. Van Hoof"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 67, no. 9, pp. 1564-1568"
 
 # If you add a local PDF into this folder, uncomment:

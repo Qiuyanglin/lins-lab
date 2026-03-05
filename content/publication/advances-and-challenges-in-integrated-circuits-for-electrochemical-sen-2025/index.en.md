@@ -3,7 +3,7 @@ title: "Advances and Challenges in Integrated Circuits for Electrochemical Sensi
 date: 2025-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "S. Crols"
   - "A. Das"
   - "M. Zevenbergen"
@@ -11,7 +11,7 @@ authors:
   - "N. Van Helleputte"
   - "C. M. Lopez"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems"
 
 # If you add a local PDF into this folder, uncomment:

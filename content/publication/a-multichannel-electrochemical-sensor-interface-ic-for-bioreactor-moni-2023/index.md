@@ -3,7 +3,7 @@ title: "A multichannel electrochemical sensor interface IC for bioreactor monito
 date: 2023-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "W. Sijbers"
   - "C. Avdikou"
   - "D. Gomez"
@@ -11,7 +11,7 @@ authors:
   - "B. Tacca"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 17, no. 6, pp. 1227-1236"
 
 # If you add a local PDF into this folder, uncomment:

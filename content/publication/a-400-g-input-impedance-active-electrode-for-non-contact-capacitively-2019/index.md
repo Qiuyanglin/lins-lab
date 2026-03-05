@@ -7,13 +7,13 @@ authors:
   - "H. S. Chun"
   - "I. D. Castro"
   - "T. Torfs"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "C. Van Hoof"
   - "G. Wang"
   - "Y. Lian"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE transactions on biomedical circuits and systems, vol. 13, no. 2, pp. 376-386"
 
 # If you add a local PDF into this folder, uncomment:

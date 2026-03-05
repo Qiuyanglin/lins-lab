@@ -10,11 +10,11 @@ authors:
   - "L. Wang"
   - "Z. Dai"
   - "L. Wei"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "A. Li"
   - "Y. Min"
 
-publication_types: ["1"]
+publication_types: ["会议论文"]
 publication: "2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits), pp. 1-2"
 
 # If you add a local PDF into this folder, uncomment:

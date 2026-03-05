@@ -3,7 +3,7 @@ title: "A 134 DB dynamic range noise shaping slope light-to-digital converter fo
 date: 2021-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "S. Song"
   - "R. Van Wegberg"
   - "W. Sijbers"
@@ -13,7 +13,7 @@ authors:
   - "F. Tavernier"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 15, no. 6, pp. 1224-1235"
 
 # If you add a local PDF into this folder, uncomment:

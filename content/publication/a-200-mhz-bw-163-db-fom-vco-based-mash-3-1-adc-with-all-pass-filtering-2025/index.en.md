@@ -4,11 +4,11 @@ date: 2025-01-01
 
 authors:
   - "X. Zheng"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "X. Xing"
   - "G. Gielen"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Journal of Solid-State Circuits"
 
 # If you add a local PDF into this folder, uncomment:

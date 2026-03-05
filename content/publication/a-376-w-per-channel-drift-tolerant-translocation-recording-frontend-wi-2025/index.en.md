@@ -4,7 +4,7 @@ date: 2025-01-01
 
 authors:
   - "A. Das"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "Y. Hu"
   - "W. Sijbers"
   - "E. Beamish"
@@ -12,7 +12,7 @@ authors:
   - "G. Gielen"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Journal of Solid-State Circuits"
 
 # If you add a local PDF into this folder, uncomment:

@@ -3,12 +3,12 @@ title: "Analog-to-digital converter circuitry, an integrated circuit device, a p
 date: 2023-01-01
 
 authors:
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "N. Van Helleputte"
   - "R. Van Wegberg"
   - "S. Song"
 
-publication_types: ["8"]
+publication_types: ["专利"]
 publication: "US Patent"
 
 # If you add a local PDF into this folder, uncomment:

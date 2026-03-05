@@ -6,13 +6,13 @@ authors:
   - "Z. Li"
   - "L. Berti"
   - "J. Zhao"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "M. Gorbunov"
   - "S. Wang"
   - "G. Thys"
   - "P. Leroux"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 72, no. 8, pp. 3897-3910"
 
 # If you add a local PDF into this folder, uncomment:

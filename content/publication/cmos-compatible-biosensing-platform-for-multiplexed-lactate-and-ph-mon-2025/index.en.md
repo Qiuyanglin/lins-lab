@@ -6,10 +6,10 @@ authors:
   - "L. De Schrijver"
   - "W. Sijbers"
   - "A. Saeidi"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "A. M. Ionescu"
 
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 publication: "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers), pp. 924-927"
 
 # If you add a local PDF into this folder, uncomment:

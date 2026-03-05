@@ -9,11 +9,11 @@ authors:
   - "W. Sijbers"
   - "R. Sijabat"
   - "D. Firfilionis"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "B. Calmé"
   - "T. Torfs"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Open Journal of Circuits and Systems"
 
 # If you add a local PDF into this folder, uncomment:

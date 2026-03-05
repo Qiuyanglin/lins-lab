@@ -4,14 +4,14 @@ date: 2023-01-01
 
 authors:
   - "A. Das"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "S. Santermans"
   - "L. Liu"
   - "C. Van Hoof"
   - "G. G. Gielen"
   - "N. Van Helleputte"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 70, no. 11, pp. 4323-4333"
 
 # If you add a local PDF into this folder, uncomment:

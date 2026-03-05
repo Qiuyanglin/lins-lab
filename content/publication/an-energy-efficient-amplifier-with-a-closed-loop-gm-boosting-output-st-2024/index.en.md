@@ -7,13 +7,13 @@ authors:
   - "S. Song"
   - "D. Wang"
   - "M. Li"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "M. Xu"
   - "W. Qu"
   - "Z. Tan"
   - "M. Zhao"
 
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 publication: "2024 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 41-44"
 
 # If you add a local PDF into this folder, uncomment:

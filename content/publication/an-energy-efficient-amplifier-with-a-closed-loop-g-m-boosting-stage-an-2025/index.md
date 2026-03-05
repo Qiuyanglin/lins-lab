@@ -6,13 +6,13 @@ authors:
   - "S. Cao"
   - "M. Li"
   - "D. Wang"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "K. Huang"
   - "Z. Tan"
   - "M. Zhao"
   - "S. Song"
 
-publication_types: ["2"]
+publication_types: ["期刊论文"]
 publication: "IEEE Journal of Solid-State Circuits"
 
 # If you add a local PDF into this folder, uncomment:

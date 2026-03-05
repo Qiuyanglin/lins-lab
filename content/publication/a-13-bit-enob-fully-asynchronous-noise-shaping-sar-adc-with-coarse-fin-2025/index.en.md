@@ -10,9 +10,9 @@ authors:
   - "X. Xing"
   - "C. M. Lopez"
   - "N. Van Helleputte"
-  - "**Q. Lin**"
+  - "Q. Lin"
 
-publication_types: ["2"]
+publication_types: ["Journal article"]
 publication: "IEEE Transactions on Circuits and Systems II: Express Briefs"
 
 # If you add a local PDF into this folder, uncomment:

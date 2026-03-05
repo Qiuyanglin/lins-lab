@@ -8,13 +8,13 @@ authors:
   - "S. M. S. Faramarzi"
   - "F. De Roose"
   - "F. Berghmans"
-  - "**Q. Lin**"
+  - "Q. Lin"
   - "C. Wang"
   - "H. Celiker"
   - "R. Appeltans"
   - "J. Genoe"
 
-publication_types: ["1"]
+publication_types: ["会议论文"]
 publication: "2025 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 173-176"
 
 # If you add a local PDF into this folder, uncomment:
