@@ -117,4 +117,13 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-
+publication_types:
+  - "未分类"     # 0
+  - "会议论文"   # 1
+  - "期刊论文"   # 2
+  - "预印本"     # 3
+  - "报告"       # 4
+  - "书籍"       # 5
+  - "书籍章节"   # 6
+  - "学位论文"   # 7
+  - "专利"       # 8
