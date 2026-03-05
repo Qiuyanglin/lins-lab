@@ -1,12 +1,12 @@
 ---
-title: "论文与专利"
+title: "Publications"
 type: landing
 
 sections:
   - block: hero
     content:
-      title: "论文与专利"
-      text: "期刊 · 会议 · 专利 · 预印本"
+      title: "Publications"
+      text: "Journals · Conferences · Patents · Preprints"
     design:
       text_color: light
       background:
