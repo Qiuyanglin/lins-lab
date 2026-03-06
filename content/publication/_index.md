@@ -1,26 +1,5 @@
----
-title: "论文与专利"
-type: landing
+测试论文
 
-sections:
-  - block: hero
-    content:
-      title: "论文与专利"
-      text: "期刊论文 · 会议论文 · 专利 · 预印本"
-    design:
-      text_color: light
-      background:
-        color: "#111827"
-
-  - block: collection
-    content:
-      filters:
-        folders:
-          - publication
-      sort_by: date
-      sort_ascending: false
-      count: 999
-      view: citation
-      search: true
-      filter: true
----
+21.2 A 22µW peak power multimodal electrochemical sensor interface IC ...
+Q. Lin, W. Sijbers ...
+2023 IEEE International Solid-State Circuits Conference (ISSCC)
