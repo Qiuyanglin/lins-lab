@@ -13,7 +13,7 @@ authors:
 
 publication_types: ["Conference paper"]
 publication: "2018 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-4"
-
+publication_short: "CICC 2018"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
