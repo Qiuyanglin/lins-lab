@@ -14,12 +14,12 @@
     {{ end }}
 
     {{ with $item.Params.publication_short }}
-    <div class="article-style">
+    <div class="article-style" style="font-style:italic;">
       {{ . }}
     </div>
     {{ else }}
       {{ with $item.Params.publication }}
-      <div class="article-style">
+      <div class="article-style" style="font-style:italic;">
         {{ . | markdownify }}
       </div>
       {{ end }}
