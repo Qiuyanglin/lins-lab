@@ -19,8 +19,8 @@ sections:
         country: 中国
         country_code: CN
       coordinates:
-        latitude: '31.335'
-        longitude: '121.517'
+        latitude: '31.20256'
+        longitude: '121.30345'
       directions: 从1号楼入口进入，上楼到二层办公室
       office_hours:
         - '周一 10:00 - 13:00'
