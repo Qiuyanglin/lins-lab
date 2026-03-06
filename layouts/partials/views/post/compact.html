@@ -3,15 +3,17 @@
 <div class="media stream-item view-compact">
   <div class="media-body">
 
+    <!-- 标题 -->
     <div class="section-subheading article-title mb-1 mt-0">
       <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
     </div>
 
     <!-- 日期 -->
-    <div class="article-metadata" style="font-size:0.9rem;color:#888;">
+    <div class="article-metadata" style="font-size:0.85rem;color:#888;margin-bottom:5px;">
       {{ $item.Date.Format "2006-01-02" }}
     </div>
 
+    <!-- 摘要 -->
     {{ with $item.Params.summary }}
     <div class="article-style">
       {{ . }}
