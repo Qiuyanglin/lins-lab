@@ -10,7 +10,7 @@ authors:
 
 publication_types: ["Journal article"]
 publication: "IEEE Journal of Solid-State Circuits"
-
+publication_short: "JSSC 2025"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
