@@ -3,7 +3,7 @@ title: "A 196μW, reconfigurable light-to-digital converter with 119dB dynamic r
 date: 2019-01-01
 
 authors:
-  - "Q. Lin(一作)"
+  - "Q. Lin"
   - "J. Xu"
   - "S. Song"
   - "A. Breeschoten"
