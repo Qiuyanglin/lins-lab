@@ -3,7 +3,7 @@ title: 林秋阳加入复旦大学
 date: 2026-01-01
 
 image:
-  filename: fudan.jpg
+  filename: building.jpg
   focal_point: 'top'
   caption: "复旦大学集成电路与微纳电子创新学院"
 ---
