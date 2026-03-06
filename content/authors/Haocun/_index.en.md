@@ -23,10 +23,10 @@ social:
 
 interests:
   - Biomedical ICs
-  - Flexible Thin-Film-Transistor ICs
-  - Neural Interfaces
+  - DC-DC Converters
+  - Power Management ICs
   - Analog Front-End Design 
-  - Analog-to-Digital Converter
+  
 ---
 
 **Haocun Wang** received his Bachelor’s degree in Electrical Engineering from Tongji University (TJU) in 2020 and his Master’s degree in Integrated Circuit Engineering from Shanghai Jiao Tong University (SJTU) in 2023. During his master’s studies, he joined IMEC Belgium in 2021 for an eight-month internship under the supervision of Dr. Qiuyang Lin. In 2022, with Dr. Lin’s recommendation, he conducted his master’s thesis project at IMEC Netherlands.
