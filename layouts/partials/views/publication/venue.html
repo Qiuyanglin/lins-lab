@@ -1,26 +1,30 @@
-{{/* Custom publication view */}}
-{{ $p := .item }}
+<div style="color:red">VENUE VIEW LOADED</div>
+{{ $item := .item | default . }}
 
-<div class="mb-4">
-  <div class="font-semibold">
-    <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-  </div>
+<div class="media stream-item view-compact">
+  <div class="media-body">
 
-  {{ with $p.Params.authors }}
-  <div class="text-sm">
-    {{ delimit . ", " }}
-  </div>
-  {{ end }}
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+    </div>
 
-  {{ with $p.Params.publication_short }}
-  <div class="text-sm">
-    {{ . }}
+    {{ with $item.Params.authors }}
+    <div class="stream-meta article-metadata">
+      {{ delimit . ", " }}
+    </div>
+    {{ end }}
+
+    {{ with $item.Params.publication_short }}
+    <div class="article-style">
+      {{ . }}
+    </div>
+    {{ else }}
+      {{ with $item.Params.publication }}
+      <div class="article-style">
+        {{ . | markdownify }}
+      </div>
+      {{ end }}
+    {{ end }}
+
   </div>
-  {{ else }}
-  {{ with $p.Params.publication }}
-  <div class="text-sm">
-    {{ . | markdownify }}
-  </div>
-  {{ end }}
-  {{ end }}
 </div>
