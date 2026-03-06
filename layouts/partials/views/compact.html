@@ -1,4 +1,5 @@
 {{ $item := .item | default . }}
+{{ $section := $item.Section }}
 
 <div class="media stream-item view-compact">
   <div class="media-body">
@@ -7,33 +8,54 @@
       <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
     </div>
 
-    {{ with $item.Params.authors }}
-    <div class="stream-meta article-metadata">
-      {{ $authors := . }}
-      {{ range $index, $author := $authors }}
+    {{ if eq $section "publication" }}
 
-        {{ if in $author "Q. Lin" }}
-          <span style="font-weight:700; color:#b31b1b;">{{ $author }}</span>
-        {{ else }}
-          {{ $author }}
+      {{ with $item.Params.authors }}
+      <div class="stream-meta article-metadata">
+        {{ $authors := . }}
+        {{ range $index, $author := $authors }}
+          {{ if in $author "Q. Lin" }}
+            <span style="font-weight:700; color:#b31b1b;">{{ $author }}</span>
+          {{ else }}
+            {{ $author }}
+          {{ end }}
+          {{ if lt $index (sub (len $authors) 1) }}, {{ end }}
         {{ end }}
-
-        {{ if lt $index (sub (len $authors) 1) }}, {{ end }}
-
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ with $item.Params.publication_short }}
-    <div class="article-style" style="font-style: italic;">
-      {{ . }}
-    </div>
-    {{ else }}
-      {{ with $item.Params.publication }}
-      <div class="article-style" style="font-style: italic;">
-        {{ . | markdownify }}
       </div>
       {{ end }}
+
+      {{ with $item.Params.publication_short }}
+      <div class="article-style" style="font-style: italic;">
+        {{ . }}
+      </div>
+      {{ else }}
+        {{ with $item.Params.publication }}
+        <div class="article-style" style="font-style: italic;">
+          {{ . | markdownify }}
+        </div>
+        {{ end }}
+      {{ end }}
+
+    {{ else if eq $section "post" }}
+
+      <div class="stream-meta article-metadata">
+        {{ $item.Date.Format "2006-01-02" }}
+      </div>
+
+      {{ with $item.Params.summary }}
+      <div class="article-style">
+        {{ . }}
+      </div>
+      {{ end }}
+
+    {{ else }}
+
+      {{ with $item.Params.summary }}
+      <div class="article-style">
+        {{ . }}
+      </div>
+      {{ end }}
+
     {{ end }}
 
   </div>
