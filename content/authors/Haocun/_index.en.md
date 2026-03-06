@@ -6,7 +6,7 @@ user_groups:
   - Alumni
 
 organizations:
-  - name: "Fudan University"
+  - name: "IMEC/KU Leuven"
 
 social:
   - icon: envelope
