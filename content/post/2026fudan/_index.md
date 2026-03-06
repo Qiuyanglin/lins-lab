@@ -1,6 +1,6 @@
 ---
 title: 林秋阳加入复旦大学
-date: 2026-06-01
+date: 2026-03-01
 
 image:
   filename: building.jpg
