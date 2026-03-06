@@ -4,7 +4,7 @@ main:
     weight: 10
 
   - name: Research
-    url: /research/
+    url: /en/research/
     weight: 20
 
   - name: News
