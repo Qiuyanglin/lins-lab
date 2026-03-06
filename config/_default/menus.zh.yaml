@@ -1,28 +1,28 @@
 main:
   - name: 首页
-    url: /
+    url: ""
     weight: 10
 
   - name: 实验室介绍
-    url: /research/
+    url: research/
     weight: 20
 
   - name: 新闻
-    url: /post/
+    url: post/
     weight: 30
 
   - name: 论文
-    url: /publication/
+    url: publication/
     weight: 40
 
   - name: 成员
-    url: /people/
+    url: people/
     weight: 50
 
   - name: 加入我们
-    url: /join/
+    url: join/
     weight: 60
 
   - name: 联系方式
-    url: /contact/
+    url: contact/
     weight: 70
