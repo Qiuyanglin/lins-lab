@@ -1,5 +1,5 @@
 ---
-title: "21.2 A $22µW $ peak power multimodal electrochemical sensor interface IC for bioreactor monitoring"
+title: "21.2 A 22µW peak power multimodal electrochemical sensor interface IC for bioreactor monitoring"
 date: 2023-01-01
 
 authors:
