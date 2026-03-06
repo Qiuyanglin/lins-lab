@@ -14,7 +14,7 @@ authors:
 
 publication_types: ["Conference paper"]
 publication: "2025 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 309-312"
-
+publication_short: "ESSERC 2025"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
