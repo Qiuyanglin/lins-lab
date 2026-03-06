@@ -12,7 +12,7 @@ authors:
 
 publication_types: ["会议论文"]
 publication: "2022 IEEE Custom Integrated Circuits Conference (CICC), pp. 01-08"
-
+publication_short: "CICC 2022"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
