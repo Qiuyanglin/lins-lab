@@ -3,7 +3,7 @@ title: "Ppg sensors for the new normal: a review"
 date: 2021-01-01
 
 authors:
-  - "Q. Lin(一作)"
+  - "Q. Lin"
   - "N. Van Helleptte"
 
 publication_types: ["会议论文"]
