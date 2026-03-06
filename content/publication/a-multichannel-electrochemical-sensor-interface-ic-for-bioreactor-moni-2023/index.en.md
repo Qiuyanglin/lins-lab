@@ -13,7 +13,7 @@ authors:
 
 publication_types: ["Journal article"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 17, no. 6, pp. 1227-1236"
-
+publication_short: "TBCAS 2023"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
