@@ -14,7 +14,7 @@ authors:
 
 publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 72, no. 8, pp. 3897-3910"
-
+publication_short: "TCAS1 2025"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
