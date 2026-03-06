@@ -14,7 +14,7 @@ sections:
   - block: people
     content:
       title: "学生"
-      user_groups: [博士后, 博士生, 硕士生, 科研助理, 访问学生]
+      user_groups: [博士后, 博士生, 硕士生, 科研助理, 实习学生]
     design:
       columns: "3"
     advanced:
