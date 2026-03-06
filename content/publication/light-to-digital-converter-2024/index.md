@@ -3,7 +3,7 @@ title: "Light-to-digital converter"
 date: 2024-01-01
 
 authors:
-  - "Q. Lin(一作)"
+  - "Q. Lin"
   - "J. Xu"
   - "S. Song"
   - "N. Hellputte"
