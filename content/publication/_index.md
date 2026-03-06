@@ -20,7 +20,7 @@ sections:
       sort_by: date
       sort_ascending: false
       count: 999
-      view: venue
+      view: citation
       search: true
       filter: true
 ---
