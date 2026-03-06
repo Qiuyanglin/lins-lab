@@ -11,12 +11,15 @@
     <div class="stream-meta article-metadata">
       {{ $authors := . }}
       {{ range $index, $author := $authors }}
+
         {{ if in $author "Q. Lin" }}
-          <strong>{{ $author }}</strong>
+          <span style="font-weight:700; color:#b31b1b;">{{ $author }}</span>
         {{ else }}
           {{ $author }}
         {{ end }}
+
         {{ if lt $index (sub (len $authors) 1) }}, {{ end }}
+
       {{ end }}
     </div>
     {{ end }}
