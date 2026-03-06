@@ -15,7 +15,7 @@ authors:
 
 publication_types: ["Conference paper"]
 publication: "2019 Symposium on VLSI Circuits, pp. C58-C59"
-
+publication_short: "VLSI 2019"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
