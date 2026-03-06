@@ -4,11 +4,11 @@ main:
     weight: 10
 
   - name: 实验室介绍
-    url: Research
+    url: /research/
     weight: 20
 
   - name: 新闻
-    url: post
+    url: /post/
     weight: 30
 
   - name: 论文
