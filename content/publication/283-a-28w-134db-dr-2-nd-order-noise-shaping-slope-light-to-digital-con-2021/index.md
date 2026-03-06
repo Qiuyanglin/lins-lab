@@ -3,7 +3,7 @@ title: "28.3 A 28μW 134dB DR 2nd-Order Noise-Shaping Slope Light-to-Digital Con
 date: 2021-01-01
 
 authors:
-  - "Q. Lin(一作)"
+  - "Q. Lin"
   - "S. Song"
   - "R. Van Wegberg"
   - "M. Konijnenburg"
