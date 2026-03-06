@@ -4,22 +4,46 @@
 <div class="media stream-item view-compact">
   <div class="media-body">
 
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
-    </div>
+    {{ if eq $section "post" }}
 
-    {{ if eq $section "publication" }}
+      <!-- Title + Date -->
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+
+        <div class="section-subheading article-title mb-0 mt-0">
+          <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+        </div>
+
+        <div class="article-metadata" style="color:#888;font-size:0.9rem;">
+          {{ $item.Date.Format "2006.01.02" }}
+        </div>
+
+      </div>
+
+      {{ with $item.Params.summary }}
+      <div class="article-style">
+        {{ . }}
+      </div>
+      {{ end }}
+
+    {{ else if eq $section "publication" }}
+
+      <div class="section-subheading article-title mb-0 mt-0">
+        <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+      </div>
 
       {{ with $item.Params.authors }}
       <div class="stream-meta article-metadata">
         {{ $authors := . }}
         {{ range $index, $author := $authors }}
+
           {{ if in $author "Q. Lin" }}
             <span style="font-weight:700; color:#b31b1b;">{{ $author }}</span>
           {{ else }}
             {{ $author }}
           {{ end }}
+
           {{ if lt $index (sub (len $authors) 1) }}, {{ end }}
+
         {{ end }}
       </div>
       {{ end }}
@@ -36,19 +60,11 @@
         {{ end }}
       {{ end }}
 
-    {{ else if eq $section "post" }}
-
-      <div class="stream-meta article-metadata">
-        {{ $item.Date.Format "2006-01-02" }}
-      </div>
-
-      {{ with $item.Params.summary }}
-      <div class="article-style">
-        {{ . }}
-      </div>
-      {{ end }}
-
     {{ else }}
+
+      <div class="section-subheading article-title mb-0 mt-0">
+        <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+      </div>
 
       {{ with $item.Params.summary }}
       <div class="article-style">
