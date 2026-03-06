@@ -16,7 +16,7 @@ authors:
 
 publication_types: ["Journal article"]
 publication: "IEEE Journal of Solid-State Circuits, vol. 59, no. 6, pp. 1722-1734"
-
+publication_short: "JSSC 2023"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
