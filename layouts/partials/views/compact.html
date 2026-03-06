@@ -9,17 +9,25 @@
 
     {{ with $item.Params.authors }}
     <div class="stream-meta article-metadata">
-      {{ delimit . ", " }}
+      {{ $authors := . }}
+      {{ range $index, $author := $authors }}
+        {{ if in $author "Q. Lin" }}
+          <strong>{{ $author }}</strong>
+        {{ else }}
+          {{ $author }}
+        {{ end }}
+        {{ if lt $index (sub (len $authors) 1) }}, {{ end }}
+      {{ end }}
     </div>
     {{ end }}
 
     {{ with $item.Params.publication_short }}
-    <div class="article-style" style="font-style:italic;">
+    <div class="article-style" style="font-style: italic;">
       {{ . }}
     </div>
     {{ else }}
       {{ with $item.Params.publication }}
-      <div class="article-style" style="font-style:italic;">
+      <div class="article-style" style="font-style: italic;">
         {{ . | markdownify }}
       </div>
       {{ end }}
