@@ -15,7 +15,7 @@ authors:
 
 publication_types: ["期刊论文"]
 publication: "IEEE Open Journal of Circuits and Systems"
-
+publication_short: "OJCAS 2026"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
