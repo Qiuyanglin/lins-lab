@@ -1,25 +1,26 @@
-<div style="color:red">LI_CITATION LOADED</div>
-{{/* layouts/partials/li_citation.html */}}
+{{/* Override citation view */}}
 
-<div class="media stream-item view-citation">
+{{ $item := .item }}
+
+<div class="media stream-item view-compact">
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
     </div>
 
-    {{ with .Params.authors }}
+    {{ with $item.Params.authors }}
     <div class="stream-meta article-metadata">
       {{ delimit . ", " }}
     </div>
     {{ end }}
 
-    {{ with .Params.publication_short }}
+    {{ with $item.Params.publication_short }}
     <div class="article-style">
       {{ . }}
     </div>
     {{ else }}
-      {{ with .Params.publication }}
+      {{ with $item.Params.publication }}
       <div class="article-style">
         {{ . | markdownify }}
       </div>
