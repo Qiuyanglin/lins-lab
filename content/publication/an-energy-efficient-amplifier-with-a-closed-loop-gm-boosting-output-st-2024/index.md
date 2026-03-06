@@ -15,7 +15,7 @@ authors:
 
 publication_types: ["会议论文"]
 publication: "2024 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 41-44"
-
+publication_short: "ESSERC 2024"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
