@@ -19,4 +19,6 @@ social:
     link: "mailto:linqiuyang1991@gmail.com"
 ---
 
-Biomedical integrated circuits and systems, wearable electronics, implantable neural interfaces, electrochemical sensing ICs, DNA sequencing chips, and data converters.
+I am a Senior Researcher at imec and lead of IMEC analog community, with a Ph.D. from KU Leuven ESAT-MICAS and an M.Sc. from TU Delft, specializing in analog and mixed-signal IC design. My expertise focuses on biomedical circuits, data converters, sensor interfaces, and emerging sensing techniques, with research spanning the full design cycle from system architecture and circuit design to silicon validation and system-level integration. I have authored and co-authored more than 30 IEEE publications across leading journals and conferences, including IEEE TBioCAS, IEEE JSSC, ISSCC, VLSI, and CICC, and have contributed to multiple patents in sensor-interface and data-converter circuits.
+
+My technical expertise aligns well with the scope of IEEE Transactions on VLSI Systems, particularly in biomedical, electrochemical, optical, sensor interfaces, analog/mixed-signal design, power management,  and data conversion. I serve as an active reviewer for IEEE journals and typically review more than 30 journal manuscripts per year for venues such as IEEE JSSC, TBioCAS, TVLSI, TCAS-I/II, and SSCL. 
