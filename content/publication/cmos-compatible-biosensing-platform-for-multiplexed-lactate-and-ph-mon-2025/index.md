@@ -11,7 +11,7 @@ authors:
 
 publication_types: ["会议论文"]
 publication: "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers), pp. 924-927"
-
+publication_short: "Transducers 2025"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
