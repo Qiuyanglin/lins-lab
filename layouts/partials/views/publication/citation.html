@@ -1,0 +1,27 @@
+{{/* layouts/partials/views/publication/citation.html */}}
+{{ $p := .item }}
+
+<div class="mb-4">
+  <div class="font-semibold leading-snug">
+    <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+  </div>
+
+  {{ with $p.Params.authors }}
+  <div class="text-sm opacity-80">
+    {{ delimit . ", " }}
+  </div>
+  {{ end }}
+
+  {{/* ✅ 强制显示期刊/会议名 */}}
+  {{ with $p.Params.publication_short }}
+  <div class="text-sm">
+    {{ . }}
+  </div>
+  {{ else }}
+  {{ with $p.Params.publication }}
+  <div class="text-sm">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
