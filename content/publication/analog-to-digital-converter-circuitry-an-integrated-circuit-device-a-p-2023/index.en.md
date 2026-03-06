@@ -10,7 +10,7 @@ authors:
 
 publication_types: ["Patent"]
 publication: "US Patent"
-
+publication_short: "US Patent 2023"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
