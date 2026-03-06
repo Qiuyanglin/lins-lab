@@ -9,9 +9,9 @@ sections:
     content:
       title: Contact
       text: |-
-        Please feel free to contact us via email (linqiuyang1991 [at] gmail.com). We welcome inquiries from students and researchers interested in biomedical integrated circuits, brain–computer interface circuits, sensor interface circuits, DNA sequencing chips, analog and mixed-signal circuits, and optoelectronic integrated circuits. We also welcome collaborations and research sponsorship from industry and research institutions.
+        We welcome inquiries from students and researchers interested in biomedical integrated circuits, brain–computer interface circuits, sensor interface circuits, DNA sequencing chips, analog and mixed-signal circuits, and optoelectronic integrated circuits. Please feel free to contact us via email (linqiuyang1991 [at] gmail.com). We also welcome collaborations and research sponsorship from industry and research institutions.
 
-        Email: linqiuyang1991 [at] gmail.com
+      email: linqiuyang1991@gmail.com
 
       address:
         street: No. 2005 Songhu Road, Interdisciplinary Research Building No.2, Fudan University (Jiangwan Campus)
@@ -20,13 +20,18 @@ sections:
         postcode: '200000'
         country: China
         country_code: CN
+
       coordinates:
         latitude: '31.340528'
         longitude: '121.509667'
+
       directions: Enter from Building 1 and take the stairs to the office on the second floor
+
       office_hours:
         - 'Monday 10:00 - 13:00'
         - 'Wednesday 09:00 - 10:00'
+
+      autolink: true
 
     design:
       columns: '1'
