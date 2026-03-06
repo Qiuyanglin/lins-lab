@@ -15,7 +15,7 @@ authors:
 
 publication_types: ["Conference paper"]
 publication: "2023 IEEE International Solid-State Circuits Conference (ISSCC), pp. 314-316"
-
+publication_short: "ISSCC 2023"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
