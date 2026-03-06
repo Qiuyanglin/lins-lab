@@ -8,7 +8,7 @@ authors:
 
 publication_types: ["会议论文"]
 publication: "2021 18th International SoC Design Conference (ISOCC), pp. 276-277"
-
+publication_short: "ISOCC 2021"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
