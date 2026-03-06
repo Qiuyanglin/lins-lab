@@ -10,7 +10,7 @@ authors:
 
 publication_types: ["Journal article"]
 publication: "IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 67, no. 9, pp. 1564-1568"
-
+publication_short: "TCAS2 2020"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
