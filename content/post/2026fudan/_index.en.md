@@ -3,7 +3,7 @@ title: Qiuyang Lin Joined Fudan University
 date: 2026-01-01
 
 image:
-  filename: fudan.jpg
+  filename: building.jpg
   focal_point: 'top'
   caption: "School of Microelectronics, Fudan University"
 ---
