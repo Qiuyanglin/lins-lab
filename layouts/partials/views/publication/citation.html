@@ -1,27 +1,29 @@
-{{/* layouts/partials/views/publication/citation.html */}}
-{{ $p := .item }}
+{{/* layouts/partials/li_citation.html */}}
 
-<div class="mb-4">
-  <div class="font-semibold leading-snug">
-    <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-  </div>
+<div class="media stream-item view-citation">
+  <div class="media-body">
 
-  {{ with $p.Params.authors }}
-  <div class="text-sm opacity-80">
-    {{ delimit . ", " }}
-  </div>
-  {{ end }}
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
 
-  {{/* ✅ 强制显示期刊/会议名 */}}
-  {{ with $p.Params.publication_short }}
-  <div class="text-sm">
-    {{ . }}
+    {{ with .Params.authors }}
+    <div class="stream-meta article-metadata">
+      {{ delimit . ", " }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.publication_short }}
+    <div class="article-style">
+      {{ . }}
+    </div>
+    {{ else }}
+      {{ with .Params.publication }}
+      <div class="article-style">
+        {{ . | markdownify }}
+      </div>
+      {{ end }}
+    {{ end }}
+
   </div>
-  {{ else }}
-  {{ with $p.Params.publication }}
-  <div class="text-sm">
-    {{ . | markdownify }}
-  </div>
-  {{ end }}
-  {{ end }}
 </div>
