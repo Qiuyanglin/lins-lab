@@ -15,7 +15,7 @@ authors:
 
 publication_types: ["Journal article"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 15, no. 6, pp. 1224-1235"
-
+publication_short: "TBCAS 2021"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
