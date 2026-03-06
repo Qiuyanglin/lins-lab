@@ -16,7 +16,7 @@ authors:
 
 publication_types: ["期刊论文"]
 publication: "IEEE Sensors Journal, vol. 21, no. 2, pp. 1108-1123"
-
+publication_short: "IEEE Sensor 2020"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
