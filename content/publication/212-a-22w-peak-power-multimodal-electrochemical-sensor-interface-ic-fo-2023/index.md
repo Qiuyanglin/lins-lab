@@ -21,6 +21,6 @@ publication_short: "ISSCC 2023"
 # url_pdf: paper.pdf
 
 abstract: ""
-tags: []
+tags: [ISSCC 2023]
 draft: false
 ---
