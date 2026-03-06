@@ -3,7 +3,7 @@ title: "Photoplethysmography (PPG) sensor circuit design techniques"
 date: 2022-01-01
 
 authors:
-  - "Q. Lin(一作)"
+  - "Q. Lin"
   - "W. Sijbers"
   - "C. Avidikou"
   - "C. Van Hoof"
