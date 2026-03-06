@@ -16,7 +16,7 @@ authors:
 
 publication_types: ["Conference paper"]
 publication: "2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits), pp. 1-2"
-
+publication_short: "VLSI 2024"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
