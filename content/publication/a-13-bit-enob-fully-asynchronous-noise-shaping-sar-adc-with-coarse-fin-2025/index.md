@@ -14,7 +14,7 @@ authors:
 
 publication_types: ["期刊论文"]
 publication: "IEEE Transactions on Circuits and Systems II: Express Briefs"
-
+publication_short: "TCAS2 2025"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 
