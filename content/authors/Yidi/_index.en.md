@@ -21,7 +21,7 @@ social:
     icon_pack: fab
     link: "https://orcid.org/0009-0005-3140-3309"
 
-interests:
+interests123:
   - Biomedical Integrated Circuits
   - Neural Interface Circuits
   - Analog Front-End Design
