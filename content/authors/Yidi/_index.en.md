@@ -20,8 +20,7 @@ social:
   - icon: orcid
     icon_pack: fab
     link: "https://orcid.org/0009-0005-3140-3309"
-
-Research Direction:
+interests:
   - Biomedical Integrated Circuits
   - Neural Interface Circuits
   - Analog Front-End Circuit Design
