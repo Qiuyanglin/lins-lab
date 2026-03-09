@@ -28,4 +28,6 @@ sections:
     design:
       view: card
       columns: 3
+    advanced:
+      css_class: join-cards
 ---
