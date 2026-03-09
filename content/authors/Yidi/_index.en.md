@@ -3,7 +3,7 @@ title: "Yidi Sun"
 role: "Master's Student (2026–)"
 
 user_groups:
-  - Master's Students
+  - Master
 
 organizations:
   - name: "Fudan University"
