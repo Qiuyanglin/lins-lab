@@ -14,7 +14,8 @@ sections:
         - 模拟 / 混合信号芯片设计
         - 可穿戴与医疗电子系统
 
-        欢迎对相关研究方向感兴趣的同学申请。  
+        欢迎对相关研究方向感兴趣的同学申请。
+
         联系邮箱：**linqiuyang1991@gmail.com**
 
   - block: collection
@@ -28,6 +29,4 @@ sections:
     design:
       view: card
       columns: 3
-    advanced:
-      css_class: join-cards
 ---
