@@ -1,20 +1,37 @@
 ---
-title: "文章阅读"
+title: "文章阅读 / Paper Notes"
 ---
 
-本页面记录一些近期阅读论文时的笔记与思考。
+本页面记录实验室在科研过程中阅读的一些论文笔记与思考。
 
-主要内容包括：
-
-- 有趣的研究论文
-- 电路设计思路
-- 论文中的关键创新点
-- 对相关研究方向的理解与思考
-
-希望这些记录能够帮助读者更好地理解相关研究方向。
+These notes summarize interesting papers related to biomedical integrated circuits and system design.
 
 ---
 
-## 最近更新
+## 阅读方向 / Categories
 
-- [A Low-Power Neural Recording IC for Brain–Machine Interfaces](paper1)
+### Wearable Biomedical ICs
+可穿戴生物医疗系统与芯片设计相关论文阅读。
+
+👉 [进入页面](wearable-biomedical-ics)
+
+---
+
+### Neural Interface ICs
+脑机接口与神经信号采集芯片相关论文阅读。
+
+👉 [进入页面](neural-interface-ics)
+
+---
+
+### Data Converter ICs
+ADC / DAC 以及生物信号采集系统中的数据转换器设计。
+
+👉 [进入页面](data-converter-ics)
+
+---
+
+### Emerging Sensing ICs
+新型生物医疗传感与新兴生物电子系统相关论文阅读。
+
+👉 [进入页面](emerging-sensing-ics)
