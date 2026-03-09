@@ -12,7 +12,8 @@ sections:
         - 生物医学集成电路（Biomedical ICs）
         - 神经接口电路（Neural Interfaces）
         - 模拟 / 混合信号芯片设计
-        - 可穿戴与医疗电子系统
+        - 数模转换器
+        - 传感器结构与新型生物医疗应用（Electrochemical、DNA Sequencing）
 
         欢迎对相关研究方向感兴趣的同学申请。
 
