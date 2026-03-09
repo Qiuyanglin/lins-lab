@@ -8,8 +8,7 @@ sections:
       title: "Research Overview"
       text: |
 
-        本实验室主要研究 **生物医疗集成电路（Biomedical ICs）** 与  
-        **神经接口电路（Neural Interface Circuits）**，重点关注低功耗模拟与混合信号芯片设计及其在可穿戴与植入式系统中的应用。
+        本实验室主要研究 **生物医疗集成电路（Biomedical ICs）**，重点关注低功耗模拟与混合信号芯片设计及其在生物医疗系统中的应用。
 
         欢迎浏览实验室的研究成果与学习资源。
 
@@ -26,10 +25,15 @@ sections:
         ### Research Progress  
         实验室的研究进展、技术报告和论文资料。
 
-        👉 [进入页面](progress)
+        👉 [进入页面](progress)sh'n
 
         ### Learning Resources  
-        模拟电路、数据转换器与EDA工具相关学习资料。
+        模拟电路、数据转换器与EDA工具等相关学习资料。
 
         👉 [进入页面](resources)
+    
+        ### Paper Review  
+        文献阅读分享。
+
+        👉 [进入页面](review)
 ---
