@@ -1,5 +1,5 @@
 ---
-title: Qiuyang Lin Joined Fudan University
+title: Dr.Qiuyang Lin Joined Fudan University
 date: 2026-03-01
 
 image:
