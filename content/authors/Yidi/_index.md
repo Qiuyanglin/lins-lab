@@ -21,7 +21,7 @@ social:
     icon_pack: fab
     link: "https://orcid.org/0009-0005-3140-3309"
 
-interests:
+方向:
   - 生物医疗集成电路
   - 神经接口电路
   - 模拟前端电路设计
