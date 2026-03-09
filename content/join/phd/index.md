@@ -1,32 +1,40 @@
 ---
 title: "博士生招生"
-date: 2026-03-09
-summary: "招收从事神经接口、生物医学芯片与模拟/混合信号集成电路研究的博士研究生。"
+date: 2026-03-01
+summary: "欢迎对生物医疗集成电路、神经接口电路、数模转换器与低功耗模拟前端设计感兴趣的博士生加入。（每年招聘1–2名）"
 weight: 20
 ---
 
 ## 研究方向
 
-- Neural Interface Circuits
-- Biomedical Signal Acquisition ICs
-- Analog / Mixed-Signal IC Design
-- Ultra-Low-Power Analog Front-End
-- Biosensing Circuits
+- **Biomedical Integrated Circuits for Wearable and Implantable Systems**  
+  可穿戴与植入式生物医疗集成电路
 
-## 招生要求
+- **Neural Interface Circuits for Brain–Machine Interfaces**  
+  脑机接口神经接口电路
 
-- 电子工程、微电子、集成电路、自动化、生物医学工程或相关专业背景
-- 具备扎实的模拟电路、数字电路或信号处理基础
-- 熟悉 Cadence、版图设计或测试流程者优先
-- 具有良好的英文阅读与写作能力
-- 对科研有热情，具备独立思考和团队合作能力
+- **Analog Front-End and Data Converters for Biosignal Acquisition**  
+  生物信号采集模拟前端与数模转换器
+
+- **Bio ICs for Emerging Biomedical Applications**  
+  面向新型生物医疗应用的传感与芯片系统
+
+## 基本要求
+
+- 微电子、电子工程、集成电路、生物医学工程或相关专业
+- 具备扎实的模拟或数字集成电路设计基础
+- 具备良好的英语水平，能够阅读和撰写学术论文
+- 有 MATLAB / Python / Verilog / Cadence 使用经验者优先
+- 有芯片设计、科研项目或论文发表经验者优先
+- 对科研探索充满热情，具备独立思考与解决问题的能力
+- 具备良好的沟通能力和团队合作精神
 
 ## 申请材料
 
 - 个人简历
-- 成绩单
-- 项目经历说明
-- 代表性论文或成果材料（如有）
+- 成绩单、英语成绩
+- 文章、项目经历或课程设计说明或报告
+- 研究兴趣说明（可选）
 
 ## 申请方式
 
