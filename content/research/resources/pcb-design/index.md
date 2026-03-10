@@ -40,11 +40,9 @@ summary: "PCB设计入门资料与模拟电路板级设计指南。"
 
 为了方便实验室成员进行板级电路设计，这里提供一个 **PCB设计模板工程**，包含：
 
-- 常用 PCB 层结构
-- 基本封装库
-- 电源与接地设计参考
-- 模拟电路布局示例
+- 常用 PCB 2与4层结构
 
 ### 下载模板
 
 - [PCB Template（2Layers）](6C-2L-1550um.PcbDoc)
+- [PCB Template（4Layers）](6C-4L-1550um.PcbDoc)
