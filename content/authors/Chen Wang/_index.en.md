@@ -1,6 +1,6 @@
 ---
 title: "Chen Wang"
-role: "PhD Student (2024–)"
+role: "Master Student (2024)"
 
 user_groups:
   - Alumni
