@@ -47,4 +47,4 @@ summary: "PCB设计入门资料与模拟电路板级设计指南。"
 
 ### 下载模板
 
-- [PCB Template（ZIP）](pcb_template_altium.zip)
+- [PCB Template（2Layers）](6C-2L-1550um.PcbDoc)
