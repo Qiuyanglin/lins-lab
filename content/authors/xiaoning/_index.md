@@ -1,12 +1,12 @@
 ---
-title: "Xiaoning Huang"
-role: "硕士生（2024）"
+title: "黄小凝"
+role: "硕士生（2024级）"
 
 user_groups:
   - 已毕业学生
 
 organizations:
-  - name: "KU Leuven"
+  - name: "IMEC/鲁汶大学"
 
 social:
   - icon: envelope
