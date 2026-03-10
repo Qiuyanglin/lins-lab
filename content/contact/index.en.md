@@ -22,8 +22,8 @@ sections:
         country_code: CN
 
       coordinates:
-        latitude: '31.340528'
-        longitude: '121.509667'
+        latitude: '31.343'
+        longitude: '121.505'
 
       directions: Enter from Building 1 and take the stairs to the office on the second floor
 
