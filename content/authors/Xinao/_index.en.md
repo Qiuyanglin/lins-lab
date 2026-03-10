@@ -3,7 +3,7 @@ title: "Xinao Ji"
 role: "PhD Student (2026–)"
 
 user_groups:
-  - PhD Students
+  - PhD 
 
 organizations:
   - name: "Fudan University"
