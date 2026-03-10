@@ -16,8 +16,7 @@ sections:
     content:
       title: "资源列表"
       filters:
-        folders:
-          - research/resources
+        page_type: resources
     design:
       view: card
       columns: 3
