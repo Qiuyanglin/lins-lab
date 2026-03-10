@@ -22,8 +22,8 @@ sections:
         country_code: CN
 
       coordinates:
-        latitude: '31.341'
-        longitude: '121.511'
+        latitude: '31.343'
+        longitude: '121.501'
 
       directions: 从1号楼入口进入，上楼到二层办公室
 
