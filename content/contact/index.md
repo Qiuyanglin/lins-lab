@@ -23,7 +23,7 @@ sections:
 
       coordinates:
         latitude: '31.343'
-        longitude: '121.501'
+        longitude: '121.541'
 
       directions: 从1号楼入口进入，上楼到二层办公室
 
