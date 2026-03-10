@@ -1,6 +1,6 @@
 ---
 title: "Aurojyoti Das"
-role: "博士毕业生（2026）"
+role: "博士（2026）"
 
 user_groups:
   - 已毕业学生
