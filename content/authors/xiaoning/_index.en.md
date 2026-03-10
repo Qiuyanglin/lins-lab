@@ -1,6 +1,6 @@
 ---
 title: "Xiaoning Huang"
-role: "MSc Student (Class of 2024)"
+role: "MSc Student (2024)"
 
 user_groups:
   - Alumni
