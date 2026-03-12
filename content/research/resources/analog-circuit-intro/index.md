@@ -23,4 +23,5 @@ Lecture Notes
 
 ## 下载资料
 
-- [模拟电路基础讲义（PDF）](analog_circuit_intro.pdf)
+- [模拟电路绘画ISSCC模板（vss）](CircuitElementsISSCC.vss)
+- [模拟电路绘画EE模板（vss）](EE_STENCIL.vss)
