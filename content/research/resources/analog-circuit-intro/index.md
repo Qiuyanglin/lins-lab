@@ -25,3 +25,4 @@ Lecture Notes
 
 - [模拟电路绘画ISSCC模板（vss）](CircuitElementsISSCC.vss)
 - [模拟电路绘画EE模板（vss）](EE_STENCIL.vss)
+- [模拟电路绘画EE模板（vss）](EE_STENCIL.vss)
