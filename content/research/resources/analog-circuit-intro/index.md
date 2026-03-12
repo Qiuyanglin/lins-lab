@@ -25,4 +25,4 @@ Lecture Notes
 
 - [模拟电路绘画ISSCC模板（vss）](CircuitElementsISSCC.vss)
 - [模拟电路绘画EE模板（vss）](EE_STENCIL.vss)
-- [Visio模板（郑兴发鲁汶大学博士，设计画幅大小）](visio template.vsdx)
+- [Visio模板_郑兴发鲁汶大学博士，设计画幅大小](visio.vsdx)
