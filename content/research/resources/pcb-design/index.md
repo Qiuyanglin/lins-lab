@@ -32,8 +32,8 @@ summary: "PCB设计入门资料与模拟电路板级设计指南。"
 
 ### 下载资料
 
-- [德州仪器高速PCB设计）](High_speed_PCB_TI.pdf)
-- [德州仪器PCB串扰设计）](PCB_Crosstalk_TI.pdf)
+- [德州仪器高速PCB设计](High_speed_PCB_TI.pdf)
+- [德州仪器PCB串扰设计](PCB_Crosstalk_TI.pdf)
 ---
 
 ## PCB设计模板
