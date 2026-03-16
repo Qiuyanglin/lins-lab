@@ -18,7 +18,7 @@ summary: "PCB设计入门资料与模拟电路板级设计指南。"
 
 ### 下载资料
 
-- [PCB设计基础（PDF）](pcb_design_intro.pdf)
+- [Altium PCB设计基础（PDF）](PCB_foundamental.pdf)
 
 ---
 
