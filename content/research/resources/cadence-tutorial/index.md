@@ -16,7 +16,7 @@ IC设计初学者
 
 教程包括：
 
-- Cadence环境介绍 quick start:https://www.cadence.com/en_US/home/training/deliverymethod-online.html
+- Cadence环境介绍 
 - 原理图设计流程
 - 仿真与结果分析
 - 基本设计实践
@@ -25,3 +25,5 @@ IC设计初学者
 
 - [Cadence教程（PDF）](cadence_tutorial.pdf)
 - [比较器PSS与TRAN噪声的方法（PDF）](CMP_PSS_Noise.pdf)
+- quick start:https://www.cadence.com/en_US/home/training/deliverymethod-online.html
+- [弗吉尼亚理工Cadence Tutorial](https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html)
