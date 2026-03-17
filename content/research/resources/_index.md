@@ -2,6 +2,8 @@
 title: "Learning Resources"
 ---
 
+![Learning Resources](wings.png)
+
 本页面整理了一些适合集成电路学习、科研入门与工程实践的资料，供实验室成员和读者参考下载。
 
 贡献者有林秋阳，李涵悦，王辰，郑辛发等...To be continue...
