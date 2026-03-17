@@ -16,7 +16,7 @@ IC设计初学者
 
 教程包括：
 
-- Cadence环境介绍
+- Cadence环境介绍 quick start:https://www.cadence.com/en_US/home/training/deliverymethod-online.html
 - 原理图设计流程
 - 仿真与结果分析
 - 基本设计实践
