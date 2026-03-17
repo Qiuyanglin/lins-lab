@@ -23,7 +23,7 @@ IC设计初学者
 
 ## 下载资料
 
-- [Cadence教程（PDF）](cadence_tutorial.pdf)
+- [Cadence教程UCLA（PDF）](Cadence Tutorial_UCLA.pdf)
 - [比较器PSS与TRAN噪声的方法_王辰（PDF）](CMP_PSS_Noise.pdf)
 - [Cadence 3分钟quick start](https://www.cadence.com/en_US/home/training/deliverymethod-online.html)
 - [弗吉尼亚理工Cadence Tutorial](https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html)
