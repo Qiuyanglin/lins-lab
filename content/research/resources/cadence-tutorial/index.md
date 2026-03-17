@@ -27,3 +27,4 @@ IC设计初学者
 - [比较器PSS与TRAN噪声的方法_王辰（PDF）](CMP_PSS_Noise.pdf)
 - [Cadence 3分钟quick start](https://www.cadence.com/en_US/home/training/deliverymethod-online.html)
 - [弗吉尼亚理工Cadence Tutorial](https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html)
+- [Gm Id 设计方法_Eric Yeh](https://www.youtube.com/watch?v=horLp7FMTeA&list=PLQBJZzLTgobt8BlTD0spy4pPi2bccxw54)
