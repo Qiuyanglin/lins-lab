@@ -19,7 +19,7 @@ sections:
       title: "Research Categories"
       text: |
 
-        ## Chip Showcase
+        ## Chip Gallery
         Display of chip prototypes, system implementations, and related design descriptions developed in the lab.
 
         **Contents include:**
