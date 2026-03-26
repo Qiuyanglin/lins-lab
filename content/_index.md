@@ -24,7 +24,7 @@ sections:
         weight: 650
       text:
         size: "1.30rem"
-        line_height: 1.66
+        line_height: 1.65
 
   - block: markdown
     content:
