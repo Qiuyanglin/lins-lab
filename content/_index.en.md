@@ -31,12 +31,13 @@ sections:
       text: |
         <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:12px;">
           <div style="flex:0 0 260px;">
-            <img src="https://qiuyanglin.github.io/lins-lab/media/lin.png" alt="Qiuyang Lin" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
+            <img src="/media/lin.png" alt="Qiuyang Lin" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
           </div>
           <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
             <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">Qiuyang Lin</div>
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
-              Assistant Professor, School of Microelectronics, Fudan University IEEE Senior Member
+              Assistant Professor, School of Microelectronics, Fudan University<br>
+              IEEE Senior Member
             </div>
             <div style="margin:0 0 12px 0;">
               Research interests include biomedical analog/mixed-signal ICs and systems, wearable and implantable electronics, electrochemical sensing ICs, DNA sequencing chips, and data converters.
