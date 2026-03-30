@@ -1,5 +1,5 @@
 ---
-title: "Lin's Lab - Biomedical Integrated Circuits"
+title: "Biomedical Integrated Circuits and Systems Laboratory"
 type: landing
 
 sections:
