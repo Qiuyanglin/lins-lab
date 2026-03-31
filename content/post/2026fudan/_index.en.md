@@ -8,7 +8,7 @@ image:
   caption: "School of Microelectronics, Fudan University"
 ---
 
-Qiuyang Lin will join the **School of Microelectronics at Fudan University** in 2026 as an **Assistant Professor and Ph.D. Supervisor**, and established the **Biomedical Integrated Circuits and Systems Laboratory**.
+Qiuyang Lin will join the **School of Microelectronics at Fudan University** in 2026 as an **Assistant Professor and Ph.D. Supervisor**, and establish the **Biomedical Integrated Circuits and Systems Laboratory**.
 
 <!--more-->
 
