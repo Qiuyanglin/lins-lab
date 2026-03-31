@@ -1,5 +1,5 @@
 ---
-title: Dr.Qiuyang Lin Joined Fudan University
+title: Dr.Qiuyang Lin will join Fudan University
 date: 2026-03-01
 
 image:
@@ -8,7 +8,7 @@ image:
   caption: "School of Microelectronics, Fudan University"
 ---
 
-Qiuyang Lin joined the **School of Microelectronics at Fudan University** in 2026 as an **Assistant Professor and Ph.D. Supervisor**, and established the **Biomedical Integrated Circuits and Systems Laboratory**.
+Qiuyang Lin will join the **School of Microelectronics at Fudan University** in 2026 as an **Assistant Professor and Ph.D. Supervisor**, and established the **Biomedical Integrated Circuits and Systems Laboratory**.
 
 <!--more-->
 
