@@ -1,6 +1,6 @@
 ---
 title: "Aurojyoti Das"
-role: "博士（2026）"
+role: "博士（2026）毕业去向：TDK-ICSense 工作"
 
 user_groups:
   - 已毕业学生
