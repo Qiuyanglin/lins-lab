@@ -18,7 +18,6 @@ image:
 
 ![VLSI Logo](VLSI_logo.png)
 
-![VLSI Theme](VLSI_theme.png)
 
 该芯片采用 **0.13μm CMOS** 工艺实现，主要性能包括：
 
