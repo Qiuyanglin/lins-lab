@@ -1,6 +1,6 @@
 ---
 title: "黄小凝"
-role: "硕士生（2024级）"
+role: "硕士生（2024级）毕业去向：比利时Omnivision工作"
 
 user_groups:
   - 已毕业学生
