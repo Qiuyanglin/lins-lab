@@ -1,0 +1,17 @@
+---
+title: "Ningyuan Xie"
+role: "Intern Student"
+
+user_groups:
+  - Intern Student
+
+organizations:
+  - name: "Fudan University"
+
+interests:
+  - Swimming
+  - Volleyball
+  - Circuit Design
+---
+
+**Ningyuan Xie** is currently an intern student in the group. Her interests include interesting circuit design, and she also enjoys swimming and playing volleyball outside of study and research. She looks forward to exploring more exciting circuit problems through future study and practice, combining her interests with research training, and continuously gaining experience and improving her skills.
