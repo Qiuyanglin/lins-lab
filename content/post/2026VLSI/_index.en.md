@@ -1,6 +1,6 @@
 ---
 title: Dr. Qiuyang Lin's VLSI Paper Has Been Accepted
-date: 2026-04-13
+date: 2026-05-15
 
 image:
   filename: VLSI_theme.png
