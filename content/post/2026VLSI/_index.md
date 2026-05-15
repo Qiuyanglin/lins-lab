@@ -1,6 +1,6 @@
 ---
 title: 林秋阳VLSI论文被录取
-date: 2026-05-15
+date: 2026-05-14
 
 image:
   filename: VLSI_theme.png
