@@ -43,7 +43,7 @@ sections:
               Research interests include biomedical analog/mixed-signal ICs and systems, wearable and implantable electronics, electrochemical sensing ICs, DNA sequencing chips, and data converters.
             </div>
             <div style="margin:0 0 12px 0;">
-              He received his Ph.D. from KU Leuven and joined IMEC in 2021, serving as Researcher, Senior Researcher, and Lead of the Analog Community.
+              He received his Ph.D. from KU Leuven and joined IMEC in 2015, serving as Ph.D. Candidate, Researcher, Senior Researcher, and Lead of the Analog Community.
             </div>
             <div style="margin:0 0 12px 0;">
               He has published 30+ papers in leading venues such as ISSCC, VLSI, JSSC, and TBCAS, and holds 2 U.S. patents.
