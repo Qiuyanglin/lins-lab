@@ -25,9 +25,9 @@ sections:
         latitude: '31.343'
         longitude: '121.505'
 
-      directions: Enter from Building 1 and take the stairs to the office on the second floor
+      directions: Enter from Building A and take the stairs to the office on the second floor, office number 2010
 
-      office_hours:
+     open_hours:
         - 'Monday 10:00 - 13:00'
         - 'Wednesday 09:00 - 10:00'
 
