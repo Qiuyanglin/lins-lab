@@ -27,7 +27,7 @@ sections:
 
       directions: Enter from Building A and take the stairs to the office on the second floor, office number 2010
 
-     open_hours:
+     office_hours:
         - 'Monday 10:00 - 13:00'
         - 'Wednesday 09:00 - 10:00'
 
