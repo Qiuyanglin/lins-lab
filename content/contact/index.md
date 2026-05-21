@@ -14,7 +14,7 @@ sections:
       email: linqiuyang1991@gmail.com
 
       address:
-        street: 淞沪路2005号，复旦大学（江湾校区）二号交叉学科楼
+        street: 淞沪路2005号，复旦大学（江湾校区）一号交叉学科楼
         region: 杨浦区
         city: 上海市
         postcode: '200000'
@@ -25,9 +25,9 @@ sections:
         latitude: '31.343'
         longitude: '121.505'
 
-      directions: 从1号楼入口进入，上楼到二层办公室
+      directions: 从A号楼入口进入，上楼到二层2010办公室
 
-      office_hours:
+      open_hours:
         - '周一 10:00 - 13:00'
         - '周三 09:00 - 10:00'
 
