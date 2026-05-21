@@ -27,7 +27,7 @@ sections:
 
       directions: 从A号楼入口进入，上楼到二层2010办公室
 
-      open_hours:
+      office_hours:
         - '周一 10:00 - 13:00'
         - '周三 09:00 - 10:00'
 
