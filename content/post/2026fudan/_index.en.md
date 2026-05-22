@@ -1,6 +1,6 @@
 ---
 title: Dr.Qiuyang Lin will join Fudan University
-date: 2026-05-14
+date: 2026-05-21
 
 image:
   filename: building.jpg
