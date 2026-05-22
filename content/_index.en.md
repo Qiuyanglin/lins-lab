@@ -36,7 +36,7 @@ sections:
           <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
             <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">Qiuyang Lin</div>
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
-              Assistant Professor, School of Microelectronics, Fudan University<br>
+              Assistant Professor,  Frontier Institute of Chip and System (FICS), Fudan University<br>
               IEEE Senior Member
             </div>
             <div style="margin:0 0 12px 0;">
