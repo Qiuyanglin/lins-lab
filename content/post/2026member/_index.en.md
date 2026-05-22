@@ -1,6 +1,6 @@
 ---
 title: Welcoming Two New Students to the Lab
-date: 2026-05-15
+date: 2026-05-22
 
 image:
   filename: new_students.png
