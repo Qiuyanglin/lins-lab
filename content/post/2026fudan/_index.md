@@ -1,6 +1,6 @@
 ---
 title: 林秋阳加入复旦大学
-date: 2026-05-14
+date: 2026-05-21
 
 image:
   filename: building.jpg
@@ -14,6 +14,7 @@ image:
 <!--more-->
 
 ![Fudan University](fudan.jpg)
+![office](office.jpg)
 
 实验室研究方向包括：
 
