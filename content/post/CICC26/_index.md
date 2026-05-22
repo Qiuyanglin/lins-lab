@@ -14,9 +14,10 @@ image:
 
 <!--more-->
 
+![CICC Logo](CICC.png)
+
 ![Neural Interfaces](Invasive.png)
 
-![CICC Logo](CICC.png)
 
 该综述围绕现代神经接口系统中的三类核心功能展开：
 
