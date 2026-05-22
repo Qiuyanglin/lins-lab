@@ -19,7 +19,7 @@ social:
     link: "mailto:linqiuyang1991@gmail.com"
 ---
 
-Qiuyang Lin is an Assistant Professor and Ph.D. Supervisor at the School of Microelectronics, Fudan University. He is a recipient of the National Young Talent Program (Overseas) and the Shanghai Young Talent Program, and a Senior Member of IEEE. He received his B.Eng. from Dalian University of Technology, M.Sc. from Delft University of Technology (TU Delft) in the Netherlands, and Ph.D. from KU Leuven (ESAT-MICAS) in Belgium.
+Qiuyang Lin is an Assistant Professor and Ph.D. Supervisor at the Frontier Institute of Chip and System (FICS), Fudan University. He is a recipient of the National Young Talent Program (Overseas) and the Shanghai Young Talent Program, and a Senior Member of IEEE. He received his B.Eng. from Dalian University of Technology, M.Sc. from Delft University of Technology (TU Delft) in the Netherlands, and Ph.D. from KU Leuven (ESAT-MICAS) in Belgium.
 
 In 2015, he joined the Interuniversity Microelectronics Centre (imec) in Belgium, where he served as Researcher and Senior Researcher, and led the imec Analog Community. In 2026, he joined Fudan University to establish the Biomedical Integrated Circuits and Systems Laboratory.
 
