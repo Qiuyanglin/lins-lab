@@ -1,5 +1,5 @@
 ---
-title: 林秋阳VLSI论文被录取
+title: 林秋阳VLSI论文被接收
 date: 2026-05-22
 
 image:
