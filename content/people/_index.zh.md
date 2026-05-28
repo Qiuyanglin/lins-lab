@@ -13,6 +13,15 @@ sections:
 
   - block: people
     content:
+      title: "科学顾问"
+      user_groups: [科学顾问]
+    design:
+      columns: "1"
+    advanced:
+      css_class: people-advisor
+
+  - block: people
+    content:
       title: "学生"
       user_groups: [博士后, 博士生, 硕士生, 科研助理, 实习学生]
     design:
