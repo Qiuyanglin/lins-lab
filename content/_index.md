@@ -62,9 +62,11 @@ sections:
             <img src="/media/Liu.jpg" alt="刘明院士" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
           </div>
           <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
-            <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">刘明</div>
-            <div style="display:inline-block;font-size:.95rem;font-weight:650;color:#8a4b00;background:rgba(255,152,0,.13);padding:4px 11px;border-radius:999px;margin:0 0 12px 0;">
-              实验室首席科学顾问
+            <div style="font-size:1.65rem;font-weight:650;margin:0 0 8px 0;">
+              刘明
+              <span style="display:inline-block;font-size:.95rem;font-weight:650;color:#8a4b00;background:rgba(255,152,0,.13);padding:3px 10px;border-radius:999px;margin-left:10px;vertical-align:middle;">
+                实验室首席科学顾问
+              </span>
             </div>
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
               复旦大学芯片与系统前沿技术研究院院长<br>
