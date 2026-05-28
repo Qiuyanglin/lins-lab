@@ -5,7 +5,7 @@ date: 2026-05-21
 image:
   filename: building.jpg
   focal_point: 'top'
-  caption: "复旦大学江湾校区二号交叉学科楼"
+  caption: "复旦大学江湾校区一号交叉学科楼"
 ---
 
 2026年，林秋阳加入复旦大学集成电路与微纳电子创新学院，
