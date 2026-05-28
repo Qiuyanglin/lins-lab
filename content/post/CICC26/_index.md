@@ -1,6 +1,6 @@
 ---
 title: CICC 2026 脑机接口综述文章发表
-date: 2026-05-22
+date: 2026-05-28
 
 image:
   filename: CICC_neural_interface.png
