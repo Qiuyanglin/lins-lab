@@ -56,5 +56,24 @@ sections:
             </div>
           </div>
         </div>
----
 
+        <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:42px;padding-top:36px;border-top:1px solid rgba(0,0,0,.10);">
+          <div style="flex:0 0 260px;">
+            <img src="/media/Liu.jpg" alt="刘明院士" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
+          </div>
+          <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
+            <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">刘明 院士</div>
+            <div style="display:inline-block;font-size:.95rem;font-weight:650;color:#8a4b00;background:rgba(255,152,0,.13);padding:4px 11px;border-radius:999px;margin:0 0 12px 0;">
+              实验室首席科学顾问
+            </div>
+            <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
+              复旦大学芯片与系统前沿技术研究院院长<br>
+              中国科学院院士 · IEEE Fellow · 发展中国家科学院院士<br>
+              中国科学院微电子研究所研究员、博士生导师
+            </div>
+            <div style="margin:0 0 12px 0;">
+              刘明院士长期从事微电子科学技术研究，主要聚焦新型存储器、微纳电子器件、先进半导体材料结构与集成电路微纳加工技术。
+            </div>
+          </div>
+        </div>
+---
