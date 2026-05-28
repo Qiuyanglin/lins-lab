@@ -4,21 +4,21 @@ type: landing
 sections:
   - block: people
     content:
+      title: "首席学术顾问"
+      user_groups: [首席学术顾问]
+    design:
+      columns: "1"
+    advanced:
+      css_class: people-advisor
+
+  - block: people
+    content:
       title: "负责人"
       user_groups: [负责人]
     design:
       columns: "1"
     advanced:
       css_class: people-featured
-
-  - block: people
-    content:
-      title: "首席科学顾问"
-      user_groups: [首席科学顾问]
-    design:
-      columns: "1"
-    advanced:
-      css_class: people-advisor
 
   - block: people
     content:
