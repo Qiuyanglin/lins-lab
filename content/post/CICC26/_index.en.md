@@ -1,6 +1,6 @@
 ---
 title: CICC 2026 Review Paper on Neural Interface Circuits Published
-date: 2026-05-22
+date: 2026-05-28
 
 image:
   filename: CICC_neural_interface.png
