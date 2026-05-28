@@ -13,8 +13,8 @@ sections:
 
   - block: people
     content:
-      title: "科学顾问"
-      user_groups: [科学顾问]
+      title: "首席科学顾问"
+      user_groups: [首席科学顾问]
     design:
       columns: "1"
     advanced:
