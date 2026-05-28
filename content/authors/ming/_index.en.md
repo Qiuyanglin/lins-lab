@@ -1,8 +1,6 @@
-```markdown
 ---
 title: "Ming Liu"
 role: "Strategic and Academic Mentoring"
-avatar_filename: "avatar.jpg"
 
 user_groups:
   - Chief Scientific Advisor
@@ -39,5 +37,3 @@ Academician Liu has served as Associate Editor of *Applied Physics A*, council m
 ## Mentoring Role in the Laboratory
 
 As Chief Scientific Advisor of the laboratory, Academician Liu provides strategic and academic mentoring for frontier interdisciplinary research in biomedical integrated circuits, brain-computer interface chips, intelligent sensing systems, and next-generation integrated circuit technologies.
-```
-
