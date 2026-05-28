@@ -4,6 +4,15 @@ type: landing
 sections:
   - block: people
     content:
+      title: "Chief Scientific Advisor"
+      user_groups: [Chief Scientific Advisor]
+    design:
+      columns: "1"
+    advanced:
+      css_class: people-advisor
+
+  - block: people
+    content:
       title: "Principal Investigator"
       user_groups: [PI]
     design:
