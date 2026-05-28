@@ -1,10 +1,10 @@
 ---
 title: "刘明"
-role: "实验室首席科学顾问"
+role: "实验室发展与学术指导"
 avatar_filename: "avatar.jpg"
 
 user_groups:
-  - 科学顾问
+  - 首席科学顾问
 
 organizations:
   - name: "复旦大学芯片与系统前沿技术研究院"
