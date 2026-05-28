@@ -4,8 +4,8 @@ type: landing
 sections:
   - block: people
     content:
-      title: "首席学术顾问"
-      user_groups: [首席学术顾问]
+      title: "首席科学术顾问"
+      user_groups: [首席科学顾问]
     design:
       columns: "1"
     advanced:
