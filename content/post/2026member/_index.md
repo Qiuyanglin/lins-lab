@@ -1,6 +1,6 @@
 ---
 title: 实验室迎来两位新同学
-date: 2026-05-22
+date: 2026-05-28
 
 image:
   filename: new_students.png
