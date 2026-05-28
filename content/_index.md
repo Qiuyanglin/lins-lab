@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "林实验室 – 生物医疗集成电路"
 type: landing
@@ -137,4 +136,5 @@ sections:
 
         </div>
 ---
-```
+
+
