@@ -37,7 +37,7 @@ sections:
             <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">Qiuyang Lin</div>
             <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
               Assistant Professor, Institute for Advanced Chip and System Technology, Fudan University<br>
-              National Young Talent Program · Shanghai Young Talent Program · Ph.D. Supervisor · IEEE Senior Member
+              IEEE Senior Member
             </div>
             <div style="margin:0 0 12px 0;">
               His research focuses on biomedical analog/mixed-signal integrated circuits, including wearable chips, implantable brain-computer interfaces, electrochemical chips, DNA sequencing chips, data converters, and AI chips.
