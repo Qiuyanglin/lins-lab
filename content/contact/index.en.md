@@ -8,9 +8,9 @@ sections:
     content:
       title: Contact
       text: |-
-        We welcome inquiries from students and researchers interested in biomedical integrated circuits, brain–computer interface circuits, sensor interface circuits, DNA sequencing chips, analog and mixed-signal circuits, digital-to-analog converters, and optoelectronic integrated circuits. Please feel free to contact us via email (linqiuyang1991 [at] gmail.com). We also welcome collaborations and research sponsorship from industry and research institutions.
+        We welcome inquiries from students and researchers interested in biomedical integrated circuits, brain–computer interface circuits, sensor interface circuits, DNA sequencing chips, analog and mixed-signal circuits, digital-to-analog converters, and optoelectronic integrated circuits. Please feel free to contact us via email (linqiuyang@fudan.edu.cn). We also welcome collaborations and research sponsorship from industry and research institutions.
 
-      email: linqiuyang1991@gmail.com
+      email: linqiuyang@fudan.edu.cn
 
       address:
         street: "No. 2005 Songhu Road, Interdisciplinary Research Building No. 1, Fudan University (Jiangwan Campus)"
