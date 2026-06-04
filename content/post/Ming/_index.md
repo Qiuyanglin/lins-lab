@@ -1,6 +1,6 @@
 ---
 title: 刘明院士担任生物医疗集成电路与系统实验室首席科学顾问
-date: 2026-05-27
+date: 2026-05-28
 
 image:
   filename: Liu.jpg
