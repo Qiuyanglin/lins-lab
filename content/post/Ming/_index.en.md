@@ -1,4 +1,3 @@
-```md
 ---
 title: Academician Ming Liu Serves as Chief Scientific Advisor of the Biomedical Integrated Circuits and Systems Laboratory
 date: 2026-05-27
@@ -17,7 +16,7 @@ Under Academician Liu’s guidance, the laboratory will conduct frontier interdi
 
 <!--more-->
 
-![Institute of Frontier Chip and System Technologies at Fudan University](FICS.jpg)
+![Institute of Frontier Chip and System Technologies at Fudan University](FICS.png)
 
 Academician Liu currently serves as Dean of the Institute of Frontier Chip and System Technologies at Fudan University. She is also a Research Professor and Doctoral Supervisor at the Institute of Microelectronics of the Chinese Academy of Sciences, and Director of the Key Laboratory of Microelectronic Devices and Integrated Technology, Chinese Academy of Sciences. She has served as Chief Scientist of a National Major Basic Research Program, received the National Science Fund for Distinguished Young Scholars, led an Innovative Research Group supported by the National Natural Science Foundation of China, and was selected for the National Hundred, Thousand and Ten Thousand Talent Project and the Beijing Science and Technology Leading Talent Program.
 
