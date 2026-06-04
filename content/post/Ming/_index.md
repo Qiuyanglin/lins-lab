@@ -19,7 +19,7 @@ image:
 
 <!--more-->
 
-![Professor Ming Liu](Liu.jpg)
+![芯片与系统前沿技术研究院](FICS.png)
 
 ## 学术领导力与重要贡献
 
