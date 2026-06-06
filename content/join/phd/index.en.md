@@ -1,7 +1,7 @@
 ---
 title: "PhD Students"
 date: 2026-03-01
-summary: "We welcome highly motivated PhD applicants interested in biomedical integrated circuits, neural interface circuits, data converters, and low-power analog front-end design. (1–2 positions per year)"
+summary: "We welcome highly motivated PhD applicants interested in biomedical integrated circuits, neural interface circuits, data converters, and low-power analog front-end design. (2–3 positions per year)"
 weight: 20
 ---
 
