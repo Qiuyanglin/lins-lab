@@ -1,35 +1,15 @@
 ---
-title: "Chip Prototypes"
+title: "Chip Gallery"
 ---
 
-本页面展示实验室开发的部分芯片原型与系统实现。
-
----
-
-![chip](chip1.png)
-
-### Neural Signal Acquisition Chip
-
-- 面向脑机接口的神经信号采集芯片  
-- 低噪声模拟前端设计  
-- 超低功耗系统架构  
+本页面展示实验室开发的部分芯片原型与系统实现，主要包括面向脑机接口、生物医学传感和低功耗信号采集等方向的芯片设计成果。
 
 ---
 
-![chip](chip2.png)
-
-### Biomedical Sensor Interface Chip
-
-- 生物信号采集与调理电路  
-- 模拟前端与数据转换器  
-- 可穿戴医疗应用  
+![Chip Gallery](chip.png)
 
 ---
 
-![chip](chip3.png)
+### Chip Gallery
 
-### Bio-signal Processing Chip
-
-- 生物信号处理电路  
-- 模拟与数字混合系统  
-- 面向可穿戴健康监测系统
+本图展示了实验室在模拟/混合信号集成电路设计、生物信号采集与处理、神经信号读取芯片等方向的代表性芯片原型。相关工作面向脑机接口、生物医学电子和可穿戴健康监测等应用场景，重点关注低噪声、低功耗、高集成度和系统级实现。
