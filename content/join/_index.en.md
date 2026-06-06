@@ -26,7 +26,7 @@ sections:
 
         If you are interested in these research topics, please feel free to contact us.
 
-        **Email: linqiuyang1991@gmail.com**
+        **Email: linqiuyang@fudan.edu.cn**
 
   - block: collection
     content:
