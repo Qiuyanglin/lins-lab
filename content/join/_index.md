@@ -30,7 +30,7 @@ sections:
 
         如有兴趣申请，请发送邮件至：
 
-        **linqiuyang1991@gmail.com**
+        **linqiuyang@fudan.edu.cn**
 
   - block: collection
     content:
