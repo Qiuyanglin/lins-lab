@@ -43,7 +43,7 @@ sections:
               His research focuses on biomedical analog/mixed-signal integrated circuits, including wearable chips, implantable brain-computer interfaces, electrochemical chips, DNA sequencing chips, data converters, and AI chips.
             </div>
             <div style="margin:0 0 12px 0;">
-              He received his Ph.D. from KU Leuven and IMEC. He joined IMEC in 2015, where he served as a Ph.D. researcher, researcher, senior researcher, project manager, and chair of the analog circuit community.
+              He received his Ph.D. from KU Leuven and IMEC. He joined IMEC in 2015, where he served as a Ph.D. researcher, researcher, senior researcher,  and lead of the analog circuit community.
             </div>
             <div style="margin:0 0 12px 0;">
               He has published more than 30 papers in leading integrated circuit conferences and journals, including ISSCC, VLSI, JSSC, and TBCAS, and holds 2 granted U.S. patents.
