@@ -1,14 +1,15 @@
 ---
+
 title: Welcoming Three New Students to the Lab
 date: 2026-07-05
 
 image:
-  filename: new_students.png
-  focal_point: 'top'
-  caption: "New members of the laboratory"
----
+filename: new_students.png
+focal_point: 'top'
+caption: "New members of the laboratory"
+----------------------------------------
 
-We are pleased to welcome three new students to the lab: **Xinao Ji**, **Yidi Sun**, and **Yiru Wang**. They will continue their studies at Fudan University and join the group to pursue research in integrated circuits and related areas.
+We are pleased to welcome three new students to the lab: **Xinao Ji**, **Yidi Sun**, and **Yiru Wang**. The students will continue their studies at Fudan University and join the group to pursue research in integrated circuits and related areas.
 
 <!--more-->
 
@@ -44,12 +45,12 @@ The lab is always happy to welcome outstanding students with strong academic fou
 
 The academic backgrounds of the three students span **electronic science and technology, microelectronics, electronic information, and analog/mixed-signal integrated circuit design**, which align closely with the lab’s current research directions, including:
 
-- Biomedical integrated circuits and systems
-- Analog and mixed-signal integrated circuits
-- Sensor and neural interface circuits
-- Data converters and analog front-end circuits
-- Biomedical sensing interfaces and low-noise analog front-end circuits
+* Biomedical integrated circuits and systems
+* Analog and mixed-signal integrated circuits
+* Sensor and neural interface circuits
+* Data converters and analog front-end circuits
+* Biomedical sensing interfaces and low-noise analog front-end circuits
 
 Looking ahead, the lab will continue to pursue research on **high-performance, highly integrated chips and systems for biomedical and intelligent sensing applications**, and we look forward to growing together with more outstanding students in the years to come.
-```
+
 
