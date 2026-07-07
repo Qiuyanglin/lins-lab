@@ -1,23 +1,18 @@
 ---
-
 title: "Yiru Wang"
 role: "Master's Student (2027–)"
 
 user_groups:
-
-* Master
+  - Master
 
 organizations:
-
-* name: "Fudan University"
+  - name: "Fudan University"
 
 interests:
-
-* Biomedical Integrated Circuits
-* Biomedical Sensing Interfaces
-* Analog Front-End Design
-* Analog and Mixed-Signal Circuits
-
+  - Biomedical Integrated Circuits
+  - Biomedical Sensing Interfaces
+  - Analog Front-End Design
+  - Analog and Mixed-Signal Circuits
 ---
 
 **Yiru Wang** is currently an undergraduate student majoring in Microelectronics Science and Engineering at Fudan University, China. He is expected to receive his B.Eng. degree in 2027 and will continue his graduate study in the M.Sc. program in Integrated Circuit Science and Engineering at Fudan University.
