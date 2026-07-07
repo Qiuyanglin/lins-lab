@@ -1,5 +1,5 @@
 ---
-title: Welcoming Two New Students to the Lab
+title: Welcoming Three New Students to the Lab
 date: 2026-05-28
 
 image:
@@ -8,11 +8,11 @@ image:
   caption: "New members of the laboratory"
 ---
 
-We are pleased to welcome two new students to the lab: **Xinao Ji** and **Yidi Sun**. Both students will continue their studies at Fudan University and join the group to pursue research in integrated circuits and related areas.
+We are pleased to welcome three new students to the lab: **Xinao Ji**, **Yidi Sun**, and **Yiru Wang**. They will continue their studies at Fudan University and join the group to pursue research in integrated circuits and related areas.
 
 <!--more-->
 
-The lab is always happy to welcome outstanding students with strong academic foundations, a passion for research, and a keen interest in biomedical integrated circuits, analog and mixed-signal circuits, and related topics. The arrival of these two new students will further strengthen the vitality and potential of the group in these research areas.
+The lab is always happy to welcome outstanding students with strong academic foundations, a passion for research, and a keen interest in biomedical integrated circuits, analog and mixed-signal circuits, and related topics. The arrival of these three new students will further strengthen the vitality and potential of the group in these research areas.
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin: 2rem 0;">
 
@@ -32,13 +32,24 @@ The lab is always happy to welcome outstanding students with strong academic fou
     </p>
   </div>
 
+  <div style="text-align:center;">
+    <img src="yiruwang.jpg" alt="Yiru Wang" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <p><strong>Yiru Wang</strong><br>Master’s Student (2027–)</p>
+    <p style="text-align:left;">
+      Yiru Wang is currently an undergraduate student majoring in <strong>Microelectronics Science and Engineering</strong> at Fudan University from <strong>2023 to 2027</strong>. During his undergraduate study, he systematically took core courses such as <strong>Analog Integrated Circuits</strong> and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design. He joined the group in <strong>2026</strong> to participate in research projects, and will continue in the group to pursue a <strong>master’s degree in Integrated Circuit Science and Engineering</strong>.
+    </p>
+  </div>
+
 </div>
 
-The academic backgrounds of the two students span **electronic science and technology, microelectronics, electronic information, and analog/mixed-signal integrated circuit design**, which align closely with the lab’s current research directions, including:
+The academic backgrounds of the three students span **electronic science and technology, microelectronics, electronic information, and analog/mixed-signal integrated circuit design**, which align closely with the lab’s current research directions, including:
 
 - Biomedical integrated circuits and systems
 - Analog and mixed-signal integrated circuits
 - Sensor and neural interface circuits
 - Data converters and analog front-end circuits
+- Biomedical sensing interfaces and low-noise analog front-end circuits
 
 Looking ahead, the lab will continue to pursue research on **high-performance, highly integrated chips and systems for biomedical and intelligent sensing applications**, and we look forward to growing together with more outstanding students in the years to come.
+```
+
