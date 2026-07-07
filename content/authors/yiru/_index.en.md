@@ -1,25 +1,30 @@
 ---
+
 title: "Yiru Wang"
-role: "Master's Student (2027-)"
+role: "Master's Student (2027–)"
 
 user_groups:
-  - Master's Students
+
+* Master
 
 organizations:
-  - name: "Fudan University"
+
+* name: "Fudan University"
 
 interests:
-  - Analog front-end circuit design
-  - Biomedical sensing interfaces
-  - Analog and mixed-signal circuits
-  - Biomedical integrated circuit design
+
+* Biomedical Integrated Circuits
+* Biomedical Sensing Interfaces
+* Analog Front-End Design
+* Analog and Mixed-Signal Circuits
+
 ---
 
-**Yiru Wang** is currently an undergraduate student in Microelectronics Science and Engineering at Fudan University (FDU), where he is expected to receive his B.Eng. degree in 2027. During his undergraduate studies, he has systematically taken core courses such as *Analog Integrated Circuits* and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design.
+**Yiru Wang** is currently an undergraduate student majoring in Microelectronics Science and Engineering at Fudan University, China. He is expected to receive his B.Eng. degree in 2027 and will continue his graduate study in the M.Sc. program in Integrated Circuit Science and Engineering at Fudan University.
 
-He joined Prof. Qiuyang Lin’s research group at Fudan University in 2026, where he started participating in research projects related to biomedical integrated circuits and analog front-end design. He will continue his graduate study in the same group as a master's student in Integrated Circuit Science and Engineering, focusing on biomedical sensing interfaces and low-noise analog front-end circuits.
+He joined Prof. Qiuyang Lin’s research group in 2026, where he started participating in research projects related to biomedical integrated circuits, biomedical sensing interfaces, and analog front-end design. During his undergraduate study, he systematically took core courses such as *Analog Integrated Circuits* and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design.
 
-His research interests include analog front-end circuit design, biomedical sensing interfaces, analog and mixed-signal circuits, and integrated circuit design for biomedical applications.
+His research interests include analog front-end design, biomedical sensing interfaces, analog and mixed-signal circuits, and integrated circuits for biomedical applications.
 
-Outside research, he is enthusiastic about learning and also enjoys playing *League of Legends*, where he continues to develop his passion for teamwork and strategic thinking.
-```
+In his daily life, he is enthusiastic about learning and also enjoys playing *League of Legends*. He hopes to explore practical integrated circuit technologies for biomedical sensing and contribute to the development of high-performance and reliable biomedical electronic systems.
+
