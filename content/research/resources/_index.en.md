@@ -6,7 +6,7 @@ title: "Learning Resources"
 
 This page compiles a collection of resources for integrated circuit learning, research beginners, and engineering practice. These materials are intended for lab members and readers for reference and download.
 
-Contributors include Lin Qiuyang, Li Hanyue, Wang Chen, Zheng Xinfa, and others... *To be continued...*
+Contributors include Lin Qiuyang and his students and friends... *To be continued...*
 
 Click the items below to access detailed pages and download the corresponding materials.
 
