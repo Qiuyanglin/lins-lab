@@ -12,9 +12,11 @@ sections:
   - block: collection
     content:
       title: "Paper Reviews"
+      count: 0
       filters:
         folders:
-          - research/review/neural-interface-ics
+          - research
+        tag: Neural Interface Review
     design:
       view: card
       columns: 3
