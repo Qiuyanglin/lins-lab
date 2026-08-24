@@ -8,58 +8,59 @@ sections:
       title: "Research Overview"
       text: |
 
-        This laboratory focuses on **Biomedical Integrated Circuits (Biomedical ICs)**, with an emphasis on low-power analog and mixed-signal chip design and their applications in biomedical systems.
+        Our lab focuses on **Biomedical Integrated Circuits (Biomedical ICs)**, with particular emphasis on low-power analog and mixed-signal circuit design and their applications in biomedical systems.
 
-        Our research spans the complete pipeline from **circuit architecture design, chip implementation to system validation**, with key topics including neural interfaces, biosignal acquisition, data converters, and related systems.
+        Our research spans the complete development flow from **circuit architecture and chip implementation to system-level validation**, with ongoing work in neural interfaces, biosignal acquisition, data converters, and related integrated systems.
 
-        You are welcome to explore our research outcomes, learning resources, and literature reviews.
+        We welcome you to explore our research projects, learning resources, and paper review notes.
 
   - block: markdown
     content:
-      title: "Research Categories"
+      title: "Research Sections"
       text: |
 
-        ## Chip Gallery
-        Display of chip prototypes, system implementations, and related design descriptions developed in the lab.
+        ## Chips and Systems
+        This section presents chip prototypes, system implementations, and related design highlights developed in our lab.
 
         **Contents include:**
-        - Chip photos and prototype demonstrations
-        - System architecture and functional overview
+        - Chip and system photographs
 
-        👉 **[Go to page](chip)**
+        👉 **[Visit Page](chip)**
 
         ***
 
+        <!--
         ## Research Progress
-        A collection of ongoing research achievements, technical reports, publications, and project documentation.
+        This section summarizes ongoing research progress, technical reports, project materials, and intermediate results.
 
         **Contents include:**
         - Research project updates
         - Technical reports and materials
-        - Periodic summaries
+        - Intermediate research summaries
 
-        👉 **[Go to page](progress)**
+        👉 **[Visit Page](progress)**
 
         ***
+        -->
 
         ## Learning Resources
-        Curated materials on analog circuits, data converters, EDA tools, PCB design, and research training.
+        A collection of materials related to analog circuit design, data converters, EDA tools, PCB design, and research training.
 
         **Contents include:**
-        - Analog circuit design resources
-        - Tutorials for Cadence / LTspice / PCB tools
+        - Analog circuit design materials
+        - Cadence / LTspice / PCB tutorials
 
-        👉 **[Go to page](resources)**
+        👉 **[Visit Page](resources)**
 
         ***
 
-        ## Paper Reading
-        Notes, reflections, and insights from recent paper readings, highlighting interesting research and design ideas.
+        ## Paper Reviews
+        A collection of paper reviews, technical notes, and reflections on interesting research works and circuit design ideas.
 
         **Contents include:**
-        - Literature review notes
-        - Key innovation summaries
-        - Circuit design insights and personal reflections
+        - Paper review notes
+        - Summaries of key innovations
+        - Circuit design insights and reflections
 
-        👉 **[Go to page](review)**
+        👉 **[Visit Page](review)**
 ---
