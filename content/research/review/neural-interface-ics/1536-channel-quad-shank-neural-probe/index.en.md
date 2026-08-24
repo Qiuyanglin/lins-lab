@@ -21,7 +21,7 @@ tags:
 
 **Review by:** 王奕如
 
-**Full Review:** [View Review Document (PDF)](paper.pdf)
+**Full Review:** [View Review Document (PDF)](/research/review/neural-interface-ics/1536-channel-quad-shank-neural-probe/paper.pdf)
 
 ---
 
@@ -29,7 +29,7 @@ tags:
 
 This work presents a **1536-channel quad-shank monolithic neural probe** fabricated in 55 nm CMOS, supporting simultaneous recording from up to **1536 out of 5120 electrodes**.
 
-Rather than focusing solely on minimum area or power per channel, the work addresses the system-level trade-offs required for large-scale neural recording, including **electrode density, noise, power, area, multiplexing, and data readout**.
+Rather than focusing solely on minimum area or power per channel, the work addresses system-level trade-offs in large-scale neural recording, including **electrode density, noise, power, area, multiplexing, and data readout**.
 
 ---
 
@@ -39,8 +39,8 @@ Rather than focusing solely on minimum area or power per channel, the work addre
 - Conventional **IA–buffer–MUX–SAR ADC** signal chain
 - Dynamically biased buffers for reduced power
 - 96 shared **12-bit SAR ADCs**
-- Shared ADC reference buffers for large-scale integration
-- Full-band neural recording for both AP and LFP signals
+- Shared ADC reference buffers
+- Full-band recording of both AP and LFP signals
 
 ---
 
@@ -66,6 +66,6 @@ Rather than focusing solely on minimum area or power per channel, the work addre
 
 This work provides a representative example of **system-level optimization for high-density neural recording**, balancing channel density, noise, power, area, and system scalability.
 
-It also demonstrates that the conventional **IA + MUX + SAR ADC** architecture can remain highly competitive for large-scale neural recording when carefully optimized at both the circuit and system levels.
+It also demonstrates that the conventional **IA + MUX + SAR ADC** architecture remains highly competitive for large-scale neural recording when carefully optimized.
 
-For detailed discussions of the pixel architecture, instrumentation amplifier, dynamic-bias buffer, SAR ADC, and reference buffer design, please refer to the **[full review document](paper.pdf)**.
+For detailed discussions of the pixel architecture, instrumentation amplifier, dynamic-bias buffer, SAR ADC, and reference buffer design, please refer to the **[full review document](/research/review/neural-interface-ics/1536-channel-quad-shank-neural-probe/paper.pdf)**.
