@@ -6,10 +6,10 @@ This page collects paper reviews and research notes from our lab.
 
 The main topics include:
 
-- Wearable biomedical ICs
-- Neural interface ICs
-- Data converter ICs
-- Emerging biomedical sensing ICs
+- Wearable Biomedical ICs
+- Neural Interface ICs
+- Data Converter ICs
+- Emerging Biomedical Sensing ICs
 
 ---
 
