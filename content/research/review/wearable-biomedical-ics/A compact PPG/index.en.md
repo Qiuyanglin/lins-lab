@@ -25,7 +25,7 @@ tags:
 
 **Reviewer:** Xinao Ji
 
-**Full review:** [View the Review Document (PDF)](paper.pdf)
+**Full review:** [View the Review Document (PDF)](/research/review/wearable-biomedical-ics/a-compact-ppg/paper.pdf)
 
 ---
 
@@ -53,21 +53,21 @@ Unlike a conventional TIA + ADC architecture, this work shifts much of the signa
 
 ## Performance Summary
 
-| Parameter | Performance |
-| --- | ---: |
-| Technology | 90 nm CMOS |
-| Core Area | 0.067 mm² |
-| Analog / Digital Supply | 1.2 V / 0.7 V |
-| Measured Sampling Frequency | 73.2 kHz |
-| PWM Clock Frequency | 37.5 MHz |
-| Current Resolution | 15.6 pA |
-| Maximum AC Input Without Coarse-Range Extension | Approximately 1 µA |
-| Coarse-DAC Input Range | Approximately 1–256 µA |
-| Base Dynamic Range | 95.92 dB |
-| Extended Dynamic Range | 144 dB |
-| Peak SNDR | 87.66 dB |
-| High-Speed PWM Digital Power | Approximately 2 µW |
-| DC Baseline in PPG Measurement | Approximately 108 µA |
+| Parameter                                       |            Performance |
+| ----------------------------------------------- | ---------------------: |
+| Technology                                      |             90 nm CMOS |
+| Core Area                                       |              0.067 mm² |
+| Analog / Digital Supply                         |          1.2 V / 0.7 V |
+| Measured Sampling Frequency                     |               73.2 kHz |
+| PWM Clock Frequency                             |               37.5 MHz |
+| Current Resolution                              |                15.6 pA |
+| Maximum AC Input Without Coarse-Range Extension |     Approximately 1 µA |
+| Coarse-DAC Input Range                          | Approximately 1–256 µA |
+| Base Dynamic Range                              |               95.92 dB |
+| Extended Dynamic Range                          |                 144 dB |
+| Peak SNDR                                       |               87.66 dB |
+| High-Speed PWM Digital Power                    |     Approximately 2 µW |
+| DC Baseline in PPG Measurement                  |   Approximately 108 µA |
 
 ---
 
@@ -79,4 +79,4 @@ The dual PWM approach reduces the number of analog elements required by the fine
 
 Overall, the work demonstrates how passive integration, time-domain quantization, digital feedback, and coarse-fine DACs can be combined into a compact photocurrent acquisition system suitable for wearable PPG applications.
 
-For a detailed discussion of the passive integrator, VCO-based quantizer, dual PWM buffered R-DAC, digital loop-gain calibration, and saturation-detection feedforward path, please refer to the **[full review document](paper.pdf)**.
+For a detailed discussion of the passive integrator, VCO-based quantizer, dual PWM buffered R-DAC, digital loop-gain calibration, and saturation-detection feedforward path, please refer to the **[full review document](/research/review/wearable-biomedical-ics/a-compact-ppg/paper.pdf)**.
