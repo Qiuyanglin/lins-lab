@@ -1,14 +1,14 @@
 ---
-title: "Wearable Biomedical ICs"
+title: "Neural Interface ICs"
 type: landing
 
 sections:
 
 - block: markdown
   content:
-    title: "Wearable Biomedical ICs"
+    title: "Neural Interface ICs"
     text: |
-      Paper reviews and technical notes on **Wearable Biomedical ICs** contributed by members of our lab.
+      Paper reviews and technical notes on **Neural Interface ICs** contributed by members of our lab.
 
 - block: collection
   content:
@@ -17,7 +17,7 @@ sections:
     filters:
       folders:
         - research
-      tag: Wearable Biomedical ICs Review
+      tag: Neural Interface Review
   design:
     view: card
     columns: 3
