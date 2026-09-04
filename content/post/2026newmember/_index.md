@@ -1,6 +1,6 @@
 ---
 title: 实验室迎来新同学袁思怡
-date: 2026-09-05
+date: 2026-09-03
 
 image:
   filename: siyiyuan.jpg
