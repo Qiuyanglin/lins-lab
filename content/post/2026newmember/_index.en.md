@@ -2,10 +2,6 @@
 title: The Lab Welcomes New Member Siyi Yuan
 date: 2026-09-03
 
-image:
-  filename: siyiyuan.jpg
-  focal_point: 'top'
-  caption: "New Lab Member: Siyi Yuan"
 ---
 
 We are pleased to welcome **Siyi Yuan** as a new member of our lab. She will join Prof. Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, as a **special-program master’s student jointly trained by Fudan University and Hua Hong**. Her research will focus on biomedical electronics and analog front-end integrated circuit design.
