@@ -1,38 +1,43 @@
----
-title: 实验室迎来新同学袁思怡
-date: 2026-09-05
-
+--
+title: 实验室迎来三位新同学
+date: 2026-07-05
 image:
-  filename: siyiyuan.jpg
+  filename: new_students.png
   focal_point: 'top'
-  caption: "实验室新成员：袁思怡"
+  caption: "实验室新成员"
 ---
-
-近日，实验室迎来新同学——**袁思怡同学**。她将作为**专项硕士研究生**进入复旦大学芯片与系统前沿技术研究院林秋阳老师课题组学习，并由**复旦大学与华虹公司联合培养**，围绕生物医疗电子与模拟前端集成电路设计等方向开展研究。
-
+近日，实验室迎来三位新同学，分别是即将加入课题组开展研究工作的**季心敖同学**、**孙艺迪同学**和**王奕如同学**。三位同学将在复旦大学继续深造，并围绕集成电路相关方向开展学习与科研工作。
 <!--more-->
-
-<div style="max-width:760px; margin:2rem auto; text-align:center;">
-
-  <img src="siyiyuan.jpg" alt="袁思怡" style="width:100%; max-width:300px; border-radius:12px; margin-bottom:16px;">
-
-  <p><strong>袁思怡</strong><br>专项硕士生（2026–）</p>
-
-  <p style="text-align:left;">
-    袁思怡同学于 <strong>2026 年</strong>在西安电子科技大学集成电路学部获得工学学士学位。本科期间，她成绩排名前列，专业基础扎实，曾获<strong>国家奖学金</strong>、本科生<strong>“青春人物”</strong>等荣誉，并参与过放大器、可编程增益放大器（PGA）等项目，积累了模拟集成电路设计方面的实践经验。
-  </p>
-
-  <p style="text-align:left;">
-    2026 年，袁思怡同学进入复旦大学芯片与系统前沿技术研究院林秋阳老师课题组攻读硕士学位。她是由<strong>复旦大学与华虹公司联合培养的专项硕士研究生</strong>，研究兴趣包括生物医疗电子、模拟前端集成电路以及放大器与可编程增益放大器设计。
-  </p>
-
-  <p style="text-align:left;">
-    学习与科研之余，她喜欢户外徒步、游泳和羽毛球，也喜爱阅读文学作品以及认知与思维类书籍。
-  </p>
-
+实验室始终欢迎具备扎实专业基础、对科研充满热情，并对生物医疗集成电路、模拟与混合信号电路等方向有浓厚兴趣的优秀学生加入。此次三位新同学的加入，也将进一步增强课题组在相关研究方向上的活力与潜力。
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin: 2rem 0;">
+  <div style="text-align:center;">
+    <img src="xinaoji.jpg" alt="季心敖" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <p><strong>季心敖</strong><br>博士生（2026–）</p>
+    <p style="text-align:left;">
+      季心敖同学于 <strong>2023 年</strong>毕业于西安交通大学微电子科学与工程专业，获得工学学士学位。随后，他以推免资格继续在西安交通大学电子科学与技术专业攻读硕士研究生，并将于 <strong>2026 年</strong>获得工学硕士学位。此后，他将加入复旦大学，在课题组攻读<strong>集成电路科学与工程专业博士学位</strong>。
+    </p>
+  </div>
+  <div style="text-align:center;">
+    <img src="yidisun.jpg" alt="孙艺迪" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <p><strong>孙艺迪</strong><br>硕士生（2026–）</p>
+    <p style="text-align:left;">
+      孙艺迪同学现为湖南大学电子科学与技术专业本科生，已推免至复旦大学电子信息专业。她未来将围绕<strong>脑机接口电路</strong>等方向开展研究。在本科阶段，她打下了良好的专业基础，并获得<strong>国家奖学金</strong>、<strong>全国大学生集成电路创新创业大赛全国总决赛二等奖</strong>等荣誉。
+    </p>
+  </div>
+  <div style="text-align:center;">
+    <img src="yiruwang.jpg" alt="王奕如" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <p><strong>王奕如</strong><br>硕士生（2027–）</p>
+    <p style="text-align:left;">
+      王奕如同学本科就读于复旦大学微电子科学与工程专业（2023–2027）。在本科阶段，他系统修读了《模拟集成电路》等专业课程，并取得优异成绩，具备扎实的微电子与集成电路专业基础。他于 <strong>2026 年</strong>加入课题组参与科研项目，后续将继续在本课题组攻读<strong>集成电路科学与工程专业硕士学位</strong>。
+    </p>
+  </div>
 </div>
-
-袁思怡同学的加入，将进一步丰富课题组在生物医疗电子与模拟前端集成电路方向的研究力量。未来，她将结合与华虹公司开展的专项项目，围绕相关集成电路技术进行学习与研究，在项目实践中不断提升专业能力。
-
-欢迎袁思怡同学加入课题组，期待她在未来的学习与科研工作中不断探索、稳步成长！
-
+三位同学的学术背景覆盖了**电子科学与技术、微电子科学与工程、电子信息、模拟与混合信号集成电路设计**等方向，与实验室当前在以下领域的研究布局高度契合：
+- 生物医疗集成电路与系统
+- 模拟与混合信号集成电路
+- 传感器与神经接口电路
+- 数据转换器与模拟前端电路
+- 生物医疗传感接口与低噪声模拟前端
+其中，季心敖同学未来将围绕模拟与混合信号电路、电流转换电路、模数转换器和模拟前端电路等方向开展研究；孙艺迪同学将围绕脑机接口电路等方向开展探索；王奕如同学则将重点关注模拟前端电路设计与生物医疗传感接口方向。
+未来，实验室将继续围绕**高性能、高集成度、面向生物医疗与智能感知应用的芯片与系统**开展研究，也期待与更多优秀学生共同成长，推动相关方向不断发展。
+```
