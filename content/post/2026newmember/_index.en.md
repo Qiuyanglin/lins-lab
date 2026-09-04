@@ -12,11 +12,7 @@ We are pleased to welcome **Siyi Yuan** as a new member of our lab. She will joi
 
 <!--more-->
 
-<div style="max-width:760px; margin:2rem auto; text-align:center;">
 
-  <img src="siyiyuan.jpg" alt="Siyi Yuan" style="width:100%; max-width:300px; border-radius:12px; margin-bottom:16px;">
-
-  <p><strong>Siyi Yuan</strong><br>Special-Program Master’s Student (2026–)</p>
 
   <p style="text-align:left;">
     Siyi Yuan received her B.Eng. degree from the School of Integrated Circuits at Xidian University in <strong>2026</strong>. During her undergraduate studies, she ranked among the top students in her cohort and developed a solid foundation in integrated circuit design. She received the <strong>National Scholarship</strong> and was recognized as an undergraduate <strong>“Youth Role Model.”</strong> She also gained practical experience through projects involving amplifiers and programmable gain amplifiers (PGAs).
