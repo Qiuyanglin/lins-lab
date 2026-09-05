@@ -3,7 +3,7 @@ title: The Lab Welcomes New Member Siyi Yuan
 date: 2026-09-03
 
 image:
-  filename: siyiyuan.jpg
+  filename: avatar.JPG
   focal_point: 'top'
   caption: "New Lab Member: Siyi Yuan"
 ---
