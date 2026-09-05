@@ -11,7 +11,7 @@ date: 2026-09-03
 
 <div style="max-width:760px; margin:2rem auto; text-align:center;">
 
-  <img src="siyiyuan.jpg" alt="袁思怡" style="width:100%; max-width:300px; border-radius:12px; margin-bottom:16px;">
+  <img src="avatar.JPG" alt="袁思怡" style="width:100%; max-width:300px; border-radius:12px; margin-bottom:16px;">
 
   <p><strong>袁思怡</strong><br>专项硕士生（2026–）</p>
 
