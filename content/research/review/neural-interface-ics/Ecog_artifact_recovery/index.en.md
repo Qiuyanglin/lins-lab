@@ -4,7 +4,7 @@ date: 2026-08-31
 
 authors:
 
-- "Yiru Wang"
+- "Yiru-Wang"
 
 summary: "An eight-channel ECoG recording front end fabricated in 180 nm CMOS, featuring in-pixel direct digitization and submillisecond stimulation artifact recovery."
 
