@@ -3,20 +3,17 @@ title: "论文评述：A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front E
 date: 2026-08-31
 
 authors:
-
-- "王_奕如"
+  - yiru-wang
 
 summary: "一款基于 180 nm CMOS、采用像素内直接数字化架构并支持亚毫秒级刺激伪影恢复的 8 通道 ECoG 记录前端。"
 
 tags:
-
-- Neural Interface Review
-- Neural Interface
-- Neural Recording
-- ECoG
-- Direct Digitization
-- Stimulation Artifact Recovery
-
+  - Neural Interface Review
+  - Neural Interface
+  - Neural Recording
+  - ECoG
+  - Direct Digitization
+  - Stimulation Artifact Recovery
 ---
 
 ## 论文
@@ -73,4 +70,6 @@ tags:
 
 这篇工作是一个很好的 **直接数字化神经前端快速恢复设计** 案例。其核心并不是保证大刺激伪影始终处于 ADC 输入范围内，而是在超量程发生后防止时间域量化器出现相位回绕，使系统能够在一个抽取输出采样周期内恢复正常记录。
 
-同时，该工作通过可缩放的 Gm-C 与 CCO、像素内抽取滤波器以及分布式时序生成，兼顾了多带宽工作、功耗缩放和未来大规模阵列集成。关于 PVG FF、Gm-C 积分器、CCO、快速恢复相位量化器以及数字后端等电路设计的详细分析，请参阅 **[完整 Review 文档](paper.pdf)**。
+同时，该工作通过可缩放的 Gm-C 与 CCO、像素内抽取滤波器以及分布式时序生成，兼顾了多带宽工作、功耗缩放和未来大规模阵列集成。
+
+关于 PVG FF、Gm-C 积分器、CCO、快速恢复相位量化器以及数字后端等电路设计的详细分析，请参阅 **[完整 Review 文档](paper.pdf)**。
