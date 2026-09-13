@@ -3,20 +3,17 @@ title: "Paper Review: A Compact Photocurrent Recording IC With High-Linearity Du
 date: 2026-09-03
 
 authors:
-
-- "Xinao Ji"
+  - xinao-ji
 
 summary: "A compact, high-dynamic-range photocurrent recording IC fabricated in 90 nm CMOS, featuring a passive integrator, VCO quantizer, and coarse-fine feedback R-DACs."
 
 tags:
-
-- Wearable Biomedical ICs Review
-- Wearable Biomedical ICs
-- Photocurrent Recording
-- PPG
-- VCO-Based ADC
-- PWM DAC
-
+  - Wearable Biomedical ICs Review
+  - Wearable Biomedical ICs
+  - Photocurrent Recording
+  - PPG
+  - VCO-Based ADC
+  - PWM DAC
 ---
 
 ## Paper
