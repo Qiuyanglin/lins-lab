@@ -3,20 +3,17 @@ title: "Paper Review: A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front En
 date: 2026-08-31
 
 authors:
-
-- "Yiru-Wang"
+  - yiru-wang
 
 summary: "An eight-channel ECoG recording front end fabricated in 180 nm CMOS, featuring in-pixel direct digitization and submillisecond stimulation artifact recovery."
 
 tags:
-
-- Neural Interface Review
-- Neural Interface
-- Neural Recording
-- ECoG
-- Direct Digitization
-- Stimulation Artifact Recovery
-
+  - Neural Interface Review
+  - Neural Interface
+  - Neural Recording
+  - ECoG
+  - Direct Digitization
+  - Stimulation Artifact Recovery
 ---
 
 ## Paper
@@ -25,7 +22,7 @@ tags:
 
 **Reviewer:** Yiru Wang
 
-**Full review:** [View the Review Document (PDF)](paper.pdf)
+**Full review:** [View the Review Document (PDF)](/research/review/neural-interface-ics/ecog_artifact_recovery/paper.pdf)
 
 ---
 
@@ -76,4 +73,4 @@ This work is a strong example of a **fast-recovery direct-digitization neural fr
 
 The design also combines scalable Gm-C and CCO circuits, per-pixel decimation, and distributed timing generation to support multiple recording bandwidths, proportional power scaling, and future expansion toward large-scale arrays.
 
-For a detailed discussion of the PVG FF architecture, Gm-C integrator, CCO, fast-recovery phase quantizer, and digital back end, please refer to the **[full review document](paper.pdf)**.
+For a detailed discussion of the PVG FF architecture, Gm-C integrator, CCO, fast-recovery phase quantizer, and digital back end, please refer to the **[full review document](/research/review/neural-interface-ics/ecog_artifact_recovery/paper.pdf)**.
