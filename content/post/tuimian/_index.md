@@ -34,7 +34,7 @@ date: 2026-09-14
   </div>
 
   <div style="text-align:center;">
-    <img src="ziningliu.jpg" alt="刘子宁" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <img src="ziningliu.JPG" alt="刘子宁" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
     <p><strong>刘子宁</strong><br>硕士生（2027–）</p>
     <p style="text-align:left;">
       刘子宁同学本科就读于厦门大学集成电路设计与集成系统专业，GPA 为 3.80/4.00，在推免选拔中位列第一，将于 2027 年进入课题组攻读硕士学位。
