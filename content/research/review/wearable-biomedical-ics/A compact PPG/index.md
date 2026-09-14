@@ -3,7 +3,7 @@ title: "论文评述：A Compact Photocurrent Recording IC With High-Linearity D
 date: 2026-09-03
 
 authors:
-  - xinao-ji
+  - xinao
 
 summary: "一款基于 90 nm CMOS、采用无源积分器、VCO 量化器与粗细两级反馈 R-DAC 的紧凑型高动态范围光电流记录芯片。"
 
