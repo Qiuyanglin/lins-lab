@@ -3,7 +3,7 @@ title: "Paper Review: A Compact Photocurrent Recording IC With High-Linearity Du
 date: 2026-09-03
 
 authors:
-  - xinao-ji
+  - xinao
 
 summary: "A compact, high-dynamic-range photocurrent recording IC fabricated in 90 nm CMOS, featuring a passive integrator, VCO quantizer, and coarse-fine feedback R-DACs."
 
