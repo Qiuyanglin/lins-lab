@@ -3,7 +3,8 @@ title: "Review: A Highly-Integrated 1536-Channel Quad-Shank Monolithic Neural Pr
 date: 2026-08-24
 
 authors:
-  - "yiru"
+  - yiru
+
 
 summary: "Review of a 1536-channel monolithic CMOS neural probe for high-density full-band neural recording."
 
