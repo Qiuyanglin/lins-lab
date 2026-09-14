@@ -12,7 +12,7 @@ date: 2026-09-14
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:24px; margin:2rem 0;">
 
   <div style="text-align:center;">
-    <img src="dingxu.jpg" alt="徐鼎" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <img src="dingxu.png" alt="徐鼎" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
     <p><strong>徐鼎</strong><br>博士生（2027–）</p>
     <p style="text-align:left;">
       徐鼎同学本科就读于华南理工大学微电子科学与工程专业，GPA 为 3.94/4.00，专业排名 3/94。她凭借优异的学业成绩获得推免资格，将于 2027 年进入课题组攻读集成电路科学与工程专业博士学位。
@@ -23,7 +23,7 @@ date: 2026-09-14
   </div>
 
   <div style="text-align:center;">
-    <img src="jiajielao.jpg" alt="劳嘉杰" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
+    <img src="jiajielao.png" alt="劳嘉杰" style="width:100%; max-width:260px; border-radius:12px; margin-bottom:16px;">
     <p><strong>劳嘉杰</strong><br>博士生（2027–）</p>
     <p style="text-align:left;">
       劳嘉杰同学本科就读于南京大学集成电路学院集成电路设计与集成系统专业，成绩名列前茅，曾获国家奖学金、校优秀共青团员和校优秀学生干部等荣誉。他以优异成绩获得推免资格，将于 2027 年进入课题组攻读博士学位。
