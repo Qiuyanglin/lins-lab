@@ -3,7 +3,7 @@ title: "论文评述：A Highly-Integrated 1536-Channel Quad-Shank Monolithic Ne
 date: 2026-08-24
 
 authors:
-  - "王奕如"
+  - "yiru"
 
 summary: "一款基于 55 nm CMOS、面向高密度全频带神经信号记录的 1536 通道单片集成神经探针。"
 
