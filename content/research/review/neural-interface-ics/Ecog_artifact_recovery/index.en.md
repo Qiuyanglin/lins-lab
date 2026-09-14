@@ -3,7 +3,7 @@ title: "Paper Review: A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front En
 date: 2026-08-31
 
 authors:
-  - yiru-wang
+  - yiru
 
 summary: "An eight-channel ECoG recording front end fabricated in 180 nm CMOS, featuring in-pixel direct digitization and submillisecond stimulation artifact recovery."
 
