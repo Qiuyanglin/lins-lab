@@ -3,7 +3,7 @@ title: "论文评述：A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front E
 date: 2026-08-31
 
 authors:
-  - yiru-wang
+  - yiru
 
 summary: "一款基于 180 nm CMOS、采用像素内直接数字化架构并支持亚毫秒级刺激伪影恢复的 8 通道 ECoG 记录前端。"
 
