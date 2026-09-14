@@ -11,7 +11,7 @@ The four students come from South China University of Technology, Nanjing Univer
 
 <div style="max-width:760px; margin:2.5rem auto; text-align:center;">
 
-  <img src="dingxu.png" alt="Ding Xu" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
+  <img src="/post/tuimian/dingxu.png" alt="Ding Xu" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
 
   <p><strong>Ding Xu</strong><br>Ph.D. Student (2027–)</p>
 
@@ -29,7 +29,7 @@ The four students come from South China University of Technology, Nanjing Univer
 
 <div style="max-width:760px; margin:2.5rem auto; text-align:center;">
 
-  <img src="jiajielao.png" alt="Jiajie Lao" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
+  <img src="/post/tuimian/jiajielao.png" alt="Jiajie Lao" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
 
   <p><strong>Jiajie Lao</strong><br>Ph.D. Student (2027–)</p>
 
@@ -47,7 +47,7 @@ The four students come from South China University of Technology, Nanjing Univer
 
 <div style="max-width:760px; margin:2.5rem auto; text-align:center;">
 
-  <img src="ziningliu.JPG" alt="Zining Liu" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
+  <img src="/post/tuimian/ziningliu.JPG" alt="Zining Liu" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
 
   <p><strong>Zining Liu</strong><br>Master’s Student (2027–)</p>
 
@@ -65,7 +65,7 @@ The four students come from South China University of Technology, Nanjing Univer
 
 <div style="max-width:760px; margin:2.5rem auto; text-align:center;">
 
-  <img src="junyutang.jpg" alt="Junyu Tang" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
+  <img src="/post/tuimian/junyutang.jpg" alt="Junyu Tang" style="width:240px; height:300px; object-fit:cover; object-position:center top; border-radius:12px; display:block; margin:0 auto 16px;">
 
   <p><strong>Junyu Tang</strong><br>Master’s Student (2027–)</p>
 
