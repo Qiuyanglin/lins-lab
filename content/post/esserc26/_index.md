@@ -28,7 +28,7 @@ image:
 
 ![生物医疗与神经接口报告现场](biomedical_neural_talks.jpg)
 
-会议期间，我们有幸与代尔夫特理工大学 Qinwen Fan 教授、海德堡大学 Zili Yu 教授、汉堡工业大学 Qiang Li 教授、复旦大学徐佳伟教授，以及 imec Principal Scientist Yang Zhang 博士等前辈和同行交流、合影。面对面的讨论让我们看到，扎实的电路研究往往始于对问题的长期观察，也离不开反复验证和跨领域协作。
+会议期间，我们有幸与代尔夫特理工大学 Qinwen Fan 教授、海德堡大学 Zili Yu 教授、汉堡工业大学 Qiang Li 教授、复旦大学徐佳伟教授，以及 imec首席科学家Yang Zhang 博士等前辈和同行交流、合影。面对面的讨论让我们看到，扎实的电路研究往往始于对问题的长期观察，也离不开反复验证和跨领域协作。
 
 ![与前辈和同行的合影](esserc_group_photo.jpg)
 
