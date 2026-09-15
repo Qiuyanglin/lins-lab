@@ -20,7 +20,7 @@ image:
 
 ![与 Muse Semiconductor 交流](muse_meeting.jpg)
 
-交谈中，我们半开玩笑地说了一句：“Time is running out.” 对方随即笑着回应，Muse 公司若能配上 Muse 乐队，合作或许会更有“节奏”。这一轻松的插曲，也为围绕时间表与流片支持的认真讨论留下了一个有趣的注脚。
+交谈中，半开玩笑地说了一句：“Time is running out.” 对方随即笑着回应，Muse 公司若能配上 Muse 乐队，合作或许会更有“节奏”。这一轻松的插曲，也为围绕时间表与流片支持的认真讨论留下了一个有趣的注脚。
 
 ![Muse 乐队标识](muse_band_logo.png)
 
