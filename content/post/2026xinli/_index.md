@@ -1,6 +1,6 @@
 ---
 title: 实验室参加第四届集成芯片和芯粒大会
-date: 2026-10-9
+date: 2026-10-09
 
 image:
   filename: xuesheng.jpg
