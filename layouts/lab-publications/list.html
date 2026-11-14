@@ -30,7 +30,7 @@
         <label for="pub-type">{{ $labels.type }}</label>
         <select id="pub-type" name="type" data-pub-type>
           <option value="">{{ $labels.all_types }}</option>
-          {{ range slice "journal" "conference" "patent" "other" }}{{ if in $kinds . }}<option value="{{ . }}">{{ index $labels . }}</option>{{ end }}{{ end }}
+          {{ range slice "journal" "conference" "book" "chapter" "thesis" "patent" "other" }}{{ if in $kinds . }}<option value="{{ . }}">{{ index $labels . }}</option>{{ end }}{{ end }}
         </select>
       </div>
       <button class="pub-reset" type="reset">{{ $labels.reset }}</button>

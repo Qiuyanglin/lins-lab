@@ -1,6 +1,10 @@
 ---
 title: Academician Ming Liu Serves as Chief Scientific Advisor of the Biomedical Integrated Circuits and Systems Laboratory
 date: 2026-05-27
+news_images:
+  liu.jpg: {"kind":"portrait","member":"ming"}
+  fics.png: {"kind":"banner"}
+summary: Academician Ming Liu serves as the lab's Chief Scientific Advisor, guiding research and talent development in biomedical integrated circuits, neural interfaces, and intelligent sensing.
 
 image:
   filename: Liu.jpg
@@ -46,4 +50,3 @@ The Biomedical Integrated Circuits and Systems Laboratory focuses on next-genera
 As Chief Scientific Advisor, Academician Liu will provide important guidance for the laboratory in strategic research planning, interdisciplinary development, high-level research platform construction, and young talent cultivation. Under her guidance, the laboratory will further strengthen the integration of micro/nanoelectronic devices, integrated circuit design, biomedical sensing, and intelligent systems, and explore new chip and system technologies for brain-machine interfaces, intelligent sensing, and precision healthcare.
 
 Looking ahead, the laboratory will build upon the disciplinary platforms of the School of Integrated Circuits and Micro-Nano Electronics and the Institute of Frontier Chip and System Technologies at Fudan University. Under Academician Liu’s guidance, the laboratory will continue to advance a complete research pipeline from system architecture design and chip implementation to post-silicon validation and system-level integration, striving to develop a distinctive and influential research platform for biomedical integrated circuits and systems.
-```

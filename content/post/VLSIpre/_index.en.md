@@ -1,14 +1,18 @@
 ---
 title: Qiuyang Lin Delivered an Oral Presentation at VLSI Symposium
 date: 2026-06-19
+news_images:
+  vlsi_pre.jpg: {"kind":"photo"}
+  hiking.jpg: {"kind":"photo"}
+summary: Qiuyang Lin presents a solid-state nanopore sequencing interface IC at the 2026 VLSI Symposium and discusses wideband, low-noise readout design with fellow researchers.
 
 image:
-  filename: VLSI_presentation.jpg
+  filename: VLSI_pre.jpg
   focal_point: 'center'
   caption: "Qiuyang Lin delivered an oral presentation at VLSI Symposium"
 ---
 
-Recently, Dr. Qiuyang Lin delivered an oral presentation at the **2026 IEEE Symposium on VLSI Technology and Circuits**, presenting the team’s latest research progress on **solid-state nanopore sequencing interface chips**.
+Recently, Qiuyang Lin delivered an oral presentation at the **2026 IEEE Symposium on VLSI Technology and Circuits**, presenting the team’s latest research progress on **solid-state nanopore sequencing interface chips**.
 
 The work, titled **“A 16-channel 97pArms 1MHz Bandwidth IC for Solid State Nanopore Sequencing”**, targets next-generation **high-throughput, parallelized single-molecule detection and DNA sequencing systems**. It presents a **16-channel fully integrated nanopore interface chip**, achieving a unified design with high gain, wide bandwidth, low noise, and high energy efficiency.
 

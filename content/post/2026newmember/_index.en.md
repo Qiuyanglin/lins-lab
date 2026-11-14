@@ -1,6 +1,14 @@
 ---
 title: The Lab Welcomes New Member Siyi Yuan
 date: 2026-09-03
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  avatar.jpg: {"kind":"portrait","member":"Siyi"}
+summary: Siyi Yuan joins the group as a master's student jointly trained by Fudan University and Hua Hong, with interests in biomedical electronics and analog front-end circuits.
 
 image:
   filename: avatar.JPG
@@ -8,13 +16,15 @@ image:
   caption: "New Lab Member: Siyi Yuan"
 ---
 
-We are pleased to welcome **Siyi Yuan** as a new member of our lab. She will join Prof. Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, as a **special-program master’s student jointly trained by Fudan University and Hua Hong**. Her research will focus on biomedical electronics and analog front-end integrated circuit design.
+We are pleased to welcome **Siyi Yuan** as a new member of our lab. She will join Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, as a **special-program master’s student jointly trained by Fudan University and Hua Hong**. Her research will focus on biomedical electronics and analog front-end integrated circuit design.
 
 <!--more-->
 
+![Siyi Yuan](avatar.JPG)
+
 Siyi Yuan received her B.Eng. degree from the School of Integrated Circuits at Xidian University in **2026**. During her undergraduate studies, she ranked among the top students in her cohort and developed a solid foundation in integrated circuit design. She received the **National Scholarship** and was recognized as an undergraduate **“Youth Role Model.”** She also gained practical experience through projects involving amplifiers and programmable gain amplifiers (PGAs).
 
-In 2026, Siyi joined Prof. Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, to pursue her master’s degree. As a **special-program master’s student jointly trained by Fudan University and Hua Hong**, her research interests include biomedical electronics, analog front-end integrated circuits, amplifiers, and programmable gain amplifiers.
+In 2026, Siyi joined Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, to pursue her master’s degree. As a **special-program master’s student jointly trained by Fudan University and Hua Hong**, her research interests include biomedical electronics, analog front-end integrated circuits, amplifiers, and programmable gain amplifiers.
 
 Outside her studies and research, she enjoys hiking, swimming, and playing badminton. She also enjoys reading literature and books on cognition and ways of thinking.
 

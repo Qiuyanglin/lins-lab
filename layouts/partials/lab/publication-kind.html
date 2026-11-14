@@ -7,5 +7,11 @@
   {{- $kind = "conference" -}}
 {{- else if or (in $raw "专利") (in $raw "patent") (eq $raw "8") -}}
   {{- $kind = "patent" -}}
+{{- else if or (in $raw "学位论文") (in $raw "thesis") (in $raw "dissertation") (eq $raw "7") -}}
+  {{- $kind = "thesis" -}}
+{{- else if or (in $raw "章节") (in $raw "chapter") (eq $raw "6") -}}
+  {{- $kind = "chapter" -}}
+{{- else if or (in $raw "专著") (in $raw "book") (eq $raw "5") -}}
+  {{- $kind = "book" -}}
 {{- end -}}
 {{- return $kind -}}

@@ -1,0 +1,26 @@
+{{/* Per-image display settings preserve full figures; only member portraits use the shared crop. */}}
+{{ $destination := .Destination }}
+{{ $config := index (.Page.Params.news_images | default dict) (lower (path.Base $destination)) | default dict }}
+{{ $kind := $config.kind | default "photo" }}
+{{ $image := .Page.Resources.GetMatch $destination }}
+{{ if and (not $image) (not (strings.HasPrefix $destination "http")) }}
+  {{ $image = resources.Get (path.Join "media" $destination) }}
+{{ end }}
+{{ $labels := (site.GetPage "/post").Params.labels }}
+{{ $src := $destination | safeURL }}
+{{ $display := false }}
+{{ with $image }}
+  {{ $src = .RelPermalink }}
+  {{ $display = . }}
+  {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}{{ $display = .Fit "1600x2000 webp q92" }}{{ end }}
+{{ end }}
+<span class="news-figure news-media-{{ $kind }}"{{ with $config.max_width }} style="--news-media-width: {{ int . }}px;"{{ end }}>
+  <a href="{{ $src }}" aria-label="{{ $labels.original }}{{ with .Text }}: {{ . | plainify }}{{ end }}">
+    {{ if and (eq $kind "portrait") $image $config.member }}
+      {{ partial "lab/news-portrait.html" (dict "image" $image "member" $config.member "alt" (.Text | plainify)) }}
+    {{ else }}
+      <img src="{{ with $display }}{{ .RelPermalink }}{{ else }}{{ $src }}{{ end }}" alt="{{ .Text | plainify }}" loading="lazy" decoding="async"{{ with $display }}{{ if ne .MediaType.SubType "svg" }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}{{ end }}>
+    {{ end }}
+  </a>
+  {{ with .Title }}<span class="news-caption">{{ . | markdownify }}</span>{{ end }}
+</span>

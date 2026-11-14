@@ -1,9 +1,13 @@
 ---
 title: CICC 2026 脑机接口综述文章发表
 date: 2026-05-28
+news_images:
+  cicc.png: {"kind":"banner"}
+  invasive.png: {"kind":"diagram","max_width":420}
+summary: 发表于 CICC 2026 的综述系统梳理下一代神经接口的记录、刺激与闭环神经调控电路架构及关键设计挑战。
 
 image:
-  filename: CICC_neural_interface.png
+  filename: Invasive.png
   focal_point: 'top'
   caption: "下一代神经接口电路架构示意图"
 ---
@@ -36,7 +40,7 @@ image:
 
 这些架构支撑了从局部场电位（LFP）、皮层脑电（ECoG）到动作电位（AP/spike）等多类神经信号的高保真采集。
 
-在**体外 CMOS 微电极阵列（MEA）**方面，文章总结了多模态 MEA 系统的发展趋势。除高密度电生理记录外，现代 MEA 平台还逐渐集成：
+在 **体外 CMOS 微电极阵列（MEA）** 方面，文章总结了多模态 MEA 系统的发展趋势。除高密度电生理记录外，现代 MEA 平台还逐渐集成：
 
 - 细胞电穿孔
 - 阻抗谱测量

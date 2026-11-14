@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $labels := .Params.labels }}
+{{ $posts := partial "lab/news-pages.html" . }}
+{{ $years := slice }}
+{{ range $posts }}{{ $years = $years | append .year }}{{ end }}
+<main class="lab-page lab-news" id="lab-main">
+  <div class="lab-shell">
+    <header class="news-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+    </header>
+    {{ range uniq $years }}
+      <section class="news-year" aria-labelledby="news-year-{{ . }}">
+        <h2 class="news-year-heading" id="news-year-{{ . }}">{{ . }}</h2>
+        <div class="news-entries">
+          {{ range where $posts "year" . }}{{ with .page }}
+            {{ $page := . }}
+            {{ $filename := .Params.news_cover | default .Params.image.filename }}
+            {{ $cover := false }}
+            {{ with $filename }}{{ $cover = $page.Resources.GetMatch . }}{{ end }}
+            {{ $config := index (.Params.news_images | default dict) (lower ($filename | default "")) | default dict }}
+            {{ $kind := $config.kind | default "photo" }}
+            {{ $focal := index (dict "top" "50% 0%" "center" "50% 50%" "bottom" "50% 100%" "left" "0% 50%" "right" "100% 50%") (.Params.image.focal_point | default "center" | lower) | default "50% 50%" }}
+            {{ $position := $config.position | default $focal }}
+            <article class="news-entry{{ if not $cover }} news-entry-text{{ end }}">
+              {{ with $cover }}
+                <div class="news-thumbnail news-thumbnail-{{ $kind }}" aria-hidden="true">
+                  {{ if and (eq $kind "portrait") $config.member }}
+                    {{ partial "lab/news-portrait.html" (dict "image" . "member" $config.member "alt" "" "thumbnail" true) }}
+                  {{ else }}
+                    {{ $image := . }}
+                    {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}{{ $image = .Fit "640x640 webp q90" }}{{ end }}
+                    <img src="{{ $image.RelPermalink }}" alt="" style="object-position: {{ $position }};"{{ if ne $image.MediaType.SubType "svg" }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }} loading="lazy" decoding="async">
+                  {{ end }}
+                </div>
+              {{ end }}
+              <div class="news-entry-copy">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $labels.date_format }}</time>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ with .Params.summary | default .Summary }}<p class="news-summary">{{ . | plainify }}</p>{{ end }}
+              </div>
+            </article>
+          {{ end }}{{ end }}
+        </div>
+      </section>
+    {{ else }}
+      <p>{{ $labels.empty }}</p>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
