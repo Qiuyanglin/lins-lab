@@ -1,9 +1,10 @@
 ---
 title: Our Lab Attends ESSERC 2026
 date: 2026-09-15
+summary: The lab attends ESSERC 2026 in Palma to exchange ideas on robotic sensing, biomedical and neural interfaces, and potential future tape-out support.
 
 image:
-  filename: ESSERC_2026_cover.jpg
+  filename: esserc_group_photo.jpg
   focal_point: 'center'
   caption: "Highlights from ESSERC 2026"
 ---

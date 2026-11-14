@@ -1,0 +1,8 @@
+{{/* One visibility filter and stable newest-first order for the index and article navigation. */}}
+{{ $posts := where (where (where .Pages "Draft" false) "Params.private" "ne" true) "Date" "le" now }}
+{{ $posts = where $posts "PublishDate" "le" now }}
+{{ $entries := slice }}
+{{ range $posts }}
+  {{ $entries = $entries | append (dict "page" . "year" (.Date.Format "2006") "key" (printf "%s-%s" (.Date.Format "20060102150405") .RelPermalink)) }}
+{{ end }}
+{{ return (sort $entries "key" "desc") }}

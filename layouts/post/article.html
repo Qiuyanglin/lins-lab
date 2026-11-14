@@ -1,0 +1,34 @@
+{{ $listing := site.GetPage "/post" }}
+{{ $labels := $listing.Params.labels }}
+{{ $posts := partial "lab/news-pages.html" $listing }}
+{{ $previous := false }}
+{{ $next := false }}
+{{ range $i, $entry := $posts }}
+  {{ if eq $entry.page.RelPermalink $.RelPermalink }}
+    {{ if lt $i (sub (len $posts) 1) }}{{ $previous = index (index $posts (add $i 1)) "page" }}{{ end }}
+    {{ if gt $i 0 }}{{ $next = index (index $posts (sub $i 1)) "page" }}{{ end }}
+  {{ end }}
+{{ end }}
+<main class="lab-page lab-news-detail" id="lab-main">
+  <div class="lab-shell news-article-shell">
+    <a class="lab-link news-back" href="{{ $listing.RelPermalink }}"><span aria-hidden="true">←</span> {{ $labels.back }}</a>
+    <article>
+      <header class="news-article-header">
+        <p class="lab-kicker">{{ $listing.Title }}</p>
+        <h1>{{ .Title }}</h1>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $labels.date_format }}</time>
+      </header>
+      <div class="news-content article-style">{{ .Content }}</div>
+    </article>
+    {{ if or $previous $next }}
+      <nav class="news-pagination" aria-label="{{ $labels.navigation }}">
+        {{ with $previous }}
+          <a class="news-previous" href="{{ .RelPermalink }}" rel="prev"><span>{{ $labels.previous }}</span>{{ .Title }}</a>
+        {{ end }}
+        {{ with $next }}
+          <a class="news-next" href="{{ .RelPermalink }}" rel="next"><span>{{ $labels.next }}</span>{{ .Title }}</a>
+        {{ end }}
+      </nav>
+    {{ end }}
+  </div>
+</main>

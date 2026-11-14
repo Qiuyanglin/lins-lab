@@ -1,6 +1,7 @@
 ---
-title: Dr. Qiuyang Lin's VLSI Paper Has Been Accepted
+title: Qiuyang Lin's VLSI Paper Has Been Accepted
 date: 2026-06-03
+summary: A paper on a 16-channel solid-state nanopore sequencing interface IC is accepted at VLSI, reporting 1 MHz bandwidth and 97 pArms input-referred noise.
 
 image:
   filename: VLSI_theme.png
@@ -8,7 +9,7 @@ image:
   caption: "Illustration of the VLSI research theme"
 ---
 
-Dr. Qiuyang Lin's latest research on a **solid-state nanopore sequencing interface chip** has been accepted by **VLSI**.
+Qiuyang Lin's latest research on a **solid-state nanopore sequencing interface chip** has been accepted by **VLSI**.
 
 The work, entitled **“A 16-channel 97pArms 1MHz Bandwidth IC for Solid State Nanopore Sequencing”**, presents a **fully integrated 16-channel nanopore interface IC** for next-generation **high-throughput and parallel single-molecule sensing and DNA sequencing systems**, achieving a strong combination of high gain, wide bandwidth, low noise, and high energy efficiency.
 

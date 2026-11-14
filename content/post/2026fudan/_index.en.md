@@ -1,6 +1,7 @@
 ---
-title: Dr.Qiuyang Lin will join Fudan University
+title: Qiuyang Lin will join Fudan University
 date: 2026-05-27
+summary: Qiuyang Lin joins Fudan University and establishes the Biomedical Integrated Circuits and Systems Laboratory, focusing on biomedical sensing and analog and mixed-signal circuits.
 
 image:
   filename: building.jpg

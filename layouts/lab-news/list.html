@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ $labels := .Params.labels }}
+{{ $posts := partial "lab/news-pages.html" . }}
+{{ $years := slice }}
+{{ range $posts }}{{ $years = $years | append .year }}{{ end }}
+<main class="lab-page lab-news" id="lab-main">
+  <div class="lab-shell">
+    <header class="news-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+    </header>
+    {{ range uniq $years }}
+      <section class="news-year" aria-labelledby="news-year-{{ . }}">
+        <h2 class="news-year-heading" id="news-year-{{ . }}">{{ . }}</h2>
+        <div class="news-entries">
+          {{ range where $posts "year" . }}{{ with .page }}
+            {{ $page := . }}
+            {{ $images := slice }}
+            {{ $filenames := .Params.thumbnails | default slice }}
+            {{ if not $filenames }}{{ with .Params.image.filename }}{{ $filenames = slice . }}{{ end }}{{ end }}
+            {{ range $filenames }}
+              {{ with $page.Resources.GetMatch . }}{{ if eq .ResourceType "image" }}{{ $images = $images | append . }}{{ end }}{{ end }}
+            {{ end }}
+            <article class="news-entry{{ if not $images }} news-entry-text{{ end }}">
+              {{ with $images }}
+                <div class="news-thumbnail{{ if gt (len .) 1 }} news-thumbnail-multiple{{ end }}" style="--news-image-count: {{ len . }}" aria-hidden="true">
+                  {{ range . }}
+                    {{ $image := . }}
+                    {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}{{ $image = .Fit "480x360 webp" }}{{ end }}
+                    <img src="{{ $image.RelPermalink }}" alt=""{{ if ne $image.MediaType.SubType "svg" }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }} loading="lazy" decoding="async">
+                  {{ end }}
+                </div>
+              {{ end }}
+              <div class="news-entry-copy">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $labels.date_format }}</time>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ with .Params.summary | default .Summary }}<p class="news-summary">{{ . | plainify }}</p>{{ end }}
+              </div>
+            </article>
+          {{ end }}{{ end }}
+        </div>
+      </section>
+    {{ else }}
+      <p>{{ $labels.empty }}</p>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

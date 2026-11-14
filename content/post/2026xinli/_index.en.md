@@ -1,6 +1,7 @@
 ---
 title: Our Lab Attends the 4th Integrated Chips and Chiplet Conference
 date: 2026-10-09
+summary: Students explore advances in chiplets and system integration at ICCC 2026 in Shanghai. Qiuyang Lin receives a certificate of appreciation for his contributions to organizing the conference.
 
 image:
   filename: xuesheng.jpg

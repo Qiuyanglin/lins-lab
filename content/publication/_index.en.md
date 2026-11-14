@@ -1,19 +1,22 @@
 ---
 title: "Publications"
 type: lab-publications
-summary: "Journal articles, conference papers, and patents from Lin's Lab, with DOI and publication-record links."
+summary: "Journal articles, conference papers, theses, and other research outputs from Lin's Lab, with DOI, publisher, or institutional-record links."
 intro:
   kicker: "Research output"
   text: "Research in biomedical sensing, neural interfaces, and analog and mixed-signal circuits, listed by year."
 labels:
   search: "Find a publication"
-  placeholder: "Search title, author, or venue"
+  placeholder: "Search title, author, or publication details"
   year: "Year"
   type: "Type"
   all_years: "All years"
   all_types: "All types"
   journal: "Journal articles"
   conference: "Conference papers"
+  book: "Books"
+  chapter: "Book chapters"
+  thesis: "Theses"
   patent: "Patents"
   other: "Other"
   reset: "Reset filters"
@@ -27,6 +30,6 @@ labels:
   doi: "DOI"
   citation: "Citation"
   year_label: "Year"
-  venue_label: "Journal / conference"
+  venue_label: "Publication details"
   type_label: "Publication type"
 ---

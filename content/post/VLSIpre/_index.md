@@ -1,9 +1,10 @@
 ---
 title: 林秋阳在VLSI Symposium作口头报告
 date: 2026-06-19
+summary: 林秋阳在 2026 VLSI Symposium 作口头报告，介绍固态纳米孔测序接口芯片，并与同行交流宽带低噪声读出设计。
 
 image:
-  filename: VLSI_presentation.jpg
+  filename: VLSI_pre.jpg
   focal_point: 'center'
   caption: "林秋阳在 VLSI Symposium 作口头报告"
 ---
@@ -35,5 +36,4 @@ image:
 会议期间，团队成员也在夏威夷进行了短暂的户外活动。科研探索与自然风景相互交织，也提醒我们：前沿芯片设计既需要长期深耕，也需要保持开放、坚韧和充满好奇心的状态。
 
 未来，团队将继续围绕**生物医疗集成电路、神经接口芯片、固态纳米孔读出芯片、低噪声模拟/混合信号系统**等前沿方向开展研究，持续推进面向生命科学与医疗健康应用的高性能芯片设计课题。
----
 

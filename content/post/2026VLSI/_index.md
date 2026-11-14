@@ -1,6 +1,7 @@
 ---
 title: 林秋阳VLSI论文被接收
 date: 2026-06-03
+summary: 面向固态纳米孔测序的 16 通道接口芯片论文获 VLSI 接收，实现 1 MHz 带宽与 97 pArms 输入等效噪声。
 
 image:
   filename: VLSI_theme.png

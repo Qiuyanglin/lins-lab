@@ -1,6 +1,6 @@
 ---
 title: "Yiru Wang"
-role: "Joined in 2026 · Undergraduate thesis"
+role: "Master's Student (2026–)"
 directory_priority: 1
 member_summary: "Currently a Fudan undergraduate completing his thesis in the group, with plans to begin master's study in 2027. His interests include biomedical sensing interfaces and low-noise analog front ends."
 

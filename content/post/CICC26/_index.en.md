@@ -1,14 +1,15 @@
 ---
 title: CICC 2026 Review Paper on Neural Interface Circuits Published
 date: 2026-05-28
+summary: A CICC 2026 review examines circuit architectures and design challenges for neural recording, stimulation, and closed-loop neuromodulation.
 
 image:
-  filename: CICC_neural_interface.png
+  filename: Invasive.png
   focal_point: 'top'
   caption: "Overview of circuit architectures for next-generation neural interfaces"
 ---
 
-A review paper co-authored by Dr. Qiuyang Lin on **next-generation neural interface circuit architectures** has been published at the **IEEE Custom Integrated Circuits Conference (CICC) 2026**.
+A review paper co-authored by Qiuyang Lin on **next-generation neural interface circuit architectures** has been published at the **IEEE Custom Integrated Circuits Conference (CICC) 2026**.
 
 The paper, entitled **“Circuit Architectures for Next-Generation Neural Interfaces: Recording, Stimulation, and Closed-Loop Neuromodulation”**, provides a systematic review of integrated circuit architectures and key circuit techniques for next-generation **brain–computer interfaces, neuroprosthetics, neuromodulation systems, and fundamental neuroscience research**.
 
@@ -56,7 +57,7 @@ For closed-loop neural interface systems, the review emphasizes the importance o
 
 The paper also reviews recent progress in **artifact-tolerant neural recording front-ends**, covering the evolution from feedforward common-mode suppression and feedback common-mode cancellation loops to multichannel shared common-mode suppression architectures. These developments illustrate the trend of neural interface circuits toward **higher robustness, higher channel density, and real-time closed-loop neuromodulation**.
 
-This work reflects Dr. Qiuyang Lin’s continued contributions to the following research directions:
+This work reflects Qiuyang Lin’s continued contributions to the following research directions:
 
 - Brain–computer interface integrated circuits
 - High-density neural recording front-ends
