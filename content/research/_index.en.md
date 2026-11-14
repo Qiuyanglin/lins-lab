@@ -1,66 +1,42 @@
 ---
 title: "Research"
-type: landing
+type: lab-research
+summary: "Low-power analog and mixed-signal ICs for biomedical systems: wearable sensing, neural interfaces, electrochemical and nanopore interfaces, and data converters."
 
-sections:
-  - block: markdown
-    content:
-      title: "Research Overview"
-      text: |
+intro:
+  kicker: "Biomedical Integrated Circuits and Systems"
+  text: "We study low-power analog and mixed-signal integrated circuits for wearable and implantable biomedical systems, focusing on sensor interfaces, signal acquisition, and data conversion."
+  path: "Our work spans circuit architecture, chip implementation, and system-level validation."
 
-        Our lab focuses on **Biomedical Integrated Circuits (Biomedical ICs)**, with particular emphasis on low-power analog and mixed-signal circuit design and their applications in biomedical systems.
+areas:
+  title: "Research Areas"
+  items:
+    - id: wearable
+      title: "Wearable Sensing ICs"
+      text: "Low-power signal acquisition for wearable biomedical systems, including sensor interfaces, analog front ends, and integrated readout circuits."
+    - id: neural
+      title: "Neural Interface ICs"
+      text: "Weak neural signal acquisition and low-power interface circuits for implantable brain–computer interfaces."
+    - id: molecular
+      title: "Electrochemical and Nanopore Interfaces"
+      text: "Low-noise current readout circuits and multichannel interfaces for electrochemical biosensing and DNA sequencing."
+    - id: analog
+      title: "Data Converters and Analog Circuits"
+      text: "Data conversion and analog signal processing for biosignal acquisition, with attention to trade-offs among precision, noise, bandwidth, and power."
 
-        Our research spans the complete development flow from **circuit architecture and chip implementation to system-level validation**, with ongoing work in neural interfaces, biosignal acquisition, data converters, and related integrated systems.
-
-        We welcome you to explore our research projects, learning resources, and paper review notes.
-
-  - block: markdown
-    content:
-      title: "Research Sections"
-      text: |
-
-        ## Chips and Systems
-        This section presents chip prototypes, system implementations, and related design highlights developed in our lab.
-
-        **Contents include:**
-        - Chip and system photographs
-
-        👉 **[Visit Page](chip)**
-
-        ***
-
-        <!--
-        ## Research Progress
-        This section summarizes ongoing research progress, technical reports, project materials, and intermediate results.
-
-        **Contents include:**
-        - Research project updates
-        - Technical reports and materials
-        - Intermediate research summaries
-
-        👉 **[Visit Page](progress)**
-
-        ***
-        -->
-
-        ## Learning Resources
-        A collection of materials related to analog circuit design, data converters, EDA tools, PCB design, and research training.
-
-        **Contents include:**
-        - Analog circuit design materials
-        - Cadence / LTspice / PCB tutorials
-
-        👉 **[Visit Page](resources)**
-
-        ***
-
-        ## Paper Reviews
-        A collection of paper reviews, technical notes, and reflections on interesting research works and circuit design ideas.
-
-        **Contents include:**
-        - Paper review notes
-        - Summaries of key innovations
-        - Circuit design insights and reflections
-
-        👉 **[Visit Page](review)**
+directory:
+  title: "Explore Our Work"
+  items:
+    - title: "Chips and Systems"
+      text: "Chip prototypes, system photographs, and design highlights."
+      path: /research/chip/
+      label: "View gallery"
+    - title: "Learning Resources"
+      text: "Materials on analog circuits, data converters, EDA tools, PCB design, and research training."
+      path: /research/resources/
+      label: "Browse resources"
+    - title: "Paper Reviews"
+      text: "Reading notes, analyses of key innovations, and reflections on circuit design."
+      path: /research/review/
+      label: "Read reviews"
 ---

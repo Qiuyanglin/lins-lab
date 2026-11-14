@@ -1,0 +1,135 @@
+/* Scoped academic landing pages; existing article and people styles stay local. */
+.lab-page {
+  --lab-ink: #19324c;
+  --lab-text: #344556;
+  --lab-muted: #5c6c7b;
+  --lab-accent: #245b83;
+  --lab-rule: #dce4eb;
+  --lab-soft: #f3f6f9;
+  --lab-bg: #fff;
+  background: var(--lab-bg);
+  color: var(--lab-text);
+  font-size: 17px;
+  line-height: 1.8;
+  padding-bottom: 72px;
+  overflow-wrap: break-word;
+
+  *, *::before, *::after { box-sizing: border-box; }
+  h1, h2, h3 { color: var(--lab-ink); font-weight: 650; line-height: 1.35; margin: 0; }
+  h1 { font-size: clamp(32px, 3.2vw, 44px); letter-spacing: -.025em; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 21px; }
+  p { margin: 0 0 16px; }
+  a { color: var(--lab-accent); }
+  a:hover { color: var(--lab-ink); }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--lab-accent); outline-offset: 5px; border-radius: 2px; }
+  [id] { scroll-margin-top: 100px; }
+}
+
+.lab-shell { width: calc(100% - 64px); max-width: 1120px; margin: 0 auto; }
+.lab-home-intro { display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: center; padding: 64px 0 56px; }
+.lab-home-intro h1 span { display: block; }
+.lab-kicker { font-size: 13px; font-weight: 650; letter-spacing: .09em; color: var(--lab-accent); }
+.lab-page .lab-lede { color: var(--lab-muted); font-size: 18px; line-height: 1.85; margin: 24px 0 0; }
+.lab-actions { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 28px; }
+.lab-page .lab-button { display: inline-block; padding: 10px 20px; background: var(--lab-ink); color: #fff; border: 1px solid var(--lab-ink); border-radius: 3px; font-size: 15px; font-weight: 600; text-decoration: none; }
+.lab-page .lab-button:hover { background: var(--lab-accent); border-color: var(--lab-accent); }
+.lab-link { font-size: 15px; font-weight: 600; text-underline-offset: 4px; }
+.lab-link span { margin-left: 6px; }
+.lab-research-figure { margin: 0; min-width: 0; }
+.lab-research-figure a { display: block; }
+.lab-research-figure img { display: block; width: 100%; height: auto; border-radius: 4px; }
+.lab-research-figure figcaption { color: var(--lab-muted); font-size: 13px; line-height: 1.6; margin-top: 12px; }
+.lab-section { padding: 48px 0; border-top: 1px solid var(--lab-rule); }
+.lab-section-heading { display: flex; justify-content: space-between; gap: 24px; align-items: baseline; margin-bottom: 28px; }
+.lab-section-heading > a { flex-shrink: 0; }
+.lab-focus-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+.lab-focus-link { display: block; position: relative; border-top: 2px solid var(--lab-rule); padding: 20px 12px 20px 0; }
+.lab-focus-link:hover { border-color: var(--lab-accent); text-decoration: none; }
+.lab-focus-link:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
+.lab-number { display: block; color: var(--lab-muted); font-size: 12px; font-variant-numeric: tabular-nums; margin-bottom: 12px; }
+.lab-focus-link h3 { font-size: 18px; padding-right: 12px; }
+.lab-focus-link p { font-size: 14px; color: var(--lab-muted); line-height: 1.7; margin: 10px 0 0; }
+.lab-arrow { position: absolute; right: 0; top: 20px; font-size: 16px; }
+.lab-profile { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 36px; align-items: start; }
+.lab-profile + .lab-profile { margin-top: 36px; padding-top: 36px; border-top: 1px solid var(--lab-rule); }
+.lab-portrait { display: block; width: 164px; height: auto; border-radius: 3px; }
+.lab-profile .lab-kicker { margin-bottom: 6px; }
+.lab-profile h3 { font-size: 28px; }
+.lab-profile .lab-role { color: var(--lab-muted); font-size: 15px; margin: 8px 0 18px; }
+.lab-profile-copy > p:not(.lab-kicker):not(.lab-role) { max-width: 78ch; }
+.lab-details { margin: 4px 0 12px; font-size: 14px; color: var(--lab-muted); }
+.lab-details summary { width: fit-content; cursor: pointer; color: var(--lab-accent); padding: 4px 0; }
+.lab-details ul { padding-left: 22px; margin: 10px 0; }
+.lab-profile-links { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; }
+.lab-profile-links a { padding: 3px 0; text-decoration: underline; text-underline-offset: 4px; }
+.lab-news-item { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: baseline; padding: 20px 0; border-top: 1px solid var(--lab-rule); }
+.lab-news-item time { color: var(--lab-muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.lab-news-item h3 { font-size: 19px; font-weight: 500; }
+.lab-news-item h3 a { display: flex; gap: 16px; justify-content: space-between; }
+.lab-news-item h3 span { flex-shrink: 0; font-size: 16px; }
+.lab-join { display: flex; align-items: center; justify-content: space-between; gap: 40px; background: var(--lab-soft); padding: 30px 32px; border-left: 3px solid var(--lab-accent); margin-top: 8px; }
+.lab-join h2 { font-size: 23px; }
+.lab-join p { margin: 10px 0 0; font-size: 15px; max-width: 66ch; }
+.lab-join > a { flex-shrink: 0; }
+.lab-research-intro { padding: 64px 0 52px; max-width: 820px; }
+.lab-page .lab-research-intro h1 { font-size: 44px; }
+.lab-research-path { padding-left: 18px; border-left: 2px solid var(--lab-accent); margin-top: 24px !important; color: var(--lab-muted); font-size: 16px; }
+.lab-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 56px; row-gap: 28px; }
+.lab-topic { border-top: 1px solid var(--lab-rule); padding-top: 24px; }
+.lab-topic p { margin: 12px 0 0; color: var(--lab-muted); font-size: 16px; max-width: 52ch; }
+.lab-directory { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.lab-directory-link { display: flex; flex-direction: column; padding: 26px; background: var(--lab-soft); border-top: 2px solid var(--lab-rule); }
+.lab-directory-link:hover { text-decoration: none; border-top-color: var(--lab-accent); }
+.lab-directory-link:hover .lab-link { text-decoration: underline; text-underline-offset: 4px; }
+.lab-directory-link small { font-size: 12px; color: var(--lab-muted); margin-bottom: 24px; }
+.lab-directory-link p { font-size: 15px; color: var(--lab-muted); margin: 14px 0 24px; }
+.lab-directory-link > .lab-link { margin-top: auto; }
+
+@media (max-width: 900px) {
+  .lab-home-intro { grid-template-columns: 1fr; gap: 32px; padding-top: 40px; }
+  .lab-intro-copy { max-width: 680px; }
+  .lab-research-figure { max-width: 680px; }
+  .lab-focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lab-directory { gap: 16px; }
+  .lab-directory-link { padding: 20px; }
+  .lab-join { align-items: flex-start; flex-direction: column; gap: 20px; }
+}
+
+@media (max-width: 600px) {
+  .lab-page { font-size: 16px; padding-bottom: 40px; }
+  .lab-shell { width: calc(100% - 40px); }
+  .lab-page h1 { font-size: 32px; }
+  .lab-page h2 { font-size: 24px; }
+  .lab-page .lab-lede { font-size: 16px; margin-top: 18px; }
+  .lab-home-intro { padding: 32px 0; gap: 28px; }
+  .lab-section { padding: 32px 0; }
+  .lab-section-heading { align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
+  .lab-focus-grid { gap: 20px; }
+  .lab-focus-link { padding: 16px 0; }
+  .lab-focus-link h3 { font-size: 17px; }
+  .lab-focus-link p { font-size: 13px; }
+  .lab-profile { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .lab-portrait { width: 128px; }
+  .lab-profile h3 { font-size: 25px; }
+  .lab-profile + .lab-profile { margin-top: 28px; padding-top: 28px; }
+  .lab-news-item { grid-template-columns: 1fr; gap: 6px; padding: 18px 0; }
+  .lab-news-item h3 { font-size: 17px; }
+  .lab-join { padding: 24px; }
+  .lab-research-intro { padding: 36px 0 32px; }
+  .lab-page .lab-research-intro h1 { font-size: 34px; }
+  .lab-topics, .lab-directory { grid-template-columns: 1fr; gap: 24px; }
+  .lab-directory-link { padding: 24px; }
+  .lab-directory-link small { margin-bottom: 16px; }
+}
+
+.dark .lab-page {
+  --lab-ink: #e5edf5;
+  --lab-text: #d0dbe5;
+  --lab-muted: #b0c0cf;
+  --lab-accent: #a3caeb;
+  --lab-rule: #394b5a;
+  --lab-soft: #22323f;
+  --lab-bg: #18252f;
+  .lab-button { color: #18252f; }
+}

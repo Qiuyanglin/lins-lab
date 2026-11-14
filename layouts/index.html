@@ -1,0 +1,101 @@
+{{ define "main" }}
+<main class="lab-page lab-home" id="lab-main">
+  <div class="lab-shell">
+    <header class="lab-home-intro">
+      <div class="lab-intro-copy">
+        <p class="lab-kicker">{{ .Params.hero.eyebrow }}</p>
+        <h1>{{ range .Params.hero.title_lines }}<span>{{ . }}</span>{{ end }}</h1>
+        <p class="lab-lede">{{ .Params.hero.description }}</p>
+        <div class="lab-actions">
+          <a class="lab-button" href="{{ "research/" | relLangURL }}">{{ .Params.hero.primary_label }}</a>
+          <a class="lab-link" href="{{ "publication/" | relLangURL }}">{{ .Params.hero.secondary_label }} <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      {{ with resources.Get "media/front-afe.png" }}
+        {{ $small := .Resize "768x webp q92" }}
+        {{ $large := .Resize "1536x webp q92" }}
+        <figure class="lab-research-figure">
+          <a href="{{ $large.RelPermalink }}" aria-label="{{ $.Params.hero.image_link_label }}">
+            <img src="{{ $large.RelPermalink }}" srcset="{{ $small.RelPermalink }} 768w, {{ $large.RelPermalink }} 1536w" sizes="(max-width: 900px) calc(100vw - 40px), 560px" width="1536" height="1024" alt="{{ $.Params.hero.image_alt }}" fetchpriority="high" decoding="async">
+          </a>
+          <figcaption>{{ $.Params.hero.image_caption }}</figcaption>
+        </figure>
+      {{ end }}
+    </header>
+
+    <section class="lab-section lab-focus" aria-labelledby="lab-focus-title">
+      <div class="lab-section-heading">
+        <h2 id="lab-focus-title">{{ .Params.topics.title }}</h2>
+        <a class="lab-link" href="{{ "research/" | relLangURL }}">{{ .Params.topics.link_label }} <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="lab-focus-grid">
+        {{ range $index, $topic := .Params.topics.items }}
+          <a class="lab-focus-link" href="{{ printf "research/#%s" .anchor | relLangURL }}">
+            <span class="lab-number" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</span>
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+            <span class="lab-arrow" aria-hidden="true">↗</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="lab-section" aria-labelledby="lab-team-title">
+      <div class="lab-section-heading">
+        <h2 id="lab-team-title">{{ .Params.team.title }}</h2>
+        <a class="lab-link" href="{{ "people/" | relLangURL }}">{{ .Params.team.link_label }} <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="lab-profiles">
+        {{ range .Params.team.profiles }}
+          <article class="lab-profile">
+            <img class="lab-portrait" src="{{ .image | relURL }}" alt="{{ .name }}" width="{{ .width }}" height="{{ .height }}" loading="lazy" decoding="async">
+            <div class="lab-profile-copy">
+              <p class="lab-kicker">{{ .label }}</p>
+              <h3>{{ .name }}</h3>
+              <p class="lab-role">{{ .role }}</p>
+              {{ range .paragraphs }}<p>{{ . }}</p>{{ end }}
+              {{ if .details }}
+                <details class="lab-details">
+                  <summary>{{ .details_label }}</summary>
+                  <ul>{{ range .details }}<li>{{ . }}</li>{{ end }}</ul>
+                </details>
+              {{ end }}
+              <div class="lab-profile-links">
+                {{ range .links }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}
+                {{ with site.GetPage .page }}<a href="{{ .RelPermalink }}">{{ $.Params.team.profile_label }} <span aria-hidden="true">→</span></a>{{ end }}
+              </div>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    {{ $news := where site.Pages "Section" "post" }}
+    {{ $news = where $news "RelPermalink" "ne" ("post/" | relLangURL) }}
+    {{ $news = where $news "Date" "le" now }}
+    {{ $news = where $news "Draft" false }}
+    {{ $news = where $news "Params.private" "ne" true }}
+    {{ with first 3 $news.ByDate.Reverse }}
+      <section class="lab-section" aria-labelledby="lab-news-title">
+        <div class="lab-section-heading">
+          <h2 id="lab-news-title">{{ $.Params.news.title }}</h2>
+          <a class="lab-link" href="{{ "post/" | relLangURL }}">{{ $.Params.news.link_label }} <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="lab-news-list">
+          {{ range . }}
+            <article class="lab-news-item">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $.Params.news.date_format }}</time>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h3>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    <aside class="lab-join" aria-labelledby="lab-join-title">
+      <div><h2 id="lab-join-title">{{ .Params.join.title }}</h2><p>{{ .Params.join.description }}</p></div>
+      <a class="lab-link" href="{{ "join/" | relLangURL }}">{{ .Params.join.label }} <span aria-hidden="true">→</span></a>
+    </aside>
+  </div>
+</main>
+{{ end }}
