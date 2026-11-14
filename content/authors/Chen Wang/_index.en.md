@@ -1,6 +1,7 @@
 ---
 title: "Chen Wang"
 role: "Master Student (2024)"
+member_summary: "Research interests include flexible thin-film transistor circuits, neural interfaces, analog front ends, and analog-to-digital converters."
 
 user_groups:
   - Alumni

@@ -1,6 +1,7 @@
 ---
 title: "Xiaoning Huang"
 role: "MSc Student (2024)"
+member_summary: "Research focuses on low-noise analog circuits and nanopore readout interfaces, including noise cancellation and bandwidth extension for transimpedance amplifiers."
 
 user_groups:
   - Alumni
@@ -25,6 +26,6 @@ Xiaoning Huang received her B.Eng. degree in Electrical Engineering from Hangzho
 
 During her master’s study, she conducted her thesis research at IMEC, focusing on noise cancellation and bandwidth extension techniques for nanopore readout circuits. Solid-state nanopore technology enables high-throughput DNA and protein sequencing but requires transimpedance amplifiers (TIAs) with both low noise and wide bandwidth. In her thesis, she explored the feasibility of applying noise cancellation and bandwidth extension techniques originally developed for optical I/O circuits to nanopore readout systems.
 
-Since 2024, she has been working as a Junior Analog Design Engineer at Cyient (formerly AnSem), where she participates in the design of several analog building blocks, including PMU units, clock generators, temperature sensors, and ADC input buffers.
+In 2024, she began working as a Junior Analog Design Engineer at Cyient (formerly AnSem), where she contributed to analog building blocks including PMU units, clock generators, temperature sensors, and ADC input buffers. She joined Omnivision in 2025.
 
 Her research interests include analog integrated circuit design, low-noise circuits, transimpedance amplifiers, nanopore front-end circuits, and biosignal readout circuits.

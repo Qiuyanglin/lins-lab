@@ -1,6 +1,7 @@
 ---
 title: "刘明"
 role: "实验室发展与学术指导"
+member_summary: "长期从事新型存储器、微纳电子器件、先进半导体材料结构与集成电路微纳加工技术研究，为实验室提供发展与学术指导。"
 avatar_filename: "avatar.jpg"
 
 user_groups:

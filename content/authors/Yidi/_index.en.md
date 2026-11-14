@@ -1,25 +1,13 @@
 ---
 title: "Yidi Sun"
 role: "Master's Student (2026–)"
+member_summary: "Research interests include brain-computer interface circuits, biomedical integrated circuits, and analog front-end design."
 
 user_groups:
   - Master
 
 organizations:
   - name: "Fudan University"
-
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:chen.wang@imec.be"
-
-  - icon: graduation-cap
-    icon_pack: fas
-    link: "https://scholar.google.com/citations?user=GLhGLIIAAAAJ&hl=en"
-
-  - icon: orcid
-    icon_pack: fab
-    link: "https://orcid.org/0009-0005-3140-3309"
 
 interests:
   - Biomedical Integrated Circuits

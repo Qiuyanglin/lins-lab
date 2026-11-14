@@ -1,6 +1,7 @@
 ---
 title: "谢宁远"
 role: "实习学生"
+member_summary: "课题组实习学生，关注电路设计，在科研训练与实践中积累经验。"
 
 user_groups:
   - 实习学生

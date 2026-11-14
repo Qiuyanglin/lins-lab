@@ -1,6 +1,7 @@
 ---
 title: "Aurojyoti Das"
 role: "PhD (2026)"
+member_summary: "Research focuses on biomedical integrated circuits, low-noise readout circuits, and high-speed transimpedance amplifiers for nanopore single-molecule sensing."
 
 user_groups:
   - Alumni

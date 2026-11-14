@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{ $page := . }}
+{{ $members := where site.Pages "Section" "authors" }}
+{{ $members = where (where (where $members "Draft" false) "Params.private" "ne" true) "Date" "le" now }}
+<main class="lab-page lab-people" id="lab-main">
+  <div class="lab-shell">
+    <header class="lab-people-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+      <nav class="member-navigation" aria-label="{{ .Params.labels.navigation }}">
+        {{ range .Params.sections }}
+          {{ if where $members "Params.user_groups" "intersect" .groups }}<a href="#{{ .id }}">{{ .title }}</a>{{ end }}
+        {{ end }}
+      </nav>
+    </header>
+    {{ range .Params.sections }}
+      {{ $section := . }}
+      {{ $people := slice }}
+      {{ range .groups }}
+        {{ range sort (where $members "Params.user_groups" "intersect" (slice .)) "File.Dir" }}
+          {{ $people = $people | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $people = uniq $people }}
+      {{ with $people }}
+        <section class="lab-section member-section" id="{{ $section.id }}" aria-labelledby="{{ $section.id }}-heading">
+          <div class="lab-section-heading"><h2 id="{{ $section.id }}-heading">{{ $section.title }}</h2></div>
+          {{ if $section.collapsible }}<details class="member-alumni"><summary>{{ $page.Params.labels.alumni }} <span>({{ len . }})</span></summary>{{ end }}
+          <div class="{{ if $section.featured }}member-leadership{{ else }}member-grid{{ end }}">
+            {{ range . }}
+              <article class="member-card{{ if $section.featured }} member-featured{{ end }}" data-member="{{ path.Base .File.Dir }}">
+                <a class="member-photo-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }} · {{ $page.Params.labels.profile }}" tabindex="-1">
+                  {{ partial "lab/member-portrait.html" (dict "page" . "featured" $section.featured) }}
+                </a>
+                <div class="member-copy">
+                  {{ if $section.featured }}<p class="lab-kicker">{{ partial "lab/member-groups.html" (dict "page" . "labels" $page.Params.labels) }}</p>{{ end }}
+                  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                  <p class="member-role">{{ .Params.role }}</p>
+                  {{ with .Params.member_summary }}<p class="member-summary">{{ . }}</p>{{ end }}
+                  <a class="lab-link member-profile-link" href="{{ .RelPermalink }}">{{ $page.Params.labels.profile }} <span aria-hidden="true">→</span><span class="sr-only"> · {{ .Title }}</span></a>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+          {{ if $section.collapsible }}</details>{{ end }}
+        </section>
+      {{ end }}
+    {{ end }}
+    <aside class="lab-join" aria-labelledby="member-join-title">
+      <div><h2 id="member-join-title">{{ .Params.join.title }}</h2><p>{{ .Params.join.text }}</p></div>
+      <a class="lab-link" href="{{ "join/" | relLangURL }}">{{ .Params.join.label }} <span aria-hidden="true">→</span></a>
+    </aside>
+  </div>
+</main>
+{{ end }}

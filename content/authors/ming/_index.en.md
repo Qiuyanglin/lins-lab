@@ -1,6 +1,7 @@
 ---
 title: "Ming Liu"
 role: "Strategic and Academic Mentoring"
+member_summary: "Research focuses on emerging memories, micro/nanoelectronic devices, advanced semiconductor materials and structures, and IC fabrication technologies. Provides strategic and academic guidance to the laboratory."
 
 user_groups:
   - Chief Scientific Advisor

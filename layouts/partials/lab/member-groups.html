@@ -1,0 +1,5 @@
+{{- $labels := .labels.groups | default dict -}}
+{{- range $index, $group := .page.Params.user_groups -}}
+  {{- if $index }} · {{ end -}}
+  {{- index $labels $group | default $group -}}
+{{- end -}}
