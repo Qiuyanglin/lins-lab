@@ -1,7 +1,7 @@
 ---
 title: "People"
 type: lab-people
-summary: "Meet the advisors, principal investigator, students, members, and alumni of Lin's Lab."
+summary: "Meet the advisors, principal investigator, students, members, and graduates of Lin's Lab."
 intro:
   kicker: "Our team"
   text: "Learning and working together on biomedical integrated circuits, neural interfaces, and analog and mixed-signal design."
@@ -11,7 +11,7 @@ labels:
   back: "All people"
   interests: "Interests"
   latest: "Related work"
-  alumni: "View alumni profiles"
+  alumni: "View graduate profiles"
   email: "Email"
   website: "Website"
   portrait: "View original photo"
@@ -22,6 +22,7 @@ labels:
     Postdoc: "Postdoctoral researcher"
     RA: "Research assistant"
     Visiting: "Research intern"
+    Alumni: "Graduate"
 sections:
   - id: leadership
     title: "Advisors & leadership"
@@ -43,7 +44,7 @@ sections:
     title: "Research interns"
     groups: [Visiting]
   - id: alumni
-    title: "Alumni"
+    title: "Graduates"
     groups: [Alumni]
     collapsible: true
 join:

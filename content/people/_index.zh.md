@@ -1,7 +1,7 @@
 ---
 title: "成员"
 type: lab-people
-summary: "认识林实验室的顾问、负责人、学生成员与校友。"
+summary: "认识林实验室的顾问、负责人、学生成员与已毕业学生。"
 intro:
   kicker: "我们的团队"
   text: "围绕生物医疗集成电路、神经接口与模拟混合信号电路，共同学习、探索与研究。"
@@ -11,7 +11,7 @@ labels:
   back: "全部成员"
   interests: "兴趣与研究方向"
   latest: "相关成果"
-  alumni: "查看校友档案"
+  alumni: "查看已毕业学生档案"
   email: "邮箱"
   website: "个人网站"
   portrait: "查看原图"
@@ -36,7 +36,7 @@ sections:
     title: "实习学生"
     groups: [实习学生]
   - id: alumni
-    title: "校友"
+    title: "已毕业学生"
     groups: [已毕业学生]
     collapsible: true
 join:
