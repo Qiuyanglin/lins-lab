@@ -1,87 +1,83 @@
 ---
 title: "林实验室 – 生物医疗集成电路"
-type: landing
-
-sections:
-  - block: hero
-    content:
-      title: "生物医疗集成电路与系统实验室"
-      text: |
-    design:
-      text_color: light
-      background:
-        image:
-          filename: front.png
-        size: cover
-        position: center
-        parallax: false
-    advanced:
-      css_class: hero-front
-    typography:
-      title:
-        size: "3.0rem"
-        line_height: 1.12
-        weight: 650
-      text:
-        size: "1.30rem"
-        line_height: 1.65
-
-  - block: markdown
-    content:
-      text: |
-        <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:12px;">
-          <div style="flex:0 0 260px;">
-            <img src="/media/lin.webp" alt="林秋阳" width="1024" height="1536" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
-          </div>
-          <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
-            <div style="font-size:1.65rem;font-weight:650;margin:0 0 6px 0;">林秋阳</div>
-            <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
-              复旦大学 复旦大学芯片与系统前沿技术研究院 助理教授<br>
-              国家级青年人才 · 上海市青年人才 · 博士生导师 · IEEE Senior Member
-            </div>
-            <div style="margin:0 0 12px 0;">
-              研究聚焦生物医疗模拟/混合信号集成电路，包括可穿戴芯片、植入式脑机接口、电化学芯片、DNA测序芯片、数模转换器与AI芯片。
-            </div>
-            <div style="margin:0 0 12px 0;">
-              博士毕业于鲁汶大学与IMEC，2015年加入IMEC，曾任博士研究员、研究员、高级研究员、项目经理及模拟电路社区主席。
-            </div>
-            <div style="margin:0 0 12px 0;">
-              在集成电路顶级会议与期刊 ISSCC、VLSI、JSSC、TBCAS 等发表论文 30 余篇，授权美国专利 2 项。
-            </div>
-            <div style="margin-top:10px;">
-              <b>链接：</b>
-              <a href="https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works">Google Scholar</a> ·
-              <a href="https://orcid.org/0000-0002-7422-5793">ORCID</a> ·
-              <a href="mailto:linqiuyang1991@gmail.com">邮箱</a>
-            </div>
-          </div>
-        </div>
-
-        <div style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;margin-top:42px;padding-top:36px;border-top:1px solid rgba(0,0,0,.10);">
-          <div style="flex:0 0 260px;">
-            <img src="/media/Liu.webp" alt="刘明院士" width="1600" height="2400" loading="lazy" style="width:280px;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);box-shadow:0 8px 22px rgba(0,0,0,.10);">
-          </div>
-          <div style="flex:1;min-width:280px;max-width:1140px;line-height:1.78;">
-            <div style="font-size:1.65rem;font-weight:650;margin:0 0 8px 0;">
-              刘明
-              <span style="display:inline-block;font-size:.95rem;font-weight:650;color:#8a4b00;background:rgba(255,152,0,.13);padding:3px 10px;border-radius:999px;margin-left:10px;vertical-align:middle;">
-                实验室首席科学顾问
-              </span>
-            </div>
-            <div style="color:rgba(0,0,0,.65);margin:0 0 14px 0;">
-              复旦大学芯片与系统前沿技术研究院院长<br>
-              中国科学院院士 · IEEE Fellow · 发展中国家科学院院士<br>
-              中国科学院微电子研究所研究员、博士生导师<br>
-              中国科学院微电子器件与集成技术重点实验室主任<br>
-              国家重大基础研究计划项目首席科学家 · 国家杰出青年科学基金获得者<br>
-              国家自然科学基金委创新群体负责人 · 国家百千万人才工程入选者
-            </div>
-            <div style="margin:0 0 12px 0;">
-              刘明院士长期从事微电子科学技术研究，在新型存储器、微纳电子器件、先进半导体材料结构与集成电路微纳加工技术等方向取得系统性创新成果。
-            </div>
-            <div style="margin:0 0 12px 0;">
-              作为实验室首席科学顾问，刘明院士指导实验室围绕生物医疗集成电路、脑机接口芯片、智能传感系统与下一代集成电路技术开展前沿交叉研究。
-            </div>
-          </div>
-        </div>
+type: lab-home
+design:
+  css_class: lab-landing
+summary: "复旦大学生物医疗集成电路与系统实验室，研究低功耗模拟与混合信号芯片及其在生物医疗系统中的应用。"
+hero:
+  eyebrow: "复旦大学 · 林实验室"
+  title: "生物医疗集成电路与系统实验室"
+  title_lines: ["生物医疗集成电路", "与系统实验室"]
+  description: "面向生物医疗与智能感知，研究低功耗模拟与混合信号芯片，贯通电路架构、芯片实现与系统验证。"
+  primary_label: "探索研究方向"
+  secondary_label: "学术论文"
+  image_alt: "可穿戴健康监测、神经接口、电化学生物传感、DNA 测序与模拟传感芯片；右侧芯片标注 ADC、DAC、AFE。"
+  image_caption: "从生物信号感知到芯片与系统"
+  image_link_label: "查看完整研究主题图"
+topics:
+  title: "研究方向"
+  link_label: "研究总览"
+  items:
+    - title: "可穿戴生物传感"
+      description: "低功耗生理信号采集与处理"
+      anchor: wearable
+    - title: "神经接口"
+      description: "脑机接口与神经信号读出"
+      anchor: neural
+    - title: "电化学与纳米孔接口"
+      description: "面向分子检测与 DNA 测序"
+      anchor: molecular
+    - title: "模拟与混合信号电路"
+      description: "数据转换器与模拟前端"
+      anchor: analog
+team:
+  title: "团队与学术指导"
+  link_label: "实验室成员"
+  profile_label: "完整简介"
+  profiles:
+    - name: "林秋阳"
+      label: "课题组负责人"
+      role: "复旦大学芯片与系统前沿技术研究院 · 助理教授、博士生导师"
+      image: /media/lin.webp
+      width: 1024
+      height: 1536
+      page: authors/qiuyang-lin
+      paragraphs:
+        - "研究聚焦生物医疗模拟与混合信号集成电路，包括可穿戴芯片、植入式脑机接口、电化学与 DNA 测序芯片、数据转换器及 AI 芯片。"
+        - "博士毕业于鲁汶大学与 IMEC，2015 年加入 IMEC，曾任博士研究员、研究员、高级研究员、项目经理及模拟电路社区主席。在 ISSCC、VLSI、JSSC、TBCAS 等会议和期刊发表论文 30 余篇，授权美国专利 2 项。"
+      details_label: "人才计划与学术身份"
+      details:
+        - "国家级青年人才 · 上海市青年人才 · IEEE Senior Member"
+      links:
+        - label: Google Scholar
+          url: "https://scholar.google.com/citations?hl=en&user=YajWlVQAAAAJ&view_op=list_works"
+        - label: ORCID
+          url: "https://orcid.org/0000-0002-7422-5793"
+        - label: 邮箱
+          url: "mailto:linqiuyang1991@gmail.com"
+    - name: "刘明"
+      label: "首席科学顾问"
+      role: "复旦大学芯片与系统前沿技术研究院院长 · 中国科学院院士"
+      image: /media/Liu.webp
+      width: 1600
+      height: 2400
+      page: authors/ming
+      paragraphs:
+        - "长期从事微电子科学技术研究，在新型存储器、微纳电子器件、先进半导体材料结构与集成电路微纳加工技术等方向取得系统性创新成果。"
+        - "指导实验室围绕生物医疗集成电路、脑机接口芯片、智能传感系统与下一代集成电路技术开展前沿交叉研究。"
+      details_label: "学术任职与荣誉"
+      details:
+        - "IEEE Fellow · 发展中国家科学院院士"
+        - "中国科学院微电子研究所研究员、博士生导师"
+        - "中国科学院微电子器件与集成技术重点实验室主任"
+        - "国家重大基础研究计划项目首席科学家 · 国家杰出青年科学基金获得者"
+        - "国家自然科学基金委创新群体负责人 · 国家百千万人才工程入选者"
+news:
+  title: "近期动态"
+  link_label: "全部新闻"
+  date_format: "2006.01.02"
+join:
+  title: "加入实验室"
+  description: "欢迎对生物医疗集成电路、模拟与混合信号电路研究感兴趣的同学与我们联系。"
+  label: "了解招生与科研机会"
 ---
