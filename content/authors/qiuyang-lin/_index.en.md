@@ -1,6 +1,7 @@
 ---
 title: "Qiuyang Lin"
 role: "Assistant Professor"
+member_summary: "Research focuses on biomedical and sensing ICs, analog and mixed-signal circuits, and data converters, spanning system architecture, circuit design, and silicon validation."
 user_groups:
   - PI
 

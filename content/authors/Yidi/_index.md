@@ -1,25 +1,13 @@
 ---
 title: "孙艺迪"
 role: "硕士生（2026-）"
+member_summary: "研究兴趣包括脑机接口电路、生物医疗集成电路与模拟前端设计。"
 
 user_groups:
   - 硕士生
 
 organizations:
   - name: "复旦大学"
-
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:chen.wang@imec.be"
-
-  - icon: graduation-cap
-    icon_pack: fas
-    link: "https://scholar.google.com/citations?user=GLhGLIIAAAAJ&hl=en"
-
-  - icon: orcid
-    icon_pack: fab
-    link: "https://orcid.org/0009-0005-3140-3309"
 
 interests:
   - 生物医疗集成电路

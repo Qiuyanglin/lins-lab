@@ -1,0 +1,13 @@
+{{- $page := .page -}}
+{{- $portrait := index site.Data.member_portraits (path.Base $page.File.Dir) | default dict -}}
+{{- $zoom := $portrait.zoom | default 1 -}}
+{{- with ($page.Resources.ByType "image").GetMatch "*avatar*" -}}
+  {{- /* Keep the original photo; CSS crops responsive copies to a consistent square portrait. */ -}}
+  {{- $small := .Fit "480x640 webp q92" -}}
+  {{- $large := .Fit (printf "%dx%d webp q92" (int (math.Min 960 .Width)) (int (math.Min 1280 .Height))) -}}
+  <span class="member-photo-frame">
+    <img class="member-photo" src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="{{ if $.featured }}(max-width: 600px) {{ int (mul 144 $zoom) }}px, {{ int (mul 192 $zoom) }}px{{ else }}(max-width: 600px) calc((100vw - 40px) * {{ $zoom }}), (max-width: 900px) calc((100vw - 88px) / 2 * {{ $zoom }}), {{ int (mul 352 $zoom) }}px{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $page.Title }}" style="object-position: {{ $portrait.position | default "50% 25%" }}; transform: scale({{ $zoom }}); transform-origin: {{ $portrait.origin | default "50% 50%" }};" loading="lazy" decoding="async">
+  </span>
+{{- else -}}
+  <span class="member-photo-placeholder" aria-hidden="true">{{ substr $page.Title 0 1 }}</span>
+{{- end -}}

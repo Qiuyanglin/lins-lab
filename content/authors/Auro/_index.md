@@ -1,6 +1,7 @@
 ---
 title: "Aurojyoti Das"
 role: "博士（2026级）毕业去向：TDK-ICSense 工作"
+member_summary: "研究聚焦生物医疗集成电路、低噪声读出电路与高速跨阻放大器，面向纳米孔单分子检测应用。"
 
 user_groups:
   - 已毕业学生

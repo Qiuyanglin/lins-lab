@@ -1,0 +1,14 @@
+{{- $labels := .labels -}}
+{{- with .page.Params.social -}}
+<div class="member-links">
+  {{- range . -}}
+    {{- $label := .label | default $labels.website -}}
+    {{- if eq .icon "envelope" }}{{ $label = $labels.email }}
+    {{- else if in (slice "google-scholar" "graduation-cap") .icon }}{{ $label = "Google Scholar" }}
+    {{- else if eq .icon "orcid" }}{{ $label = "ORCID" }}
+    {{- else if eq .icon "github" }}{{ $label = "GitHub" }}
+    {{- else if eq .icon "linkedin" }}{{ $label = "LinkedIn" }}{{ end -}}
+    <a href="{{ .link }}">{{ $label }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+</div>
+{{- end -}}

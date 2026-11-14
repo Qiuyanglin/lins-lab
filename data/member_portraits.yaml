@@ -1,0 +1,18 @@
+# Shared by both languages. These values adjust only the displayed crop;
+# the original photos remain available on each member's profile.
+yiru:
+  position: "65% 50%"
+zining:
+  position: "18% 50%"
+xiaoning:
+  position: "50% 50%"
+  zoom: 1.65
+  origin: "50% 55%"
+ningyuan:
+  position: "50% 50%"
+  zoom: 1.4
+  origin: "45% 35%"
+Yidi:
+  position: "50% 45%"
+  zoom: 1.5
+  origin: "50% 35%"

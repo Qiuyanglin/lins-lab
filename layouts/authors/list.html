@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ if and .File .Params.user_groups }}
+  {{ $directory := site.GetPage "/people" }}
+  {{ $labels := $directory.Params.labels }}
+  <main class="lab-page lab-member" id="lab-main">
+    <div class="lab-shell">
+      <a class="lab-link member-back" href="{{ $directory.RelPermalink }}"><span aria-hidden="true">←</span> {{ $labels.back }}</a>
+      <header class="member-profile-header">
+        <div>
+          {{ partial "lab/member-portrait.html" (dict "page" . "featured" true) }}
+          {{ with (.Resources.ByType "image").GetMatch "*avatar*" }}<a class="member-original" href="{{ .RelPermalink }}">{{ $labels.portrait }}</a>{{ end }}
+        </div>
+        <div class="member-profile-intro">
+          <p class="lab-kicker">{{ partial "lab/member-groups.html" (dict "page" . "labels" $labels) }}</p>
+          <h1>{{ .Title }}</h1>
+          <p class="member-role">{{ .Params.role }}</p>
+          {{ with .Params.organizations }}<p class="member-affiliations">{{ range $index, $organization := . }}{{ if $index }}<br>{{ end }}{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ end }}</p>{{ end }}
+          {{ partial "lab/member-links.html" (dict "page" . "labels" $labels) }}
+        </div>
+      </header>
+      <div class="member-profile-body{{ if .Params.interests }} member-has-interests{{ end }}">
+        <div class="member-biography article-style">{{ .Content }}</div>
+        {{ with .Params.interests }}
+          <aside class="member-interests" aria-labelledby="member-interests-title">
+            <h2 id="member-interests-title">{{ $labels.interests }}</h2>
+            <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+          </aside>
+        {{ end }}
+      </div>
+      {{ $related := where (where (where .Pages "IsNode" false) "Draft" false) "Params.private" "ne" true }}
+      {{ $related = where $related "Date" "le" now }}
+      {{ with $related }}
+        <section class="lab-section member-related" aria-labelledby="member-related-title">
+          <h2 id="member-related-title">{{ $labels.latest }}</h2>
+          <ul>{{ range .ByDate.Reverse }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+        </section>
+      {{ end }}
+    </div>
+  </main>
+{{ else }}
+  {{/* Preserve the theme's publication-author index for people without member profiles. */}}
+  <div class="universal-wrapper pt-3"><h1>{{ .Title }}</h1></div>
+  {{ with where .Pages "IsNode" false }}
+    <section id="profile-page" class="pt-5"><div class="container"><div class="article-widget content-widget-hr">
+      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+      <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+    </div></div></section>
+  {{ end }}
+{{ end }}
+{{ end }}
