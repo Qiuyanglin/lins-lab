@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $contact := .Params.contact }}
+<main class="lab-page lab-contact" id="lab-main">
+  <div class="lab-shell">
+    <header class="contact-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+      <div class="contact-primary">
+        <p class="contact-name">{{ $contact.name }} <span>· {{ $contact.email_label }}</span></p>
+        <a class="contact-email" href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
+        <div class="lab-actions">
+          <a class="lab-button" href="mailto:{{ $contact.email }}">{{ $contact.email_action }}</a>
+          <a class="lab-link" href="#visit">{{ $contact.visit_action }} <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="contact-grid">
+      {{ with .Params.visit }}
+        <section class="contact-visit" id="visit" aria-labelledby="contact-visit-heading">
+          <h2 id="contact-visit-heading">{{ .title }}</h2>
+          <div class="contact-detail">
+            <h3>{{ .address_label }}</h3>
+            <address>
+              {{ range .address }}<span>{{ . }}</span>{{ end }}
+            </address>
+            {{ with .postcode }}<p class="contact-postcode">{{ $.Params.visit.postcode_label }}: {{ . }}</p>{{ end }}
+          </div>
+          <div class="contact-detail">
+            <h3>{{ .directions_label }}</h3>
+            <p>{{ .directions }}</p>
+          </div>
+          <div class="contact-detail">
+            <h3>{{ .appointment_label }}</h3>
+            <p><a href="mailto:{{ $contact.email }}">{{ .appointment }}</a></p>
+          </div>
+        </section>
+      {{ end }}
+
+      <div class="contact-exchange">
+        {{ with .Params.collaboration }}
+          <section aria-labelledby="contact-collaboration-heading">
+            <h2 id="contact-collaboration-heading">{{ .title }}</h2>
+            <p>{{ .text }}</p>
+            <p class="contact-interests">{{ .interests }}</p>
+            <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
+          </section>
+        {{ end }}
+        {{ with .Params.opportunities }}
+          <section aria-labelledby="contact-opportunities-heading">
+            <h2 id="contact-opportunities-heading">{{ .title }}</h2>
+            <p>{{ .text }}</p>
+            <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
+          </section>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

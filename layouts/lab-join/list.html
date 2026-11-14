@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{ $labels := .Params.labels }}
+{{ $opportunities := where (where (where .Pages "Draft" false) "Params.private" "ne" true) "Date" "le" now }}
+{{ $opportunities = where $opportunities "PublishDate" "le" now }}
+<main class="lab-page lab-join-page" id="lab-main">
+  <div class="lab-shell">
+    <header class="join-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+    </header>
+    <nav class="join-navigation" aria-label="{{ $labels.navigation }}">
+      <a href="#opportunities">{{ .Params.opportunities.title }}</a>
+      <a href="#research-areas">{{ .Params.research.title }}</a>
+      <a href="#contact-apply">{{ .Params.contact.title }}</a>
+    </nav>
+
+    <section class="join-section" id="opportunities" aria-labelledby="opportunities-heading">
+      <div class="join-section-heading">
+        <h2 id="opportunities-heading">{{ .Params.opportunities.title }}</h2>
+        <p>{{ .Params.opportunities.text }}</p>
+      </div>
+      <div class="join-opportunities">
+        {{ range $index, $page := $opportunities.ByWeight }}
+          <article class="join-opportunity">
+            <span class="join-number" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</span>
+            <div class="join-opportunity-copy">
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">→</span></a></h3>
+              {{ with .Params.availability }}<p class="join-availability">{{ . }}</p>{{ end }}
+              <p class="join-description">{{ .Params.summary }}</p>
+              <a class="lab-link" href="{{ .RelPermalink }}" aria-label="{{ .Title }}: {{ $labels.details }}">{{ $labels.details }}</a>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="join-section" id="research-areas" aria-labelledby="join-research-heading">
+      <h2 id="join-research-heading">{{ .Params.research.title }}</h2>
+      <ul class="join-research-list">{{ range .Params.research.items }}<li>{{ . }}</li>{{ end }}</ul>
+      <div class="join-training">
+        <h3>{{ .Params.training.title }}</h3>
+        <p>{{ .Params.training.text }}</p>
+      </div>
+    </section>
+
+    <section class="join-section" id="contact-apply" aria-labelledby="join-contact-heading">
+      <div class="join-section-heading">
+        <h2 id="join-contact-heading">{{ .Params.contact.title }}</h2>
+        <p>{{ .Params.contact.text }}</p>
+      </div>
+      <div class="join-contact-grid">
+        {{ range slice .Params.contact.inquiries .Params.contact.applications }}
+          <div>
+            <h3>{{ .label }}</h3>
+            <a class="join-email" href="mailto:{{ .email }}">{{ .email }}</a>
+            <p>{{ .text }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</main>
+{{ end }}

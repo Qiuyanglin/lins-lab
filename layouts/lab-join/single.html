@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $listing := site.GetPage "/join" }}
+{{ $labels := $listing.Params.labels }}
+{{ $subject := replace (.Params.application_subject | urlquery) "+" "%20" }}
+{{ $application := printf "mailto:%s?subject=%s" .Params.application_email $subject }}
+{{ $others := where (where (where $listing.Pages "Draft" false) "Params.private" "ne" true) "Date" "le" now }}
+{{ $others = where (where $others "PublishDate" "le" now) "RelPermalink" "ne" .RelPermalink }}
+<main class="lab-page lab-join-page lab-join-detail" id="lab-main">
+  <div class="lab-shell">
+    <a class="lab-link join-back" href="{{ $listing.RelPermalink }}"><span aria-hidden="true">←</span> {{ $labels.back }}</a>
+    <header class="join-detail-header">
+      <p class="lab-kicker">{{ $listing.Title }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.availability }}<p class="join-availability">{{ . }}</p>{{ end }}
+      <p class="lab-lede">{{ .Params.summary }}</p>
+    </header>
+
+    <div class="join-detail-layout">
+      <aside class="join-sidebar" aria-labelledby="join-on-this-page">
+        <h2 id="join-on-this-page">{{ $labels.on_this_page }}</h2>
+        <div class="join-toc">{{ .TableOfContents }}</div>
+        <a class="join-apply-link" href="{{ $application | safeURL }}">{{ $labels.apply }} <span aria-hidden="true">↗</span></a>
+        <p class="join-apply-address">{{ .Params.application_email }}</p>
+      </aside>
+      <article class="join-prose article-style">{{ .Content }}</article>
+    </div>
+
+    {{ with $others }}
+      <nav class="join-other" aria-labelledby="join-other-heading">
+        <h2 id="join-other-heading">{{ $labels.other_opportunities }}</h2>
+        <ul>{{ range .ByWeight }}<li><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">→</span></a></li>{{ end }}</ul>
+      </nav>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

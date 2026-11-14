@@ -1,11 +1,14 @@
 ---
 title: "本科科研实习生"
 date: 2026-03-01
+type: lab-join
+application_email: linqiuyang1991@gmail.com
+application_subject: 本科科研实习申请 + 姓名 + 学校
 summary: "欢迎对模拟集成电路设计和生物医疗电子感兴趣的本科生加入实验室参与科研实践。"
 weight: 40
 ---
 
-## 实习内容
+## 实习内容 {#activities}
 
 我们欢迎具有科研兴趣的本科生加入实验室参与科研实践。  
 本科实习生将在研究生或导师指导下参与基础电路模块设计与实验研究，并逐步了解集成电路设计与科研工作的基本流程。
@@ -21,7 +24,7 @@ weight: 40
 - PCB板级电路设计与调试
 - 模拟电路版图（layout）设计基础
 
-## 实习收获
+## 实习收获 {#learning}
 
 通过科研实习，你将有机会：
 
@@ -34,7 +37,7 @@ weight: 40
 
 表现优秀的本科实习生将有机会继续在本实验室开展科研或攻读研究生。
 
-## 基本要求
+## 基本要求 {#requirements}
 
 - 电子工程、微电子、集成电路、生物医学工程或相关专业本科生
 - 具备模拟或数字电路基础
@@ -48,11 +51,11 @@ weight: 40
 - Cadence 或 LTspice 电路仿真
 - PCB设计工具（如 Altium / KiCad）
 
-## 申请方式
+## 申请方式 {#apply}
 
 请发送以下材料至：
 
-**linqiuyang1991@gmail.com**
+[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
 
 邮件标题：
 

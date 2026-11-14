@@ -1,40 +1,41 @@
 ---
-title: "Master Students"
+title: Master’s Students
+type: lab-join
 date: 2026-03-01
-summary: "We welcome motivated master students interested in biomedical integrated circuits, neural interface circuits, data converters, and low-power analog front-end design. (2–3 positions per year)"
+summary: We welcome master's applicants interested in biomedical integrated circuits, neural interface circuits, data converters, and low-power analog front-end design.
+availability: 2–3 positions per year
+application_email: linqiuyang1991@gmail.com
+application_subject: Master Application + Name + University
 weight: 30
 ---
 
-## Research Areas
+## Research Areas {#research-areas}
 
-- **Biomedical Integrated Circuits for Wearable and Implantable Systems**
-
-- **Neural Interface Circuits for Brain–Machine Interfaces**
-
-- **Analog Front-End and Data Converters for Biosignal Acquisition**
-
+- **Biomedical IC Design for Wearable Systems**
+- **Neural Recording Circuits for Brain–Machine Interfaces**
+- **Analog Front-End Design and Data Converters**
 - **Bio ICs for Emerging Biomedical Applications**
 
-## Requirements
+## Requirements {#requirements}
 
-- Background in Microelectronics, Electrical Engineering, Integrated Circuits, Biomedical Engineering, or related fields
-- Solid foundation in analog and digital integrated circuits
-- Good English proficiency
-- Experience with MATLAB / Python / Verilog / Cadence is a plus
-- Strong interest in IC design and scientific research
-- Good communication skills and team spirit
+- Have a background in Microelectronics, Electrical Engineering, Integrated Circuits, Biomedical Engineering, or a related field
+- Have foundational knowledge of analog and digital integrated circuits
+- Have good English proficiency
+- Experience with MATLAB / Python / Verilog / Cadence is preferred
+- Be interested in IC design and research
+- Have good communication skills and work well as part of a team
 
-## Application Materials
+## Application Materials {#materials}
 
 - Curriculum Vitae (CV)
 - Academic transcripts and English test scores
-- Publications, project descriptions, or course project reports
+- Publications, descriptions of project experience, or course-design descriptions or reports
 
-## How to Apply
+## How to Apply {#apply}
 
 Please send your application materials to:
 
-**linqiuyang1991@gmail.com**
+[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
 
 Email subject:
 
