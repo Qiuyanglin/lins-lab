@@ -1,6 +1,7 @@
 ---
 title: "A 376-μW per-Channel, Drift-Tolerant Translocation Recording Frontend With Event Detection for Nanopore Sensor Arrays"
-date: 2025-01-01
+date: 2025-07-01
+doi: "10.1109/JSSC.2025.3570935"
 
 authors:
   - "A. Das"

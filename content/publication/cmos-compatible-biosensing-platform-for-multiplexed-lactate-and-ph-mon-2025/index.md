@@ -1,6 +1,7 @@
 ---
 title: "CMOS-Compatible Biosensing Platform for Multiplexed Lactate and PH Monitoring in Low-Volume Biosamples"
-date: 2025-01-01
+date: 2025-06-29
+doi: "10.1109/TRANSDUCERS61432.2025.11111474"
 
 authors:
   - "L. De Schrijver"

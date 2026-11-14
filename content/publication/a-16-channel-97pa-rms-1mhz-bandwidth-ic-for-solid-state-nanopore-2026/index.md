@@ -1,6 +1,7 @@
 ---
 title: "A 16-Channel 97pA rms 1MHz Bandwidth IC for Solid State Nanopore Sequencing"
-date: 2026-01-01
+date: 2026-06-14
+doi: "10.1109/VLSITechnologyandCir65830.2026.11577314"
 
 authors:
   - "Q. Lin"

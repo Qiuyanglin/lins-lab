@@ -15,6 +15,8 @@ authors:
 publication_types: ["Journal article"]
 publication: "IEEE Transactions on Biomedical Circuits and Systems, vol. 14, no. 4, pp. 800-810"
 publication_short: "TBCAS 2020"
+doi: "10.1109/tbcas.2020.3001449"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

@@ -14,6 +14,11 @@ authors:
 publication_types: ["Conference paper"]
 publication: "2018 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-4"
 publication_short: "CICC 2018"
+doi: "10.1109/cicc.2018.8357025"
+links:
+  - name: "Repository record"
+    url: "https://repository.tudelft.nl/record/uuid%3Af4494fb8-8f15-457a-a89c-01bd4a02c988"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

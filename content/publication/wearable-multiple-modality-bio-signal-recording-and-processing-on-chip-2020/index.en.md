@@ -1,6 +1,6 @@
 ---
 title: "Wearable multiple modality bio-signal recording and processing on chip: A review"
-date: 2020-01-01
+date: 2021-01-01
 
 authors:
   - "Q. Lin"
@@ -13,10 +13,14 @@ authors:
   - "S. Stanzione"
   - "W. Sijbers"
   - "C. Van Hoof"
+  - "F. Tavernier"
+  - "N. Van Helleputte"
 
 publication_types: ["Journal article"]
 publication: "IEEE Sensors Journal, vol. 21, no. 2, pp. 1108-1123"
-publication_short: "IEEE Sensor 2020"
+publication_short: "IEEE Sensor 2021"
+doi: "10.1109/jsen.2020.3016115"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

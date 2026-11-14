@@ -1,6 +1,7 @@
 ---
 title: "Circuit Architectures for Next-Generation Neural Interfaces: Recording, Stimulation, and Closed-Loop Neuromodulation"
-date: 2026-05-23
+date: 2026-04-19
+doi: "10.1109/CICC65509.2026.11509514"
 
 authors:
   - "X. Yang"

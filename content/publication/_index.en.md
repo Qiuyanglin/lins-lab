@@ -1,26 +1,32 @@
 ---
 title: "Publications"
-type: landing
-
-sections:
-  - block: hero
-    content:
-      title: "Publications"
-      text: "Journals · Conferences · Patents · Preprints"
-    design:
-      text_color: light
-      background:
-        color: "#111827"
-
-  - block: collection
-    content:
-      filters:
-        folders:
-          - publication
-      sort_by: date
-      sort_ascending: false
-      count: 999
-      view: citation
-      search: true
-      filter: true
+type: lab-publications
+summary: "Journal articles, conference papers, and patents from Lin's Lab, with DOI and publication-record links."
+intro:
+  kicker: "Research output"
+  text: "Research in biomedical sensing, neural interfaces, and analog and mixed-signal circuits, listed by year."
+labels:
+  search: "Find a publication"
+  placeholder: "Search title, author, or venue"
+  year: "Year"
+  type: "Type"
+  all_years: "All years"
+  all_types: "All types"
+  journal: "Journal articles"
+  conference: "Conference papers"
+  patent: "Patents"
+  other: "Other"
+  reset: "Reset filters"
+  results: "{count} / {total} records"
+  empty: "No matching records. Try another keyword or adjust the filters."
+  details: "Details"
+  back: "All publications"
+  abstract: "Abstract"
+  source: "Publication page"
+  pdf: "PDF"
+  doi: "DOI"
+  citation: "Citation"
+  year_label: "Year"
+  venue_label: "Journal / conference"
+  type_label: "Publication type"
 ---

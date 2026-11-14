@@ -1,9 +1,10 @@
 ---
 title: "A 13-bit ENOB fully asynchronous noise-shaping SAR ADC with coarse-fine comparison, mismatch error shaping and digital prediction"
-date: 2025-01-01
+date: 2025-12-01
+doi: "10.1109/TCSII.2025.3576073"
 
 authors:
-  - "Chen. Wang"
+  - "C. Wang"
   - "H. Li"
   - "X. Yang"
   - "C. Wang"

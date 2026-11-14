@@ -1,0 +1,11 @@
+{{- $kind := "other" -}}
+{{- $types := .Params.publication_types | default slice -}}
+{{- $raw := lower (delimit $types " ") -}}
+{{- if or (in $raw "期刊") (in $raw "journal") (eq $raw "2") -}}
+  {{- $kind = "journal" -}}
+{{- else if or (in $raw "会议") (in $raw "conference") (eq $raw "1") -}}
+  {{- $kind = "conference" -}}
+{{- else if or (in $raw "专利") (in $raw "patent") (eq $raw "8") -}}
+  {{- $kind = "patent" -}}
+{{- end -}}
+{{- return $kind -}}

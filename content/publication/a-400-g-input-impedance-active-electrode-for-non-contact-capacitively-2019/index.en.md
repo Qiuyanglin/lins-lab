@@ -16,6 +16,8 @@ authors:
 publication_types: ["Journal article"]
 publication: "IEEE transactions on biomedical circuits and systems, vol. 13, no. 2, pp. 376-386"
 publication_short: "TBCAS 2019"
+doi: "10.1109/tbcas.2019.2895660"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

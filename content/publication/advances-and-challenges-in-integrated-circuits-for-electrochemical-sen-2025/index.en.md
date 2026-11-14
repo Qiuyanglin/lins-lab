@@ -1,6 +1,7 @@
 ---
 title: "Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications"
-date: 2025-01-01
+date: 2025-10-01
+doi: "10.1109/TBCAS.2025.3589027"
 
 authors:
   - "Q. Lin"

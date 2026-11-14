@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $labels := .Params.labels }}
+{{ $papers := where site.RegularPages "Section" "publication" }}
+{{ $papers = where (where (where $papers "Draft" false) "Params.private" "ne" true) "Date" "le" now }}
+{{ $groups := $papers.GroupByDate "2006" "desc" }}
+{{ $kinds := slice }}
+{{ range $papers }}{{ $kinds = $kinds | append (partial "lab/publication-kind.html" .) }}{{ end }}
+{{ $kinds = uniq $kinds }}
+<main class="lab-page lab-publications" id="lab-main" data-publications>
+  <div class="lab-shell">
+    <header class="lab-publications-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+    </header>
+
+    <form class="pub-filters" data-pub-filters hidden role="search" aria-label="{{ $labels.search }}">
+      <div class="pub-search-field">
+        <label for="pub-query">{{ $labels.search }}</label>
+        <input id="pub-query" name="query" type="search" placeholder="{{ $labels.placeholder }}" autocomplete="off" data-pub-query>
+      </div>
+      <div>
+        <label for="pub-year">{{ $labels.year }}</label>
+        <select id="pub-year" name="year" data-pub-year>
+          <option value="">{{ $labels.all_years }}</option>
+          {{ range $groups }}<option value="{{ .Key }}">{{ .Key }}</option>{{ end }}
+        </select>
+      </div>
+      <div>
+        <label for="pub-type">{{ $labels.type }}</label>
+        <select id="pub-type" name="type" data-pub-type>
+          <option value="">{{ $labels.all_types }}</option>
+          {{ range slice "journal" "conference" "patent" "other" }}{{ if in $kinds . }}<option value="{{ . }}">{{ index $labels . }}</option>{{ end }}{{ end }}
+        </select>
+      </div>
+      <button class="pub-reset" type="reset">{{ $labels.reset }}</button>
+    </form>
+
+    <p class="pub-result-count" data-pub-count data-format="{{ $labels.results }}" aria-live="polite" aria-atomic="true">{{ replace (replace $labels.results "{count}" (printf "%d" (len $papers))) "{total}" (printf "%d" (len $papers)) }}</p>
+    <p class="pub-empty" data-pub-empty hidden>{{ $labels.empty }}</p>
+
+    <div class="pub-groups" data-pub-groups>
+      {{ range $groups }}
+        <section class="pub-year-group" data-pub-group aria-labelledby="year-{{ .Key }}">
+          <h2 class="pub-year-heading" id="year-{{ .Key }}">{{ .Key }}</h2>
+          <div class="pub-year-entries">
+            {{ range .Pages.ByDate.Reverse }}
+              {{ $kind := partial "lab/publication-kind.html" . }}
+              <article class="pub-entry" data-pub-entry data-year="{{ .Date.Format "2006" }}" data-type="{{ $kind }}" data-search="{{ printf "%s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | default "" | plainify) }}">
+                <p class="pub-kind">{{ index $labels $kind }}</p>
+                <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ partial "lab/publication-authors.html" . }}
+                <div class="pub-venue">{{ .Params.publication | default .Params.publication_short | markdownify }}</div>
+                {{ partial "lab/publication-links.html" (dict "page" . "labels" $labels) }}
+              </article>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </div>
+</main>
+{{ $script := resources.Get "js/publications.js" | js.Build | minify | fingerprint "sha256" }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+{{ end }}

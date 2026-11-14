@@ -14,6 +14,8 @@ authors:
 publication_types: ["Conference paper"]
 publication: "2024 IEEE Custom Integrated Circuits Conference (CICC), pp. 1-2"
 publication_short: "CICC 2024"
+doi: "10.1109/cicc60959.2024.10529093"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

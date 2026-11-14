@@ -1,6 +1,7 @@
 ---
 title: "A 141GΩ Input Impedance Frontend IC for Biopotential Recordings with a Customized I/O Device Shielding Parasitic Capacitance"
-date: 2025-01-01
+date: 2025-09-08
+doi: "10.1109/ESSERC66193.2025.11214082"
 
 authors:
   - "Y. Chen"

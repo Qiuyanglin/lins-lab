@@ -1,6 +1,7 @@
 ---
 title: "A Miniaturized Ingestible Capsule with Integrated ASIC for Energy-Efficient Sensing in the Gastrointestinal Tract"
 date: 2026-01-01
+doi: "10.1109/OJCAS.2026.3664175"
 
 authors:
   - "R. Rammouz"

@@ -1,6 +1,7 @@
 ---
 title: "A 12-bit 5-MS/s TMR-Free Radiation-Adaptive SAR ADC for Space Missions with 67.55-dB SNDR in 22-nm FD-SOI"
-date: 2026-01-01
+date: 2026-05-24
+doi: "10.1109/ISCAS66217.2026.11562270"
 
 authors:
   - "J. Zhao"
@@ -13,6 +14,9 @@ authors:
   - "B. Gao"
   - "C. Wang"
   - "M. Zhang"
+  - "E. Tackx"
+  - "J. Prinzie"
+  - "P. Leroux"
 
 publication_types: ["Conference paper"]
 publication: "2026 IEEE International Symposium on Circuits and Systems (ISCAS), pp. 2317-2321"
