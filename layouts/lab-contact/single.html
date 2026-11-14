@@ -28,15 +28,18 @@
             {{ with .postcode }}<p class="contact-postcode">{{ $.Params.visit.postcode_label }}: {{ . }}</p>{{ end }}
           </div>
           <div class="contact-detail">
-            <h3>{{ .directions_label }}</h3>
-            <p>{{ .directions }}</p>
-          </div>
-          <div class="contact-detail">
             <h3>{{ .appointment_label }}</h3>
             <p><a href="mailto:{{ $contact.email }}">{{ .appointment }}</a></p>
           </div>
         </section>
       {{ end }}
+        {{ with .Params.collaboration }}
+          <section class="contact-collaboration" aria-labelledby="contact-collaboration-heading">
+            <h2 id="contact-collaboration-heading">{{ .title }}</h2>
+            <p>{{ .text }}</p>
+            <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
+          </section>
+        {{ end }}
       </div>
 
       <div class="contact-map-column">
@@ -57,27 +60,19 @@
             <a class="contact-map-link" href="https://www.openstreetmap.org/?mlat={{ .latitude }}&amp;mlon={{ .longitude }}#map={{ $zoom }}/{{ .latitude }}/{{ .longitude }}" target="_blank" rel="noopener noreferrer">{{ .open_label }} <span aria-hidden="true">↗</span></a>
           </section>
         {{ end }}
-        {{ with .Params.collaboration }}
-          <section class="contact-collaboration" aria-labelledby="contact-collaboration-heading">
-            <h2 id="contact-collaboration-heading">{{ .title }}</h2>
-            <p>{{ .text }}</p>
-            <p class="contact-interests">{{ .interests }}</p>
-            <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
-          </section>
-        {{ end }}
       </div>
     </div>
 
     {{ with .Params.photo }}
       {{ $photo := . }}
       {{ with resources.Get (path.Join "media" .filename) }}
+        {{ $original := resources.Get (path.Join "media" ($photo.original_filename | default $photo.filename)) | default . }}
         {{ $small := .Fit "760x570 webp q92" }}
         {{ $large := .Fit "1448x1086 webp q92" }}
         <figure class="contact-photo">
-          <a href="{{ .RelPermalink }}" aria-label="{{ $photo.original_label }}: {{ $photo.alt }}">
+          <a href="{{ $original.RelPermalink }}" aria-label="{{ $photo.original_label }}: {{ $photo.alt }}">
             <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1184px) calc(100vw - 64px), 1120px" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $photo.alt }}" loading="lazy" decoding="async">
           </a>
-          {{ with $photo.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
         </figure>
       {{ end }}
     {{ end }}

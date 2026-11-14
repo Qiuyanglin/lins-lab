@@ -19,13 +19,11 @@ visit:
   title: Visiting the lab
   address_label: Address
   address:
-    - "Block A, No. 1 Interdisciplinary Research Building"
+    - "Room 2010, second floor, Block A, No. 1 Interdisciplinary Research Building"
     - "Fudan University, Jiangwan Campus"
     - "2005 Songhu Road, Yangpu District, Shanghai, China"
   postcode_label: Postal code
   postcode: "200000"
-  directions_label: Finding the office
-  directions: "Enter through the entrance to Building A and go upstairs to Room 2010 on the second floor."
   appointment_label: Visits by appointment
   appointment: "Please contact us by email before visiting."
 
@@ -37,14 +35,14 @@ map:
   open_label: View on OpenStreetMap
 
 photo:
-  filename: contact.jpg
+  filename: contact-composed.png
+  original_filename: contact.jpg
   alt: A view of Leuven
   original_label: View original photo
 
 collaboration:
   title: Academic and industry collaboration
   text: "We welcome academic exchange, research collaboration, and research sponsorship from universities, research institutions, and industry."
-  interests: "Topics include biomedical integrated circuits, brain–computer interface circuits, sensor interface circuits, DNA sequencing chips, analog and mixed-signal circuits, digital-to-analog converters, and optoelectronic integrated circuits."
   link_label: Explore our research
   link_path: /research/
 
