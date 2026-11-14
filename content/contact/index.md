@@ -20,11 +20,9 @@ visit:
   address_label: 实验室地址
   address:
     - "中国上海市杨浦区淞沪路2005号"
-    - "复旦大学（江湾校区）一号交叉学科楼A区"
+    - "复旦大学（江湾校区）一号交叉学科楼A区二层2010办公室"
   postcode_label: 邮政编码
   postcode: "200000"
-  directions_label: 到达办公室
-  directions: "从A号楼入口进入，上楼到二层2010办公室。"
   appointment_label: 来访预约
   appointment: "请提前邮件预约。"
 
@@ -36,14 +34,14 @@ map:
   open_label: 在 OpenStreetMap 中查看
 
 photo:
-  filename: contact.jpg
+  filename: contact-composed.png
+  original_filename: contact.jpg
   alt: 鲁汶风景
   original_label: 查看原图
 
 collaboration:
   title: 学术与产业合作
   text: "欢迎高校、科研机构和工业界的同行与我们开展学术交流，探讨研究合作与科研资助。"
-  interests: "交流方向包括生物医疗集成电路、脑机接口电路、传感器接口电路、DNA 测序芯片、模拟与混合信号电路、数模转换器及光电集成电路。"
   link_label: 了解研究方向
   link_path: /research/
 
