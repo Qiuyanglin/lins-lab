@@ -35,9 +35,9 @@ map:
 
 photo:
   filename: contact-composed.png
-  original_filename: contact.jpg
+  original_filename: contact-composed.png
   alt: 鲁汶风景
-  original_label: 查看原图
+  original_label: 查看大图
 
 collaboration:
   title: 学术与产业合作
