@@ -36,9 +36,9 @@ map:
 
 photo:
   filename: contact-composed.png
-  original_filename: contact.jpg
+  original_filename: contact-composed.png
   alt: A view of Leuven
-  original_label: View original photo
+  original_label: View full-size image
 
 collaboration:
   title: Academic and industry collaboration
