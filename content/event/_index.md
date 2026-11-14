@@ -1,5 +1,6 @@
 ---
 title: Recent & Upcoming Events
+draft: true
 
 # Listing view
 view: compact

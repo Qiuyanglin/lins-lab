@@ -22,9 +22,9 @@ The development of research capability relies on systematic training and active 
 - **Open Review and the Role of the Academic Community**  
 Scientific research is conducted within the academic community. Peer review and scholarly discussion are essential mechanisms for ensuring research quality. Open academic exchange helps identify potential issues and promotes knowledge accumulation and innovation. Researchers are encouraged to actively engage in and respect the review processes within the academic community.
 
-- [Guidelines for Supervisors and Graduate Students (PDF)](实验室研究生与导师规范.pdf)  
-- [Authorship Guidelines for Research Outputs (PDF)](实验室科研成果作者规范.pdf)  
-- [Research Integrity Policy – Preventing Academic Misconduct (PDF)](实验室科研诚信规范.pdf)
+- [Guidelines for Supervisors and Graduate Students (PDF)](/research/resources/research-skills/实验室研究生与导师规范.pdf)
+- [Authorship Guidelines for Research Outputs (PDF)](/research/resources/research-skills/实验室科研成果作者规范.pdf)
+- [Research Integrity Policy – Preventing Academic Misconduct (PDF)](/research/resources/research-skills/实验室科研诚信规范.pdf)
 
 ---
 
@@ -38,7 +38,7 @@ Introduces fundamental methods in research training, including:
 
 ### Downloads
 
-- [Introduction to Research Methods (PDF)](research_method_intro.pdf)
+Introduction to Research Methods (PDF): download not yet available.
 
 ---
 
@@ -52,4 +52,4 @@ Covers common practices in technical writing and academic communication, includi
 
 ### Downloads
 
-- [Academic Presentation and Technical Writing (PDF)](technical_writing_notes.pdf)
+Academic Presentation and Technical Writing (PDF): download not yet available.

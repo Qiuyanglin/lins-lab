@@ -35,7 +35,7 @@ summary: "科研方法、文献阅读与技术写作相关资料。"
 
 ### 下载资料
 
-- [科研方法入门（PDF）](research_method_intro.pdf)
+- 科研方法入门（PDF）：暂未提供下载。
 
 ---
 
@@ -49,4 +49,4 @@ summary: "科研方法、文献阅读与技术写作相关资料。"
 
 ### 下载资料
 
-- [学术汇报与技术写作（PDF）](technical_writing_notes.pdf)
+- 学术汇报与技术写作（PDF）：暂未提供下载。

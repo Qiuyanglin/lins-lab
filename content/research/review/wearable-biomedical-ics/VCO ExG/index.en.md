@@ -22,7 +22,7 @@ tags:
 
 **Reviewer:** Xinao Ji
 
-**Full Review:** [Read the Review Document (PDF)](paper.pdf)
+**Full Review:** [Read the Review Document (PDF)](/research/review/wearable-biomedical-ics/vco-exg/paper.pdf)
 
 ---
 
@@ -73,4 +73,4 @@ This work illustrates how **time-domain quantizer design, second-order noise sha
 
 The wide input range helps prevent front-end saturation in the presence of motion artifacts; it does not directly remove those artifacts. Its benefit is to preserve the recorded waveform, including the underlying weak biopotential signal, for subsequent processing.
 
-For a detailed analysis of the second-order VCO architecture, multiphase GIRO quantizer, input-dependent power consumption, and input-impedance boosting circuit, please refer to the **[full review document](paper.pdf)**.
+For a detailed analysis of the second-order VCO architecture, multiphase GIRO quantizer, input-dependent power consumption, and input-impedance boosting circuit, please refer to the **[full review document](/research/review/wearable-biomedical-ics/vco-exg/paper.pdf)**.

@@ -3,6 +3,14 @@ zh:
   contentDir: content
   weight: 1
   title: "林实验室"
+  params:
+    marketing:
+      seo:
+        org_name: '复旦大学生物医疗集成电路与系统实验室'
+        description: '复旦大学生物医疗集成电路与系统实验室，研究神经接口、可穿戴传感、电化学与纳米孔接口，以及模拟与混合信号集成电路。'
+    footer:
+      copyright:
+        notice: '© {year} 林实验室。本网站内容采用 {license} 许可协议。'
 
 en:
   languageCode: en

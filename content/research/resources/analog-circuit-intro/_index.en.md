@@ -23,6 +23,6 @@ The materials mainly cover:
 
 ## Downloads
 
-- [Analog Circuit Drawing ISSCC Template (vss)](CircuitElementsISSCC.vss)
-- [Analog Circuit Drawing EE Template (vss)](EE_STENCIL.vss)
-- [Visio Template – Zheng Xinfa (PhD, KU Leuven), Canvas Size Setup](visio.vsdx)
+- [Analog Circuit Drawing ISSCC Template (vss)](/research/resources/analog-circuit-intro/CircuitElementsISSCC.vss)
+- [Analog Circuit Drawing EE Template (vss)](/research/resources/analog-circuit-intro/EE_STENCIL.vss)
+- [Visio Template – Zheng Xinfa (PhD, KU Leuven), Canvas Size Setup](/research/resources/analog-circuit-intro/visio.vsdx)

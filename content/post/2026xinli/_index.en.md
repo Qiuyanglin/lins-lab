@@ -21,7 +21,7 @@ These perspectives are relevant to our lab’s work in biomedical integrated cir
 
 During the conference, the students gathered for dinner. Alongside a busy schedule of talks and learning, the meal offered a relaxed opportunity to spend time together and added a warm shared memory to the visit.
 
-![Lab students gathering for dinner during ICCC 2026](https://www.linqiuyang.com/post/2026xinli/xuesheng.jpg)
+![Lab students gathering for dinner during ICCC 2026](/post/2026xinli/xuesheng.jpg)
 
 **Qiuyang Lin participated in the preparations for the conference** and received a certificate of appreciation thanking him for his contribution as a member of the Organizing Committee. This recognition encourages us to continue contributing to academic exchange and service to the research community alongside our own research.
 
