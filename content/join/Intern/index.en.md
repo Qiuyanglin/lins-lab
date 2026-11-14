@@ -3,7 +3,7 @@ title: Undergraduate Research Interns
 type: lab-join
 date: 2026-03-01
 summary: We welcome undergraduate students interested in analog integrated circuit design and biomedical electronics to participate in research internships.
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: Undergraduate Internship Application + Name + University
 weight: 40
 ---
@@ -54,7 +54,7 @@ Experience with the following tools is preferred:
 
 Please send the following materials to:
 
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 Email subject:
 

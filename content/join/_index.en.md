@@ -22,15 +22,10 @@ training:
     We help undergraduate interns gain early exposure to research, explore the field and the laboratory's work, develop fundamental engineering skills, and learn basic research methods. Through this experience, students can build an interest in integrated circuit design and biomedical electronics.
 contact:
   title: Get in touch
-  text: Contact us about the laboratory and its research, or apply for a specific opportunity using the instructions on its detail page.
-  inquiries:
-    label: General inquiries
-    email: linqiuyang@fudan.edu.cn
-    text: For questions about the laboratory, research directions, and opportunities.
-  applications:
-    label: Applications
-    email: linqiuyang1991@gmail.com
-    text: Send the materials listed on the relevant opportunity page and use its specified email subject.
+  text: Contact Qiuyang Lin about the laboratory, research directions, and opportunities. Please send all inquiries and application materials to the email address below.
+  email_label: Email
+  email: linqiuyang@fudan.edu.cn
+  instructions: For applications, send the materials listed on the relevant opportunity page and use its specified email subject.
 labels:
   navigation: Join us navigation
   details: View details

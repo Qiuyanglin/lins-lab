@@ -2,11 +2,11 @@
 title: Contact
 date: 2022-10-24
 type: lab-contact
-summary: "Contact the Biomedical Integrated Circuits and Systems Laboratory at Fudan University about research collaboration, academic visits, and student research opportunities."
+summary: "Contact the Biomedical Integrated Circuits and Systems Laboratory at Fudan University about research collaboration and academic visits, and find the lab's address and location map."
 
 intro:
   kicker: "Fudan University · Biomedical Integrated Circuits and Systems Laboratory"
-  text: "Get in touch about research collaboration, academic exchange, and student research opportunities."
+  text: "Get in touch about research collaboration, academic exchange, and visits."
 
 contact:
   name: Qiuyang Lin
@@ -29,6 +29,19 @@ visit:
   appointment_label: Visits by appointment
   appointment: "Please contact us by email before visiting."
 
+map:
+  title: Location map
+  aria_label: Interactive map of the laboratory location
+  latitude: 31.343
+  longitude: 121.505
+  open_label: View on OpenStreetMap
+
+photo:
+  filename: contact.jpg
+  alt: A view of Leuven
+  caption: A view of Leuven
+  original_label: View original photo
+
 collaboration:
   title: Academic and industry collaboration
   text: "We welcome academic exchange, research collaboration, and research sponsorship from universities, research institutions, and industry."
@@ -36,9 +49,4 @@ collaboration:
   link_label: Explore our research
   link_path: /research/
 
-opportunities:
-  title: Student research opportunities
-  text: "Students interested in these research areas are welcome to contact us about PhD, master's, and research internship opportunities."
-  link_label: Join the lab
-  link_path: /join/
 ---

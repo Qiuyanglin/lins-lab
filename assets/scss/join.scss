@@ -22,10 +22,10 @@
   .join-training { max-width: 880px; border-left: 2px solid var(--lab-rule); padding-left: 22px; }
   .join-training h3 { font-size: 19px; }
   .join-training p { font-size: 16px; color: var(--lab-muted); margin: 12px 0 0; }
-  .join-contact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 64px; }
-  .join-contact-grid h3 { font-size: 19px; }
+  .join-contact-details { max-width: 76ch; }
+  .join-contact-details h3 { font-size: 19px; }
   .join-email { display: inline-block; margin: 12px 0; text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
-  .join-contact-grid p { color: var(--lab-muted); font-size: 15px; margin: 0; max-width: 50ch; }
+  .join-contact-details p { color: var(--lab-muted); font-size: 15px; margin: 0; }
 }
 
 .lab-join-detail {
@@ -73,7 +73,6 @@
     .join-opportunity h3 { font-size: 21px; }
     .join-description { font-size: 15px; }
     .join-research-list { grid-template-columns: minmax(0, 1fr); gap: 14px; }
-    .join-contact-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   }
   .lab-join-detail {
     .join-back { margin-top: 28px; }

@@ -4,7 +4,7 @@ type: lab-join
 date: 2026-03-01
 summary: We welcome PhD applicants interested in biomedical integrated circuits, neural interface circuits, data converters, and low-power analog front-end design.
 availability: 2–3 positions per year
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: PhD Application + Name + University
 weight: 20
 ---
@@ -37,7 +37,7 @@ weight: 20
 
 Please send your application materials to:
 
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 Email subject:
 

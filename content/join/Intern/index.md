@@ -2,7 +2,7 @@
 title: "本科科研实习生"
 date: 2026-03-01
 type: lab-join
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: 本科科研实习申请 + 姓名 + 学校
 summary: "欢迎对模拟集成电路设计和生物医疗电子感兴趣的本科生加入实验室参与科研实践。"
 weight: 40
@@ -55,7 +55,7 @@ weight: 40
 
 请发送以下材料至：
 
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 邮件标题：
 

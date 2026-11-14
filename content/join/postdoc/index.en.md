@@ -4,7 +4,7 @@ type: lab-join
 date: 2026-03-01
 summary: We are recruiting postdoctoral researchers in biomedical integrated circuits, neural interface circuits, and low-power analog and mixed-signal IC design.
 availability: 1–2 positions · Ongoing recruitment
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: Postdoc Application + Name + Institution
 weight: 10
 ---
@@ -37,7 +37,7 @@ weight: 10
 
 Please send your application materials to:
 
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 Email subject:
 
