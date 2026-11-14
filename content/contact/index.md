@@ -2,11 +2,11 @@
 title: 联系我们
 date: 2022-10-24
 type: lab-contact
-summary: "联系复旦大学生物医疗集成电路与系统实验室，交流研究合作、学术访问与学生研究机会。"
+summary: "联系复旦大学生物医疗集成电路与系统实验室，交流研究合作与学术访问，查看实验室地址及到访地图。"
 
 intro:
   kicker: "复旦大学 · 生物医疗集成电路与系统实验室"
-  text: "欢迎就研究合作、学术交流与学生研究机会联系我们。"
+  text: "欢迎就研究合作、学术交流与访问联系我们。"
 
 contact:
   name: 林秋阳
@@ -28,6 +28,19 @@ visit:
   appointment_label: 来访预约
   appointment: "请提前邮件预约。"
 
+map:
+  title: 位置地图
+  aria_label: 实验室位置交互地图
+  latitude: 31.343
+  longitude: 121.505
+  open_label: 在 OpenStreetMap 中查看
+
+photo:
+  filename: contact.jpg
+  alt: 鲁汶风景
+  caption: 鲁汶风景
+  original_label: 查看原图
+
 collaboration:
   title: 学术与产业合作
   text: "欢迎高校、科研机构和工业界的同行与我们开展学术交流，探讨研究合作与科研资助。"
@@ -35,9 +48,4 @@ collaboration:
   link_label: 了解研究方向
   link_path: /research/
 
-opportunities:
-  title: 学生研究机会
-  text: "欢迎对相关研究方向感兴趣的同学与我们交流，了解博士、硕士及实习研究机会。"
-  link_label: 查看加入我们
-  link_path: /join/
 ---

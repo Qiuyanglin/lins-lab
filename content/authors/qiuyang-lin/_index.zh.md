@@ -19,7 +19,7 @@ social:
 
   - icon: envelope
     icon_pack: fas
-    link: "mailto:linqiuyang1991@gmail.com"
+    link: "mailto:linqiuyang@fudan.edu.cn"
 ---
 
 林秋阳，复旦大学芯片与系统前沿技术研究院助理教授、博士生导师，国家级青年人才、上海市青年人才，IEEE Senior Member。本科毕业于 大连理工大学，随后在荷兰代尔夫特理工大学（TU Delft） 获得硕士学位，并于比利时鲁汶大学（KU Leuven）ESAT-MICAS 和 imec 获得博士学位。

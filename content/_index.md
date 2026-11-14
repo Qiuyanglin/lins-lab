@@ -54,7 +54,7 @@ team:
         - label: ORCID
           url: "https://orcid.org/0000-0002-7422-5793"
         - label: 邮箱
-          url: "mailto:linqiuyang1991@gmail.com"
+          url: "mailto:linqiuyang@fudan.edu.cn"
     - name: "刘明"
       label: "首席科学顾问"
       role: "复旦大学芯片与系统前沿技术研究院院长 · 中国科学院院士"

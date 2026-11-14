@@ -10,7 +10,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:linqiuyang1991@gmail.com"
+    link: "mailto:linqiuyang@fudan.edu.cn"
 
   - icon: google-scholar
     icon_pack: ai

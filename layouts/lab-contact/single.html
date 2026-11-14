@@ -2,21 +2,21 @@
 {{ $contact := .Params.contact }}
 <main class="lab-page lab-contact" id="lab-main">
   <div class="lab-shell">
-    <header class="contact-intro">
-      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
-      <h1>{{ .Title }}</h1>
-      <p class="lab-lede">{{ .Params.intro.text }}</p>
-      <div class="contact-primary">
-        <p class="contact-name">{{ $contact.name }} <span>· {{ $contact.email_label }}</span></p>
-        <a class="contact-email" href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
-        <div class="lab-actions">
-          <a class="lab-button" href="mailto:{{ $contact.email }}">{{ $contact.email_action }}</a>
-          <a class="lab-link" href="#visit">{{ $contact.visit_action }} <span aria-hidden="true">↓</span></a>
-        </div>
-      </div>
-    </header>
-
-    <div class="contact-grid">
+    <div class="contact-top-grid">
+      <div class="contact-info">
+        <header class="contact-intro">
+          <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+          <h1>{{ .Title }}</h1>
+          <p class="lab-lede">{{ .Params.intro.text }}</p>
+          <div class="contact-primary">
+            <p class="contact-name">{{ $contact.name }} <span>· {{ $contact.email_label }}</span></p>
+            <a class="contact-email" href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
+            <div class="lab-actions">
+              <a class="lab-button" href="mailto:{{ $contact.email }}">{{ $contact.email_action }}</a>
+              <a class="lab-link" href="#visit">{{ $contact.visit_action }} <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+        </header>
       {{ with .Params.visit }}
         <section class="contact-visit" id="visit" aria-labelledby="contact-visit-heading">
           <h2 id="contact-visit-heading">{{ .title }}</h2>
@@ -37,25 +37,50 @@
           </div>
         </section>
       {{ end }}
+      </div>
 
-      <div class="contact-exchange">
+      <div class="contact-map-column">
+        {{ with .Params.map }}
+          {{ $zoom := site.Params.features.map.zoom | default 15 }}
+          <section class="contact-map" aria-labelledby="contact-map-heading">
+            <h2 id="contact-map-heading">{{ .title }}</h2>
+            {{ if site.Params.features.map.provider }}
+              {{/* Preserve the theme map module's input contract, controls, and attribution. */}}
+              <input type="hidden" id="map-provider" value="{{ lower site.Params.features.map.provider }}">
+              <input type="hidden" id="map-lat" value="{{ .latitude }}">
+              <input type="hidden" id="map-lng" value="{{ .longitude }}">
+              <input type="hidden" id="map-dir" value="{{ delimit $.Params.visit.address ", " }}">
+              <input type="hidden" id="map-zoom" value="{{ $zoom }}">
+              <input type="hidden" id="map-api-key" value="{{ site.Params.features.map.api_key }}">
+              <div id="map" role="region" aria-label="{{ .aria_label }}" tabindex="0"></div>
+            {{ end }}
+            <a class="contact-map-link" href="https://www.openstreetmap.org/?mlat={{ .latitude }}&amp;mlon={{ .longitude }}#map={{ $zoom }}/{{ .latitude }}/{{ .longitude }}" target="_blank" rel="noopener noreferrer">{{ .open_label }} <span aria-hidden="true">↗</span></a>
+          </section>
+        {{ end }}
         {{ with .Params.collaboration }}
-          <section aria-labelledby="contact-collaboration-heading">
+          <section class="contact-collaboration" aria-labelledby="contact-collaboration-heading">
             <h2 id="contact-collaboration-heading">{{ .title }}</h2>
             <p>{{ .text }}</p>
             <p class="contact-interests">{{ .interests }}</p>
             <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
           </section>
         {{ end }}
-        {{ with .Params.opportunities }}
-          <section aria-labelledby="contact-opportunities-heading">
-            <h2 id="contact-opportunities-heading">{{ .title }}</h2>
-            <p>{{ .text }}</p>
-            <a class="lab-link" href="{{ .link_path | relLangURL }}">{{ .link_label }} <span aria-hidden="true">→</span></a>
-          </section>
-        {{ end }}
       </div>
     </div>
+
+    {{ with .Params.photo }}
+      {{ $photo := . }}
+      {{ with resources.Get (path.Join "media" .filename) }}
+        {{ $small := .Fit "760x570 webp q92" }}
+        {{ $large := .Fit "1448x1086 webp q92" }}
+        <figure class="contact-photo">
+          <a href="{{ .RelPermalink }}" aria-label="{{ $photo.original_label }}: {{ $photo.alt }}">
+            <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1184px) calc(100vw - 64px), 1120px" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $photo.alt }}" loading="lazy" decoding="async">
+          </a>
+          {{ with $photo.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+        </figure>
+      {{ end }}
+    {{ end }}
   </div>
 </main>
 {{ end }}

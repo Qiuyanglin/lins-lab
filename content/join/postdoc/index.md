@@ -3,7 +3,7 @@ title: "博士后招聘"
 date: 2026-03-01
 type: lab-join
 availability: 1–2名 · 长期有效
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: 博士后申请 + 姓名 + 单位
 summary: "招聘从事生物医疗集成电路、神经接口电路及低功耗模拟/混合信号芯片研究的博士后研究人员。"
 weight: 10
@@ -36,7 +36,7 @@ weight: 10
 ## 申请方式 {#apply}
 
 请将申请材料发送至：  
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 邮件标题格式：  
 `博士后申请 + 姓名 + 单位`

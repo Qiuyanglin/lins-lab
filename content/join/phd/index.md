@@ -3,7 +3,7 @@ title: "博士生招生"
 date: 2026-03-01
 type: lab-join
 availability: 每年2–3名
-application_email: linqiuyang1991@gmail.com
+application_email: linqiuyang@fudan.edu.cn
 application_subject: 博士申请 + 姓名 + 学校
 summary: "欢迎对生物医疗集成电路、神经接口电路、数据转换器与低功耗模拟前端设计感兴趣的博士生加入。"
 weight: 20
@@ -36,7 +36,7 @@ weight: 20
 ## 申请方式 {#apply}
 
 请将申请材料发送至：  
-[linqiuyang1991@gmail.com](mailto:linqiuyang1991@gmail.com)
+[linqiuyang@fudan.edu.cn](mailto:linqiuyang@fudan.edu.cn)
 
 邮件标题格式：  
 `博士申请 + 姓名 + 学校`

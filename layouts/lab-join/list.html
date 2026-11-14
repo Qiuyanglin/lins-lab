@@ -49,14 +49,10 @@
         <h2 id="join-contact-heading">{{ .Params.contact.title }}</h2>
         <p>{{ .Params.contact.text }}</p>
       </div>
-      <div class="join-contact-grid">
-        {{ range slice .Params.contact.inquiries .Params.contact.applications }}
-          <div>
-            <h3>{{ .label }}</h3>
-            <a class="join-email" href="mailto:{{ .email }}">{{ .email }}</a>
-            <p>{{ .text }}</p>
-          </div>
-        {{ end }}
+      <div class="join-contact-details">
+        <h3>{{ .Params.contact.email_label }}</h3>
+        <a class="join-email" href="mailto:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a>
+        <p>{{ .Params.contact.instructions }}</p>
       </div>
     </section>
   </div>

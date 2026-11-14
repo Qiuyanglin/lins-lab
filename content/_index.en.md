@@ -54,7 +54,7 @@ team:
         - label: ORCID
           url: "https://orcid.org/0000-0002-7422-5793"
         - label: Email
-          url: "mailto:linqiuyang1991@gmail.com"
+          url: "mailto:linqiuyang@fudan.edu.cn"
     - name: "Ming Liu"
       label: "Chief Scientific Advisor"
       role: "Dean, Institute for Advanced Chip and System Technology, Fudan University · Academician of the Chinese Academy of Sciences"

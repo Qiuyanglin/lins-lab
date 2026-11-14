@@ -17,7 +17,7 @@ social:
     link: "https://orcid.org/0000-0002-7422-5793"
   - icon: envelope
     icon_pack: fas
-    link: "mailto:linqiuyang1991@gmail.com"
+    link: "mailto:linqiuyang@fudan.edu.cn"
 ---
 
 Qiuyang Lin is an Assistant Professor and Ph.D. Supervisor at the Frontier Institute of Chip and System (FICS), Fudan University. He is a Senior Member of IEEE. He received his B.Eng. from Dalian University of Technology, M.Sc. from Delft University of Technology (TU Delft) in the Netherlands, and Ph.D. from KU Leuven (ESAT-MICAS) in Belgium.

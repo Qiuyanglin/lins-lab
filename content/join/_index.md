@@ -20,15 +20,10 @@ training:
   text: 本科科研实习帮助同学们更早接触科研训练，了解学科方向与实验室研究内容，锻炼基础工程能力，学习基本研究方法，并在实践中探索对集成电路与生物医疗电子的兴趣。
 contact:
   title: 咨询与申请
-  text: 欢迎就研究方向和加入实验室的机会联系林秋阳。正式申请请按照对应机会页面准备材料与邮件标题。
-  inquiries:
-    label: 招生与研究咨询
-    email: linqiuyang@fudan.edu.cn
-    text: 咨询研究方向、学习与科研机会。
-  applications:
-    label: 申请材料投递
-    email: linqiuyang1991@gmail.com
-    text: 发送对应机会页面列出的申请材料，并使用该页面要求的邮件标题。
+  text: 欢迎就研究方向和加入实验室的机会联系林秋阳。咨询与申请材料均请发送至以下邮箱。
+  email_label: 电子邮箱
+  email: linqiuyang@fudan.edu.cn
+  instructions: 申请时请发送对应机会页面列出的材料，并使用该页面要求的邮件标题。
 labels:
   navigation: 加入我们页面导航
   details: 查看要求与申请方式
