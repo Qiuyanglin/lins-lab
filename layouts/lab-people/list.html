@@ -21,7 +21,9 @@
         {{ $ordered := slice }}
         {{ range sort (where $members "Params.user_groups" "intersect" (slice .)) "File.Dir" }}
           {{ $year := index site.Data.member_enrollment (path.Base .File.Dir) | default 9999 }}
-          {{ $ordered = $ordered | append (dict "page" . "key" (printf "%04d-%s" (int $year) (lower .File.Dir))) }}
+          {{/* An explicit directory priority takes precedence; otherwise sort by degree enrollment year. */}}
+          {{ $priority := .Params.directory_priority | default 100 }}
+          {{ $ordered = $ordered | append (dict "page" . "key" (printf "%04d-%04d-%s" (int $priority) (int $year) (lower .File.Dir))) }}
         {{ end }}
         {{ range sort $ordered "key" }}{{ $people = $people | append .page }}{{ end }}
       {{ end }}
