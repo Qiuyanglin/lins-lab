@@ -1,8 +1,8 @@
 {{- /* Generate the search index. */ -}}
 {{- $index := slice -}}
 {{- $pages := site.RegularPages -}}
-{{- /* News and research pages use branch bundles without changing their URLs. */ -}}
-{{- $pages = $pages | union (where (where site.Pages "Kind" "section") "Section" "in" (slice "post" "research")) -}}
+{{- /* Include branch-bundle directories alongside regular content pages. */ -}}
+{{- $pages = $pages | union (where (where site.Pages "Kind" "section") "Section" "in" (slice "post" "research" "join")) -}}
 {{- /* Add the index page of multi-page content separately since it's not in RegularPages above. */ -}}
 {{- $pages := $pages | union (where (where site.Pages "Kind" "section") "Type" "book") -}}
 {{- /* Add author pages to index so their bios can be searched. Hide empty `/authors/` node. */ -}}
