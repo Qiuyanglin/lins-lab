@@ -39,7 +39,6 @@ map:
 photo:
   filename: contact.jpg
   alt: A view of Leuven
-  caption: A view of Leuven
   original_label: View original photo
 
 collaboration:

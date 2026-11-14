@@ -38,7 +38,6 @@ map:
 photo:
   filename: contact.jpg
   alt: 鲁汶风景
-  caption: 鲁汶风景
   original_label: 查看原图
 
 collaboration:
