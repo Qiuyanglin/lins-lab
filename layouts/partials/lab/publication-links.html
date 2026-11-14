@@ -1,0 +1,26 @@
+{{- $page := .page -}}
+{{- $labels := .labels -}}
+{{- $detail := .detail | default false -}}
+{{- if or $page.Params.doi $page.Params.links $page.Params.url_pdf $page.Params.url_source (not $detail) -}}
+<div class="pub-links">
+  {{- with $page.Params.doi -}}
+    <a href="{{ printf "https://doi.org/%s" . }}">{{ $labels.doi }}{{ if $detail }}: {{ . }}{{ end }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+  {{- range $page.Params.links -}}
+    <a href="{{ .url }}">{{ .name }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+  {{- with $page.Params.url_source -}}
+    <a href="{{ . }}">{{ $labels.source }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+  {{- with $page.Params.url_pdf -}}
+    {{- $url := . -}}
+    {{- if not (or (hasPrefix $url "http") (hasPrefix $url "/")) -}}
+      {{- $url = printf "%s%s" $page.RelPermalink $url -}}
+    {{- end -}}
+    <a href="{{ $url }}">{{ $labels.pdf }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+  {{- if not $detail -}}
+    <a href="{{ $page.RelPermalink }}" class="pub-detail-link">{{ $labels.details }} <span aria-hidden="true">→</span></a>
+  {{- end -}}
+</div>
+{{- end -}}

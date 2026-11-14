@@ -1,6 +1,7 @@
 ---
 title: "A High-Gain, Low-Voltage Operational Amplifier With Bias-Stress and PVT Robustness for Large-Area Temperature Sensing on LTPS Substrates"
-date: 2025-01-01
+date: 2026-01-01
+doi: "10.1109/OJCAS.2025.3631308"
 
 authors:
   - "C. Wang"
@@ -13,10 +14,12 @@ authors:
   - "M. V. Lopez"
   - "F. De Roose"
   - "J. Genoe"
+  - "N. Papadopoulos"
+  - "K. Myny"
 
 publication_types: ["期刊论文"]
 publication: "IEEE Open Journal of Circuits and Systems"
-publication_short: "OJCAS 2025"
+publication_short: "OJCAS 2026"
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $listing := site.GetPage "/publication" }}
+{{ $labels := $listing.Params.labels }}
+{{ $kind := partial "lab/publication-kind.html" . }}
+<main class="lab-page lab-publication-detail" id="lab-main">
+  <div class="lab-shell">
+    <a class="lab-link pub-back" href="{{ $listing.RelPermalink }}"><span aria-hidden="true">←</span> {{ $labels.back }}</a>
+    <header class="pub-detail-header">
+      <p class="lab-kicker">{{ .Date.Format "2006" }} · {{ index $labels $kind }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ partial "lab/publication-authors.html" . }}
+      <div class="pub-venue">{{ .Params.publication | default .Params.publication_short | markdownify }}</div>
+      {{ partial "lab/publication-links.html" (dict "page" . "labels" $labels "detail" true) }}
+    </header>
+    {{ with .Params.abstract }}
+      <section class="pub-abstract" aria-labelledby="pub-abstract-heading">
+        <h2 id="pub-abstract-heading">{{ $labels.abstract }}</h2>
+        <div>{{ . | markdownify }}</div>
+      </section>
+    {{ end }}
+    {{ with .Content }}<div class="pub-content article-style">{{ . }}</div>{{ end }}
+  </div>
+</main>
+{{ end }}

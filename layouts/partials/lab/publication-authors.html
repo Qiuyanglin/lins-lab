@@ -1,0 +1,16 @@
+{{- $page := . -}}
+<p class="pub-authors">
+  {{- range $index, $author := .Params.authors -}}
+    {{- if $index }}, {{ end -}}
+    {{- $name := $author -}}
+    {{- if eq $page.Language.Lang "en" -}}
+      {{- /* Hide only explicit corresponding-author labels, never equal-contribution stars. */ -}}
+      {{- $name = replaceRE `\s*[（(](通信|通讯|通讯作者|corresponding author)[）)]` "" $name -}}
+    {{- end -}}
+    {{- if gt (len (findRE `^Q\. Lin([（(]|$)` $name)) 0 -}}
+      <strong>{{ $name }}</strong>
+    {{- else -}}
+      {{- $name -}}
+    {{- end -}}
+  {{- end -}}
+</p>

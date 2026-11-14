@@ -1,6 +1,7 @@
 ---
 title: "An 80 MS/s 70.8 dB-SNDR Radiation-Tolerant Semi-Time-Interleaved Pipelined-SAR ADC for Space Applications"
-date: 2025-01-01
+date: 2025-08-01
+doi: "10.1109/TCSI.2024.3516475"
 
 authors:
   - "Z. Li"

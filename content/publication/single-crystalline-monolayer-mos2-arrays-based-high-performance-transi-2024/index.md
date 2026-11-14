@@ -13,10 +13,16 @@ authors:
   - "Q. Lin"
   - "A. Li"
   - "Y. Min"
+  - "Q. Lu"
+  - "L. He"
+  - "D. Song"
+  - "Y. Shi"
 
 publication_types: ["会议论文"]
 publication: "2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits), pp. 1-2"
 publication_short: "VLSI 2024"
+doi: "10.1109/vlsitechnologyandcir46783.2024.10631381"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

@@ -1,6 +1,7 @@
 ---
 title: "Static and Statistical Modeling of LTPS TFTS for Robust Analog Design: Verified Through Amplifier and Comparator Measurements"
-date: 2025-01-01
+date: 2025-09-08
+doi: "10.1109/ESSERC66193.2025.11213979"
 
 authors:
   - "C. Wang"
@@ -13,6 +14,8 @@ authors:
   - "H. Celiker"
   - "R. Appeltans"
   - "J. Genoe"
+  - "K. Myny"
+  - "N. Papadopoulos"
 
 publication_types: ["会议论文"]
 publication: "2025 IEEE European Solid-State Electronics Research Conference (ESSERC), pp. 173-176"

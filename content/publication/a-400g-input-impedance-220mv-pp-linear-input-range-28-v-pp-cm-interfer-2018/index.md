@@ -14,6 +14,8 @@ authors:
 publication_types: ["会议论文"]
 publication: "2018 IEEE Symposium on VLSI Circuits, pp. 129-130"
 
+doi: "10.1109/vlsic.2018.8502270"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

@@ -15,6 +15,11 @@ authors:
 publication_types: ["期刊论文"]
 publication: "IEEE Journal of Translational Engineering in Health and Medicine, vol. 12, pp. 675-683"
 publication_short: "JTEHM 2024"
+doi: "10.1109/jtehm.2024.3471468"
+links:
+  - name: "机构全文"
+    url: "https://imec-publications.be/entities/publication/6d66d7e0-2935-4f31-be71-f3a979998a0a"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

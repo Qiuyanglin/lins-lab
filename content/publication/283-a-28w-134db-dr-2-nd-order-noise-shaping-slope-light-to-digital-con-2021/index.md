@@ -15,6 +15,8 @@ authors:
 publication_types: ["会议论文"]
 publication: "2021 IEEE International Solid-State Circuits Conference (ISSCC), vol. 64, pp. 390-392"
 publication_short: "ISSCC 2021"
+doi: "10.1109/isscc42613.2021.9365757"
+
 # If you add a local PDF into this folder, uncomment:
 # url_pdf: paper.pdf
 

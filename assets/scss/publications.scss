@@ -1,0 +1,63 @@
+/* Publication styles extend the shared academic landing-page palette. */
+.lab-publications-intro { padding: 64px 0 40px; max-width: 880px; }
+.lab-publications [hidden] { display: none !important; }
+.pub-filters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px 180px auto;
+  gap: 16px;
+  align-items: end;
+  padding: 22px 24px;
+  background: var(--lab-soft);
+  border: 1px solid var(--lab-rule);
+  border-radius: 3px;
+
+  label { display: block; font-size: 13px; font-weight: 600; color: var(--lab-ink); margin-bottom: 7px; }
+  input, select { display: block; width: 100%; min-width: 0; height: 44px; border: 1px solid var(--lab-rule); border-radius: 2px; background: var(--lab-bg); color: var(--lab-text); padding: 8px 12px; font: inherit; font-size: 15px; }
+  input::placeholder { color: var(--lab-muted); opacity: 1; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 3px solid var(--lab-accent); outline-offset: 2px; }
+}
+.pub-reset { padding: 8px 0; min-height: 44px; border: 0; background: transparent; color: var(--lab-accent); font: inherit; font-size: 14px; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.lab-page .pub-result-count { color: var(--lab-muted); font-size: 14px; margin: 20px 0 28px; font-variant-numeric: tabular-nums; }
+.pub-empty { padding: 24px 0; border-top: 1px solid var(--lab-rule); color: var(--lab-muted); }
+.pub-year-group { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 32px; border-top: 1px solid var(--lab-rule); padding: 32px 0; }
+.lab-page .pub-year-heading { font-size: 28px; font-variant-numeric: tabular-nums; }
+.pub-entry + .pub-entry { margin-top: 26px; padding-top: 26px; border-top: 1px solid var(--lab-rule); }
+.lab-page .pub-kind { font-size: 12px; font-weight: 600; letter-spacing: .035em; color: var(--lab-muted); margin: 0 0 8px; }
+.lab-page .pub-title { font-size: 20px; line-height: 1.5; font-weight: 600; margin: 0 0 10px; }
+.pub-title a { color: var(--lab-ink); text-underline-offset: 4px; }
+.lab-page .pub-authors { font-size: 14px; color: var(--lab-muted); line-height: 1.75; margin: 0 0 8px; }
+.pub-authors strong { color: var(--lab-ink); font-weight: 650; }
+.pub-venue { color: var(--lab-text); font-size: 14px; font-style: italic; line-height: 1.7; }
+.pub-venue p { margin: 0; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 14px; line-height: 1.8; }
+.pub-links a { text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.pub-links span { display: inline-block; font-size: 12px; margin-left: 3px; }
+.lab-publication-detail .lab-shell { max-width: 960px; }
+.pub-back { display: inline-block; margin-top: 40px; }
+.pub-detail-header { padding: 36px 0 40px; border-bottom: 1px solid var(--lab-rule); }
+.lab-page .pub-detail-header h1 { font-size: clamp(28px, 2.8vw, 36px); line-height: 1.45; letter-spacing: -.015em; margin-bottom: 24px; }
+.pub-detail-header .pub-authors { font-size: 16px; margin-bottom: 16px; }
+.pub-detail-header .pub-venue { font-size: 16px; }
+.pub-detail-header .pub-links { margin-top: 24px; }
+.pub-abstract { padding-top: 32px; }
+.pub-abstract h2 { margin-bottom: 20px; }
+.pub-abstract > div, .pub-content { max-width: 80ch; }
+.pub-content { margin-top: 32px; }
+
+@media (max-width: 900px) {
+  .pub-filters { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; }
+  .pub-search-field { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) {
+  .lab-publications-intro { padding: 36px 0 28px; }
+  .pub-filters { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; padding: 18px; }
+  .pub-filters input, .pub-filters select { font-size: 16px; }
+  .pub-reset { grid-column: 1 / -1; justify-self: start; min-height: 32px; padding: 0; }
+  .pub-year-group { grid-template-columns: minmax(0, 1fr); gap: 22px; padding: 26px 0; }
+  .lab-page .pub-year-heading { font-size: 26px; }
+  .lab-page .pub-title { font-size: 18px; }
+  .pub-links { gap: 8px 18px; }
+  .pub-back { margin-top: 28px; }
+  .pub-detail-header { padding: 28px 0; }
+  .pub-detail-header .pub-authors, .pub-detail-header .pub-venue { font-size: 15px; }
+}
