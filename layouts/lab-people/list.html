@@ -18,9 +18,12 @@
       {{ $section := . }}
       {{ $people := slice }}
       {{ range .groups }}
+        {{ $ordered := slice }}
         {{ range sort (where $members "Params.user_groups" "intersect" (slice .)) "File.Dir" }}
-          {{ $people = $people | append . }}
+          {{ $year := index site.Data.member_enrollment (path.Base .File.Dir) | default 9999 }}
+          {{ $ordered = $ordered | append (dict "page" . "key" (printf "%04d-%s" (int $year) (lower .File.Dir))) }}
         {{ end }}
+        {{ range sort $ordered "key" }}{{ $people = $people | append .page }}{{ end }}
       {{ end }}
       {{ $people = uniq $people }}
       {{ with $people }}
