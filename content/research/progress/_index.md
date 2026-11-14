@@ -16,8 +16,8 @@ title: "Research Progress"
 
 相关资料下载：
 
-- [技术报告](neural_chip_report.pdf)
-- [研究论文](paper_preprint.pdf)
+- 技术报告：暂未提供下载。
+- 研究论文：暂未提供下载。
 
 ---
 
@@ -31,4 +31,4 @@ title: "Research Progress"
 
 相关资料下载：
 
-- [研究报告](biosignal_report.pdf)
+- 研究报告：暂未提供下载。

@@ -23,8 +23,8 @@ The tutorial includes:
 
 ## Downloads
 
-- [Cadence Tutorial UCLA (PDF)](Tutorial_UCLA.pdf)
-- [Comparator PSS and Transient Noise Methods – Wang Chen (PDF)](CMP_PSS_Noise.pdf)
+- [Cadence Tutorial UCLA (PDF)](/research/resources/cadence-tutorial/Tutorial_UCLA.pdf)
+- [Comparator PSS and Transient Noise Methods – Wang Chen (PDF)](/research/resources/cadence-tutorial/CMP_PSS_Noise.pdf)
 - [Cadence 3-Minute Quick Start](https://www.cadence.com/en_US/home/training/deliverymethod-online.html)
 - [Virginia Tech Cadence Tutorial](https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html)
 - [Gm/Id Design Method – Eric Yeh (YouTube)](https://www.youtube.com/watch?v=horLp7FMTeA&list=PLQBJZzLTgobt8BlTD0spy4pPi2bccxw54)

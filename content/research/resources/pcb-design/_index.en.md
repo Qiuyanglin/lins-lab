@@ -18,7 +18,7 @@ Introduces the basic PCB design process, including:
 
 ### Downloads
 
-- [Altium PCB Design Fundamentals (PDF)](PCB_foundamental.pdf)
+- [Altium PCB Design Fundamentals (PDF)](/research/resources/pcb-design/PCB_foundamental.pdf)
 
 ---
 
@@ -32,8 +32,8 @@ Covers key issues in analog PCB design, including:
 
 ### Downloads
 
-- [Texas Instruments High-Speed PCB Design](High_speed_PCB_TI.pdf)
-- [Texas Instruments PCB Crosstalk Design](PCB_Crosstalk_TI.pdf)
+- [Texas Instruments High-Speed PCB Design](/research/resources/pcb-design/High_speed_PCB_TI.pdf)
+- [Texas Instruments PCB Crosstalk Design](/research/resources/pcb-design/PCB_Crosstalk_TI.pdf)
 
 ---
 
@@ -45,5 +45,5 @@ To facilitate board-level circuit design for lab members, we provide a **PCB tem
 
 ### Template Downloads
 
-- [PCB Template (2 Layers)](6C-2L-1550um.PcbDoc)
-- [PCB Template (4 Layers)](6C-4L-1550um.PcbDoc)
+- [PCB Template (2 Layers)](/research/resources/pcb-design/6C-2L-1550um.PcbDoc)
+- [PCB Template (4 Layers)](/research/resources/pcb-design/6C-4L-1550um.PcbDoc)
