@@ -1,6 +1,9 @@
 ---
 title: Academician Ming Liu Serves as Chief Scientific Advisor of the Biomedical Integrated Circuits and Systems Laboratory
 date: 2026-05-27
+news_images:
+  liu.jpg: {"kind":"portrait","member":"ming"}
+  fics.png: {"kind":"banner"}
 summary: Academician Ming Liu serves as the lab's Chief Scientific Advisor, guiding research and talent development in biomedical integrated circuits, neural interfaces, and intelligent sensing.
 
 image:

@@ -1,7 +1,13 @@
 ---
 title: 实验室迎来新同学
 date: 2026-09-03
-portrait_images: [avatar.JPG]
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  avatar.jpg: {"kind":"portrait","member":"Siyi"}
 summary: 袁思怡加入课题组，作为复旦大学与华虹公司联合培养的专项硕士研究生，开展生物医疗电子与模拟前端集成电路研究。
 image:
   filename: avatar.JPG

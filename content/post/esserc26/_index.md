@@ -1,6 +1,14 @@
 ---
 title: 实验室参加第52届欧洲固态电子学研究大会 ESSERC 2026
 date: 2026-09-15
+news_images:
+  esserc_2026_logo.png: {"kind":"banner"}
+  robotics_talk_03.jpg: {"kind":"photo"}
+  muse_meeting.jpg: {"kind":"document"}
+  muse_band_logo.png: {"kind":"logo"}
+  biomedical_neural_talks.jpg: {"kind":"diagram"}
+  esserc_group_photo.jpg: {"kind":"photo"}
+  mallorca_coast.jpg: {"kind":"photo"}
 summary: 实验室赴帕尔马参加 ESSERC 2026，交流机器人传感、生物医疗与神经接口研究，并探讨未来流片合作的可能性。
 
 image:

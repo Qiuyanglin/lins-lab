@@ -1,6 +1,10 @@
 ---
 title: Qiuyang Lin's VLSI Paper Has Been Accepted
 date: 2026-06-03
+news_cover: VLSI_logo.png
+news_images:
+  vlsi_theme.png: {"kind":"document"}
+  vlsi_logo.png: {"kind":"logo"}
 summary: A paper on a 16-channel solid-state nanopore sequencing interface IC is accepted at VLSI, reporting 1 MHz bandwidth and 97 pArms input-referred noise.
 
 image:

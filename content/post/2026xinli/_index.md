@@ -1,6 +1,9 @@
 ---
 title: 实验室参加第四届集成芯片和芯粒大会
 date: 2026-10-09
+news_images:
+  xuesheng.jpg: {"kind":"photo","max_width":640,"position":"50% 40%"}
+  jiangzhuang.jpg: {"kind":"document"}
 summary: 实验室同学参加上海 ICCC 2026，学习芯粒与系统集成新进展。林秋阳参与大会筹备，并获大会感谢证书。
 
 image:

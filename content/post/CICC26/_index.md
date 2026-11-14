@@ -1,6 +1,9 @@
 ---
 title: CICC 2026 脑机接口综述文章发表
 date: 2026-05-28
+news_images:
+  cicc.png: {"kind":"banner"}
+  invasive.png: {"kind":"diagram","max_width":420}
 summary: 发表于 CICC 2026 的综述系统梳理下一代神经接口的记录、刺激与闭环神经调控电路架构及关键设计挑战。
 
 image:

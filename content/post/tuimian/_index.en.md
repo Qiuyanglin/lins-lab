@@ -1,9 +1,17 @@
 ---
 title: Lab Welcomes Four New Students
 date: 2026-09-14
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  dingxu.png: {"kind":"portrait","member":"dingxu"}
+  jiajielao.png: {"kind":"portrait","member":"jiajie"}
+  ziningliu.jpg: {"kind":"portrait","member":"zining"}
+  junyutang.jpg: {"kind":"portrait","member":"junyu"}
 summary: Ding Xu, Jiajie Lao, Zining Liu, and Junyu Tang receive graduate admission recommendations and will begin doctoral or master's studies with the group in 2027.
-thumbnails: [dingxu.png, jiajielao.png, ziningliu.JPG, junyutang.jpg]
-portrait_images: [dingxu.png, jiajielao.png, ziningliu.JPG, junyutang.jpg]
 image:
   filename: dingxu.png
   caption: Ding Xu

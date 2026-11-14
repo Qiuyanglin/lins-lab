@@ -1,9 +1,16 @@
 ---
 title: Welcoming Three New Students to the Lab
 date: 2026-07-05
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  xinaoji.jpg: {"kind":"portrait","member":"Xinao"}
+  yidisun.jpg: {"kind":"portrait","member":"Yidi"}
+  yiruwang.jpg: {"kind":"portrait","member":"yiru"}
 summary: Xinao Ji, Yidi Sun, and Yiru Wang join the group to study analog and mixed-signal circuits, brain–computer interfaces, and biomedical sensing interfaces.
-thumbnails: [xinaoji.jpg, yidisun.jpg, yiruwang.jpg]
-portrait_images: [xinaoji.jpg, yidisun.jpg, yiruwang.jpg]
 
 image:
   filename: xinaoji.jpg

@@ -1,6 +1,9 @@
 ---
 title: 刘明院士担任生物医疗集成电路与系统实验室首席科学顾问
 date: 2026-05-28
+news_images:
+  liu.jpg: {"kind":"portrait","member":"ming"}
+  fics.png: {"kind":"banner"}
 summary: 刘明院士担任实验室首席科学顾问，为生物医疗集成电路、神经接口与智能传感等方向的研究和人才培养提供指导。
 
 image:

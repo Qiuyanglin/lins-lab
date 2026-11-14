@@ -1,6 +1,9 @@
 ---
 title: CICC 2026 Review Paper on Neural Interface Circuits Published
 date: 2026-05-28
+news_images:
+  cicc.png: {"kind":"banner"}
+  invasive.png: {"kind":"diagram","max_width":420}
 summary: A CICC 2026 review examines circuit architectures and design challenges for neural recording, stimulation, and closed-loop neuromodulation.
 
 image:

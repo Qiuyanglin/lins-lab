@@ -1,6 +1,9 @@
 ---
 title: 林秋阳在VLSI Symposium作口头报告
 date: 2026-06-19
+news_images:
+  vlsi_pre.jpg: {"kind":"photo"}
+  hiking.jpg: {"kind":"photo"}
 summary: 林秋阳在 2026 VLSI Symposium 作口头报告，介绍固态纳米孔测序接口芯片，并与同行交流宽带低噪声读出设计。
 
 image:

@@ -1,7 +1,13 @@
 ---
 title: The Lab Welcomes New Member Siyi Yuan
 date: 2026-09-03
-portrait_images: [avatar.JPG]
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  avatar.jpg: {"kind":"portrait","member":"Siyi"}
 summary: Siyi Yuan joins the group as a master's student jointly trained by Fudan University and Hua Hong, with interests in biomedical electronics and analog front-end circuits.
 
 image:

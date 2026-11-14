@@ -16,19 +16,22 @@
         <div class="news-entries">
           {{ range where $posts "year" . }}{{ with .page }}
             {{ $page := . }}
-            {{ $images := slice }}
-            {{ $filenames := .Params.thumbnails | default slice }}
-            {{ if not $filenames }}{{ with .Params.image.filename }}{{ $filenames = slice . }}{{ end }}{{ end }}
-            {{ range $filenames }}
-              {{ with $page.Resources.GetMatch . }}{{ if eq .ResourceType "image" }}{{ $images = $images | append . }}{{ end }}{{ end }}
-            {{ end }}
-            <article class="news-entry{{ if not $images }} news-entry-text{{ end }}">
-              {{ with $images }}
-                <div class="news-thumbnail{{ if gt (len .) 1 }} news-thumbnail-multiple{{ end }}" style="--news-image-count: {{ len . }}" aria-hidden="true">
-                  {{ range . }}
+            {{ $filename := .Params.news_cover | default .Params.image.filename }}
+            {{ $cover := false }}
+            {{ with $filename }}{{ $cover = $page.Resources.GetMatch . }}{{ end }}
+            {{ $config := index (.Params.news_images | default dict) (lower ($filename | default "")) | default dict }}
+            {{ $kind := $config.kind | default "photo" }}
+            {{ $focal := index (dict "top" "50% 0%" "center" "50% 50%" "bottom" "50% 100%" "left" "0% 50%" "right" "100% 50%") (.Params.image.focal_point | default "center" | lower) | default "50% 50%" }}
+            {{ $position := $config.position | default $focal }}
+            <article class="news-entry{{ if not $cover }} news-entry-text{{ end }}">
+              {{ with $cover }}
+                <div class="news-thumbnail news-thumbnail-{{ $kind }}" aria-hidden="true">
+                  {{ if and (eq $kind "portrait") $config.member }}
+                    {{ partial "lab/news-portrait.html" (dict "image" . "member" $config.member "alt" "" "thumbnail" true) }}
+                  {{ else }}
                     {{ $image := . }}
-                    {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}{{ $image = .Fit "480x360 webp" }}{{ end }}
-                    <img src="{{ $image.RelPermalink }}" alt=""{{ if ne $image.MediaType.SubType "svg" }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }} loading="lazy" decoding="async">
+                    {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}{{ $image = .Fit "640x640 webp q90" }}{{ end }}
+                    <img src="{{ $image.RelPermalink }}" alt="" style="object-position: {{ $position }};"{{ if ne $image.MediaType.SubType "svg" }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }} loading="lazy" decoding="async">
                   {{ end }}
                 </div>
               {{ end }}

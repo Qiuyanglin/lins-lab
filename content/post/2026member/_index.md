@@ -1,9 +1,16 @@
 ---
 title: 实验室迎来三位新同学
 date: 2026-07-05
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  xinaoji.jpg: {"kind":"portrait","member":"Xinao"}
+  yidisun.jpg: {"kind":"portrait","member":"Yidi"}
+  yiruwang.jpg: {"kind":"portrait","member":"yiru"}
 summary: 季心敖、孙艺迪和王奕如加入课题组，围绕模拟与混合信号电路、脑机接口及生物医疗传感接口开展学习与研究。
-thumbnails: [xinaoji.jpg, yidisun.jpg, yiruwang.jpg]
-portrait_images: [xinaoji.jpg, yidisun.jpg, yiruwang.jpg]
 
 image:
   filename: xinaoji.jpg

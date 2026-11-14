@@ -1,9 +1,17 @@
 ---
 title: 实验室迎来四位新同学
 date: 2026-09-14
+private: true
+_build:
+  list: never
+  render: never
+  publishResources: true
+news_images:
+  dingxu.png: {"kind":"portrait","member":"dingxu"}
+  jiajielao.png: {"kind":"portrait","member":"jiajie"}
+  ziningliu.jpg: {"kind":"portrait","member":"zining"}
+  junyutang.jpg: {"kind":"portrait","member":"junyu"}
 summary: 徐鼎、劳嘉杰、刘子宁和汤珺玉获得推免资格，将于 2027 年进入课题组攻读博士或硕士学位。
-thumbnails: [dingxu.png, jiajielao.png, ziningliu.JPG, junyutang.jpg]
-portrait_images: [dingxu.png, jiajielao.png, ziningliu.JPG, junyutang.jpg]
 image:
   filename: dingxu.png
   caption: 徐鼎

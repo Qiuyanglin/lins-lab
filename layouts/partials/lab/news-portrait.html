@@ -1,0 +1,8 @@
+{{- /* News photos are byte-identical to member avatars; share the member crop settings. */ -}}
+{{- $portrait := index site.Data.member_portraits .member | default dict -}}
+{{- $zoom := $portrait.zoom | default 1 -}}
+{{- $small := .image.Fit "480x640 webp q92" -}}
+{{- $large := .image.Fit "960x1280 webp q92" -}}
+<span class="news-portrait-frame">
+  <img class="news-portrait-photo" src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="{{ if .thumbnail }}(max-width: 600px) {{ int (mul 210 $zoom) }}px, {{ int (mul 150 $zoom) }}px{{ else }}{{ int (mul 260 $zoom) }}px{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ .alt }}" style="object-position: {{ $portrait.position | default "50% 25%" }}; transform: scale({{ $zoom }}); transform-origin: {{ $portrait.origin | default "50% 50%" }};" loading="lazy" decoding="async">
+</span>

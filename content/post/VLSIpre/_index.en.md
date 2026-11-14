@@ -1,6 +1,9 @@
 ---
 title: Qiuyang Lin Delivered an Oral Presentation at VLSI Symposium
 date: 2026-06-19
+news_images:
+  vlsi_pre.jpg: {"kind":"photo"}
+  hiking.jpg: {"kind":"photo"}
 summary: Qiuyang Lin presents a solid-state nanopore sequencing interface IC at the 2026 VLSI Symposium and discusses wideband, low-noise readout design with fellow researchers.
 
 image:
