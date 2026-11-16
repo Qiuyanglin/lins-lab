@@ -29,7 +29,7 @@ The four students come from South China University of Technology, Nanjing Univer
 
 **Ph.D. Student (2027–)**
 
-Ding Xu is currently an undergraduate student majoring in Microelectronics Science and Engineering at South China University of Technology. She has maintained an outstanding academic record, with a GPA of 3.94/4.00 and a major ranking of 3rd out of 94 students. Based on her excellent academic performance, she has been recommended for admission and will join the laboratory in 2027 to pursue a Ph.D. degree in Integrated Circuit Science and Engineering.
+Ding Xu is currently an undergraduate student majoring in Microelectronics Science and Engineering at South China University of Technology. She has maintained an outstanding academic record, with a GPA of 3.94/4.00, and ranks among the top students in her major. Based on her excellent academic performance, she has been recommended for admission and will join the laboratory in 2027 to pursue a Ph.D. degree in Integrated Circuit Science and Engineering.
 
 During her undergraduate studies, she worked on the circuit and layout design of low-dropout regulators and completed a full digital IC design flow project. Her research interests include analog and mixed-signal integrated circuits, LDOs, ADCs, and power management integrated circuits for biomedical applications.
 
@@ -53,7 +53,7 @@ He previously conducted a research internship in Prof. Huaqiang Wu’s group at 
 
 **Master’s Student (2027–)**
 
-Zining Liu is currently an undergraduate student majoring in Integrated Circuit Design and Integrated Systems at Xiamen University, with a GPA of 3.80/4.00. Zining ranked first in the recommendation-based graduate admission selection and will join the laboratory in 2027 to pursue a master’s degree.
+Zining Liu is currently an undergraduate student majoring in Integrated Circuit Design and Integrated Systems at Xiamen University, with a GPA of 3.80/4.00. He ranks first in his major, has been recommended for graduate admission, and will join the laboratory in 2027 to pursue a master’s degree.
 
 During the undergraduate program, Zining conducted device modeling and simulation of emerging ferroelectric memories based on FeFETs and participated in the design of operational amplifiers and CTIA current-readout circuits at the Shanghai Institute of Technical Physics, Chinese Academy of Sciences. Zining’s research interests include analog integrated circuits, analog front-end and current-readout circuits, emerging ferroelectric memory modeling, and integrated circuit design and verification.
 

@@ -21,7 +21,7 @@ image:
   caption: Xinao Ji
 ---
 
-The laboratory is pleased to introduce **eight current and incoming students** in Qiuyang Lin’s group at Fudan University: **Xinao Ji, Ding Xu, Jiajie Lao, Yiru Wang, Siyi Yuan, Yidi Sun, Junyu Tang, and Zining Liu**. This announcement brings together students joining the lab or beginning research activities in **2026**, alongside students preparing to begin graduate study in **2027**. Their individual timelines are described below; joining the group for research and formally enrolling in a graduate degree are distinct stages.
+The laboratory is pleased to introduce **eight current and incoming students** in Qiuyang Lin’s group at Fudan University: **Xinao Ji, Ding Xu, Jiajie Lao, Yiru Wang, Siyi Yuan, Yidi Sun, Junyu Tang, and Zining Liu**. This announcement brings together students who joined the lab or began research activities in **2026**, alongside students preparing to begin graduate study in **2027**. Their individual timelines are described below; joining the group for research and formally enrolling in a graduate degree are distinct stages.
 
 <!--more-->
 
@@ -35,9 +35,9 @@ The students bring backgrounds in electronic science and technology, microelectr
 
 **Ph.D. Student (2026–)**
 
-Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology**, and is expected to receive his M.Eng. degree in **2026**. He will then join Fudan University to pursue a **Ph.D. degree in Integrated Circuit Science and Engineering** in the group.
+Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology** and received his M.Eng. degree in **2026**. He joined the group at Fudan University in the same year and is now pursuing a **Ph.D. degree in Integrated Circuit Science and Engineering**.
 
-His research will focus on analog and mixed-signal circuits, current conversion circuits, analog-to-digital converters, and analog front-end circuits.
+His research focuses on analog and mixed-signal circuits, current conversion circuits, analog-to-digital converters, and analog front-end circuits.
 
 ### Ding Xu
 
@@ -45,7 +45,7 @@ His research will focus on analog and mixed-signal circuits, current conversion 
 
 **Ph.D. Student (2027–)**
 
-Ding Xu is currently an undergraduate student majoring in **Microelectronics Science and Engineering** at South China University of Technology. She has maintained an outstanding academic record, with a **GPA of 3.94/4.00** and a major ranking of **3rd out of 94 students**. Based on her excellent academic performance, she has been recommended for admission and will join the laboratory in **2027** to pursue a **Ph.D. degree in Integrated Circuit Science and Engineering**.
+Ding Xu is currently an undergraduate student majoring in **Microelectronics Science and Engineering** at South China University of Technology. She has maintained an outstanding academic record, with a **GPA of 3.94/4.00**, and ranks **among the top students in her major**. Based on her excellent academic performance, she has been recommended for admission and will join the laboratory in **2027** to pursue a **Ph.D. degree in Integrated Circuit Science and Engineering**.
 
 During her undergraduate studies, she worked on the circuit and layout design of low-dropout regulators and completed a full digital IC design flow project. Her research interests include analog and mixed-signal integrated circuits, LDOs, ADCs, and power management integrated circuits for biomedical applications.
 
@@ -69,7 +69,7 @@ He previously conducted a research internship in Prof. Huaqiang Wu’s group at 
 
 Yiru Wang is currently an undergraduate student majoring in **Microelectronics Science and Engineering** at Fudan University from **2023 to 2027**. During his undergraduate study, he systematically took core courses such as **Analog Integrated Circuits** and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design.
 
-He joined the group in **2026** for his **undergraduate graduation project** and plans to continue in the group for a **master’s degree in Integrated Circuit Science and Engineering** in **2027**. His research will focus on analog front-end circuit design and biomedical sensing interfaces.
+He joined the group in **2026** for his **undergraduate graduation project** and plans to continue in the group for a **master’s degree in Integrated Circuit Science and Engineering** in **2027**. His research interests include analog front-end circuit design and biomedical sensing interfaces.
 
 ### Siyi Yuan
 
@@ -77,7 +77,7 @@ He joined the group in **2026** for his **undergraduate graduation project** and
 
 **Special-Program Master’s Student (2026–)**
 
-Siyi Yuan received her B.Eng. degree from the **School of Integrated Circuits at Xidian University** in **2026**. During her undergraduate studies, she ranked among the top students in her cohort and developed a solid foundation in integrated circuit design. She received the **National Scholarship** and was recognized as an undergraduate **“Youth Role Model.”** She also gained practical experience through projects involving amplifiers and programmable gain amplifiers (PGAs).
+Siyi Yuan received her B.Eng. degree from the **School of Integrated Circuits at Xidian University** in **2026**. During her undergraduate studies, she ranked among the top students in her major and developed a solid foundation in integrated circuit design. She received the **National Scholarship** and was recognized as an undergraduate **“Youth Role Model.”** She also gained practical experience through projects involving amplifiers and programmable gain amplifiers (PGAs).
 
 In **2026**, Siyi joined Qiuyang Lin’s research group at the Institute for Frontier Technologies of Integrated Circuits and Systems, Fudan University, to pursue her master’s degree. As a **special-program master’s student jointly trained by Fudan University and Hua Hong**, her research interests include biomedical electronics, analog front-end integrated circuits, amplifiers, and programmable gain amplifiers. Through a specialized project conducted with Hua Hong, she will explore related integrated circuit technologies and continue developing her technical expertise through hands-on project experience.
 
@@ -89,9 +89,9 @@ Outside her studies and research, she enjoys hiking, swimming, and playing badmi
 
 **Master’s Student (2026–)**
 
-Yidi Sun is currently an undergraduate student majoring in **Electronic Science and Technology** at Hunan University, and has been recommended for graduate study in **Electronic and Information Engineering** at Fudan University. During her undergraduate study, she built a strong academic foundation and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
+Yidi Sun studied **Electronic Science and Technology** at Hunan University and entered Fudan University through recommendation-based admission. She is now pursuing a master’s degree in **Electronic Information** in the group. During her undergraduate study, she built a strong academic foundation and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
 
-Her future research will focus on **brain–computer interface circuits**.
+She joined the group in **2026**, and her research focuses on **brain–computer interface circuits**.
 
 ### Junyu Tang
 
@@ -109,7 +109,7 @@ During her undergraduate studies, she participated in the design of an analog fr
 
 **Master’s Student (2027–)**
 
-Zining Liu is currently an undergraduate student majoring in **Integrated Circuit Design and Integrated Systems** at Xiamen University, with a **GPA of 3.80/4.00**. Zining ranked **first in the recommendation-based graduate admission selection** and will join the laboratory in **2027** to pursue a master’s degree.
+Zining Liu is currently an undergraduate student majoring in **Integrated Circuit Design and Integrated Systems** at Xiamen University, with a **GPA of 3.80/4.00**. He ranks **first in his major**, has been recommended for graduate admission, and will join the laboratory in **2027** to pursue a master’s degree.
 
 During the undergraduate program, Zining conducted device modeling and simulation of emerging ferroelectric memories based on FeFETs and participated in the design of operational amplifiers and CTIA current-readout circuits at the Shanghai Institute of Technical Physics, Chinese Academy of Sciences. Zining’s research interests include analog integrated circuits, analog front-end and current-readout circuits, emerging ferroelectric memory modeling, and integrated circuit design and verification.
 

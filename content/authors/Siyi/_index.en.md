@@ -16,7 +16,7 @@ interests:
   - Programmable Gain Amplifier Design
 ---
 
-**Siyi Yuan** received her B.Eng. degree from the School of Integrated Circuits at Xidian University, China, in 2026. During her undergraduate studies, she ranked among the top students in her cohort and developed a solid foundation in integrated circuit design. She received the National Scholarship and was recognized as an Undergraduate “Youth Role Model.” She also gained project experience in amplifier and programmable gain amplifier (PGA) design.
+**Siyi Yuan** received her B.Eng. degree from the School of Integrated Circuits at Xidian University, China, in 2026. During her undergraduate studies, she ranked among the top students in her major and developed a solid foundation in integrated circuit design. She received the National Scholarship and was recognized as an Undergraduate “Youth Role Model.” She also gained project experience in amplifier and programmable gain amplifier (PGA) design.
 
 She is currently pursuing her M.Sc. degree at Fudan University under the supervision of Qiuyang Lin. Her research interests include biomedical electronics and analog front-end integrated circuit design.
 
