@@ -43,6 +43,21 @@
 .pub-abstract h2 { margin-bottom: 20px; }
 .pub-abstract > div, .pub-content { max-width: 80ch; }
 .pub-content { margin-top: 32px; }
+.pub-citation summary { cursor: pointer; color: var(--lab-accent); text-decoration: underline; text-underline-offset: 4px; }
+.pub-citation[open] { flex-basis: 100%; }
+.pub-citation-body { margin-top: 14px; padding: 18px 20px; border-left: 2px solid var(--lab-rule); background: var(--lab-soft); }
+.lab-page .pub-citation-text { margin: 0; color: var(--lab-text); font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.pub-citation-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; margin-top: 12px; font-size: 14px; }
+.pub-copy { padding: 0; border: 0; background: transparent; color: var(--lab-accent); font: inherit; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.pub-copy:disabled { cursor: wait; opacity: .65; }
+.pub-citation :focus-visible { outline: 3px solid var(--lab-accent); outline-offset: 3px; }
+.pub-citation [hidden] { display: none !important; }
+.pub-citation-manual { width: 100%; margin-top: 16px; padding: 12px; border: 1px solid var(--lab-rule); background: var(--lab-bg); color: var(--lab-text); font: inherit; font-size: 14px; line-height: 1.6; }
+.lab-page .pub-citation-status { margin: 12px 0 0; color: var(--lab-muted); font-size: 13px; }
+.pub-citation-status:empty { display: none; }
+.pub-citation-expanded { padding-top: 32px; }
+.pub-citation-expanded h2 { font-size: 20px; }
+.pub-citation-expanded .pub-citation-actions a { text-decoration: underline; text-underline-offset: 4px; }
 
 @media (max-width: 900px) {
   .pub-filters { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; }

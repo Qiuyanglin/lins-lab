@@ -1,4 +1,5 @@
 // Progressive enhancement: every publication is readable without JavaScript.
+import {normalizePublicationText, publicationMatches} from './publication-search.mjs';
 const root = document.querySelector('[data-publications]');
 if (root) {
   const form = root.querySelector('[data-pub-filters]');
@@ -8,10 +9,9 @@ if (root) {
   const count = root.querySelector('[data-pub-count]');
   const empty = root.querySelector('[data-pub-empty]');
   const groups = [...root.querySelectorAll('[data-pub-group]')];
-  const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
   const entries = [...root.querySelectorAll('[data-pub-entry]')].map(element => ({
     element,
-    text: normalize(element.dataset.search),
+    text: normalizePublicationText(element.dataset.search),
     year: element.dataset.year,
     type: element.dataset.type,
   }));
@@ -19,12 +19,11 @@ if (root) {
   let composing = false;
 
   function update() {
-    const words = normalize(query.value).split(/\s+/).filter(Boolean);
     let visible = 0;
     for (const entry of entries) {
       const matches = (!year.value || year.value === entry.year)
         && (!type.value || type.value === entry.type)
-        && words.every(word => entry.text.includes(word));
+        && publicationMatches(entry.text, query.value);
       entry.element.hidden = !matches;
       if (matches) visible++;
     }

@@ -30,6 +30,49 @@ topics:
     - title: "Analog & mixed-signal circuits"
       description: "Data converters and analog front ends"
       anchor: analog
+selected_research:
+  title: "Selected research"
+  intro: "Selected research co-authored by Qiuyang Lin, from precision readout of weak biosignals to application-level chip and system validation."
+  all_label: "All publications"
+  paper_label: "Read the paper"
+  items:
+    - id: nanopore
+      title: "Parallel solid-state nanopore readout"
+      venue: "VLSI 2026"
+      description: "A wideband, low-noise interface captures fast DNA translocation signals, with parallel detection of labeled DNA events."
+      page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
+      image_alt: "Die micrograph of the VLSI 2026 solid-state nanopore interface IC, showing 16 channels, bias and digital circuitry."
+      metrics:
+        - value: "16"
+          label: "Parallel channels"
+        - value: "1 MHz"
+          label: "Signal bandwidth"
+        - value: "97 pA rms"
+          label: "Input-referred noise"
+    - id: ppg
+      title: "High-dynamic-range PPG readout"
+      venue: "TBCAS 2021"
+      description: "Second-order noise shaping and DC compensation enable low-power optical readout for wearable chest photoplethysmography (PPG)."
+      page: publication/a-134-db-dynamic-range-noise-shaping-slope-light-to-digital-converter-2021
+      image_alt: "Die micrograph of the TBCAS 2021 PPG light-to-digital converter, showing integrators, comparator, LED drivers and digital circuitry."
+      metrics:
+        - value: "134 dB"
+          label: "Maximum dynamic range"
+        - value: "28 µW/ch"
+          label: "Readout power"
+    - id: electrochemical
+      title: "Multimodal electrochemical sensing"
+      venue: "TBCAS 2023"
+      description: "A single IC combines potentiometric, amperometric, ISFET and temperature sensing for multiparameter bioreactor monitoring."
+      page: publication/a-multichannel-electrochemical-sensor-interface-ic-for-bioreactor-moni-2023
+      image_alt: "Die micrograph of the TBCAS 2023 electrochemical sensor interface, showing ISFET, potentiometric, potentiostat, temperature and ADC circuitry."
+      metrics:
+        - value: "7"
+          label: "Channels incl. temperature"
+        - value: "114 dB"
+          label: "Current measurement range"
+        - value: "22 µW"
+          label: "Peak power"
 team:
   title: "People & academic guidance"
   link_label: "Meet the team"

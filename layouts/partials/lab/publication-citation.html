@@ -1,0 +1,14 @@
+{{- $page := .page -}}
+{{- $labels := .labels -}}
+{{- $data := partialCached "lab/publication-data.html" $page $page.RelPermalink -}}
+{{- if .collapsed -}}<details class="pub-citation"><summary>{{ $labels.cite }}</summary>{{- else -}}<section class="pub-citation pub-citation-expanded" aria-labelledby="citation-heading"><h2 id="citation-heading">{{ $labels.citation }}</h2>{{- end -}}
+  <div class="pub-citation-body" data-citation-widget>
+    <p class="pub-citation-text" data-citation-text>{{ $data.citation }}</p>
+    <div class="pub-citation-actions">
+      <button type="button" class="pub-copy" data-copy-citation data-copied="{{ $labels.copied }}" data-copy-fallback="{{ $labels.copy_fallback }}" hidden>{{ $labels.copy_citation }}</button>
+      <a href="{{ $data.bibFile.RelPermalink }}" download="{{ $data.slug }}.bib">{{ $labels.download_bibtex }} <span aria-hidden="true">↓</span></a>
+    </div>
+    <textarea class="pub-citation-manual" readonly hidden rows="5" aria-label="{{ $labels.manual_citation }}"></textarea>
+    <p class="pub-citation-status" data-citation-status role="status" aria-live="polite"></p>
+  </div>
+{{- if .collapsed -}}</details>{{- else -}}</section>{{- end -}}

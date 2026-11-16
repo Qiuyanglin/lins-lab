@@ -6,6 +6,7 @@
  **************************************************/
 
 import {search_config, i18n, content_type} from '@params';
+import {normalizePublicationText, searchWithExactFallback, escapeSearchResultText} from './publication-search.mjs';
 
 /* ---------------------------------------------------------------------------
  * Configuration.
@@ -28,11 +29,13 @@ let fuseOptions = {
     {name: 'content', weight: 0.2},
     {name: 'tags', weight: 0.5},
     {name: 'categories', weight: 0.5},
+    {name: 'publication_search', weight: 0.8},
   ],
 };
 
 // Configure summary.
 let summaryLength = 60;
+let exactSearchRecords = [];
 
 /* ---------------------------------------------------------------------------
  * Functions.
@@ -81,7 +84,9 @@ function initSearch(force, fuse) {
 
 // Perform search.
 function searchAcademic(query, fuse) {
-  let results = fuse.search(query);
+  // Full DOI URLs can exceed this Fuse version's pattern limit. Exact token matching
+  // also finds author names and metadata beyond its initial search-distance window.
+  const results = searchWithExactFallback(exactSearchRecords, query, value => fuse.search(value), fuseOptions.maxPatternLength);
   // console.log({"results": results});
 
   if (results.length > 0) {
@@ -164,7 +169,7 @@ function render(template, data) {
   for (key in data) {
     find = '\\{\\{\\s*' + key + '\\s*\\}\\}'; // Expect placeholder in the form `{{x}}`.
     re = new RegExp(find, 'g');
-    template = template.replace(re, data[key]);
+    template = template.replace(re, () => escapeSearchResultText(data[key]));
   }
   return template;
 }
@@ -177,6 +182,13 @@ function render(template, data) {
 if (typeof Fuse === 'function') {
   // Wait for Fuse to initialize.
   $.getJSON(search_config.indexURI, function (search_index) {
+    exactSearchRecords = search_index.map(item => ({
+      item,
+      text: normalizePublicationText([
+        item.title, item.summary, item.content, item.publication_search,
+        ...(item.authors || []), ...(item.tags || []), ...(item.categories || []),
+      ].filter(Boolean).join(' ')),
+    }));
     let fuse = new Fuse(search_index, fuseOptions);
 
     // On page load, check for search query in URL.
