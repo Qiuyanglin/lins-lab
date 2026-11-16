@@ -8,7 +8,7 @@ intro:
 labels:
   research: "研究方向"
   publications: "全部论文"
-  original: "查看原始拼图"
+  original: "Chip Gallery"
   image: "查看大图"
   paper: "相关论文"
   navigation: "按主题浏览"
