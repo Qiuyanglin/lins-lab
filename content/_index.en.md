@@ -14,44 +14,34 @@ hero:
   image_alt: "Wearable health monitoring, neural interfaces, electrochemical biosensing, DNA sequencing, and analog sensor ICs; the right-hand chips are labeled ADC, DAC, and AFE."
   image_caption: "From biosignal sensing to integrated circuits and systems"
   image_link_label: "View the full research illustration"
-topics:
-  title: "Research focus"
-  link_label: "Research overview"
-  items:
-    - title: "Wearable biosensing"
-      description: "Low-power biosignal acquisition and processing"
-      anchor: wearable
-    - title: "Neural interfaces"
-      description: "Brain–computer interfaces and neural readout"
-      anchor: neural
-    - title: "Electrochemical & nanopore interfaces"
-      description: "Molecular detection and DNA sequencing"
-      anchor: molecular
-    - title: "Analog & mixed-signal circuits"
-      description: "Data converters and analog front ends"
-      anchor: analog
 selected_research:
-  title: "Research outcomes"
-  intro: "A few examples across our research areas. See the full publication list for more work."
+  title: "Research focus"
+  overview_label: "Research overview"
+  intro_before: "Built on "
+  foundation_label: "analog and mixed-signal circuits"
+  intro_after: ", with applications in biomedical and intelligent sensing."
   all_label: "All publications"
   paper_label: "Read the paper"
   items:
     - id: nanopore
-      title: "Solid-state nanopore readout"
+      title: "Nanopore & DNA sequencing"
+      anchor: molecular
       venue: "VLSI 2026"
       description: "DNA sequencing and high-throughput single-molecule sensing."
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
       image: media/research-nanopore-application-cartoon.png
       image_alt: "Solid-state nanopore working principle: DNA translocation modulates the ionic current."
     - id: neural
-      title: "Next-generation neural interfaces"
-      venue: "CICC 2026 · Review"
+      title: "Neural interfaces"
+      anchor: neural
+      venue: "CICC 2026"
       description: "Brain–computer interfaces, neural monitoring and neuromodulation."
       page: publication/cicc2026
       image: media/selected-neural-cicc2026.png
-      image_alt: "Brain and implanted electrodes illustrated in the CICC 2026 neural interface review."
+      image_alt: "Illustration of the brain and implanted electrodes."
     - id: electrochemical
-      title: "Multimodal electrochemical sensing"
+      title: "Electrochemical sensing"
+      anchor: molecular
       venue: "ISSCC 2023"
       description: "Bioprocess monitoring, environmental sensing and biochemical analysis."
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
@@ -59,7 +49,8 @@ selected_research:
       image_crop: "405x673 TopLeft"
       image_alt: "Bioreactor and electrochemical sensing application diagram from the ISSCC 2023 paper."
     - id: ppg
-      title: "High-dynamic-range PPG readout"
+      title: "Wearable biosensing"
+      anchor: wearable
       venue: "ISSCC 2021"
       description: "Chest-based optical sensing for heart rate, blood oxygen and respiration monitoring."
       page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021

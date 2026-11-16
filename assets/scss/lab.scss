@@ -43,15 +43,10 @@
 .lab-section { padding: 48px 0; border-top: 1px solid var(--lab-rule); }
 .lab-section-heading { display: flex; justify-content: space-between; gap: 24px; align-items: baseline; margin-bottom: 28px; }
 .lab-section-heading > a { flex-shrink: 0; }
-.lab-focus-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
-.lab-focus-link { display: block; position: relative; border-top: 2px solid var(--lab-rule); padding: 20px 12px 20px 0; }
-.lab-focus-link:hover { border-color: var(--lab-accent); text-decoration: none; }
-.lab-focus-link:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
-.lab-number { display: block; color: var(--lab-muted); font-size: 12px; font-variant-numeric: tabular-nums; margin-bottom: 12px; }
-.lab-focus-link h3 { font-size: 18px; padding-right: 12px; }
-.lab-focus-link p { font-size: 14px; color: var(--lab-muted); line-height: 1.7; margin: 10px 0 0; }
-.lab-arrow { position: absolute; right: 0; top: 20px; font-size: 16px; }
+.lab-section-links { display: flex; flex-wrap: wrap; gap: 10px 24px; }
+.lab-section-links a { white-space: nowrap; }
 .lab-page .lab-selected-intro { max-width: 80ch; margin: -8px 0 28px; color: var(--lab-muted); font-size: 15px; }
+.lab-selected-intro a { text-decoration: underline; text-underline-offset: 4px; }
 .lab-selected-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
 .lab-selected-card { min-width: 0; display: flex; flex-direction: column; }
 .lab-selected-figure { margin: 0; background: #fff; border: 1px solid var(--lab-rule); border-radius: 4px; overflow: hidden; }
@@ -60,7 +55,6 @@
 .lab-selected-figure-cover a { padding: 0; }
 .lab-selected-figure-cover img { object-fit: cover; }
 .lab-selected-copy { display: flex; flex-direction: column; flex: 1; padding-top: 20px; }
-.lab-page .lab-selected-venue { margin: 0 0 8px; color: var(--lab-muted); font-size: 12px; font-weight: 600; letter-spacing: .06em; }
 .lab-selected-card h3 { font-size: 18px; }
 .lab-selected-card h3 a { color: var(--lab-ink); text-underline-offset: 4px; }
 .lab-page .lab-selected-description { margin: 12px 0 18px; font-size: 14px; line-height: 1.75; }
@@ -108,7 +102,6 @@
   .lab-home-intro { grid-template-columns: 1fr; gap: 32px; padding-top: 40px; }
   .lab-intro-copy { max-width: 680px; }
   .lab-research-figure { max-width: 680px; }
-  .lab-focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .lab-directory { gap: 16px; }
   .lab-directory-link { padding: 20px; }
   .lab-join { align-items: flex-start; flex-direction: column; gap: 20px; }
@@ -123,10 +116,6 @@
   .lab-home-intro { padding: 32px 0; gap: 28px; }
   .lab-section { padding: 32px 0; }
   .lab-section-heading { align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
-  .lab-focus-grid { gap: 20px; }
-  .lab-focus-link { padding: 16px 0; }
-  .lab-focus-link h3 { font-size: 17px; }
-  .lab-focus-link p { font-size: 13px; }
   .lab-selected-grid { grid-template-columns: 1fr; gap: 28px; }
   .lab-selected-copy { padding-top: 18px; }
   .lab-selected-card + .lab-selected-card { padding-top: 28px; border-top: 1px solid var(--lab-rule); }
