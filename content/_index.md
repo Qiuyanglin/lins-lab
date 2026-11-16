@@ -14,44 +14,34 @@ hero:
   image_alt: "可穿戴健康监测、神经接口、电化学生物传感、DNA 测序与模拟传感芯片；右侧芯片标注 ADC、DAC、AFE。"
   image_caption: "从生物信号感知到芯片与系统"
   image_link_label: "查看完整研究主题图"
-topics:
-  title: "研究方向"
-  link_label: "研究总览"
-  items:
-    - title: "可穿戴生物传感"
-      description: "低功耗生理信号采集与处理"
-      anchor: wearable
-    - title: "神经接口"
-      description: "脑机接口与神经信号读出"
-      anchor: neural
-    - title: "电化学与纳米孔接口"
-      description: "面向分子检测与 DNA 测序"
-      anchor: molecular
-    - title: "模拟与混合信号电路"
-      description: "数据转换器与模拟前端"
-      anchor: analog
 selected_research:
-  title: "相关研究成果"
-  intro: "以下展示各研究方向中的部分工作，更多成果请见论文列表。"
+  title: "研究方向"
+  overview_label: "研究总览"
+  intro_before: "以"
+  foundation_label: "模拟与混合信号电路"
+  intro_after: "为基础，面向生物医疗与智能感知应用。"
   all_label: "全部论文"
   paper_label: "阅读论文"
   items:
     - id: nanopore
-      title: "固态纳米孔并行读出"
+      title: "纳米孔与 DNA 测序"
+      anchor: molecular
       venue: "VLSI 2026"
       description: "面向 DNA 测序与高通量单分子检测。"
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
       image: media/research-nanopore-application-cartoon.png
       image_alt: "固态纳米孔工作原理：DNA 穿孔引起离子电流变化。"
     - id: neural
-      title: "下一代神经接口电路"
-      venue: "CICC 2026 · 综述"
+      title: "神经接口"
+      anchor: neural
+      venue: "CICC 2026"
       description: "面向脑机接口、神经信号监测与神经调控。"
       page: publication/cicc2026
       image: media/selected-neural-cicc2026.png
-      image_alt: "CICC 2026 神经接口综述中的脑部与植入式电极示意。"
+      image_alt: "脑部与植入式电极示意。"
     - id: electrochemical
-      title: "多参数电化学传感接口"
+      title: "电化学传感"
+      anchor: molecular
       venue: "ISSCC 2023"
       description: "面向生物培养、环境监测与生化指标检测。"
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
@@ -59,7 +49,8 @@ selected_research:
       image_crop: "405x673 TopLeft"
       image_alt: "ISSCC 2023 论文中的生物反应器与电化学传感应用示意。"
     - id: ppg
-      title: "高动态范围 PPG 读出"
+      title: "可穿戴生物传感"
+      anchor: wearable
       venue: "ISSCC 2021"
       description: "通过胸部光学感知，支持心率、血氧与呼吸监测。"
       page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021

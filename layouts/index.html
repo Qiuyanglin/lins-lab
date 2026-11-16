@@ -23,69 +23,41 @@
       {{ end }}
     </header>
 
-    <section class="lab-section lab-focus" aria-labelledby="lab-focus-title">
-      <div class="lab-section-heading">
-        <h2 id="lab-focus-title">{{ .Params.topics.title }}</h2>
-        <a class="lab-link" href="{{ "research/" | relLangURL }}">{{ .Params.topics.link_label }} <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="lab-focus-grid">
-        {{ range $index, $topic := .Params.topics.items }}
-          <a class="lab-focus-link" href="{{ printf "research/#%s" .anchor | relLangURL }}">
-            <span class="lab-number" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</span>
-            <h3>{{ .title }}</h3>
-            <p>{{ .description }}</p>
-            <span class="lab-arrow" aria-hidden="true">↗</span>
-          </a>
-        {{ end }}
-      </div>
-    </section>
-
     {{ with .Params.selected_research }}
       {{ $selected := . }}
-      {{ $chips := (site.GetPage "/research/chip").Resources.GetMatch "chip.png" }}
-      {{ $crops := dict
-        "nanopore" (dict "bounds" "6270x2421 TopLeft" "crop" "855x353 BottomRight")
-        "ppg" (dict "bounds" "682x1643 TopLeft" "crop" "650x575 BottomRight")
-        "electrochemical" (dict "bounds" "2470x1650 TopLeft" "crop" "602x602 BottomRight")
-      }}
-      <section class="lab-section lab-selected" aria-labelledby="lab-selected-title">
+      <section class="lab-section lab-focus lab-selected" id="lab-selected-title" aria-labelledby="lab-focus-title">
         <div class="lab-section-heading">
-          <h2 id="lab-selected-title">{{ .title }}</h2>
-          <a class="lab-link" href="{{ "publication/" | relLangURL }}">{{ .all_label }} <span aria-hidden="true">→</span></a>
+          <h2 id="lab-focus-title">{{ .title }}</h2>
+          <div class="lab-section-links">
+            <a class="lab-link" href="{{ "research/" | relLangURL }}">{{ .overview_label }} <span aria-hidden="true">→</span></a>
+            <a class="lab-link" href="{{ "publication/" | relLangURL }}">{{ .all_label }} <span aria-hidden="true">→</span></a>
+          </div>
         </div>
-        <p class="lab-selected-intro">{{ .intro }}</p>
+        <p class="lab-selected-intro">{{ .intro_before }}<a href="{{ "research/#analog" | relLangURL }}">{{ .foundation_label }}</a>{{ .intro_after }}</p>
         <div class="lab-selected-grid">
           {{ range .items }}
             {{ $work := . }}
             {{ $paper := site.GetPage .page }}
-            {{ $tile := false }}
-            {{ if .image }}
-              {{ $tile = resources.Get .image }}
-              {{ with $tile }}
-                {{ with $work.image_bounds }}{{ $tile = $tile.Crop . }}{{ end }}
-                {{ with $work.image_crop }}{{ $tile = $tile.Crop . }}{{ end }}
-              {{ end }}
-            {{ else }}
-              {{ with $chips }}
-                {{ $crop := index $crops $work.id }}
-                {{ $tile = (.Crop $crop.bounds).Crop $crop.crop }}
-              {{ end }}
+            {{ $topicURL := printf "research/#%s" .anchor | relLangURL }}
+            {{ $tile := resources.Get .image }}
+            {{ with $tile }}
+              {{ with $work.image_bounds }}{{ $tile = $tile.Crop . }}{{ end }}
+              {{ with $work.image_crop }}{{ $tile = $tile.Crop . }}{{ end }}
             {{ end }}
             <article class="lab-selected-card">
               {{ with $tile }}
                 {{ $small := .Resize (printf "%dx webp q92" (math.Min 480 .Width | int)) }}
                 {{ $large := .Resize (printf "%dx webp q92" (math.Min 960 .Width | int)) }}
                 <figure class="lab-selected-figure{{ if eq $work.image_fit "cover" }} lab-selected-figure-cover{{ end }}">
-                  <a href="{{ $paper.RelPermalink }}" aria-label="{{ $selected.paper_label }}: {{ $work.title }}">
+                  <a href="{{ $topicURL }}" aria-label="{{ $work.title }}">
                     <img src="{{ $small.RelPermalink }}" {{ if gt $large.Width $small.Width }}srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 1000px) calc((100vw - 128px) / 2), 230px"{{ end }} width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $work.image_alt }}" loading="lazy" decoding="async">
                   </a>
                 </figure>
               {{ end }}
               <div class="lab-selected-copy">
-                <p class="lab-selected-venue">{{ .venue }}</p>
-                <h3><a href="{{ $paper.RelPermalink }}">{{ .title }}</a></h3>
+                <h3><a href="{{ $topicURL }}">{{ .title }}</a></h3>
                 <p class="lab-selected-description">{{ .description }}</p>
-                <a class="lab-link lab-selected-paper" href="{{ $paper.RelPermalink }}">{{ $selected.paper_label }} <span aria-hidden="true">→</span></a>
+                <a class="lab-link lab-selected-paper" href="{{ $paper.RelPermalink }}" aria-label="{{ $selected.paper_label }}: {{ .venue }} — {{ .title }}">{{ .venue }} <span aria-hidden="true">→</span></a>
               </div>
             </article>
           {{ end }}
