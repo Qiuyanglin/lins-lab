@@ -5,23 +5,14 @@
     <section class="lab-section library-directory" aria-label="{{ .Params.topics_label }}">
       <div class="library-topic-grid">
         {{ range .Params.topics }}
-          {{ $topicPath := . }}
           {{ with site.GetPage . }}
             {{ $topic := . }}
             <article class="library-topic-card">
-              {{ with index site.Data.reading_topics $topicPath }}
-                {{ $illustration := . }}
-                {{ with resources.Get .image }}
-                  {{ $source := . }}
-                  {{ with $illustration.image_crop }}{{ $source = $source.Crop . }}{{ end }}
-                  {{ $small := $source.Resize (printf "%dx webp q92" (math.Min 480 $source.Width | int)) }}
-                  {{ $large := $source.Resize (printf "%dx webp q92" (math.Min 960 $source.Width | int)) }}
-                  <a class="library-topic-image" href="{{ $topic.RelPermalink }}" aria-label="{{ $topic.Title }}">
-                    <img src="{{ $small.RelPermalink }}"{{ if gt $large.Width $small.Width }} srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 74px), (max-width: 1184px) calc((100vw - 160px) / 2), 512px"{{ end }} width="{{ $source.Width }}" height="{{ $source.Height }}" alt="{{ index $illustration.alt site.Language.Lang }}" loading="lazy" decoding="async">
-                  </a>
-                {{ else }}
-                  {{ errorf "Missing reading topic illustration: %s" $illustration.image }}
-                {{ end }}
+              {{ with .Resources.GetMatch "cover.png" }}
+                {{ $image := .Resize (printf "%dx webp q90" (math.Min 680 .Width | int)) }}
+                <a class="library-topic-image" href="{{ $topic.RelPermalink }}" aria-label="{{ $topic.Title }}">
+                  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $topic.Title }}{{ if $en }}: topic illustration{{ else }}：主题示意图{{ end }}" loading="lazy" decoding="async">
+                </a>
               {{ end }}
               <div class="library-topic-copy">
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

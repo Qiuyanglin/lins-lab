@@ -8,18 +8,3 @@ These images illustrate research areas; the cards link to example papers, not an
 - `selected-neural-cicc2026.png`: the existing `content/post/CICC26/Invasive.png`, showing the brain/electrode portion of the CICC 2026 review's Figure 1, DOI `10.1109/CICC65509.2026.11509514`.
 
 The other source images remain intact. Hugo performs thumbnail cropping and WebP conversion. No measured data are edited.
-
-## Paper-review topic illustrations
-
-The bilingual reading directory reuses the same wearable PPG, neural-interface,
-and bioreactor application illustrations as the homepage and research page.
-The bioreactor uses the same `405x673 TopLeft` application-panel crop. Images are
-shown in white 4:3 frames with padding and contain sizing to preserve the subject.
-The four original reading-topic `cover.png` files are retained for existing URLs.
-
-`reading-data-converters.png` is a conceptual illustration generated with the
-built-in imagegen tool: a smooth waveform, an unmarked chip and a staircase
-waveform on a white background. It represents a reading topic, not a particular
-device, circuit schematic or measured result. The exact generation prompt is
-recorded in `reading-data-converters.prompt.txt`. Shared image mappings and
-bilingual alternative text are kept in `data/reading_topics.json`.
