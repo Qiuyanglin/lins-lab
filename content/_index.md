@@ -41,9 +41,7 @@ selected_research:
       venue: "VLSI 2026"
       description: "面向 DNA 测序与高通量单分子检测。"
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
-      image: media/research-nanopore-principle.png
-      image_bounds: "1027x450 TopLeft"
-      image_crop: "487x395 BottomRight"
+      image: media/research-nanopore-application-no-labels.png
       image_alt: "固态纳米孔工作原理：DNA 穿孔引起离子电流变化。"
     - id: neural
       title: "下一代神经接口电路"
