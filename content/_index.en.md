@@ -39,33 +39,34 @@ selected_research:
     - id: nanopore
       title: "Solid-state nanopore readout"
       venue: "VLSI 2026"
-      description: "Low-noise, wideband parallel readout of fast DNA translocation signals."
+      description: "DNA sequencing and high-throughput single-molecule sensing."
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
-      image_alt: "Die micrograph of the VLSI 2026 solid-state nanopore interface IC."
-    - id: ppg
-      title: "High-dynamic-range PPG readout"
-      venue: "ISSCC 2021"
-      description: "Noise-shaping light-to-digital conversion for low-power chest PPG monitoring."
-      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
-      image: media/research-ppg-applications.jpg
-      image_bounds: "1680x465 TopLeft"
-      image_crop: "500x465 BottomRight"
-      image_alt: "A wrist-worn device illustrating wearable PPG monitoring applications."
+      image: media/research-nanopore-principle.png
+      image_bounds: "1027x450 TopLeft"
+      image_crop: "487x395 BottomRight"
+      image_alt: "Solid-state nanopore working principle: DNA translocation modulates the ionic current."
+    - id: neural
+      title: "Next-generation neural interfaces"
+      venue: "CICC 2026 · Review"
+      description: "Brain–computer interfaces, neural monitoring and neuromodulation."
+      page: publication/cicc2026
+      image: media/selected-neural-cicc2026.png
+      image_alt: "Brain and implanted electrodes illustrated in the CICC 2026 neural interface review."
     - id: electrochemical
       title: "Multimodal electrochemical sensing"
       venue: "ISSCC 2023"
-      description: "Integrated electrochemical and temperature sensing for bioreactor monitoring."
+      description: "Bioprocess monitoring, environmental sensing and biochemical analysis."
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
       image: media/research-bioreactor-overview.jpg
       image_crop: "405x673 TopLeft"
       image_alt: "Bioreactor and electrochemical sensing application diagram from the ISSCC 2023 paper."
-    - id: neural
-      title: "Next-generation neural interfaces"
-      venue: "CICC 2026 · Review"
-      description: "A review of circuit architectures for neural recording, stimulation and closed-loop neuromodulation."
-      page: publication/cicc2026
-      image: media/selected-neural-cicc2026.png
-      image_alt: "Brain and implanted electrodes illustrated in the CICC 2026 neural interface review."
+    - id: ppg
+      title: "High-dynamic-range PPG readout"
+      venue: "ISSCC 2021"
+      description: "Chest-based optical sensing for heart rate, blood oxygen and respiration monitoring."
+      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
+      image: media/research-chest-ppg-application.jpg
+      image_alt: "Chest-worn optical PPG sensor placement from the subsequent JTEHM 2024 application paper."
 team:
   title: "People & academic guidance"
   link_label: "Meet the team"

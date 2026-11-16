@@ -39,33 +39,34 @@ selected_research:
     - id: nanopore
       title: "固态纳米孔并行读出"
       venue: "VLSI 2026"
-      description: "面向快速 DNA 穿孔信号，实现低噪声宽带并行读出。"
+      description: "面向 DNA 测序与高通量单分子检测。"
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
-      image_alt: "VLSI 2026 固态纳米孔接口芯片显微照片。"
-    - id: ppg
-      title: "高动态范围 PPG 读出"
-      venue: "ISSCC 2021"
-      description: "以噪声整形光电转换电路，支持低功耗胸部 PPG 监测。"
-      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
-      image: media/research-ppg-applications.jpg
-      image_bounds: "1680x465 TopLeft"
-      image_crop: "500x465 BottomRight"
-      image_alt: "PPG 可穿戴监测应用示例，展示腕戴式设备。"
+      image: media/research-nanopore-principle.png
+      image_bounds: "1027x450 TopLeft"
+      image_crop: "487x395 BottomRight"
+      image_alt: "固态纳米孔工作原理：DNA 穿孔引起离子电流变化。"
+    - id: neural
+      title: "下一代神经接口电路"
+      venue: "CICC 2026 · 综述"
+      description: "面向脑机接口、神经信号监测与神经调控。"
+      page: publication/cicc2026
+      image: media/selected-neural-cicc2026.png
+      image_alt: "CICC 2026 神经接口综述中的脑部与植入式电极示意。"
     - id: electrochemical
       title: "多参数电化学传感接口"
       venue: "ISSCC 2023"
-      description: "融合多种电化学与温度传感，面向生物反应过程监测。"
+      description: "面向生物培养、环境监测与生化指标检测。"
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
       image: media/research-bioreactor-overview.jpg
       image_crop: "405x673 TopLeft"
       image_alt: "ISSCC 2023 论文中的生物反应器与电化学传感应用示意。"
-    - id: neural
-      title: "下一代神经接口电路"
-      venue: "CICC 2026 · 综述"
-      description: "综述神经信号记录、刺激与闭环神经调控的电路架构。"
-      page: publication/cicc2026
-      image: media/selected-neural-cicc2026.png
-      image_alt: "CICC 2026 神经接口综述中的脑部与植入式电极示意。"
+    - id: ppg
+      title: "高动态范围 PPG 读出"
+      venue: "ISSCC 2021"
+      description: "通过胸部光学感知，支持心率、血氧与呼吸监测。"
+      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
+      image: media/research-chest-ppg-application.jpg
+      image_alt: "后续 JTEHM 2024 应用论文中的胸部 PPG 光学传感器佩戴示意。"
 team:
   title: "团队与学术指导"
   link_label: "实验室成员"
