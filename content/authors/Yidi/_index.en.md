@@ -16,7 +16,7 @@ interests:
   - Instrumentation Amplifier Design
 ---
 
-**Yidi Sun** studied Electronic Science and Technology at Hunan University, China, as an undergraduate. She was admitted to Fudan University through recommendation-based admission and joined Qiuyang Lin’s research group in 2026. She is currently pursuing a master’s degree in Electronic Information. Her research interests include brain–computer interface circuits, biomedical integrated circuits, and analog front-end design.
+**Yidi Sun** studied Electronic Science and Technology at Hunan University, China, as an undergraduate, ranking among the top students in her major. She was admitted to Fudan University through recommendation-based admission and joined Qiuyang Lin’s research group in 2026. She is currently pursuing a master’s degree in Electronic Information. Her research interests include brain–computer interface circuits, biomedical integrated circuits, and analog front-end design.
 
 She received the National Scholarship and won the Second Prize in the National Finals of the China Undergraduate Integrated Circuit Innovation and Entrepreneurship Competition.
 
