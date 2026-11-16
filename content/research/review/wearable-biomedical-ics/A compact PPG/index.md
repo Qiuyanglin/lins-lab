@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "紧凑型 PPG 光电读出"
+reviewer: "季心敖"
 title: "论文评述：A Compact Photocurrent Recording IC With High-Linearity Dual PWM Buffered R-DACs"
 date: 2026-09-03
 

@@ -1,31 +1,29 @@
 ---
-title: "Cadence入门教程"
-date: 2026-03-10
-summary: "Cadence原理图设计与仿真流程教程。"
+title: "Cadence 设计与仿真"
+type: "lab-learning"
+date: "2026-03-10"
+summary: "原理图设计、仿真分析与比较器噪声仿真资料。"
+downloads:
+  -
+    file: "Tutorial_UCLA.pdf"
+    title: "UCLA Cadence 教程"
+    format: "PDF"
+  -
+    file: "Analysis.pdf"
+    title: "Cadence 仿真分析 · 刘子宁"
+    format: "PDF"
+  -
+    file: "CMP_PSS_Noise.pdf"
+    title: "比较器 PSS 与瞬态噪声仿真 · 王辰"
+    format: "PDF"
+external_links:
+  -
+    title: "Cadence 在线培训"
+    url: "https://www.cadence.com/en_US/home/training/deliverymethod-online.html"
+  -
+    title: "弗吉尼亚理工 Cadence 教程"
+    url: "https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html"
+  -
+    title: "Gm/Id 设计方法 · Eric Yeh（YouTube）"
+    url: "https://www.youtube.com/watch?v=horLp7FMTeA&list=PLQBJZzLTgobt8BlTD0spy4pPi2bccxw54"
 ---
-
-本条目介绍 Cadence 电路设计环境的基本使用方法，适合刚开始学习集成电路设计的学生。
-
-## 类型
-Tool Tutorial
-
-## 适合对象
-IC设计初学者
-
-## 内容简介
-
-教程包括：
-
-- Cadence环境介绍 
-- 原理图设计流程
-- 仿真与结果分析
-- 基本设计实践
-
-## 下载资料
-
-- [Cadence教程UCLA（PDF）](Tutorial_UCLA.pdf)
-- [Cadence仿真Analysis使用_刘子宁（PDF）](Analysis.pdf)
-- [比较器PSS与TRAN噪声的方法_王辰（PDF）](CMP_PSS_Noise.pdf)
-- [Cadence 3分钟quick start](https://www.cadence.com/en_US/home/training/deliverymethod-online.html)
-- [弗吉尼亚理工Cadence Tutorial](https://www.mics.ece.vt.edu/ICDesign/Tutorials/Cadence/index_old.html)
-- [Gm Id 设计方法_Eric Yeh](https://www.youtube.com/watch?v=horLp7FMTeA&list=PLQBJZzLTgobt8BlTD0spy4pPi2bccxw54)

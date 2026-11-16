@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ $en := eq site.Language.Lang "en" }}
+<main class="lab-page lab-library" id="lab-main">
+  <div class="lab-shell">
+    {{ partial "lab/library-header.html" . }}
+    <section class="lab-section" aria-labelledby="library-notes-title">
+      <div class="lab-section-heading"><h2 id="library-notes-title">{{ if $en }}Reading notes{{ else }}阅读笔记{{ end }}</h2></div>
+      {{ with .RegularPages.ByDate.Reverse }}
+        <div class="library-notes">
+          {{ range . }}
+            <article class="library-note">
+              <p class="library-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>{{ with .Params.reviewer }}<span>{{ . }}</span>{{ end }}</p>
+              <h3><a href="{{ .RelPermalink }}">{{ .Params.short_title | default .Title }}</a></h3>
+              <p class="library-note-summary">{{ .Params.summary }}</p>
+              <div class="library-note-links">
+                <a class="lab-link" href="{{ .RelPermalink }}">{{ if $en }}Read note{{ else }}阅读笔记{{ end }} <span aria-hidden="true">→</span></a>
+                {{ with .Resources.GetMatch "paper.pdf" }}<a class="lab-link" href="{{ .RelPermalink }}">PDF <span aria-hidden="true">↗</span></a>{{ end }}
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="library-empty">{{ if $en }}Reading notes will be added here.{{ else }}本方向的阅读笔记将陆续补充。{{ end }}</p>
+      {{ end }}
+    </section>
+  </div>
+</main>
+{{ end }}

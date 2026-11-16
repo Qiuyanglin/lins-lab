@@ -1,9 +1,9 @@
-Source: the author-supplied Chip Gallery.vsdx, page 8 named "Chip Gallery".
+Original 21 images: the author-supplied Chip Gallery.vsdx, page 8 named "Chip Gallery".
 Only that page's 21 embedded images were extracted. Other pages were not used.
 The Visio source is unchanged. The existing chip.png collage is also unchanged
 and remains available through the overview link.
 
-data/chip_gallery.json maps every card to its original embedded media filename.
+data/chip_gallery.json maps these cards to their original embedded media filenames.
 20 BMP files were converted losslessly to PNG with Windows System.Drawing;
 decoded RGBA pixels and dimensions were verified identical to the source BMPs.
 image6.emf was rendered with System.Drawing to a 2000 x 1292 white-backed PNG.
@@ -19,3 +19,22 @@ catalogue rather than stale collage labels. The non-contact ECG journal is TBCAS
 2019 (its conference version was VLSI 2018); the JSSC amplifier, JSSC VCO ADC and
 OJCAS TFT amplifier have final issue year 2026. The latter image was matched to
 Figure 9 of IEEE document 11304256. The current-mode PPG journal is JSSC 2024.
+
+Two recent chip families were added on 2026-11-16 from official paper PDFs:
+
+biopotential-frontend-2026.png (840 x 595):
+  IEEE document 11720060, TCSI 2026, Figure 14(b), PDF page 7.
+  DOI: https://doi.org/10.1109/TCSI.2026.3737602
+  Crop bounds in PDF points from the top-left: [153.3, 58.5, 293.4, 157.7].
+  The ESSERC 2025 version describes the same chip and is not duplicated here.
+
+radiation-adaptive-sar-2026.png (622 x 511):
+  IEEE document 11562270, ISCAS 2026, Figure 7(a), PDF page 3.
+  DOI: https://doi.org/10.1109/ISCAS66217.2026.11562270
+  Crop bounds in PDF points from the top-left: [321.9, 57.4, 425.7, 142.8].
+
+Both crops were rendered at 6x from the original PDF regions, including the
+original scientific labels and dimension arrows. No redrawing, recoloring or
+sharpening was applied. source_figure records identify these two cards.
+The original chip.png collage contains the original 21 images; the gallery
+now includes 23 images. Review papers and duplicate versions do not add cards.

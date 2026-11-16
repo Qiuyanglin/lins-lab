@@ -8,6 +8,17 @@
       },
       "items": [
         {
+          "id": "biopotential-frontend-2026",
+          "title": {
+            "zh": "高输入阻抗生物电势记录芯片",
+            "en": "High-input-impedance biopotential recording"
+          },
+          "venue": "TCSI 2026",
+          "page": "publication/a-141-gohm-input-impedance-biopotential-recording-ic-2026",
+          "image": "images/biopotential-frontend-2026.png",
+          "source_figure": "IEEE 11720060, Figure 14(b), page 7"
+        },
+        {
           "id": "ingestible-capsule",
           "title": {
             "zh": "微型可吞服胶囊系统",
@@ -157,6 +168,17 @@
         "en": "Analog circuits and data conversion"
       },
       "items": [
+        {
+          "id": "radiation-adaptive-sar-2026",
+          "title": {
+            "zh": "辐照自适应 SAR ADC",
+            "en": "Radiation-adaptive SAR ADC"
+          },
+          "venue": "ISCAS 2026",
+          "page": "publication/a-12-bit-5-ms-s-tmr-free-radiation-adaptive-sar-adc-for-space-missions-2026",
+          "image": "images/radiation-adaptive-sar-2026.png",
+          "source_figure": "IEEE 11562270, Figure 7(a), page 3"
+        },
         {
           "id": "gm-boosted-amplifier",
           "title": {

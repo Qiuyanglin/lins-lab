@@ -1,0 +1,19 @@
+{{ $en := eq site.Language.Lang "en" }}
+<header class="library-header">
+  <nav class="library-breadcrumbs" aria-label="{{ if $en }}Breadcrumb{{ else }}当前位置{{ end }}">
+    <a href="{{ "research/" | relLangURL }}">{{ if $en }}Research{{ else }}研究{{ end }}</a>
+    {{ with .Parent }}
+      {{ if ne .RelPermalink ("research/" | relLangURL) }}
+        <span aria-hidden="true">/</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+  </nav>
+  <h1>{{ .Params.short_title | default .Title }}</h1>
+  {{ with .Params.description | default .Params.summary }}<p class="lab-lede">{{ . }}</p>{{ end }}
+  {{ if eq .Type "lab-reading-note" }}
+    <p class="library-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>{{ with .Params.reviewer }}<span>{{ . }}</span>{{ end }}</p>
+    {{ with .Resources.GetMatch "paper.pdf" }}
+      <a class="lab-link" href="{{ .RelPermalink }}">{{ if $en }}Full review (PDF){{ else }}完整阅读笔记（PDF）{{ end }} <span aria-hidden="true">↗</span></a>
+    {{ end }}
+  {{ end }}
+</header>

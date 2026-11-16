@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "ECoG recording and artifact recovery"
+reviewer: "Yiru Wang"
 title: "Paper Review: A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front End With Submillisecond Stimulation Artifact Recovery"
 date: 2026-08-31
 

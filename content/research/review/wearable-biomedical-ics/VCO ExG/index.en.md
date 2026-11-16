@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "VCO-based ExG front end"
+reviewer: "Xinao Ji"
 title: "Paper Review: A 174.7-dB FoM, 2nd-Order VCO-Based ExG-to-Digital Front-End Using a Multi-Phase Gated-Inverted-Ring Oscillator Quantizer"
 date: 2026-10-08
 
