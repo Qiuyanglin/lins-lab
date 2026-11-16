@@ -1,0 +1,262 @@
+{
+  "groups": [
+    {
+      "id": "biosignals",
+      "title": {
+        "zh": "生物信号与医疗系统",
+        "en": "Biosignals and biomedical systems"
+      },
+      "items": [
+        {
+          "id": "ingestible-capsule",
+          "title": {
+            "zh": "微型可吞服胶囊系统",
+            "en": "Miniaturized ingestible capsule"
+          },
+          "venue": "OJCAS 2026",
+          "page": "publication/a-miniaturized-ingestible-capsule-with-integrated-asic-for-energy-effi-2026",
+          "image": "images/ingestible-capsule.png",
+          "source_media": "image14.bmp"
+        },
+        {
+          "id": "current-mode-ppg",
+          "title": {
+            "zh": "电流模式光学读出芯片",
+            "en": "Current-mode optical readout"
+          },
+          "venue": "JSSC 2024",
+          "page": "publication/a-30-w-947-db-sndr-noise-shaping-current-mode-direct-to-digital-conver-2023",
+          "image": "images/current-mode-ppg.png",
+          "source_media": "image30.bmp"
+        },
+        {
+          "id": "noise-shaping-ppg",
+          "title": {
+            "zh": "噪声整形光学读出芯片",
+            "en": "Noise-shaping optical readout"
+          },
+          "venue": "TBCAS 2021",
+          "page": "publication/a-134-db-dynamic-range-noise-shaping-slope-light-to-digital-converter-2021",
+          "image": "images/noise-shaping-ppg.png",
+          "source_media": "image21.bmp"
+        },
+        {
+          "id": "charge-counting-ppg",
+          "title": {
+            "zh": "电荷计数光学读出芯片",
+            "en": "Charge-counting optical readout"
+          },
+          "venue": "TBCAS 2020",
+          "page": "publication/a-119db-dynamic-range-charge-counting-light-to-digital-converter-for-w-2020",
+          "image": "images/charge-counting-ppg.png",
+          "source_media": "image10.bmp"
+        },
+        {
+          "id": "differential-ppg",
+          "title": {
+            "zh": "差分 PPG 接口放大器",
+            "en": "Differential PPG interface amplifier"
+          },
+          "venue": "TCSII 2020",
+          "page": "publication/a-50w-fully-differential-interface-amplifier-with-a-current-steering-c-2020",
+          "image": "images/differential-ppg.png",
+          "source_media": "image27.bmp"
+        },
+        {
+          "id": "non-contact-ecg",
+          "title": {
+            "zh": "非接触 ECG 有源电极",
+            "en": "Active electrode for non-contact ECG"
+          },
+          "venue": "TBCAS 2019",
+          "page": "publication/a-400-g-input-impedance-active-electrode-for-non-contact-capacitively-2019",
+          "image": "images/non-contact-ecg.png",
+          "source_media": "image5.bmp"
+        },
+        {
+          "id": "ecg-bioimpedance",
+          "title": {
+            "zh": "ECG 与生物阻抗监测芯片",
+            "en": "ECG and bioimpedance monitoring"
+          },
+          "venue": "CICC 2018",
+          "page": "publication/a-06-v-38-w-ecgbio-impedance-monitoring-ic-for-disposable-health-patch-2018",
+          "image": "images/ecg-bioimpedance.png",
+          "source_media": "image13.bmp"
+        }
+      ]
+    },
+    {
+      "id": "molecular-sensing",
+      "title": {
+        "zh": "纳米孔与电化学传感",
+        "en": "Nanopore and electrochemical sensing"
+      },
+      "items": [
+        {
+          "id": "parallel-nanopore",
+          "title": {
+            "zh": "固态纳米孔并行读出芯片",
+            "en": "Parallel solid-state nanopore readout"
+          },
+          "venue": "VLSI 2026",
+          "page": "publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026",
+          "image": "images/parallel-nanopore.png",
+          "source_media": "image6.emf"
+        },
+        {
+          "id": "translocation-nanopore",
+          "title": {
+            "zh": "纳米孔穿孔事件读出芯片",
+            "en": "Nanopore translocation readout"
+          },
+          "venue": "JSSC 2025",
+          "page": "publication/a-376-w-per-channel-drift-tolerant-translocation-recording-frontend-wi-2025",
+          "image": "images/translocation-nanopore.png",
+          "source_media": "image23.bmp"
+        },
+        {
+          "id": "lactate-ph",
+          "title": {
+            "zh": "乳酸与 pH 生物传感平台",
+            "en": "Lactate and pH biosensing platform"
+          },
+          "venue": "Transducers 2025",
+          "page": "publication/cmos-compatible-biosensing-platform-for-multiplexed-lactate-and-ph-mon-2025",
+          "image": "images/lactate-ph.png",
+          "source_media": "image4.bmp"
+        },
+        {
+          "id": "bioreactor-interface",
+          "title": {
+            "zh": "生物反应器电化学传感接口",
+            "en": "Electrochemical interface for bioreactors"
+          },
+          "venue": "TBCAS 2023",
+          "page": "publication/a-multichannel-electrochemical-sensor-interface-ic-for-bioreactor-moni-2023",
+          "image": "images/bioreactor-interface.png",
+          "source_media": "image25.bmp"
+        },
+        {
+          "id": "nanopore-fet-array",
+          "title": {
+            "zh": "纳米孔 FET 阵列读出芯片",
+            "en": "Nanopore FET array readout"
+          },
+          "venue": "TCSI 2023",
+          "page": "publication/high-throughput-nanopore-fet-array-readout-ic-with-5-mhz-bandwidth-and-2023",
+          "image": "images/nanopore-fet-array.png",
+          "source_media": "image26.bmp"
+        }
+      ]
+    },
+    {
+      "id": "analog-circuits",
+      "title": {
+        "zh": "模拟电路与数据转换",
+        "en": "Analog circuits and data conversion"
+      },
+      "items": [
+        {
+          "id": "gm-boosted-amplifier",
+          "title": {
+            "zh": "闭环跨导增强放大器",
+            "en": "Closed-loop transconductance-boosted amplifier"
+          },
+          "venue": "JSSC 2026",
+          "page": "publication/an-energy-efficient-amplifier-with-a-closed-loop-g-m-boosting-stage-an-2025",
+          "image": "images/gm-boosted-amplifier.png",
+          "source_media": "image20.bmp"
+        },
+        {
+          "id": "vco-adc",
+          "title": {
+            "zh": "VCO 型 MASH ADC",
+            "en": "VCO-based MASH ADC"
+          },
+          "venue": "JSSC 2026",
+          "page": "publication/a-200-mhz-bw-163-db-fom-vco-based-mash-3-1-adc-with-all-pass-filtering-2025",
+          "image": "images/vco-adc.png",
+          "source_media": "image22.bmp"
+        },
+        {
+          "id": "tft-amplifier",
+          "title": {
+            "zh": "薄膜晶体管运算放大器",
+            "en": "Thin-film transistor operational amplifier"
+          },
+          "venue": "OJCAS 2026",
+          "page": "publication/a-high-gain-low-voltage-operational-amplifier-with-bias-stress-and-pvt-2025",
+          "image": "images/tft-amplifier.png",
+          "source_media": "image2.bmp"
+        },
+        {
+          "id": "pipelined-sar",
+          "title": {
+            "zh": "流水线 SAR ADC",
+            "en": "Pipelined-SAR ADC"
+          },
+          "venue": "TCSI 2025",
+          "page": "publication/an-80-mss-708-db-sndr-radiation-tolerant-semi-time-interleaved-pipelin-2025",
+          "image": "images/pipelined-sar.png",
+          "source_media": "image32.bmp"
+        },
+        {
+          "id": "noise-shaping-sar",
+          "title": {
+            "zh": "噪声整形 SAR ADC",
+            "en": "Noise-shaping SAR ADC"
+          },
+          "venue": "TCSII 2025",
+          "page": "publication/a-13-bit-enob-fully-asynchronous-noise-shaping-sar-adc-with-coarse-fin-2025",
+          "image": "images/noise-shaping-sar.png",
+          "source_media": "image33.bmp"
+        },
+        {
+          "id": "ltps-tft",
+          "title": {
+            "zh": "LTPS 薄膜晶体管电路",
+            "en": "LTPS thin-film transistor circuits"
+          },
+          "venue": "ESSERC 2025",
+          "page": "publication/static-and-statistical-modeling-of-ltps-tfts-for-robust-analog-design-2025",
+          "image": "images/ltps-tft.png",
+          "source_media": "image15.bmp"
+        },
+        {
+          "id": "gm-boosted-prototype",
+          "title": {
+            "zh": "跨导增强放大器原型",
+            "en": "Transconductance-boosted amplifier prototype"
+          },
+          "venue": "ESSERC 2024",
+          "page": "publication/an-energy-efficient-amplifier-with-a-closed-loop-gm-boosting-output-st-2024",
+          "image": "images/gm-boosted-prototype.png",
+          "source_media": "image19.bmp"
+        },
+        {
+          "id": "mos2-arrays",
+          "title": {
+            "zh": "单层 MoS₂ 晶体管阵列",
+            "en": "Monolayer MoS₂ transistor arrays"
+          },
+          "venue": "VLSI 2024",
+          "page": "publication/single-crystalline-monolayer-mos2-arrays-based-high-performance-transi-2024",
+          "image": "images/mos2-arrays.png",
+          "source_media": "image9.bmp"
+        },
+        {
+          "id": "inductive-telemetry",
+          "title": {
+            "zh": "感应链路能量与数据传输",
+            "en": "Inductive power and data telemetry"
+          },
+          "venue": "Science China Information Sciences 2023",
+          "page": "publication/power-and-data-telemetry-over-a-single-inductive-link-2023",
+          "image": "images/inductive-telemetry.png",
+          "source_media": "image31.bmp"
+        }
+      ]
+    }
+  ]
+}

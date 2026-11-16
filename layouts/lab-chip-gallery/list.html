@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $lang := site.Language.Lang }}
+{{ $labels := .Params.labels }}
+{{ $source := .Resources.GetMatch "chip.png" }}
+{{ $page := . }}
+<main class="lab-page lab-chip-gallery" id="lab-main">
+  <div class="lab-shell">
+    <header class="lab-research-intro chip-gallery-intro">
+      <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lab-lede">{{ .Params.intro.text }}</p>
+      <div class="lab-actions">
+        <a class="lab-link" href="{{ "research/" | relLangURL }}">{{ $labels.research }} <span aria-hidden="true">→</span></a>
+        <a class="lab-link" href="{{ "publication/" | relLangURL }}">{{ $labels.publications }} <span aria-hidden="true">→</span></a>
+        <a class="lab-link" href="{{ $source.RelPermalink }}">{{ $labels.original }} <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <nav class="chip-gallery-nav" aria-label="{{ $labels.navigation }}">
+      {{ range site.Data.chip_gallery.groups }}
+        <a href="#{{ .id }}">{{ index .title $lang }}</a>
+      {{ end }}
+    </nav>
+    {{ range site.Data.chip_gallery.groups }}
+      <section class="lab-section chip-gallery-section" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
+        <div class="lab-section-heading"><h2 id="{{ .id }}-title">{{ index .title $lang }}</h2></div>
+        <div class="chip-gallery-grid">
+          {{ range .items }}
+            {{ $title := index .title $lang }}
+            {{ $image := $page.Resources.GetMatch .image }}
+            {{ $small := $image.Resize (printf "%dx webp q92" (math.Min 480 $image.Width | int)) }}
+            {{ $large := $image.Resize (printf "%dx webp q92" (math.Min 960 $image.Width | int)) }}
+            <article class="chip-gallery-card" id="{{ .id }}">
+              <a class="chip-gallery-image" href="{{ $image.RelPermalink }}" aria-label="{{ $labels.image }}: {{ $title }}">
+                <img src="{{ $small.RelPermalink }}"{{ if gt $large.Width $small.Width }} srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 74px), (max-width: 1000px) calc((100vw - 122px) / 2), 324px"{{ end }} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $title }}" loading="lazy" decoding="async">
+              </a>
+              <div class="chip-gallery-copy">
+                <p class="chip-gallery-venue">{{ .venue }}</p>
+                <h3>{{ $title }}</h3>
+                <div class="chip-gallery-links">
+                  <a href="{{ $image.RelPermalink }}">{{ $labels.image }} <span aria-hidden="true">↗</span></a>
+                  {{ with .page }}{{ with site.GetPage . }}<a href="{{ .RelPermalink }}">{{ $labels.paper }} <span aria-hidden="true">→</span></a>{{ end }}{{ end }}
+                </div>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
