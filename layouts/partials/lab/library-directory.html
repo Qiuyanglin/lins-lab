@@ -1,0 +1,31 @@
+{{ $en := eq site.Language.Lang "en" }}
+<main class="lab-page lab-library" id="lab-main">
+  <div class="lab-shell">
+    {{ partial "lab/library-header.html" . }}
+    <section class="lab-section library-directory" aria-label="{{ .Params.topics_label }}">
+      <div class="library-topic-grid">
+        {{ range .Params.topics }}
+          {{ with site.GetPage . }}
+            {{ $topic := . }}
+            <article class="library-topic-card">
+              {{ with .Resources.GetMatch "cover.png" }}
+                {{ $image := .Resize (printf "%dx webp q90" (math.Min 680 .Width | int)) }}
+                <a class="library-topic-image" href="{{ $topic.RelPermalink }}" aria-label="{{ $topic.Title }}">
+                  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $topic.Title }}{{ if $en }}: topic illustration{{ else }}：主题示意图{{ end }}" loading="lazy" decoding="async">
+                </a>
+              {{ end }}
+              <div class="library-topic-copy">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Params.summary }}</p>
+                <a class="lab-link" href="{{ .RelPermalink }}">{{ if eq .Type "lab-learning" }}{{ if $en }}View resources{{ else }}查看资料{{ end }}{{ else }}{{ if $en }}Browse notes{{ else }}浏览笔记{{ end }}{{ end }} <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    <div class="library-footer-links">
+      {{ range .Params.related }}{{ with site.GetPage . }}<a class="lab-link" href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">→</span></a>{{ end }}{{ end }}
+    </div>
+  </div>
+</main>

@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "高密度单片神经探针"
+reviewer: "王奕如"
 title: "论文评述：A Highly-Integrated 1536-Channel Quad-Shank Monolithic Neural Probe in 55nm CMOS for Full-Band Raw-Signal Recording"
 date: 2026-08-24
 

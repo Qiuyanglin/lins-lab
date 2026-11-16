@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main class="lab-page lab-library library-note-page" id="lab-main">
+  <div class="lab-shell">
+    {{ partial "lab/library-header.html" . }}
+    <article class="library-prose">{{ .Content }}</article>
+    {{ with .Parent }}<div class="library-footer-links"><a class="lab-link" href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">→</span></a></div>{{ end }}
+  </div>
+</main>
+{{ end }}

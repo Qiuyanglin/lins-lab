@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "Compact PPG photocurrent readout"
+reviewer: "Xinao Ji"
 title: "Paper Review: A Compact Photocurrent Recording IC With High-Linearity Dual PWM Buffered R-DACs"
 date: 2026-09-03
 

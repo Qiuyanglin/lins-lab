@@ -1,28 +1,21 @@
 ---
-title: "模拟电路基础"
-date: 2026-03-10
-summary: "模拟电路入门资料，包括放大器模型与频率响应。"
+title: "模拟电路与绘图"
+type: "lab-learning"
+date: "2026-03-10"
+summary: "用于电路原理图与技术图示的 Visio 模板和元件库。"
+downloads:
+  -
+    file: "CircuitElementsISSCC.vss"
+    title: "ISSCC 电路元件库"
+    format: "VSS"
+  -
+    file: "EE_STENCIL.vss"
+    title: "EE 电路元件库"
+    format: "VSS"
+  -
+    file: "visio.vsdx"
+    title: "Visio 画幅模板 · 郑辛发"
+    format: "VSDX"
 ---
 
-本条目整理了一些适合初学者学习模拟电路的资料，包括基本概念、放大器模型以及频率响应分析方法。
-
-## 类型
-Lecture Notes
-
-## 适合对象
-本科生 / 模拟电路初学者
-
-## 内容简介
-
-资料主要介绍：
-
-- 放大器基本模型
-- 频率响应分析
-- 稳定性基础
-- 模拟电路设计入门
-
-## 下载资料
-
-- [模拟电路绘画ISSCC模板（vss）](CircuitElementsISSCC.vss)
-- [模拟电路绘画EE模板（vss）](EE_STENCIL.vss)
-- [Visio模板_郑辛发——鲁汶大学博士，设计画幅大小](visio.vsdx)
+以下文件为 Visio 电路绘图元件库与画幅模板。

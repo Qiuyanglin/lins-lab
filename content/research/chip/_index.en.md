@@ -8,7 +8,7 @@ intro:
 labels:
   research: "Research focus"
   publications: "All publications"
-  original: "View full overview"
+  original: "View original collage"
   image: "View larger image"
   paper: "Related paper"
   navigation: "Browse by topic"

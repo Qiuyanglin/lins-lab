@@ -1,23 +1,7 @@
 ---
-title: "Neural Interface ICs"
-type: landing
-
-sections:
-  - block: markdown
-    content:
-      title: "Neural Interface ICs"
-      text: |
-        实验室成员关于 **Neural Interface ICs** 的论文阅读笔记与技术思考。
-
-  - block: collection
-    content:
-      title: "Paper Reviews"
-      count: 0
-      filters:
-        folders:
-          - research
-        tag: Neural Interface Review
-    design:
-      view: card
-      columns: 3
+title: "神经接口芯片"
+type: "lab-reading-topic"
+summary: "神经信号记录、脑机接口与刺激伪影恢复。"
+aliases:
+  - "/research/review/neural-interface-ics/paper1/"
 ---

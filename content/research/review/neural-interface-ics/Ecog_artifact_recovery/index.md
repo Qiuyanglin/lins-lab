@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "ECoG 记录与刺激伪影恢复"
+reviewer: "王奕如"
 title: "论文评述：A 2.5–20 kS/s In-Pixel Direct Digitization ECoG Front End With Submillisecond Stimulation Artifact Recovery"
 date: 2026-08-31
 

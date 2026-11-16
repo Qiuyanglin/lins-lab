@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "VCO 生物电信号前端"
+reviewer: "季心敖"
 title: "论文评述：A 174.7-dB FoM, 2nd-Order VCO-Based ExG-to-Digital Front-End Using a Multi-Phase Gated-Inverted-Ring Oscillator Quantizer"
 date: 2026-10-08
 

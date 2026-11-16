@@ -16,6 +16,8 @@
     {{- $desc := "" -}}
     {{- if .Params.summary -}}
       {{- $desc = .Params.summary -}}
+    {{- else if .Params.description -}}
+      {{- $desc = .Params.description -}}
     {{- else if .Params.abstract -}}
       {{- $desc = .Params.abstract -}}
     {{- else -}}
@@ -27,6 +29,16 @@
     {{- $rel_permalink := .RelPermalink -}}
     {{- $permalink := .Permalink -}}
     {{- $publicationSearch := "" -}}
+    {{- $content := .Plain -}}
+    {{- /* Download cards live in front matter; keep their visible text searchable. */ -}}
+    {{- if eq .Type "lab-learning" -}}
+      {{- range .Params.downloads -}}
+        {{- $content = printf "%s %s %s %s" $content (.title | default "") (.file | default "") (.description | default "") -}}
+      {{- end -}}
+      {{- range .Params.external_links -}}
+        {{- $content = printf "%s %s %s" $content (.title | default "") (.description | default "") -}}
+      {{- end -}}
+    {{- end -}}
     {{- if and (eq .Section "publication") .File (eq .Kind "page") -}}
       {{- $publicationData := partialCached "lab/publication-data.html" . .RelPermalink -}}
       {{- $publicationSearch = $publicationData.search -}}
@@ -61,7 +73,7 @@
     {{- /* Add page to index. */ -}}
     {{/* Exclude virtual pages which aren't backed by a file */}}
     {{ if .File }}
-      {{- $index = $index | append (dict "objectID" .File.UniqueID "date" .Date.UTC.Unix "publishdate" .PublishDate "lastmod" .Lastmod.UTC.Unix "expirydate" .ExpiryDate.UTC.Unix "lang" .Lang "permalink" $permalink "relpermalink" $rel_permalink "title" $title "summary" (plainify $desc | htmlUnescape) "content" (.Plain | htmlUnescape | truncate 5000) "authors" $authors "kind" .Kind "type" .Type "section" .Section "tags" .Params.Tags "categories" .Params.Categories "publication_search" $publicationSearch) -}}
+      {{- $index = $index | append (dict "objectID" .File.UniqueID "date" .Date.UTC.Unix "publishdate" .PublishDate "lastmod" .Lastmod.UTC.Unix "expirydate" .ExpiryDate.UTC.Unix "lang" .Lang "permalink" $permalink "relpermalink" $rel_permalink "title" $title "summary" (plainify $desc | htmlUnescape) "content" ($content | htmlUnescape | truncate 5000) "authors" $authors "kind" .Kind "type" .Type "section" .Section "tags" .Params.Tags "categories" .Params.Categories "publication_search" $publicationSearch) -}}
     {{ end }}
   {{- end -}}
 {{- end -}}

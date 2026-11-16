@@ -1,4 +1,7 @@
 ---
+type: lab-reading-note
+short_title: "High-density monolithic neural probe"
+reviewer: "Yiru Wang"
 title: "Review: A Highly-Integrated 1536-Channel Quad-Shank Monolithic Neural Probe in 55nm CMOS for Full-Band Raw-Signal Recording"
 date: 2026-08-24
 
@@ -20,7 +23,7 @@ tags:
 
 **A Highly-Integrated 1536-Channel Quad-Shank Monolithic Neural Probe in 55nm CMOS for Full-Band Raw-Signal Recording**
 
-**Review by:** 王奕如
+**Review by:** Yiru Wang
 
 **Full Review:** [View Review Document (PDF)](/research/review/neural-interface-ics/1536-channel-quad-shank-neural-probe/paper.pdf)
 

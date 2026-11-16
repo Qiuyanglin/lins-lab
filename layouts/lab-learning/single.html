@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ $en := eq site.Language.Lang "en" }}
+{{ $page := . }}
+<main class="lab-page lab-library" id="lab-main">
+  <div class="lab-shell">
+    {{ partial "lab/library-header.html" . }}
+    {{ with .Content }}<div class="library-prose library-resource-intro">{{ . }}</div>{{ end }}
+    {{ with .Params.downloads }}
+      <section class="lab-section" aria-labelledby="library-downloads-title">
+        <div class="lab-section-heading"><h2 id="library-downloads-title">{{ if $en }}Downloads{{ else }}下载资料{{ end }}</h2></div>
+        <div class="library-downloads">
+          {{ range . }}
+            {{ $entry := . }}
+            {{ with $page.Resources.GetMatch .file }}
+              <a class="library-download" href="{{ .RelPermalink }}">
+                <span class="library-file-type">{{ $entry.format }}</span>
+                <span class="library-download-copy"><strong>{{ $entry.title }}</strong>{{ with $entry.description }}<span>{{ . }}</span>{{ end }}</span>
+                <span class="library-file-arrow" aria-hidden="true">↓</span>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    {{ with .Params.external_links }}
+      <section class="lab-section" aria-labelledby="library-external-title">
+        <div class="lab-section-heading"><h2 id="library-external-title">{{ if $en }}Online resources{{ else }}在线资源{{ end }}</h2></div>
+        <ul class="library-external-links">{{ range . }}<li><a href="{{ .url }}">{{ .title }} <span aria-hidden="true">↗</span></a></li>{{ end }}</ul>
+      </section>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
