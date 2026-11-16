@@ -8,7 +8,7 @@ intro:
 labels:
   research: "Research focus"
   publications: "All publications"
-  original: "View original collage"
+  original: "Chip Gallery"
   image: "View larger image"
   paper: "Related paper"
   navigation: "Browse by topic"
