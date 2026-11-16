@@ -25,7 +25,7 @@ selected_research:
   items:
     - id: nanopore
       title: "Nanopore & DNA sequencing"
-      anchor: molecular
+      anchor: nanopore
       venue: "VLSI 2026"
       description: "DNA sequencing and high-throughput single-molecule sensing."
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
@@ -41,7 +41,7 @@ selected_research:
       image_alt: "Illustration of the brain and implanted electrodes."
     - id: electrochemical
       title: "Electrochemical sensing"
-      anchor: molecular
+      anchor: electrochemical
       venue: "ISSCC 2023"
       description: "Bioprocess monitoring, environmental sensing and biochemical analysis."
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023

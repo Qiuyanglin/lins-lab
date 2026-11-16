@@ -25,7 +25,7 @@ selected_research:
   items:
     - id: nanopore
       title: "纳米孔与 DNA 测序"
-      anchor: molecular
+      anchor: nanopore
       venue: "VLSI 2026"
       description: "面向 DNA 测序与高通量单分子检测。"
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
@@ -41,7 +41,7 @@ selected_research:
       image_alt: "脑部与植入式电极示意。"
     - id: electrochemical
       title: "电化学传感"
-      anchor: molecular
+      anchor: electrochemical
       venue: "ISSCC 2023"
       description: "面向生物培养、环境监测与生化指标检测。"
       page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023

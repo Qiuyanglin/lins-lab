@@ -1,25 +1,19 @@
 {{ define "main" }}
+{{ $research := site.Home.Params.selected_research }}
 <main class="lab-page lab-research" id="lab-main">
   <div class="lab-shell">
     <header class="lab-research-intro">
       <p class="lab-kicker">{{ .Params.intro.kicker }}</p>
       <h1>{{ .Title }}</h1>
-      <p class="lab-lede">{{ .Params.intro.text }}</p>
-      <p class="lab-research-path">{{ .Params.intro.path }}</p>
+      <p class="lab-lede" id="analog">{{ $research.intro_before }}{{ $research.foundation_label }}{{ $research.intro_after }}</p>
     </header>
 
     <section class="lab-section" id="research-areas" aria-labelledby="research-areas-heading">
       <div class="lab-section-heading">
-        <h2 id="research-areas-heading">{{ .Params.areas.title }}</h2>
+        <h2 id="research-areas-heading">{{ $research.title }}</h2>
+        <a class="lab-link" href="{{ "publication/" | relLangURL }}">{{ $research.all_label }} <span aria-hidden="true">→</span></a>
       </div>
-      <div class="lab-topics">
-        {{ range .Params.areas.items }}
-        <article class="lab-topic" id="{{ .id }}">
-          <h3>{{ .title }}</h3>
-          <p>{{ .text }}</p>
-        </article>
-        {{ end }}
-      </div>
+      {{ partial "lab/research-cards.html" (dict "research" $research "onResearch" true) }}
     </section>
 
     <section class="lab-section" id="research-directory" aria-labelledby="research-directory-heading">
@@ -27,9 +21,8 @@
         <h2 id="research-directory-heading">{{ .Params.directory.title }}</h2>
       </div>
       <div class="lab-directory">
-        {{ range $index, $entry := .Params.directory.items }}
+        {{ range $entry := .Params.directory.items }}
         <a class="lab-directory-link" href="{{ $entry.path | relLangURL }}">
-          <small aria-hidden="true">{{ printf "%02d" (add $index 1) }}</small>
           <h3>{{ $entry.title }}</h3>
           <p>{{ $entry.text }}</p>
           <span class="lab-link">{{ $entry.label }} <span aria-hidden="true">→</span></span>
