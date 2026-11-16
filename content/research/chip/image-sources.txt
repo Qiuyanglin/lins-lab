@@ -1,0 +1,21 @@
+Source: the author-supplied Chip Gallery.vsdx, page 8 named "Chip Gallery".
+Only that page's 21 embedded images were extracted. Other pages were not used.
+The Visio source is unchanged. The existing chip.png collage is also unchanged
+and remains available through the overview link.
+
+data/chip_gallery.json maps every card to its original embedded media filename.
+20 BMP files were converted losslessly to PNG with Windows System.Drawing;
+decoded RGBA pixels and dimensions were verified identical to the source BMPs.
+image6.emf was rendered with System.Drawing to a 2000 x 1292 white-backed PNG.
+All images retain their original composition and scientific annotations. Visio
+shape data confirmed no cropping, rotation or flipping was applied to these items.
+
+Hugo generates responsive WebP previews without enlarging the original PNGs.
+Full-size links open the matching PNG. Titles, publication years and links are
+provided separately in bilingual HTML.
+
+Publication links and displayed issue years follow the verified local publication
+catalogue rather than stale collage labels. The non-contact ECG journal is TBCAS
+2019 (its conference version was VLSI 2018); the JSSC amplifier, JSSC VCO ADC and
+OJCAS TFT amplifier have final issue year 2026. The latter image was matched to
+Figure 9 of IEEE document 11304256. The current-mode PPG journal is JSSC 2024.
