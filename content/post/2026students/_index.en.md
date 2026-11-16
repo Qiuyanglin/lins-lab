@@ -35,7 +35,7 @@ The students bring backgrounds in electronic science and technology, microelectr
 
 **Ph.D. Student (2026–)**
 
-Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology** and received his M.Eng. degree in **2026**. He joined the group at Fudan University in the same year and is now pursuing a **Ph.D. degree in Integrated Circuit Science and Engineering**.
+Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. During his undergraduate studies, he ranked among the top students in his major. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology** and received his M.Eng. degree in **2026**. He joined the group at Fudan University in the same year and is now pursuing a **Ph.D. degree in Integrated Circuit Science and Engineering**.
 
 His research focuses on analog and mixed-signal circuits, current conversion circuits, analog-to-digital converters, and analog front-end circuits.
 
@@ -67,7 +67,7 @@ He previously conducted a research internship in Prof. Huaqiang Wu’s group at 
 
 **Master’s Student (2026–)**
 
-Yiru Wang is currently an undergraduate student majoring in **Microelectronics Science and Engineering** at Fudan University from **2023 to 2027**. During his undergraduate study, he systematically took core courses such as **Analog Integrated Circuits** and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design.
+Yiru Wang is currently an undergraduate student majoring in **Microelectronics Science and Engineering** at Fudan University from **2023 to 2027**. He ranks among the top students in his major. During his undergraduate study, he systematically took core courses such as **Analog Integrated Circuits** and achieved excellent academic performance, building a solid foundation in microelectronics and integrated circuit design.
 
 He joined the group in **2026** for his **undergraduate graduation project** and plans to continue in the group for a **master’s degree in Integrated Circuit Science and Engineering** in **2027**. His research interests include analog front-end circuit design and biomedical sensing interfaces.
 
@@ -89,7 +89,7 @@ Outside her studies and research, she enjoys hiking, swimming, and playing badmi
 
 **Master’s Student (2026–)**
 
-Yidi Sun studied **Electronic Science and Technology** at Hunan University and entered Fudan University through recommendation-based admission. She is now pursuing a master’s degree in **Electronic Information** in the group. During her undergraduate study, she built a strong academic foundation and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
+Yidi Sun studied **Electronic Science and Technology** at Hunan University and entered Fudan University through recommendation-based admission. She is now pursuing a master’s degree in **Electronic Information** in the group. During her undergraduate study, she ranked among the top students in her major, built a strong academic foundation, and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
 
 She joined the group in **2026**, and her research focuses on **brain–computer interface circuits**.
 
