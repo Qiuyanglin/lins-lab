@@ -18,7 +18,7 @@ image:
   caption: "New members of the laboratory"
 ---
 
-We are pleased to welcome three new students to the lab: **Xinao Ji**, **Yidi Sun**, and **Yiru Wang**. The students will continue their studies at Fudan University and join the group to pursue research in integrated circuits and related areas.
+We are pleased to welcome three new students to the lab: **Xinao Ji**, **Yidi Sun**, and **Yiru Wang**. The students have joined the group at Fudan University to pursue research in integrated circuits and related areas.
 
 <!--more-->
 
@@ -30,7 +30,7 @@ The lab is always happy to welcome outstanding students with strong academic fou
 
 **PhD Student (2026–)**
 
-Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology**, and is expected to receive his M.Eng. degree in **2026**. He will then join Fudan University to pursue a **PhD degree in Integrated Circuit Science and Engineering** in the group.
+Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineering** from Xi’an Jiaotong University in **2023**. He then continued at Xi’an Jiaotong University as a recommended postgraduate student in **Electronic Science and Technology** and received his M.Eng. degree in **2026**. He joined the group at Fudan University in the same year and is now pursuing a **Ph.D. degree in Integrated Circuit Science and Engineering**.
 
 ## Yidi Sun
 
@@ -38,7 +38,7 @@ Xinao Ji received his B.Eng. degree in **Microelectronics Science and Engineerin
 
 **Master’s Student (2026–)**
 
-Yidi Sun is currently an undergraduate student majoring in **Electronic Science and Technology** at Hunan University, and has been recommended for graduate study in **Electronic and Information Engineering** at Fudan University. Her future research will focus on topics such as **brain–computer interface circuits**. During her undergraduate study, she built a strong academic foundation and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
+Yidi Sun studied **Electronic Science and Technology** at Hunan University and entered Fudan University through recommendation-based admission. She is now pursuing a master’s degree in **Electronic Information** in the group. During her undergraduate study, she built a strong academic foundation and received several honors, including the **National Scholarship** and the **Second Prize in the National Finals of the China Integrated Circuit Innovation and Entrepreneurship Competition for College Students**.
 
 ## Yiru Wang
 
@@ -56,6 +56,6 @@ The academic backgrounds of the three students span **electronic science and tec
 - Data converters and analog front-end circuits
 - Biomedical sensing interfaces and low-noise analog front-end circuits
 
-Specifically, Xinao Ji will conduct research on analog and mixed-signal circuits, current conversion circuits, data converters, and analog front-end circuits. Yidi Sun will explore brain–computer interface circuits. Yiru Wang will focus on analog front-end circuit design and biomedical sensing interfaces.
+Specifically, Xinao Ji conducts research on analog and mixed-signal circuits, current conversion circuits, data converters, and analog front-end circuits. Yidi Sun studies brain–computer interface circuits. Yiru Wang focuses on analog front-end circuit design and biomedical sensing interfaces.
 
 Looking ahead, the lab will continue to pursue research on **high-performance, highly integrated chips and systems for biomedical and intelligent sensing applications**, and we look forward to growing together with more outstanding students in the years to come.
