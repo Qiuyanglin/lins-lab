@@ -58,15 +58,26 @@
           {{ range .items }}
             {{ $work := . }}
             {{ $paper := site.GetPage .page }}
-            <article class="lab-selected-card">
+            {{ $tile := false }}
+            {{ if .image }}
+              {{ $tile = resources.Get .image }}
+              {{ with $tile }}
+                {{ with $work.image_bounds }}{{ $tile = $tile.Crop . }}{{ end }}
+                {{ with $work.image_crop }}{{ $tile = $tile.Crop . }}{{ end }}
+              {{ end }}
+            {{ else }}
               {{ with $chips }}
                 {{ $crop := index $crops $work.id }}
-                {{ $tile := (.Crop $crop.bounds).Crop $crop.crop }}
-                {{ $small := $tile.Resize "480x webp q92" }}
-                {{ $large := $tile.Resize "960x webp q92" }}
-                <figure class="lab-selected-figure">
+                {{ $tile = (.Crop $crop.bounds).Crop $crop.crop }}
+              {{ end }}
+            {{ end }}
+            <article class="lab-selected-card">
+              {{ with $tile }}
+                {{ $small := .Resize (printf "%dx webp q92" (math.Min 480 .Width | int)) }}
+                {{ $large := .Resize (printf "%dx webp q92" (math.Min 960 .Width | int)) }}
+                <figure class="lab-selected-figure{{ if eq $work.image_fit "cover" }} lab-selected-figure-cover{{ end }}">
                   <a href="{{ $paper.RelPermalink }}" aria-label="{{ $selected.paper_label }}: {{ $work.title }}">
-                    <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 960w" sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 900px) 280px, 320px" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $work.image_alt }}" loading="lazy" decoding="async">
+                    <img src="{{ $small.RelPermalink }}" {{ if gt $large.Width $small.Width }}srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 1000px) calc((100vw - 128px) / 2), 230px"{{ end }} width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $work.image_alt }}" loading="lazy" decoding="async">
                   </a>
                 </figure>
               {{ end }}
@@ -74,11 +85,6 @@
                 <p class="lab-selected-venue">{{ .venue }}</p>
                 <h3><a href="{{ $paper.RelPermalink }}">{{ .title }}</a></h3>
                 <p class="lab-selected-description">{{ .description }}</p>
-                <dl class="lab-selected-metrics">
-                  {{ range .metrics }}
-                    <div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
-                  {{ end }}
-                </dl>
                 <a class="lab-link lab-selected-paper" href="{{ $paper.RelPermalink }}">{{ $selected.paper_label }} <span aria-hidden="true">→</span></a>
               </div>
             </article>

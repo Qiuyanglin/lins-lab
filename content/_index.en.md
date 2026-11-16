@@ -31,48 +31,41 @@ topics:
       description: "Data converters and analog front ends"
       anchor: analog
 selected_research:
-  title: "Selected research"
-  intro: "Selected research co-authored by Qiuyang Lin, from precision readout of weak biosignals to application-level chip and system validation."
+  title: "Research outcomes"
+  intro: "A few examples across our research areas. See the full publication list for more work."
   all_label: "All publications"
   paper_label: "Read the paper"
   items:
     - id: nanopore
-      title: "Parallel solid-state nanopore readout"
+      title: "Solid-state nanopore readout"
       venue: "VLSI 2026"
-      description: "A wideband, low-noise interface captures fast DNA translocation signals, with parallel detection of labeled DNA events."
+      description: "Low-noise, wideband parallel readout of fast DNA translocation signals."
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
-      image_alt: "Die micrograph of the VLSI 2026 solid-state nanopore interface IC, showing 16 channels, bias and digital circuitry."
-      metrics:
-        - value: "16"
-          label: "Parallel channels"
-        - value: "1 MHz"
-          label: "Signal bandwidth"
-        - value: "97 pA rms"
-          label: "Input-referred noise"
+      image_alt: "Die micrograph of the VLSI 2026 solid-state nanopore interface IC."
     - id: ppg
       title: "High-dynamic-range PPG readout"
-      venue: "TBCAS 2021"
-      description: "Second-order noise shaping and DC compensation enable low-power optical readout for wearable chest photoplethysmography (PPG)."
-      page: publication/a-134-db-dynamic-range-noise-shaping-slope-light-to-digital-converter-2021
-      image_alt: "Die micrograph of the TBCAS 2021 PPG light-to-digital converter, showing integrators, comparator, LED drivers and digital circuitry."
-      metrics:
-        - value: "134 dB"
-          label: "Maximum dynamic range"
-        - value: "28 µW/ch"
-          label: "Readout power"
+      venue: "ISSCC 2021"
+      description: "Noise-shaping light-to-digital conversion for low-power chest PPG monitoring."
+      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
+      image: media/research-ppg-applications.jpg
+      image_bounds: "1680x465 TopLeft"
+      image_crop: "500x465 BottomRight"
+      image_alt: "A wrist-worn device illustrating wearable PPG monitoring applications."
     - id: electrochemical
       title: "Multimodal electrochemical sensing"
-      venue: "TBCAS 2023"
-      description: "A single IC combines potentiometric, amperometric, ISFET and temperature sensing for multiparameter bioreactor monitoring."
-      page: publication/a-multichannel-electrochemical-sensor-interface-ic-for-bioreactor-moni-2023
-      image_alt: "Die micrograph of the TBCAS 2023 electrochemical sensor interface, showing ISFET, potentiometric, potentiostat, temperature and ADC circuitry."
-      metrics:
-        - value: "7"
-          label: "Channels incl. temperature"
-        - value: "114 dB"
-          label: "Current measurement range"
-        - value: "22 µW"
-          label: "Peak power"
+      venue: "ISSCC 2023"
+      description: "Integrated electrochemical and temperature sensing for bioreactor monitoring."
+      page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
+      image: media/research-bioreactor-overview.jpg
+      image_crop: "405x673 TopLeft"
+      image_alt: "Bioreactor and electrochemical sensing application diagram from the ISSCC 2023 paper."
+    - id: neural
+      title: "Next-generation neural interfaces"
+      venue: "CICC 2026 · Review"
+      description: "A review of circuit architectures for neural recording, stimulation and closed-loop neuromodulation."
+      page: publication/cicc2026
+      image: media/selected-neural-cicc2026.png
+      image_alt: "Brain and implanted electrodes illustrated in the CICC 2026 neural interface review."
 team:
   title: "People & academic guidance"
   link_label: "Meet the team"

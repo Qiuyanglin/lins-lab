@@ -31,48 +31,41 @@ topics:
       description: "数据转换器与模拟前端"
       anchor: analog
 selected_research:
-  title: "代表成果"
-  intro: "林秋阳参与的代表性研究：从微弱生物信号的精密读出，到面向应用的芯片与系统验证。"
+  title: "相关研究成果"
+  intro: "以下展示各研究方向中的部分工作，更多成果请见论文列表。"
   all_label: "全部论文"
   paper_label: "阅读论文"
   items:
     - id: nanopore
       title: "固态纳米孔并行读出"
       venue: "VLSI 2026"
-      description: "以低噪声宽带接口捕捉快速 DNA 穿孔信号，实现带标签 DNA 分子事件的并行检测。"
+      description: "面向快速 DNA 穿孔信号，实现低噪声宽带并行读出。"
       page: publication/a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026
-      image_alt: "VLSI 2026 固态纳米孔接口芯片显微照片，标注 16 个通道、偏置与数字电路。"
-      metrics:
-        - value: "16"
-          label: "并行通道"
-        - value: "1 MHz"
-          label: "信号带宽"
-        - value: "97 pA rms"
-          label: "输入等效噪声"
+      image_alt: "VLSI 2026 固态纳米孔接口芯片显微照片。"
     - id: ppg
       title: "高动态范围 PPG 读出"
-      venue: "TBCAS 2021"
-      description: "结合二阶噪声整形与直流补偿，兼顾胸部光电容积脉搏波（PPG）检测的动态范围与功耗。"
-      page: publication/a-134-db-dynamic-range-noise-shaping-slope-light-to-digital-converter-2021
-      image_alt: "TBCAS 2021 PPG 光电转换芯片显微照片，标注积分器、比较器、LED 驱动及数字电路。"
-      metrics:
-        - value: "134 dB"
-          label: "最大动态范围"
-        - value: "28 µW/通道"
-          label: "读出电路功耗"
+      venue: "ISSCC 2021"
+      description: "以噪声整形光电转换电路，支持低功耗胸部 PPG 监测。"
+      page: publication/283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021
+      image: media/research-ppg-applications.jpg
+      image_bounds: "1680x465 TopLeft"
+      image_crop: "500x465 BottomRight"
+      image_alt: "PPG 可穿戴监测应用示例，展示腕戴式设备。"
     - id: electrochemical
       title: "多参数电化学传感接口"
-      venue: "TBCAS 2023"
-      description: "在单芯片上集成电位、电流、ISFET 与温度读出，支持生物反应过程的多参数监测。"
-      page: publication/a-multichannel-electrochemical-sensor-interface-ic-for-bioreactor-moni-2023
-      image_alt: "TBCAS 2023 电化学传感接口芯片显微照片，标注 ISFET、电位、恒电位、温度及 ADC 电路。"
-      metrics:
-        - value: "7"
-          label: "传感通道（含温度）"
-        - value: "114 dB"
-          label: "电流测量范围"
-        - value: "22 µW"
-          label: "峰值功耗"
+      venue: "ISSCC 2023"
+      description: "融合多种电化学与温度传感，面向生物反应过程监测。"
+      page: publication/212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023
+      image: media/research-bioreactor-overview.jpg
+      image_crop: "405x673 TopLeft"
+      image_alt: "ISSCC 2023 论文中的生物反应器与电化学传感应用示意。"
+    - id: neural
+      title: "下一代神经接口电路"
+      venue: "CICC 2026 · 综述"
+      description: "综述神经信号记录、刺激与闭环神经调控的电路架构。"
+      page: publication/cicc2026
+      image: media/selected-neural-cicc2026.png
+      image_alt: "CICC 2026 神经接口综述中的脑部与植入式电极示意。"
 team:
   title: "团队与学术指导"
   link_label: "实验室成员"

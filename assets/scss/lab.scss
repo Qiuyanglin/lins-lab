@@ -52,21 +52,19 @@
 .lab-focus-link p { font-size: 14px; color: var(--lab-muted); line-height: 1.7; margin: 10px 0 0; }
 .lab-arrow { position: absolute; right: 0; top: 20px; font-size: 16px; }
 .lab-page .lab-selected-intro { max-width: 80ch; margin: -8px 0 28px; color: var(--lab-muted); font-size: 15px; }
-.lab-selected-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.lab-selected-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
 .lab-selected-card { min-width: 0; display: flex; flex-direction: column; }
-.lab-selected-figure { margin: 0; background: #f3f6f9; border: 1px solid var(--lab-rule); }
-.lab-selected-figure a { display: flex; align-items: center; justify-content: center; aspect-ratio: 8 / 5; padding: 18px; }
+.lab-selected-figure { margin: 0; background: #fff; border: 1px solid var(--lab-rule); border-radius: 4px; overflow: hidden; }
+.lab-selected-figure a { display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 3; padding: 16px; }
 .lab-selected-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.lab-selected-figure-cover a { padding: 0; }
+.lab-selected-figure-cover img { object-fit: cover; }
 .lab-selected-copy { display: flex; flex-direction: column; flex: 1; padding-top: 20px; }
 .lab-page .lab-selected-venue { margin: 0 0 8px; color: var(--lab-muted); font-size: 12px; font-weight: 600; letter-spacing: .06em; }
-.lab-selected-card h3 { font-size: 20px; }
+.lab-selected-card h3 { font-size: 18px; }
 .lab-selected-card h3 a { color: var(--lab-ink); text-underline-offset: 4px; }
-.lab-page .lab-selected-description { margin: 14px 0 20px; font-size: 15px; line-height: 1.75; }
-.lab-selected-metrics { display: flex; flex-wrap: wrap; gap: 16px 20px; margin: auto 0 20px; padding-top: 16px; border-top: 1px solid var(--lab-rule); }
-.lab-selected-metrics > div { display: flex; flex-direction: column-reverse; min-width: 0; }
-.lab-selected-metrics dt { max-width: 17ch; color: var(--lab-muted); font-size: 12px; line-height: 1.5; font-weight: 400; }
-.lab-selected-metrics dd { margin: 0 0 3px; color: var(--lab-ink); font-size: 17px; font-weight: 650; line-height: 1.4; }
-.lab-selected-paper { align-self: flex-start; }
+.lab-page .lab-selected-description { margin: 12px 0 18px; font-size: 14px; line-height: 1.75; }
+.lab-selected-paper { align-self: flex-start; margin-top: auto; }
 .lab-profile { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 36px; align-items: start; }
 .lab-profile + .lab-profile { margin-top: 36px; padding-top: 36px; border-top: 1px solid var(--lab-rule); }
 .lab-portrait { display: block; width: 164px; height: auto; border-radius: 3px; }
@@ -102,15 +100,15 @@
 .lab-directory-link p { font-size: 15px; color: var(--lab-muted); margin: 14px 0 24px; }
 .lab-directory-link > .lab-link { margin-top: auto; }
 
+@media (max-width: 1000px) {
+  .lab-selected-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 24px; }
+}
+
 @media (max-width: 900px) {
   .lab-home-intro { grid-template-columns: 1fr; gap: 32px; padding-top: 40px; }
   .lab-intro-copy { max-width: 680px; }
   .lab-research-figure { max-width: 680px; }
   .lab-focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .lab-selected-grid { grid-template-columns: 1fr; gap: 28px; }
-  .lab-selected-card { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 28px; align-items: start; }
-  .lab-selected-copy { padding-top: 0; }
-  .lab-selected-metrics { margin-top: 0; }
   .lab-directory { gap: 16px; }
   .lab-directory-link { padding: 20px; }
   .lab-join { align-items: flex-start; flex-direction: column; gap: 20px; }
@@ -129,7 +127,7 @@
   .lab-focus-link { padding: 16px 0; }
   .lab-focus-link h3 { font-size: 17px; }
   .lab-focus-link p { font-size: 13px; }
-  .lab-selected-card { display: flex; gap: 0; }
+  .lab-selected-grid { grid-template-columns: 1fr; gap: 28px; }
   .lab-selected-copy { padding-top: 18px; }
   .lab-selected-card + .lab-selected-card { padding-top: 28px; border-top: 1px solid var(--lab-rule); }
   .lab-profile { grid-template-columns: minmax(0, 1fr); gap: 22px; }
