@@ -4,8 +4,8 @@
 .library-breadcrumbs a { text-underline-offset: 4px; }
 .library-topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
 .library-topic-card { display: flex; flex-direction: column; border: 1px solid var(--lab-rule); border-radius: 4px; overflow: hidden; }
-.library-topic-image { display: block; position: relative; flex-shrink: 0; aspect-ratio: 4 / 3; overflow: hidden; background: #fff; }
-.library-topic-image img { position: absolute; inset: 16px; display: block; width: calc(100% - 32px); height: calc(100% - 32px); object-fit: contain; }
+.library-topic-image { display: block; position: relative; aspect-ratio: 2.2 / 1; overflow: hidden; background: var(--lab-soft); }
+.library-topic-image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
 .library-topic-copy { display: flex; flex: 1; flex-direction: column; padding: 24px; }
 .lab-library .library-topic-copy h2 { font-size: 22px; }
 .library-topic-copy h2 a { color: var(--lab-ink); text-underline-offset: 4px; }
