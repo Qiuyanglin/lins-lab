@@ -24,7 +24,6 @@
     </header>
 
     {{ with .Params.selected_research }}
-      {{ $selected := . }}
       <section class="lab-section lab-focus lab-selected" id="lab-selected-title" aria-labelledby="lab-focus-title">
         <div class="lab-section-heading">
           <h2 id="lab-focus-title">{{ .title }}</h2>
@@ -34,34 +33,7 @@
           </div>
         </div>
         <p class="lab-selected-intro">{{ .intro_before }}<a href="{{ "research/#analog" | relLangURL }}">{{ .foundation_label }}</a>{{ .intro_after }}</p>
-        <div class="lab-selected-grid">
-          {{ range .items }}
-            {{ $work := . }}
-            {{ $paper := site.GetPage .page }}
-            {{ $topicURL := printf "research/#%s" .anchor | relLangURL }}
-            {{ $tile := resources.Get .image }}
-            {{ with $tile }}
-              {{ with $work.image_bounds }}{{ $tile = $tile.Crop . }}{{ end }}
-              {{ with $work.image_crop }}{{ $tile = $tile.Crop . }}{{ end }}
-            {{ end }}
-            <article class="lab-selected-card">
-              {{ with $tile }}
-                {{ $small := .Resize (printf "%dx webp q92" (math.Min 480 .Width | int)) }}
-                {{ $large := .Resize (printf "%dx webp q92" (math.Min 960 .Width | int)) }}
-                <figure class="lab-selected-figure{{ if eq $work.image_fit "cover" }} lab-selected-figure-cover{{ end }}">
-                  <a href="{{ $topicURL }}" aria-label="{{ $work.title }}">
-                    <img src="{{ $small.RelPermalink }}" {{ if gt $large.Width $small.Width }}srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 1000px) calc((100vw - 128px) / 2), 230px"{{ end }} width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $work.image_alt }}" loading="lazy" decoding="async">
-                  </a>
-                </figure>
-              {{ end }}
-              <div class="lab-selected-copy">
-                <h3><a href="{{ $topicURL }}">{{ .title }}</a></h3>
-                <p class="lab-selected-description">{{ .description }}</p>
-                <a class="lab-link lab-selected-paper" href="{{ $paper.RelPermalink }}" aria-label="{{ $selected.paper_label }}: {{ .venue }} — {{ .title }}">{{ .venue }} <span aria-hidden="true">→</span></a>
-              </div>
-            </article>
-          {{ end }}
-        </div>
+        {{ partial "lab/research-cards.html" (dict "research" .) }}
       </section>
     {{ end }}
 
