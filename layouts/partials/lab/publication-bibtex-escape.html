@@ -1,0 +1,8 @@
+{{- /* Escape literal text for UTF-8 BibTeX without treating metadata as TeX. */ -}}
+{{- $text := printf "%v" . -}}
+{{- $text = replace $text "\\" "\u001f" -}}
+{{- range $pair := slice (slice "{" "\\{") (slice "}" "\\}") (slice "&" "\\&") (slice "%" "\\%") (slice "$" "\\$") (slice "#" "\\#") (slice "_" "\\_") (slice "~" "\\textasciitilde{}") (slice "^" "\\textasciicircum{}") -}}
+  {{- $text = replace $text (index $pair 0) (index $pair 1) -}}
+{{- end -}}
+{{- $text = replace $text "\u001f" "\\textbackslash{}" -}}
+{{- return $text -}}

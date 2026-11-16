@@ -21,6 +21,7 @@
   {{- end -}}
   {{- if not $detail -}}
     <a href="{{ $page.RelPermalink }}" class="pub-detail-link">{{ $labels.details }} <span aria-hidden="true">→</span></a>
+    {{ partial "lab/publication-citation.html" (dict "page" $page "labels" $labels "collapsed" true) }}
   {{- end -}}
 </div>
 {{- end -}}

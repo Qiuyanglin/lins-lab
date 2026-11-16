@@ -12,6 +12,7 @@
       <div class="pub-venue">{{ .Params.publication | default .Params.publication_short | markdownify }}</div>
       {{ partial "lab/publication-links.html" (dict "page" . "labels" $labels "detail" true) }}
     </header>
+    {{ partial "lab/publication-citation.html" (dict "page" . "labels" $labels "collapsed" false) }}
     {{ with .Params.abstract }}
       <section class="pub-abstract" aria-labelledby="pub-abstract-heading">
         <h2 id="pub-abstract-heading">{{ $labels.abstract }}</h2>
@@ -21,4 +22,6 @@
     {{ with .Content }}<div class="pub-content article-style">{{ . }}</div>{{ end }}
   </div>
 </main>
+{{ $citations := resources.Get "js/publication-citations.js" | js.Build | minify | fingerprint "sha256" }}
+<script src="{{ $citations.RelPermalink }}" integrity="{{ $citations.Data.Integrity }}" defer></script>
 {{ end }}

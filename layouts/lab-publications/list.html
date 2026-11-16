@@ -46,7 +46,8 @@
           <div class="pub-year-entries">
             {{ range .Pages.ByDate.Reverse }}
               {{ $kind := partial "lab/publication-kind.html" . }}
-              <article class="pub-entry" data-pub-entry data-year="{{ .Date.Format "2006" }}" data-type="{{ $kind }}" data-search="{{ printf "%s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | default "" | plainify) }}">
+              {{ $metadata := partialCached "lab/publication-data.html" . .RelPermalink }}
+              <article class="pub-entry" data-pub-entry data-year="{{ .Date.Format "2006" }}" data-type="{{ $kind }}" data-search="{{ $metadata.search }}">
                 <p class="pub-kind">{{ index $labels $kind }}</p>
                 <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                 {{ partial "lab/publication-authors.html" . }}
@@ -62,4 +63,6 @@
 </main>
 {{ $script := resources.Get "js/publications.js" | js.Build | minify | fingerprint "sha256" }}
 <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+{{ $citations := resources.Get "js/publication-citations.js" | js.Build | minify | fingerprint "sha256" }}
+<script src="{{ $citations.RelPermalink }}" integrity="{{ $citations.Data.Integrity }}" defer></script>
 {{ end }}

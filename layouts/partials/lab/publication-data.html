@@ -1,0 +1,67 @@
+{{- $page := . -}}
+{{- $slug := path.Base (strings.TrimSuffix "/" $page.File.Dir) -}}
+{{- $metadata := index (site.Data.publications | default dict) $slug | default dict -}}
+{{- $canonical := $page -}}
+{{- range $page.AllTranslations -}}{{- if eq .Language.Lang "en" -}}{{- $canonical = . -}}{{- end -}}{{- end -}}
+{{- $title := $metadata.title | default $canonical.Title | plainify | htmlUnescape -}}
+{{- $year := printf "%v" ($metadata.year | default ($canonical.Date.Format "2006")) -}}
+{{- $doi := $metadata.doi | default $canonical.Params.doi | default "" -}}
+{{- $authors := slice -}}
+{{- $bibAuthors := slice -}}
+{{- range $metadata.authors -}}
+  {{- $name := trim (printf "%s %s" (.given | default "") (.family | default "")) " \t\r\n" -}}
+  {{- if $name -}}
+    {{- $authors = $authors | append $name -}}
+    {{- $bibName := .family | default "" -}}
+    {{- with .given -}}{{- $bibName = printf "%s, %s" $bibName . -}}{{- end -}}
+    {{- $bibAuthors = $bibAuthors | append (partial "lab/publication-bibtex-escape.html" $bibName) -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $authors -}}
+  {{- range $canonical.Params.authors -}}
+    {{- $name := replaceRE `\s*[（(](通信|通讯|通讯作者|corresponding author)[）)]` "" . -}}
+    {{- $authors = $authors | append $name -}}
+    {{- $bibAuthors = $bibAuthors | append (partial "lab/publication-bibtex-escape.html" $name) -}}
+  {{- end -}}
+{{- end -}}
+{{- $kind := partial "lab/publication-kind.html" $canonical -}}
+{{- $type := $metadata.citation_type | default (index (dict "journal" "article" "conference" "inproceedings" "book" "book" "chapter" "incollection") $kind) | default "misc" -}}
+{{- $venue := $metadata.journal | default $metadata.booktitle | default $metadata.school | default $metadata.howpublished | default ($canonical.Params.publication | default $canonical.Params.publication_short) | default "" | plainify | htmlUnescape -}}
+{{- $source := $metadata.url | default $canonical.Params.url_source | default "" -}}
+{{- if $doi -}}{{- $source = printf "https://doi.org/%s" $doi -}}{{- end -}}
+{{- if and (not $source) $canonical.Params.links -}}{{- $source = (index $canonical.Params.links 0).url -}}{{- end -}}
+{{- $citation := printf "%s. %s. %s" (delimit $authors ", ") $title $venue -}}
+{{- with $metadata.volume -}}{{- $citation = printf "%s, vol. %v" $citation . -}}{{- end -}}
+{{- with $metadata.number -}}{{- $citation = printf "%s, no. %v" $citation . -}}{{- end -}}
+{{- with $metadata.pages -}}{{- $citation = printf "%s, pp. %v" $citation . -}}{{- end -}}
+{{- with $metadata.article_number -}}{{- $citation = printf "%s, article %v" $citation . -}}{{- end -}}
+{{- with $metadata.note -}}{{- $citation = printf "%s, %v" $citation . -}}{{- end -}}
+{{- $citation = printf "%s, %s." $citation $year -}}
+{{- with $source -}}{{- $citation = printf "%s %s" $citation . -}}{{- end -}}
+{{- $fields := slice (dict "key" "author" "value" (delimit $bibAuthors " and ") "escaped" true) (dict "key" "title" "value" $title) (dict "key" "year" "value" $year) -}}
+{{- range $key := slice "journal" "booktitle" "volume" "number" "pages" "publisher" "school" "series" "note" "howpublished" -}}
+  {{- with index $metadata $key -}}
+    {{- $value := printf "%v" . -}}
+    {{- if eq $key "pages" -}}{{- $value = replaceRE `([0-9A-Za-z])[-–]([0-9A-Za-z])` "$1--$2" $value -}}{{- end -}}
+    {{- $fields = $fields | append (dict "key" $key "value" $value) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $metadata.article_number -}}{{- $fields = $fields | append (dict "key" "eid" "value" .) -}}{{- end -}}
+{{- if and (not $metadata.journal) (not $metadata.booktitle) (not $metadata.school) (not $metadata.howpublished) $venue -}}
+  {{- $venueKey := index (dict "article" "journal" "inproceedings" "booktitle" "phdthesis" "school" "mastersthesis" "school") $type | default "howpublished" -}}
+  {{- $fields = $fields | append (dict "key" $venueKey "value" $venue) -}}
+{{- end -}}
+{{- /* Identifiers are verbatim fields: keep DOI underscores and URL escapes intact. */ -}}
+{{- with $doi -}}{{- $fields = $fields | append (dict "key" "doi" "value" . "escaped" true) -}}{{- end -}}
+{{- with $source -}}{{- $fields = $fields | append (dict "key" "url" "value" . "escaped" true) -}}{{- end -}}
+{{- $bibtex := printf "@%s{linlab-%s,\n" $type $slug -}}
+{{- range $fields -}}
+  {{- $value := .value -}}
+  {{- if not .escaped -}}{{- $value = partial "lab/publication-bibtex-escape.html" $value -}}{{- end -}}
+  {{- if eq .key "title" -}}{{- $value = printf "{%s}" $value -}}{{- end -}}
+  {{- $bibtex = printf "%s  %s = {%s},\n" $bibtex .key $value -}}
+{{- end -}}
+{{- $bibtex = printf "%s}\n" $bibtex -}}
+{{- $bibFile := resources.FromString (printf "citations/%s.bib" $slug) $bibtex -}}
+{{- $search := printf "%s %s %s %s %s %s %s %s" $page.Title $title (delimit ($page.Params.authors | default slice) " ") (delimit $authors " ") ($page.Params.publication | default "" | plainify) $doi (delimit ($metadata.keywords | default slice) " ") (delimit ($page.Params.tags | default slice) " ") -}}
+{{- return (dict "authors" $authors "search" $search "doi" $doi "keywords" ($metadata.keywords | default slice) "citation" $citation "bibtex" $bibtex "bibFile" $bibFile "slug" $slug) -}}

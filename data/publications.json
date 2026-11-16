@@ -1,0 +1,2319 @@
+{
+  "212-a-22w-peak-power-multimodal-electrochemical-sensor-interface-ic-fo-2023": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Christina",
+        "family": "Avdikou"
+      },
+      {
+        "given": "Didac",
+        "family": "Gomez"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Sneha",
+        "family": "Sneha"
+      },
+      {
+        "given": "Anastasios",
+        "family": "Malissovas"
+      },
+      {
+        "given": "Bernardo",
+        "family": "Tacca"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "electrochemical sensing",
+      "sensor interface",
+      "电化学传感",
+      "传感器接口",
+      "bioreactor monitoring",
+      "生物反应器监测"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 22µW peak power multimodal electrochemical sensor interface IC for bioreactor monitoring",
+    "year": 2023,
+    "booktitle": "2023 IEEE International Solid- State Circuits Conference (ISSCC)",
+    "pages": "314-316",
+    "publisher": "IEEE",
+    "doi": "10.1109/isscc42615.2023.10067298",
+    "url": "https://doi.org/10.1109/isscc42615.2023.10067298"
+  },
+  "283-a-28w-134db-dr-2-nd-order-noise-shaping-slope-light-to-digital-con-2021": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Roland Van",
+        "family": "Wegberg"
+      },
+      {
+        "given": "Mario",
+        "family": "Konijnenburg"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "noise shaping",
+      "噪声整形"
+    ],
+    "citation_type": "inproceedings",
+    "title": "28.3 A 28μW 134dB DR 2nd-Order Noise-Shaping Slope Light-to-Digital Converter for Chest PPG Monitoring",
+    "year": 2021,
+    "booktitle": "2021 IEEE International Solid- State Circuits Conference (ISSCC)",
+    "pages": "390-392",
+    "publisher": "IEEE",
+    "doi": "10.1109/isscc42613.2021.9365757",
+    "url": "https://doi.org/10.1109/isscc42613.2021.9365757"
+  },
+  "a-06-v-38-w-ecgbio-impedance-monitoring-ic-for-disposable-health-patch-2018": {
+    "authors": [
+      {
+        "given": "Jiawei",
+        "family": "Xu"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Ming",
+        "family": "Ding"
+      },
+      {
+        "given": "Yao",
+        "family": "Li"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Wouter",
+        "family": "Serdijn"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 0.6 V 3.8 μW ECG/bio-impedance monitoring IC for disposable health patch in 40nm CMOS",
+    "year": 2018,
+    "booktitle": "2018 IEEE Custom Integrated Circuits Conference (CICC)",
+    "pages": "1-4",
+    "publisher": "IEEE",
+    "doi": "10.1109/cicc.2018.8357025",
+    "url": "https://doi.org/10.1109/cicc.2018.8357025"
+  },
+  "a-119db-dynamic-range-charge-counting-light-to-digital-converter-for-w-2020": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Jiawei",
+        "family": "Xu"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Arjan",
+        "family": "Breeschoten"
+      },
+      {
+        "given": "Mario",
+        "family": "Konijnenburg"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "NIRS",
+      "near-infrared spectroscopy",
+      "近红外光谱",
+      "wearable sensing",
+      "biosignal acquisition",
+      "可穿戴传感",
+      "生物信号采集"
+    ],
+    "citation_type": "article",
+    "title": "A 119dB dynamic range charge counting light-to-digital converter for wearable PPG/NIRS monitoring applications",
+    "year": 2020,
+    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
+    "volume": "14",
+    "number": "4",
+    "pages": "800-810",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tbcas.2020.3001449",
+    "url": "https://doi.org/10.1109/tbcas.2020.3001449"
+  },
+  "a-12-bit-5-ms-s-tmr-free-radiation-adaptive-sar-adc-for-space-missions-2026": {
+    "authors": [
+      {
+        "given": "Jinghao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Zheyi",
+        "family": "Li"
+      },
+      {
+        "given": "Qichao",
+        "family": "Ma"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Yihong",
+        "family": "Qing"
+      },
+      {
+        "given": "Xinfa",
+        "family": "Zheng"
+      },
+      {
+        "given": "Maxim",
+        "family": "Gorbunov"
+      },
+      {
+        "given": "Bo",
+        "family": "Gao"
+      },
+      {
+        "given": "Chaohan",
+        "family": "Wang"
+      },
+      {
+        "given": "Mingzi",
+        "family": "Zhang"
+      },
+      {
+        "given": "Esmee",
+        "family": "Tackx"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Prinzie"
+      },
+      {
+        "given": "Paul",
+        "family": "Leroux"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "SAR ADC",
+      "successive approximation",
+      "逐次逼近",
+      "radiation tolerant",
+      "space electronics",
+      "抗辐照",
+      "空间电子学"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 12-bit 5-MS/s TMR-Free Radiation-Adaptive SAR ADC for Space Missions with 67.55-dB SNDR in 22-nm FD-SOI",
+    "year": 2026,
+    "booktitle": "2026 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "pages": "2317-2321",
+    "publisher": "IEEE",
+    "doi": "10.1109/ISCAS66217.2026.11562270",
+    "url": "https://doi.org/10.1109/ISCAS66217.2026.11562270"
+  },
+  "a-13-bit-enob-fully-asynchronous-noise-shaping-sar-adc-iscas-2025": {
+    "authors": [
+      {
+        "given": "Chen",
+        "family": "Wang"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Hanyue",
+        "family": "Li"
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Yang"
+      },
+      {
+        "given": "Chaohan",
+        "family": "Wang"
+      },
+      {
+        "given": "Carolina Mora",
+        "family": "Lopez"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "noise shaping",
+      "噪声整形",
+      "SAR ADC",
+      "successive approximation",
+      "逐次逼近"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 13-Bit ENOB Fully Asynchronous Noise-Shaping SAR ADC With Coarse-Fine Comparison, Mismatch Error Shaping and Digital Prediction",
+    "year": 2025,
+    "booktitle": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "pages": "1-5",
+    "publisher": "IEEE",
+    "doi": "10.1109/ISCAS56072.2025.11043689",
+    "url": "https://doi.org/10.1109/ISCAS56072.2025.11043689"
+  },
+  "a-13-bit-enob-fully-asynchronous-noise-shaping-sar-adc-with-coarse-fin-2025": {
+    "authors": [
+      {
+        "given": "Chen",
+        "family": "Wang"
+      },
+      {
+        "given": "Hanyue",
+        "family": "Li"
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Yang"
+      },
+      {
+        "given": "Chaohan",
+        "family": "Wang"
+      },
+      {
+        "given": "Xiaonan",
+        "family": "Xing"
+      },
+      {
+        "given": "Carolina Mora",
+        "family": "Lopez"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "noise shaping",
+      "噪声整形",
+      "SAR ADC",
+      "successive approximation",
+      "逐次逼近"
+    ],
+    "citation_type": "article",
+    "title": "A 13-bit ENOB fully asynchronous noise-shaping SAR ADC with coarse-fine comparison, mismatch error shaping and digital prediction",
+    "year": 2025,
+    "journal": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "volume": "72",
+    "number": "12",
+    "pages": "1817-1821",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/TCSII.2025.3576073",
+    "url": "https://doi.org/10.1109/TCSII.2025.3576073"
+  },
+  "a-134-db-dynamic-range-noise-shaping-slope-light-to-digital-converter-2021": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Roland Van",
+        "family": "Wegberg"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Mario",
+        "family": "Konijnenburg"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "noise shaping",
+      "噪声整形",
+      "wearable sensing",
+      "biosignal acquisition",
+      "可穿戴传感",
+      "生物信号采集"
+    ],
+    "citation_type": "article",
+    "title": "A 134 DB dynamic range noise shaping slope light-to-digital converter for wearable chest PPG applications",
+    "year": 2021,
+    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
+    "volume": "15",
+    "number": "6",
+    "pages": "1224-1235",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tbcas.2021.3130470",
+    "url": "https://doi.org/10.1109/tbcas.2021.3130470"
+  },
+  "a-141-gohm-input-impedance-biopotential-recording-ic-2026": {
+    "authors": [
+      {
+        "given": "Yiqi",
+        "family": "Chen"
+      },
+      {
+        "given": "Yizhao",
+        "family": "Zhou"
+      },
+      {
+        "given": "Mengyu",
+        "family": "Li"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Kai",
+        "family": "Huang"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Tan"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE"
+    ],
+    "citation_type": "article",
+    "title": "A 141-GΩ Input Impedance Biopotential Recording IC With a Parasitic Capacitance Shielded I/O Device",
+    "year": 2026,
+    "journal": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "pages": "1-10",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "note": "Early Access",
+    "doi": "10.1109/TCSI.2026.3737602",
+    "url": "https://doi.org/10.1109/TCSI.2026.3737602"
+  },
+  "a-141g-input-impedance-frontend-ic-for-biopotential-recordings-with-a-2025": {
+    "authors": [
+      {
+        "given": "Yiqi",
+        "family": "Chen"
+      },
+      {
+        "given": "Yipeng",
+        "family": "Cao"
+      },
+      {
+        "given": "Mengyu",
+        "family": "Li"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Kai",
+        "family": "Huang"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Tan"
+      },
+      {
+        "given": "Menglian",
+        "family": "Zhao"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 141GΩ Input Impedance Frontend IC for Biopotential Recordings with a Customized I/O Device Shielding Parasitic Capacitance",
+    "year": 2025,
+    "booktitle": "2025 IEEE European Solid-State Electronics Research Conference (ESSERC)",
+    "pages": "309-312",
+    "publisher": "IEEE",
+    "doi": "10.1109/ESSERC66193.2025.11214082",
+    "url": "https://doi.org/10.1109/ESSERC66193.2025.11214082"
+  },
+  "a-16-channel-97pa-rms-1mhz-bandwidth-ic-for-solid-state-nanopore-2026": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Yixiong",
+        "family": "Hu"
+      },
+      {
+        "given": "Eric",
+        "family": "Beamish"
+      },
+      {
+        "given": "Wouter",
+        "family": "Botermans"
+      },
+      {
+        "given": "Carolina Mora",
+        "family": "Lopez"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "nanopore",
+      "DNA sequencing",
+      "current readout",
+      "纳米孔",
+      "DNA测序",
+      "电流读出"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 16-Channel 97pA rms 1MHz Bandwidth IC for Solid State Nanopore Sequencing",
+    "year": 2026,
+    "booktitle": "2026 IEEE/JSAP Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)",
+    "pages": "1-3",
+    "publisher": "IEEE",
+    "doi": "10.1109/VLSITechnologyandCir65830.2026.11577314",
+    "url": "https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577314"
+  },
+  "a-196w-reconfigurable-light-to-digital-converter-with-119db-dynamic-ra-2019": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Jiawei",
+        "family": "Xu"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Arjan",
+        "family": "Breeschoten"
+      },
+      {
+        "given": "Mario",
+        "family": "Konijnenburg"
+      },
+      {
+        "given": "Mingyi",
+        "family": "Chen"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "NIRS",
+      "near-infrared spectroscopy",
+      "近红外光谱",
+      "wearable sensing",
+      "biosignal acquisition",
+      "可穿戴传感",
+      "生物信号采集"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 196μW, reconfigurable light-to-digital converter with 119dB dynamic range, for wearable PPG/NIRS sensors",
+    "year": 2019,
+    "booktitle": "2019 Symposium on VLSI Circuits",
+    "pages": "C58-C59",
+    "publisher": "IEEE",
+    "doi": "10.23919/vlsic.2019.8778004",
+    "url": "https://doi.org/10.23919/vlsic.2019.8778004"
+  },
+  "a-200-mhz-bw-163-db-fom-vco-based-mash-3-1-adc-with-all-pass-filtering-2025": {
+    "authors": [
+      {
+        "given": "Xinfa",
+        "family": "Zheng"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Xinpeng",
+        "family": "Xing"
+      },
+      {
+        "given": "Georges",
+        "family": "Gielen"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "VCO",
+      "voltage-controlled oscillator",
+      "压控振荡器"
+    ],
+    "citation_type": "article",
+    "title": "A 200-MHz-BW 163-dB-FoM VCO-Based MASH 3-1 ΔΣ ADC With All-Pass-Filtering Gm-C Integrator in 16-nm FinFET",
+    "year": 2026,
+    "journal": "IEEE Journal of Solid-State Circuits",
+    "volume": "61",
+    "number": "7",
+    "pages": "3589-3600",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/JSSC.2025.3645444",
+    "url": "https://doi.org/10.1109/JSSC.2025.3645444"
+  },
+  "a-30-w-947-db-sndr-noise-shaping-current-mode-direct-to-digital-conver-2023": {
+    "authors": [
+      {
+        "given": "Mengyu",
+        "family": "Li"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Dehong",
+        "family": "Wang"
+      },
+      {
+        "given": "Tian",
+        "family": "Yang"
+      },
+      {
+        "given": "Yu",
+        "family": "Zheng"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Feijun",
+        "family": "Zheng"
+      },
+      {
+        "given": "Kai",
+        "family": "Huang"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Tan"
+      },
+      {
+        "given": "Menglian",
+        "family": "Zhao"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "NIRS",
+      "near-infrared spectroscopy",
+      "近红外光谱",
+      "noise shaping",
+      "噪声整形"
+    ],
+    "citation_type": "article",
+    "title": "A 30-μW 94.7-dB SNDR noise-shaping current-mode direct-to-digital converter using triple-slope quantizer for PPG/NIRS readout",
+    "year": 2024,
+    "journal": "IEEE Journal of Solid-State Circuits",
+    "volume": "59",
+    "number": "6",
+    "pages": "1722-1734",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/jssc.2023.3335068",
+    "url": "https://doi.org/10.1109/jssc.2023.3335068"
+  },
+  "a-376-w-per-channel-drift-tolerant-translocation-recording-frontend-wi-2025": {
+    "authors": [
+      {
+        "given": "Aurojyoti",
+        "family": "Das"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Yixiong",
+        "family": "Hu"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Eric",
+        "family": "Beamish"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Georges",
+        "family": "Gielen"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "nanopore",
+      "DNA sequencing",
+      "current readout",
+      "纳米孔",
+      "DNA测序",
+      "电流读出"
+    ],
+    "citation_type": "article",
+    "title": "A 376-μW per-Channel, Drift-Tolerant Translocation Recording Frontend With Event Detection for Nanopore Sensor Arrays",
+    "year": 2025,
+    "journal": "IEEE Journal of Solid-State Circuits",
+    "volume": "60",
+    "number": "7",
+    "pages": "2319-2329",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/JSSC.2025.3570935",
+    "url": "https://doi.org/10.1109/JSSC.2025.3570935"
+  },
+  "a-376uw-drift-tolerant-nanopore-recording-frontend-esserc-2024": {
+    "authors": [
+      {
+        "given": "Aurojyoti",
+        "family": "Das"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Yixiong",
+        "family": "Hu"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Eric",
+        "family": "Beamish"
+      },
+      {
+        "given": "Juliette",
+        "family": "Gevers"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Georges",
+        "family": "Gielen"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "nanopore",
+      "DNA sequencing",
+      "current readout",
+      "纳米孔",
+      "DNA测序",
+      "电流读出"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 376μW per-channel, Drift-tolerant Translocation Recording Frontend with Event Detection for Nanopore Sensor Arrays",
+    "year": 2024,
+    "booktitle": "2024 IEEE European Solid-State Electronics Research Conference (ESSERC)",
+    "pages": "420-423",
+    "doi": "10.1109/ESSERC62670.2024.10719545",
+    "url": "https://doi.org/10.1109/ESSERC62670.2024.10719545"
+  },
+  "a-400-g-input-impedance-active-electrode-for-non-contact-capacitively-2019": {
+    "authors": [
+      {
+        "given": "Mingyi",
+        "family": "Chen"
+      },
+      {
+        "given": "Ho Sung",
+        "family": "Chun"
+      },
+      {
+        "given": "Ivan Dario",
+        "family": "Castro"
+      },
+      {
+        "given": "Tom",
+        "family": "Torfs"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Chris",
+        "family": "van Hoof"
+      },
+      {
+        "given": "Guoxing",
+        "family": "Wang"
+      },
+      {
+        "given": "Yong",
+        "family": "Lian"
+      },
+      {
+        "given": "Nick",
+        "family": "van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE"
+    ],
+    "citation_type": "article",
+    "title": "A 400 GΩ input-impedance active electrode for non-contact capacitively coupled ECG acquisition with large linear-input-range and high CM-interference-tolerance",
+    "year": 2019,
+    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
+    "volume": "13",
+    "number": "2",
+    "pages": "376-386",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tbcas.2019.2895660",
+    "url": "https://doi.org/10.1109/tbcas.2019.2895660"
+  },
+  "a-400g-input-impedance-220mv-pp-linear-input-range-28-v-pp-cm-interfer-2018": {
+    "authors": [
+      {
+        "given": "Mingyi",
+        "family": "Chen"
+      },
+      {
+        "given": "Ivan Dario",
+        "family": "Castro"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Tom",
+        "family": "Torfs"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A 400GΩ Input-Impedance, 220MV pp Linear-Input-Range, 2.8 V pp CM-Interference-Tolerant Active Electrode for Non-Contact Capacitively Coupled ECG Acquisition",
+    "year": 2018,
+    "booktitle": "2018 IEEE Symposium on VLSI Circuits",
+    "pages": "129-130",
+    "publisher": "IEEE",
+    "doi": "10.1109/vlsic.2018.8502270",
+    "url": "https://doi.org/10.1109/vlsic.2018.8502270"
+  },
+  "a-50w-fully-differential-interface-amplifier-with-a-current-steering-c-2020": {
+    "authors": [
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Chris",
+        "family": "van Hoof"
+      },
+      {
+        "given": "Nick",
+        "family": "van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "NIRS",
+      "near-infrared spectroscopy",
+      "近红外光谱",
+      "amplifier",
+      "analog front end",
+      "AFE",
+      "放大器",
+      "模拟前端"
+    ],
+    "citation_type": "article",
+    "title": "A 50μW fully differential interface amplifier with a current steering class AB output stage for PPG and NIRS recordings",
+    "year": 2020,
+    "journal": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "volume": "67",
+    "number": "9",
+    "pages": "1564-1568",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tcsii.2020.3002952",
+    "url": "https://doi.org/10.1109/tcsii.2020.3002952"
+  },
+  "a-high-gain-low-voltage-operational-amplifier-with-bias-stress-and-pvt-2025": {
+    "authors": [
+      {
+        "given": "Chen",
+        "family": "Wang"
+      },
+      {
+        "given": "Xiaonan",
+        "family": "Xing"
+      },
+      {
+        "given": "Seyed Mojtaba Sadati",
+        "family": "Faramarzi"
+      },
+      {
+        "given": "Aris",
+        "family": "Siskos"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Yannick",
+        "family": "Baines"
+      },
+      {
+        "given": "Chutham",
+        "family": "Sawigun"
+      },
+      {
+        "given": "Mauricio Velazquez",
+        "family": "Lopez"
+      },
+      {
+        "given": "Florian",
+        "family": "De Roose"
+      },
+      {
+        "given": "Jan",
+        "family": "Genoe"
+      },
+      {
+        "given": "Nikolas",
+        "family": "Papadopoulos"
+      },
+      {
+        "given": "Kris",
+        "family": "Myny"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "LTPS",
+      "TFT",
+      "thin-film transistors",
+      "低温多晶硅",
+      "薄膜晶体管",
+      "amplifier",
+      "analog front end",
+      "AFE",
+      "放大器",
+      "模拟前端"
+    ],
+    "citation_type": "article",
+    "title": "A High-Gain, Low-Voltage Operational Amplifier With Bias-Stress and PVT Robustness for Large-Area Temperature Sensing on LTPS Substrates",
+    "year": 2026,
+    "journal": "IEEE Open Journal of Circuits and Systems",
+    "volume": "7",
+    "pages": "230-242",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/OJCAS.2025.3631308",
+    "url": "https://doi.org/10.1109/OJCAS.2025.3631308"
+  },
+  "a-high-performance-tid-and-see-tolerant-adc-in-65-nm-for-space-applications-2026": {
+    "authors": [
+      {
+        "given": "Zheyi",
+        "family": "Li"
+      },
+      {
+        "given": "Laurent",
+        "family": "Berti"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Jinghao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Maxim",
+        "family": "Gorbunov"
+      },
+      {
+        "given": "Geert",
+        "family": "Thys"
+      },
+      {
+        "given": "Paul",
+        "family": "Leroux"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "radiation tolerant",
+      "space electronics",
+      "抗辐照",
+      "空间电子学"
+    ],
+    "citation_type": "inproceedings",
+    "title": "A High-Performance TID- and SEE-Tolerant ADC in 65 nm for Space Applications",
+    "year": 2026,
+    "booktitle": "Advances in Analogue and Mixed-Signal Integrated Circuits for Space Applications (AMICSA 2025)",
+    "volume": "1523",
+    "pages": "17-24",
+    "publisher": "Springer, Cham",
+    "series": "Lecture Notes in Electrical Engineering",
+    "doi": "10.1007/978-3-032-14405-8_2",
+    "url": "https://doi.org/10.1007/978-3-032-14405-8_2"
+  },
+  "a-miniaturized-ingestible-capsule-with-integrated-asic-for-energy-effi-2026": {
+    "authors": [
+      {
+        "given": "Ramzy",
+        "family": "Rammouz"
+      },
+      {
+        "given": "Vasileios",
+        "family": "Adamopoulos"
+      },
+      {
+        "given": "Ivan D. Castro",
+        "family": "Miller"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Ria",
+        "family": "Sijabat"
+      },
+      {
+        "given": "Dimitrios",
+        "family": "Firfilionis"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Calmé"
+      },
+      {
+        "given": "Tom",
+        "family": "Torfs"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ingestible capsule",
+      "gastrointestinal sensing",
+      "可吞服胶囊",
+      "胃肠道传感"
+    ],
+    "citation_type": "article",
+    "title": "A Miniaturized Ingestible Capsule with Integrated ASIC for Energy-Efficient Sensing in the Gastrointestinal Tract",
+    "year": 2026,
+    "journal": "IEEE Open Journal of Circuits and Systems",
+    "volume": "7",
+    "pages": "95-104",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/OJCAS.2026.3664175",
+    "url": "https://doi.org/10.1109/OJCAS.2026.3664175"
+  },
+  "a-multichannel-electrochemical-sensor-interface-ic-for-bioreactor-moni-2023": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Christina",
+        "family": "Avdikou"
+      },
+      {
+        "given": "Didac",
+        "family": "Gomez"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Bernardo",
+        "family": "Tacca"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "electrochemical sensing",
+      "sensor interface",
+      "电化学传感",
+      "传感器接口",
+      "bioreactor monitoring",
+      "生物反应器监测"
+    ],
+    "citation_type": "article",
+    "title": "A multichannel electrochemical sensor interface IC for bioreactor monitoring",
+    "year": 2023,
+    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
+    "volume": "17",
+    "number": "6",
+    "pages": "1227-1236",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tbcas.2023.3315480",
+    "url": "https://doi.org/10.1109/tbcas.2023.3315480"
+  },
+  "a-novel-chest-based-ppg-measurement-system-2024": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Haocun",
+        "family": "Wang"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Zheyi",
+        "family": "Li"
+      },
+      {
+        "given": "Erika",
+        "family": "Lutin"
+      },
+      {
+        "given": "Chris",
+        "family": "van Hoof"
+      },
+      {
+        "given": "Mingyi",
+        "family": "Chen"
+      },
+      {
+        "given": "Nick",
+        "family": "van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感"
+    ],
+    "citation_type": "article",
+    "title": "A novel chest-based PPG measurement system",
+    "year": 2024,
+    "journal": "IEEE Journal of Translational Engineering in Health and Medicine",
+    "volume": "12",
+    "pages": "675-683",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/jtehm.2024.3471468",
+    "url": "https://doi.org/10.1109/jtehm.2024.3471468"
+  },
+  "advances-and-challenges-in-integrated-circuits-for-electrochemical-sen-2025": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Sander",
+        "family": "Crols"
+      },
+      {
+        "given": "Aurojyoti",
+        "family": "Das"
+      },
+      {
+        "given": "Marcel",
+        "family": "Zevenbergen"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      },
+      {
+        "given": "Carolina Mora",
+        "family": "Lopez"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "electrochemical sensing",
+      "sensor interface",
+      "电化学传感",
+      "传感器接口"
+    ],
+    "citation_type": "article",
+    "title": "Advances and Challenges in Integrated Circuits for Electrochemical Sensing: Enabling Next-Generation Biomedical and Molecular Applications",
+    "year": 2025,
+    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
+    "volume": "19",
+    "number": "5",
+    "pages": "876-896",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/TBCAS.2025.3589027",
+    "url": "https://doi.org/10.1109/TBCAS.2025.3589027"
+  },
+  "an-80-mss-708-db-sndr-radiation-tolerant-semi-time-interleaved-pipelin-2025": {
+    "authors": [
+      {
+        "given": "Zheyi",
+        "family": "Li"
+      },
+      {
+        "given": "Laurent",
+        "family": "Berti"
+      },
+      {
+        "given": "Jinghao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Maxim",
+        "family": "Gorbunov"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Wang"
+      },
+      {
+        "given": "Geert",
+        "family": "Thys"
+      },
+      {
+        "given": "Paul",
+        "family": "Leroux"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "SAR ADC",
+      "successive approximation",
+      "逐次逼近",
+      "radiation tolerant",
+      "space electronics",
+      "抗辐照",
+      "空间电子学"
+    ],
+    "citation_type": "article",
+    "title": "An 80 MS/s 70.8 dB-SNDR Radiation-Tolerant Semi-Time-Interleaved Pipelined-SAR ADC for Space Applications",
+    "year": 2025,
+    "journal": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "volume": "72",
+    "number": "8",
+    "pages": "3897-3910",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/TCSI.2024.3516475",
+    "url": "https://doi.org/10.1109/TCSI.2024.3516475"
+  },
+  "an-80mss-7079-db-sndr-607-fjconv-step-radiation-tolerant-semi-time-int-2024": {
+    "authors": [
+      {
+        "given": "Zheyi",
+        "family": "Li"
+      },
+      {
+        "given": "Laurent",
+        "family": "Berti"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Jinghao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Maxim",
+        "family": "Gorbunov"
+      },
+      {
+        "given": "Geert",
+        "family": "Thys"
+      },
+      {
+        "given": "Paul",
+        "family": "Leroux"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "SAR ADC",
+      "successive approximation",
+      "逐次逼近",
+      "radiation tolerant",
+      "space electronics",
+      "抗辐照",
+      "空间电子学"
+    ],
+    "citation_type": "inproceedings",
+    "title": "An 80MS/s 70.79 dB-SNDR 60.7 fJ/Conv-Step Radiation-Tolerant Semi-Time-interleaved Pipelined-SAR ADC",
+    "year": 2024,
+    "booktitle": "2024 IEEE Custom Integrated Circuits Conference (CICC)",
+    "pages": "1-2",
+    "publisher": "IEEE",
+    "doi": "10.1109/cicc60959.2024.10529093",
+    "url": "https://doi.org/10.1109/cicc60959.2024.10529093"
+  },
+  "an-energy-efficient-amplifier-with-a-closed-loop-g-m-boosting-stage-an-2025": {
+    "authors": [
+      {
+        "given": "Siyao",
+        "family": "Cao"
+      },
+      {
+        "given": "Mengyu",
+        "family": "Li"
+      },
+      {
+        "given": "Dehong",
+        "family": "Wang"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Kai",
+        "family": "Huang"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Tan"
+      },
+      {
+        "given": "Menglian",
+        "family": "Zhao"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "amplifier",
+      "analog front end",
+      "AFE",
+      "放大器",
+      "模拟前端"
+    ],
+    "citation_type": "article",
+    "title": "An Energy Efficient Amplifier With a Closed-Loop G m-Boosting Stage and Current-Mirror-Based SR Enhancement for Driving Large Capacitive Loads",
+    "year": 2026,
+    "journal": "IEEE Journal of Solid-State Circuits",
+    "volume": "61",
+    "number": "7",
+    "pages": "3623-3635",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/JSSC.2025.3645284",
+    "url": "https://doi.org/10.1109/JSSC.2025.3645284"
+  },
+  "an-energy-efficient-amplifier-with-a-closed-loop-gm-boosting-output-st-2024": {
+    "authors": [
+      {
+        "given": "Zhenan",
+        "family": "Xu"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Dehong",
+        "family": "Wang"
+      },
+      {
+        "given": "Mengyu",
+        "family": "Li"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Mingsheng",
+        "family": "Xu"
+      },
+      {
+        "given": "Wanyuan",
+        "family": "Qu"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Tan"
+      },
+      {
+        "given": "Menglian",
+        "family": "Zhao"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "amplifier",
+      "analog front end",
+      "AFE",
+      "放大器",
+      "模拟前端"
+    ],
+    "citation_type": "inproceedings",
+    "title": "An Energy Efficient Amplifier with a Closed Loop Gm-Boosting Output Stage for Large Capacitive Loads Achieving 686,685 MHz▪ pF/mA IFoMs",
+    "year": 2024,
+    "booktitle": "2024 IEEE European Solid-State Electronics Research Conference (ESSERC)",
+    "pages": "41-44",
+    "publisher": "IEEE",
+    "doi": "10.1109/esserc62670.2024.10719574",
+    "url": "https://doi.org/10.1109/esserc62670.2024.10719574"
+  },
+  "analog-to-digital-converter-circuitry-an-integrated-circuit-device-a-p-2023": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      },
+      {
+        "given": "Roland Van",
+        "family": "Wegberg"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "ADC",
+      "analog-to-digital converter",
+      "data conversion",
+      "模数转换器",
+      "数据转换器",
+      "wearable sensing",
+      "biosignal acquisition",
+      "可穿戴传感",
+      "生物信号采集",
+      "patent",
+      "专利",
+      "US Patent 11,689,209 B2",
+      "USPatent11689209B2"
+    ],
+    "citation_type": "misc",
+    "title": "Analog-to-digital converter circuitry, an integrated circuit device, a photoplethysmogram detector, a wearable device and a method for analog-to-digital conversion",
+    "year": 2023,
+    "howpublished": "US Patent 11,689,209 B2",
+    "url": "https://patents.google.com/patent/US11689209B2/en"
+  },
+  "cicc2026": {
+    "authors": [
+      {
+        "given": "Xiaolin",
+        "family": "Yang"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Yoontae",
+        "family": "Jung"
+      },
+      {
+        "given": "Aitor",
+        "family": "Rivero-Cortazar"
+      },
+      {
+        "given": "Chutham",
+        "family": "Sawigun"
+      },
+      {
+        "given": "Bogdan C.",
+        "family": "Raducanu"
+      },
+      {
+        "given": "Jose",
+        "family": "Cisneros Fernandez"
+      },
+      {
+        "given": "Joan",
+        "family": "Aymerich"
+      },
+      {
+        "given": "Carolina Mora",
+        "family": "Lopez"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "BCI",
+      "brain-computer interface",
+      "neural recording",
+      "neural stimulation",
+      "closed-loop neuromodulation",
+      "脑机接口",
+      "神经记录",
+      "神经刺激",
+      "闭环神经调控"
+    ],
+    "citation_type": "inproceedings",
+    "title": "Circuit Architectures for Next-Generation Neural Interfaces: Recording, Stimulation, and Closed-Loop Neuromodulation",
+    "year": 2026,
+    "booktitle": "2026 IEEE Custom Integrated Circuits Conference (CICC)",
+    "pages": "1-8",
+    "publisher": "IEEE",
+    "doi": "10.1109/CICC65509.2026.11509514",
+    "url": "https://doi.org/10.1109/CICC65509.2026.11509514"
+  },
+  "cmos-compatible-biosensing-platform-for-multiplexed-lactate-and-ph-mon-2025": {
+    "authors": [
+      {
+        "given": "Lotte",
+        "family": "De Schrijver"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Ali",
+        "family": "Saeidi"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Adrian M.",
+        "family": "Ionescu"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "electrochemical sensing",
+      "sensor interface",
+      "电化学传感",
+      "传感器接口",
+      "lactate",
+      "pH",
+      "乳酸"
+    ],
+    "citation_type": "inproceedings",
+    "title": "CMOS-Compatible Biosensing Platform for Multiplexed Lactate and PH Monitoring in Low-Volume Biosamples",
+    "year": 2025,
+    "booktitle": "2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)",
+    "pages": "924-927",
+    "publisher": "IEEE",
+    "doi": "10.1109/TRANSDUCERS61432.2025.11111474",
+    "url": "https://doi.org/10.1109/TRANSDUCERS61432.2025.11111474"
+  },
+  "high-dynamic-range-ics-for-photoplethysmogram-application-2022": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "thesis",
+      "学位论文"
+    ],
+    "citation_type": "phdthesis",
+    "title": "High Dynamic Range ICs for Photoplethysmogram Application",
+    "year": 2022,
+    "school": "KU Leuven, Faculty of Engineering Science",
+    "url": "https://lirias.kuleuven.be/handle/20.500.12942/686149"
+  },
+  "high-throughput-nanopore-fet-array-readout-ic-with-5-mhz-bandwidth-and-2023": {
+    "authors": [
+      {
+        "given": "Aurojyoti",
+        "family": "Das"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Sybren",
+        "family": "Santermans"
+      },
+      {
+        "given": "Lijun",
+        "family": "Liu"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Georges G. E.",
+        "family": "Gielen"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "nanopore",
+      "DNA sequencing",
+      "current readout",
+      "纳米孔",
+      "DNA测序",
+      "电流读出"
+    ],
+    "citation_type": "article",
+    "title": "High-throughput nanopore-FET array readout IC with 5-MHz bandwidth and background offset/drift calibration",
+    "year": 2023,
+    "journal": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "volume": "70",
+    "number": "11",
+    "pages": "4323-4333",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/tcsi.2023.3311145",
+    "url": "https://doi.org/10.1109/tcsi.2023.3311145"
+  },
+  "light-to-digital-converter-2024": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Jiawei",
+        "family": "Xu"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感",
+      "patent",
+      "专利",
+      "US Patent 11,864,876 B2",
+      "USPatent11864876B2"
+    ],
+    "citation_type": "misc",
+    "title": "Light-to-digital converter",
+    "year": 2024,
+    "howpublished": "US Patent 11,864,876 B2",
+    "url": "https://patents.google.com/patent/US11864876B2/en"
+  },
+  "low-power-low-noise-instrumentation-amplifier-ecg-bioz-msc-2016": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "biopotential recording",
+      "ECG",
+      "bioimpedance",
+      "心电",
+      "生物电势",
+      "生物阻抗",
+      "模拟前端",
+      "AFE",
+      "amplifier",
+      "analog front end",
+      "放大器",
+      "thesis",
+      "学位论文"
+    ],
+    "citation_type": "mastersthesis",
+    "title": "A 0.6V, 1 uW, Low-Power Low-Noise Instrumentation Amplifier for ECG/BioZ measurement in 40nm CMOS",
+    "year": 2016,
+    "school": "Delft University of Technology",
+    "url": "https://bioelectronics.tudelft.nl/Education/bio.php?id=542"
+  },
+  "photoplethysmography-ppg-sensor-circuit-design-techniques-2022": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Christina",
+        "family": "Avidikou"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感"
+    ],
+    "citation_type": "inproceedings",
+    "title": "Photoplethysmography (PPG) sensor circuit design techniques",
+    "year": 2022,
+    "booktitle": "2022 IEEE Custom Integrated Circuits Conference (CICC)",
+    "pages": "01-08",
+    "publisher": "IEEE",
+    "doi": "10.1109/cicc53496.2022.9772851",
+    "url": "https://doi.org/10.1109/cicc53496.2022.9772851"
+  },
+  "power-and-data-telemetry-over-a-single-inductive-link-2023": {
+    "authors": [
+      {
+        "given": "Mingyi",
+        "family": "Chen"
+      },
+      {
+        "given": "Luominghao",
+        "family": "Pan"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Longlong",
+        "family": "Cheng"
+      },
+      {
+        "given": "Dong",
+        "family": "Ming"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "wireless power",
+      "power and data telemetry",
+      "inductive link",
+      "biomedical implants",
+      "无线供电",
+      "感应链路",
+      "植入式医疗设备"
+    ],
+    "citation_type": "article",
+    "title": "A 70%-power transmission efficiency, 3.39 Mbps power and data telemetry over a single 13.56 MHz inductive link for biomedical implants",
+    "year": 2023,
+    "journal": "Science China Information Sciences",
+    "volume": "66",
+    "number": "2",
+    "article_number": "122406",
+    "publisher": "Springer Science and Business Media LLC",
+    "doi": "10.1007/s11432-022-3563-9",
+    "url": "https://doi.org/10.1007/s11432-022-3563-9"
+  },
+  "ppg-sensors-for-the-new-normal-a-review-2021": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleptte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "PPG",
+      "photoplethysmography",
+      "optical sensing",
+      "光电容积脉搏波",
+      "光电读出",
+      "光学生物传感"
+    ],
+    "citation_type": "inproceedings",
+    "title": "Ppg sensors for the new normal: a review",
+    "year": 2021,
+    "booktitle": "2021 18th International SoC Design Conference (ISOCC)",
+    "pages": "276-277",
+    "publisher": "IEEE",
+    "doi": "10.1109/isocc53507.2021.9613962",
+    "url": "https://doi.org/10.1109/isocc53507.2021.9613962"
+  },
+  "single-crystalline-monolayer-mos2-arrays-based-high-performance-transi-2024": {
+    "authors": [
+      {
+        "given": "Guixu",
+        "family": "Zhu"
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Zhang"
+      },
+      {
+        "given": "Haotian",
+        "family": "Fang"
+      },
+      {
+        "given": "Dongdong",
+        "family": "Sun"
+      },
+      {
+        "given": "Luyang",
+        "family": "Wang"
+      },
+      {
+        "given": "Zujian",
+        "family": "Dai"
+      },
+      {
+        "given": "Lizi",
+        "family": "Wei"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Ao",
+        "family": "Li"
+      },
+      {
+        "given": "Yufeng",
+        "family": "Min"
+      },
+      {
+        "given": "Qiuxia",
+        "family": "Lu"
+      },
+      {
+        "given": "Lixin",
+        "family": "He"
+      },
+      {
+        "given": "Dongsheng",
+        "family": "Song"
+      },
+      {
+        "given": "Yuanyuan",
+        "family": "Shi"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "MoS2",
+      "CVD",
+      "two-dimensional semiconductors",
+      "二硫化钼",
+      "二维半导体"
+    ],
+    "citation_type": "inproceedings",
+    "title": "Single-crystalline monolayer MoS2 arrays based high-performance transistors via selective-area CVD growth directly on silicon wafers",
+    "year": 2024,
+    "booktitle": "2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)",
+    "pages": "1-2",
+    "publisher": "IEEE",
+    "doi": "10.1109/vlsitechnologyandcir46783.2024.10631381",
+    "url": "https://doi.org/10.1109/vlsitechnologyandcir46783.2024.10631381"
+  },
+  "static-and-statistical-modeling-of-ltps-tfts-for-robust-analog-design-2025": {
+    "authors": [
+      {
+        "given": "Chen",
+        "family": "Wang"
+      },
+      {
+        "given": "Xiaonan",
+        "family": "Xing"
+      },
+      {
+        "given": "Seyed Mojtaba Sadati",
+        "family": "Faramarzi"
+      },
+      {
+        "given": "Florian",
+        "family": "De Roose"
+      },
+      {
+        "given": "Francois",
+        "family": "Berghmans"
+      },
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Chaohan",
+        "family": "Wang"
+      },
+      {
+        "given": "Hikmet",
+        "family": "Celiker"
+      },
+      {
+        "given": "Raf",
+        "family": "Appeltans"
+      },
+      {
+        "given": "Jan",
+        "family": "Genoe"
+      },
+      {
+        "given": "Kris",
+        "family": "Myny"
+      },
+      {
+        "given": "Nikolas",
+        "family": "Papadopoulos"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "LTPS",
+      "TFT",
+      "thin-film transistors",
+      "低温多晶硅",
+      "薄膜晶体管",
+      "amplifier",
+      "analog front end",
+      "AFE",
+      "放大器",
+      "模拟前端"
+    ],
+    "citation_type": "inproceedings",
+    "title": "Static and Statistical Modeling of LTPS TFTS for Robust Analog Design: Verified Through Amplifier and Comparator Measurements",
+    "year": 2025,
+    "booktitle": "2025 IEEE European Solid-State Electronics Research Conference (ESSERC)",
+    "pages": "173-176",
+    "publisher": "IEEE",
+    "doi": "10.1109/ESSERC66193.2025.11213979",
+    "url": "https://doi.org/10.1109/ESSERC66193.2025.11213979"
+  },
+  "wearable-multiple-modality-bio-signal-recording-and-processing-on-chip-2020": {
+    "authors": [
+      {
+        "given": "Qiuyang",
+        "family": "Lin"
+      },
+      {
+        "given": "Shuang",
+        "family": "Song"
+      },
+      {
+        "given": "Ivan D.",
+        "family": "Castro"
+      },
+      {
+        "given": "Hui",
+        "family": "Jiang"
+      },
+      {
+        "given": "Mario",
+        "family": "Konijnenburg"
+      },
+      {
+        "given": "Roland",
+        "family": "van Wegberg"
+      },
+      {
+        "given": "Dwaipayan",
+        "family": "Biswas"
+      },
+      {
+        "given": "Stefano",
+        "family": "Stanzione"
+      },
+      {
+        "given": "Wim",
+        "family": "Sijbers"
+      },
+      {
+        "given": "Chris",
+        "family": "Van Hoof"
+      },
+      {
+        "given": "Filip",
+        "family": "Tavernier"
+      },
+      {
+        "given": "Nick",
+        "family": "Van Helleputte"
+      }
+    ],
+    "keywords": [
+      "integrated circuits",
+      "集成电路",
+      "wearable sensing",
+      "biosignal acquisition",
+      "可穿戴传感",
+      "生物信号采集"
+    ],
+    "citation_type": "article",
+    "title": "Wearable multiple modality bio-signal recording and processing on chip: A review",
+    "year": 2021,
+    "journal": "IEEE Sensors Journal",
+    "volume": "21",
+    "number": "2",
+    "pages": "1108-1123",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "doi": "10.1109/jsen.2020.3016115",
+    "url": "https://doi.org/10.1109/jsen.2020.3016115"
+  }
+}
