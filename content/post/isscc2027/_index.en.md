@@ -37,13 +37,15 @@ The published paper title highlights the integration of:
 
 At the heart of the work is the integration of biosignal amplification and digitization on a flexible platform. It brings together device characteristics, circuit architecture and the practical requirements of physiological signal acquisition.
 
-## Characterization and circuit development
+## Chen Wang's contribution
 
 ![Chen Wang](chen-wang.png "Chen Wang, imec and KU Leuven")
 
-Chen carried out extensive **flexible-chip characterization and measurement analysis** as part of this work. These measurements informed his understanding of device and circuit behavior and supported the design and validation of the integrated AFE.
+Now in the **second year of his PhD research at imec and KU Leuven**, Chen has already published first-author papers in [**IEEE TCAS-II**](https://doi.org/10.1109/TCSII.2025.3576073), [**IEEE OJCAS**](https://doi.org/10.1109/OJCAS.2025.3631308), [**IEEE ISCAS**](https://doi.org/10.1109/ISCAS56072.2025.11043689) and [**ESSERC**](https://doi.org/10.1109/ESSERC66193.2025.11213979). These studies span high-resolution noise-shaping SAR ADCs, flexible LTPS device modeling and robust analog circuit design, establishing a strong foundation for his ongoing work in flexible electronics.
 
-The project combines device characterization, circuit design and experimental validation, with contributions from the author team across fabrication and testing. Its focus is the integration of the analog signal chain and ADC for flexible ECG/EMG readout.
+For this ISSCC paper, Chen made a substantial contribution through extensive **flexible-chip characterization, measurement analysis, and AFE design and validation**. His sustained experimental effort connected measured device behavior with circuit design decisions, providing an important foundation for the integrated flexible readout IC.
+
+**Chen's persistence and hands-on work were central to advancing the project.** Working closely with his collaborators, he helped bring together device characteristics, process capabilities, circuit design and testing to realize the flexible ECG/EMG AFE. The result reflects both his individual contribution and the complementary expertise of the author team.
 
 ## Presentation at ISSCC 2027
 
@@ -54,6 +56,6 @@ The current [Advance Program](https://submissions.mirasmart.com/ISSCC2027/PDF/IS
 - **Time: Tuesday, February 16, 2027, at 11:20 AM Pacific Standard Time (San Francisco local time)**
 - **Venue: San Francisco Marriott Marquis, San Francisco, USA**
 
-**Conference attendees interested in flexible electronics, biosignal readout and biomedical integrated circuits are welcome to attend the presentation and discuss the work with the authors.**
+**Conference attendees interested in flexible electronics, biosignal readout and biomedical integrated circuits are welcome to attend Chen Wang's presentation and discuss the work with the authors.**
 
 Please check the [latest ISSCC program](https://www.isscc.org/program-overview) for any schedule updates.
