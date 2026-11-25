@@ -1,5 +1,5 @@
 ---
-title: "Flexible Biosignal Readout Paper Accepted at ISSCC 2027"
+title: "Chen Wang’s Paper Accepted at ISSCC 2027"
 date: 2026-11-25
 summary: "A paper by Chen Wang of imec and KU Leuven, Qiuyang Lin and their co-authors will be presented as Paper 12.9 at ISSCC 2027 on February 16, 2027."
 news_cover: flexible-afe.png
