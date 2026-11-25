@@ -1,0 +1,59 @@
+---
+title: "Flexible Biosignal Readout Paper Accepted at ISSCC 2027"
+date: 2026-11-25
+summary: "A paper by Chen Wang of imec and KU Leuven, Qiuyang Lin and their co-authors will be presented as Paper 12.9 at ISSCC 2027 on February 16, 2027."
+news_cover: flexible-afe.png
+news_images:
+  isscc-logo.png: {"kind":"logo","max_width":190}
+  flexible-afe.png: {"kind":"diagram"}
+  chen-wang.png: {"kind":"portrait","member":"Chen Wang"}
+image:
+  filename: flexible-afe.png
+  focal_point: 'center'
+  caption: "Concept illustration of flexible biosignal readout"
+---
+
+A paper on a **flexible biosignal readout IC**, with **Chen Wang of imec and KU Leuven** as first author and **Qiuyang Lin** among the co-authors, has been accepted at the **2027 IEEE International Solid-State Circuits Conference (ISSCC 2027)**. It is scheduled for presentation as **Paper 12.9**.
+
+<!--more-->
+
+![ISSCC logo](isscc-logo.png)
+
+[ISSCC](https://www.isscc.org/) is a leading international conference on solid-state circuits and systems-on-chip, bringing together advances from academia and industry. **ISSCC 2027 will take place in San Francisco on February 14–18, 2027**, under the theme **“Trusted Sustainable Silicon Intelligence from Edge to Cloud.”**
+
+## A flexible analog front-end for ECG and EMG
+
+The paper is entitled **“A 0.6μm N-Type-Only IGZO ECG/EMG Readout FlexIC Integrating a 44.7dB CCIA and a 9.24b ENOB 140kS/s Power-Gated Asynchronous SAR ADC.”**
+
+The work targets **electrocardiogram (ECG) and electromyogram (EMG) acquisition**. Using **0.6 μm n-type-only IGZO technology**, it integrates signal amplification and analog-to-digital conversion in a **flexible analog front-end (AFE)**. Such circuits are relevant to the development of thin, conformable biosignal monitoring systems for wearable and healthcare applications.
+
+![Concept illustration of flexible ECG and EMG readout](flexible-afe.png)
+
+The published paper title highlights the integration of:
+
+- A **44.7 dB capacitively coupled instrumentation amplifier (CCIA)**;
+- An **ADC with 9.24-bit effective number of bits (ENOB) at 140 kS/s**;
+- A **power-gated asynchronous SAR ADC architecture**.
+
+At the heart of the work is the integration of biosignal amplification and digitization on a flexible platform. It brings together device characteristics, circuit architecture and the practical requirements of physiological signal acquisition.
+
+## Characterization and circuit development
+
+![Chen Wang](chen-wang.png "Chen Wang, imec and KU Leuven")
+
+Chen carried out extensive **flexible-chip characterization and measurement analysis** as part of this work. These measurements informed his understanding of device and circuit behavior and supported the design and validation of the integrated AFE.
+
+The project combines device characterization, circuit design and experimental validation, with contributions from the author team across fabrication and testing. Its focus is the integration of the analog signal chain and ADC for flexible ECG/EMG readout.
+
+## Presentation at ISSCC 2027
+
+The current [Advance Program](https://submissions.mirasmart.com/ISSCC2027/PDF/ISSCC2027AdvanceProgram.pdf#page=41) lists the presentation as follows:
+
+- **Paper: 12.9**
+- **Session 12: Wearable and Portable Biosensing**
+- **Time: Tuesday, February 16, 2027, at 11:20 AM Pacific Standard Time (San Francisco local time)**
+- **Venue: San Francisco Marriott Marquis, San Francisco, USA**
+
+**Conference attendees interested in flexible electronics, biosignal readout and biomedical integrated circuits are welcome to attend the presentation and discuss the work with the authors.**
+
+Please check the [latest ISSCC program](https://www.isscc.org/program-overview) for any schedule updates.
